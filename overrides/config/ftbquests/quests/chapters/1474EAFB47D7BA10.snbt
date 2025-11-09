@@ -1,0 +1,2586 @@
+{
+	id: "1474EAFB47D7BA10"
+	group: "1ABB7C487E06073F"
+	order_index: 2
+	filename: "1474EAFB47D7BA10"
+	title: "万藏植物图鉴"
+	icon: "pvz:almanac"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 17.0d
+		y: -3.0d
+		width: 2.5d
+		height: 2.5d
+		rotation: 0.0d
+		image: "pvz:textures/item/almanac.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+		dependency: "21775BF1BC76DC6E"
+	}]
+	quests: [
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "脾气火爆的樱桃兄弟"
+			description: [
+				"艺术就是爆炸！这对暴脾气兄弟随时准备绽放最绚丽的爆炸。"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=150-30*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"爆炸强化：  爆炸伤害=150+100*lvl  (max:3)"
+				"体验卡消耗：1-3-5"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "4D7F5A1ADD28E5D1"
+			tasks: [{
+				id: "07BEAE39ED1B8468"
+				type: "item"
+				item: {
+					id: "pvz:cherry_bomb_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7DDF72566E141FA7"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: [
+				"“原谅你们是上帝的事情，而我的任务就是送你们去见上帝！”十字火焰燃作火爆辣椒的祷言，焦黑尸骸铺就他献给植物的赞美诗。"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=150-30*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"爆炸强化：  爆炸伤害=150+100*lvl  (max:3)"
+				"体验卡消耗：1-3-5"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "7FC3E145B8C12256"
+			tasks: [{
+				id: "6E26C328A374F509"
+				type: "item"
+				item: {
+					id: "pvz:jalapeno_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "027C039720CBCE8C"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			subtitle: "不在沉默中爆发，就在沉默中灭亡"
+			description: [
+				"传说之墓深处偶现的黑色孢子"
+				"绽放刹那即是天崩地裂的终章"
+				"（温馨提示：使用后请记得重建场地）"
+				""
+				"强化升级一览："
+				""
+				"阳光减免：  阳光消耗=225-50*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=250-50*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"爆炸强化：  爆炸伤害=200+200*lvl  (max:3)"
+				"体验卡消耗：2-3-5"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "4B6B64596A5D511D"
+			tasks: [{
+				id: "16DB81AA04C9128F"
+				type: "item"
+				item: {
+					id: "pvz:doom_shroom_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "31CEB3D1AA5C9BD4"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			subtitle: "绿野先锋"
+			description: [
+				"「以豆为矛，以体为盾」"
+				"植物军团最忠诚的哨兵，"
+				"简单构造却暗藏精密弹道系统，"
+				"（据说脑袋小是因为弹药舱占位）"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=3-0.3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"射击训练：  豌豆伤害=3+0.5*lvl  (max:4)"
+				"体验卡消耗：2-2-3-3"
+				""
+				"Tips："
+				"充能时，除三线射手外，豌豆家族的其他成员会进入狂暴射击状态，攻击速度均为每秒20至40发。"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "5710209D669DFDB6"
+			tasks: [{
+				id: "0165FC76DF6693A3"
+				type: "item"
+				item: {
+					id: "pvz:pea_shooter_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "07668F9F19FFF312"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			subtitle: "双倍火力！"
+			description: [
+				"街头出身的双发射手桀骜不驯，却暗藏一颗渴望温暖的孤独心。"
+				""
+				"强化升级一览："
+				""
+				"阳光减免：  阳光消耗=200-50*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=5-0.75*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"射击训练：  豌豆伤害=3+0.5*lvl  (max:4)"
+				"体验卡消耗：2-2-3-3"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "57A320A78F8AEAA8"
+			tasks: [{
+				id: "28B3810551318928"
+				type: "item"
+				item: {
+					id: "pvz:repeater_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "59C631A34F0349AE"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			subtitle: "豌豆三兄弟"
+			description: [
+				"三管齐发，火力覆盖。"
+				"除了充能的时候，他们三兄弟还是很团结的。"
+				""
+				"强化升级一览："
+				""
+				"阳光减免：  阳光消耗=250-50*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=10-1.5*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"射击训练：  豌豆伤害=3+0.5*lvl  (max:4)"
+				"体验卡消耗：2-2-3-3"
+				""
+				"多重射击：  每次射出豌豆数量=3*(1+1*lvl)  (max:2)"
+				"体验卡消耗：5-9"
+				""
+				"Tips："
+				"三线射手植物的三个头在非充能状态下会锁定攻击同一个目标"
+				"充能状态下，三线射手每个头攻击速度固定为每秒20发"
+				"豌豆枪的三线模式还会有意想不到的额外增幅"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "32E9BD82E4C610BB"
+			tasks: [{
+				id: "34A16C2E47969CFC"
+				type: "item"
+				item: {
+					id: "pvz:three_peater_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "48B0457D29EC83BE"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			subtitle: "机枪手的决心"
+			description: [
+				"父母曾忧心劝阻：“这也太危险了”"
+				"他扣动扳机回答：“生活本就危险”"
+				"枪管折射着他冷冽的信念"
+				""
+				"强化升级一览："
+				""
+				"阳光减免：  阳光消耗=450-100*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=50-10*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"射击训练：  豌豆伤害=3+0.5*lvl  (max:4)"
+				"体验卡消耗：2-2-3-3"
+				""
+				"多重射击：  每次射出豌豆数量=4+1*lvl  (max:2)"
+				"体验卡消耗：5-9"
+				""
+				"Tips："
+				"豌豆家族重装单位，拥有强化护甲"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "00922CB171A2BA56"
+			tasks: [{
+				id: "1F9F27C94AC4F237"
+				type: "item"
+				item: {
+					id: "pvz:gatling_pea_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "66FEB52DB1E036C6"
+				type: "command"
+				title: "智慧树高度+2"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 2"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			subtitle: "豌豆家族的冰系魔法师"
+			description: [
+				"精通冰冻魔法的豌豆射手，冷静沉着是它的战斗风格。据说它曾在雪域修炼多年。"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=5-0.75*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"射击训练：  豌豆伤害=3+0.5*lvl  (max:4)"
+				"体验卡消耗：2-2-3-3"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "48C2D25C9BD5F8F5"
+			tasks: [{
+				id: "3DC585F96089FF81"
+				type: "item"
+				item: {
+					id: "pvz:snow_pea_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4EA27C750B14FD21"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "迷你寒冰菇"
+			description: [
+				"给小生菜一个能量豆，它将还你一场寒冬。"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=5-0.75*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"Tips："
+				"充能后冰冻25格内敌军10秒，附带5秒减速效果"
+				"伤害可忽略不计，基础合成只能使用万能模板"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "0A56520DBF13F470"
+			tasks: [{
+				id: "5190EBAE6F35B551"
+				type: "item"
+				item: {
+					id: "pvz:iceberg_lettuce_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7A3174B7AA3CBD05"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "寒霜统御者"
+			description: [
+				"寒冰菇眉头一皱，觉得事情并不简单。"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=30-6*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"Tips："
+				"45格范围冰冻15秒，附带3.5伤害"
+				"白天可预置(占用灰烬位)，需咖啡豆(同样占用)激活"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "39DF8B85F559C034"
+			tasks: [{
+				id: "0D125E4F80324E9D"
+				type: "item"
+				item: {
+					id: "pvz:ice_shroom_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "59458D79E408E2DA"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			subtitle: "BOOM!!!"
+			description: [
+				"表面懒散的土豆雷，其实是个精明的生意人。"
+				"充能后能召唤5个土豆帮手：“僵尸套餐5份起送！”"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=20-3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"爆炸强化：  爆炸伤害=130+20*lvl  (max:3)"
+				"体验卡消耗：1-2-3"
+				""
+				"快速装填：  准备时间=12-2.5*lvl (s)  (max:4)"
+				"体验卡消耗：2-2-3-4"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "1C2A74B8075639E4"
+			tasks: [{
+				id: "677564CE3E7CA301"
+				type: "item"
+				item: {
+					id: "pvz:potato_mine_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0C4913E2A86441C5"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			subtitle: "咚！泰山压顶！"
+			description: [
+				"面瘫窝瓜的绝技：高高跃起，用最质朴的方式给僵尸一记重压！"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=30-6*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"生生不息：  植物血量=60+20*lvl  (max:5)"
+				"体验卡消耗：2-2-3-3-5"
+				""
+				"力量增强：  砸击伤害=100+50*lvl  (max:4)"
+				"体验卡消耗：1-2-2-3"
+				""
+				"再次碾压：  连击概率=0.20*lvl  (max:3)"
+				"体验卡消耗：2-3-5"
+				""
+				"Tips："
+				"充能效果：+3次碾压"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "5C38DEFC47D1B0AB"
+			tasks: [{
+				id: "0185DFE336F7C6C6"
+				type: "item"
+				item: {
+					id: "pvz:squash_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "39B85E65D39353E7"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			subtitle: "水中杀机"
+			description: [
+				"缠绕水草喜欢沉思,他主攻哲学。"
+				"如果拉上他喝上一杯草根啤酒，他就开始讲个不停"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=20-3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"力量增强：  缠绕伤害=140+40*lvl  (max:4)"
+				"体验卡消耗：1-2-2-3"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "7DE5DAE95FCD604D"
+			tasks: [{
+				id: "6C77A44BCB50E2D7"
+				type: "item"
+				item: {
+					id: "pvz:tangle_kelp_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "36E0F46DE13749EB"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			subtitle: "蓄势待发的守护者"
+			description: [
+				"常态下默默坚守，充能后锋芒毕露。"
+				"一次蓄力，永久强化，成为战场核心支柱。"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=5-0.75*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"尖锐：         尖刺伤害=7.5+1.5*lvl  (max:5)"
+				"体验卡消耗：2-2-3-3-5"
+				""
+				"Tips："
+				"终身仅可充能1次"
+				"充能后：尖刺穿透+2目标，攻击+10"
+				"基础合成只能使用万能模板"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "15F55C7EB1C75BD1"
+			tasks: [{
+				id: "1C13D63B574D31D2"
+				type: "item"
+				item: {
+					id: "pvz:cactus_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "37659E57C8130E42"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			subtitle: "任性投币的摇钱花"
+			description: [
+				"深思熟虑后选择最随性的理财方式。"
+				"心情决定币种，但概率从不骗人。"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=15-2.25*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"Tips："
+				"基础概率：铜30%/银60%/金10%"
+				"充能奖励：连投20次+10%额外产出宝石"
+				"基础合成只能使用万能模板"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "6852DB894F525AB0"
+			tasks: [{
+				id: "1A088ED18DDD4394"
+				type: "item"
+				item: {
+					id: "pvz:marigold_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "27FD4F486B0610C1"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "阳光舞者"
+			description: [
+				"向日葵们随光起舞，这是献给太阳的赞歌。"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=3-0.3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"阳光产量随环境变化："
+				"非夜晚雨天：50%"
+				"夜晚（任何天气）：25%"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "057D3DB15FAD02D5"
+			tasks: [{
+				id: "3DB3ED62DE9781C7"
+				type: "item"
+				item: {
+					id: "pvz:sun_flower_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "53A4FC0844AF50AC"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			subtitle: "双生辉光"
+			description: [
+				"茎叶轻颤间，共奏大地无声的韵律。"
+				""
+				"强化升级一览："
+				""
+				"阳光减免：  阳光消耗=125-25*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"更多血量：  植物血量=40+20*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=20-3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"Tips："
+				"充能给予极大量阳光（5000）"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "6D5E9A38E1817761"
+			tasks: [{
+				id: "72F3B6F1A26D9251"
+				type: "item"
+				item: {
+					id: "pvz:twin_sunflower_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5FE73695E7D0C6CA"
+				type: "command"
+				title: "智慧树高度+2"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 2"
+				player_command: false
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			description: [
+				"“天降沙拉！”"
+				"给我们一点能量豆，还你们满天包菜"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=10-1.5*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"投掷训练：  卷心菜伤害=12+2*lvl  (max:4)"
+				"体验卡消耗：2-2-3-3"
+				""
+				"觉醒技：向30格半径内的所有敌人投掷双倍伤害的卷心菜"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "130184312B0B787C"
+			tasks: [{
+				id: "37CA66AA7F86F6BA"
+				type: "item"
+				item: {
+					id: "pvz:cabbage_pult_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4D5F1EE50A3DD60E"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.0d
+			description: [
+				"玉米投手是投手家族的老大。他们六兄弟当中，只有玉米记得其它人的生日，只不过它记得不太准"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=10-1.5*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"投掷训练：  玉米伤害=8+3*lvl  (max:3)"
+				"体验卡消耗：2-3-3"
+				""
+				"Tips："
+				"25%概率投掷黄油：造成等量伤害并定身4秒"
+				"觉醒技：向30格半径内的所有敌人投掷双倍伤害的黄油"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "17F65AB525ADD89D"
+			tasks: [{
+				id: "0598B42EFF1CE5D3"
+				type: "item"
+				item: {
+					id: "pvz:kernel_pult_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "77EB8F9D4010FAA8"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			subtitle: "黄油专精的玉米兄弟"
+			description: [
+				"黄油投手是玉米家族里的老二，它从兄弟偶尔丢出的黄油块中得到启发，专注于投掷黄油块。"
+				""
+				"强化升级一览："
+				""
+				"阳光减免：  阳光消耗=125-25*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=20-3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"投掷训练：  黄油伤害=12+2*lvl  (max:4)"
+				"体验卡消耗：1-2-2-3"
+				""
+				"Tips："
+				"投掷间隔较长（2倍冷却）"
+				"黄油可定身目标10秒"
+				"觉醒技：向30格半径内的所有敌人投掷双倍伤害的黄油"
+				"基础合成只能使用万能模板"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "3EC059BE3183B989"
+			tasks: [{
+				id: "3238233F5F44FAA3"
+				type: "item"
+				item: {
+					id: "pvz:butter_pult_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0249BAAB47715887"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.0d
+			subtitle: "真男人从不回头看爆炸"
+			description: [
+				"谁说只能投玉米粒？巨型玉米棒震撼全场！"
+				""
+				"强化升级一览："
+				""
+				"阳光减免：  阳光消耗=700-175*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"更多血量：  植物血量=100+50*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=250-50*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"爆炸训练：  爆炸伤害=180+80*lvl  (max:4)"
+				"体验卡消耗：2-2-3-5"
+				""
+				"快速装填：  装填CD=90-12*lvl (s)  (max:5)"
+				"体验卡消耗：1-2-2-3-5"
+				""
+				"Tips："
+				"过载时自动瞄准发射冗余炮弹"
+				"充能后自动锁定并连发4枚"
+				"右键装填玉米谷物可使下一发炮弹变为爆米花弹"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "2808E85468778610"
+			tasks: [{
+				id: "6C56FA6C1928DF5E"
+				type: "item"
+				item: {
+					id: "pvz:cob_cannon_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "388F7F22E78E81FB"
+				type: "command"
+				title: "智慧树高度+2"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 2"
+				player_command: false
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			description: [
+				"当别人还在用豌豆玉米时，它选择了真正的重火力！"
+				""
+				"强化升级一览："
+				""
+				"阳光减免：  阳光消耗=400-100*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=15-2.25*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"投掷训练：  西瓜伤害=12+3*lvl  (max:6)"
+				"体验卡消耗：2-4-6-9-12-16"
+				""
+				"觉醒技：向30格半径内的所有敌人投掷正常伤害的西瓜"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "464ADFEDD11CFC41"
+			tasks: [{
+				id: "24AE43F4177F8349"
+				type: "item"
+				item: {
+					id: "pvz:melon_pult_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "548B698FEB06C579"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.0d
+			subtitle: "冰Bang警告"
+			description: [
+				"冰镇西瓜威力倍增，击中目标时还会造成寒冷减速效果"
+				""
+				"强化升级一览："
+				""
+				"阳光减免：  阳光消耗=500-125*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=50-10*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"投掷训练：  西瓜伤害=24+3*lvl  (max:4)"
+				"体验卡消耗：2-3-3-5"
+				""
+				"觉醒技：向30格半径内的所有敌人投掷正常伤害的冰西瓜"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "5C829276237DD1B1"
+			tasks: [{
+				id: "1725D482B222211C"
+				type: "item"
+				item: {
+					id: "pvz:winter_melon_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "116AD6A374EA0963"
+				type: "command"
+				title: "智慧树高度+2"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 2"
+				player_command: false
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			subtitle: "脆弱的浮板"
+			description: [
+				"一触即碎的水面方舟，默默承载着战友的重量。"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=2-0.2*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "1FC668912CF82641"
+			tasks: [{
+				id: "461E7560982F2670"
+				type: "item"
+				item: {
+					id: "pvz:lily_pad_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1F10EB3D3936192C"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			subtitle: "嘎嘣脆大胃王"
+			description: [
+				"能量豆让它们胃口大开！"
+				"充能后召唤两张大嘴（5格范围/50%吞噬伤害/ 小范围AOE）"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=20-3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"力量增强：  咬噬伤害=140+40*lvl  (max:4)"
+				"体验卡消耗：1-2-2-3"
+				""
+				"Tips："
+				"饥饿时自动啃咬3格内敌人"
+				"饱食状态获得生命恢复III"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "04A24497AC4D67A3"
+			tasks: [{
+				id: "2C7CE9204A3C2CAB"
+				type: "item"
+				item: {
+					id: "pvz:chomper_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "242888220AC6ED8D"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			subtitle: "克隆猫猫怪"
+			description: [
+				"一只好奇的僵尸发现了奇怪猫，然后就变成了两只奇怪猫。奇怪的猫猫增加了！"
+				""
+				"强化升级一览："
+				""
+				"阳光减免：  阳光消耗=300-75*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"冷却减免：  种植CD=10-1.5*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"Tips："
+				"蓄力5秒发动针刺(20伤害)"
+				"击杀目标时复制出新的奇怪猫"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "1EB6C62B75D72FAE"
+			tasks: [{
+				id: "72668ACF97DE7B67"
+				type: "item"
+				item: {
+					id: "pvz:strange_cat_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "522186B06AF34153"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.0d
+			subtitle: "喵~"
+			description: [
+				"猫尾草导弹系统锁定目标，随时准备发射！"
+				""
+				"强化升级一览："
+				""
+				"阳光减免：  阳光消耗=350-75*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=50-10*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"尖锐：         尖刺伤害=10+2*lvl  (max:5)"
+				"体验卡消耗：2-2-3-3-5"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "11CDFEE7CEE73AD8"
+			tasks: [{
+				id: "35982394D7C6172C"
+				type: "item"
+				item: {
+					id: "pvz:cat_tail_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "09DB125F7B2657F0"
+				type: "command"
+				title: "智慧树高度+2"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 2"
+				player_command: false
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			description: [
+				"谁说睡莲不能长坚果？"
+				"“看我的尖刺！”睡莲护卫骄傲地展示着防御武器。"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=30-6*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"生生不息：  植物血量=300+100*lvl  (max:5)"
+				"体验卡消耗：2-3-4-4-5"
+				""
+				"多刺植物：  荆棘反伤=2.5+0.5*lvl  (max:3)"
+				"体验卡消耗：2-3-5"
+				""
+				"格挡强化：  格挡伤害=1*lvl  (max:5)"
+				"体验卡消耗：3-4-4-5-6"
+				""
+				"Tips："
+				"荆棘反击：被啃食时对2格内僵尸造成范围伤害"
+				"主动攻击：每1.5秒对附近僵尸造成5点伤害"
+				"格挡强化：按等级固定减伤（最低承受1点）"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "23F5C23B7B500018"
+			tasks: [{
+				id: "781BA5548D6E314A"
+				type: "item"
+				item: {
+					id: "pvz:water_guard_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "00BC3AD8B260BF07"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			description: [
+				"叠最厚的甲，挨最毒的打！"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=30-6*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"坚硬甲壳：  坚果血量=500+100*lvl  (max:5)"
+				"体验卡消耗：3-4-5-6-8"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "4DB40C9CA5933EF6"
+			tasks: [{
+				id: "3724E623601F0598"
+				type: "item"
+				item: {
+					id: "pvz:wall_nut_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "26B1EF71B44E9C3B"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 14.0d
+			y: 2.0d
+			description: [
+				"高坚果堪称最令人安心的植物之一，几乎没有僵尸能越过它的防线。"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=40-8*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"坚硬甲壳：  坚果血量=650+150*lvl  (max:5)"
+				"体验卡消耗：2-2-3-3-5"
+				""
+				"Tips："
+				"相比坚果墙，高坚果不仅具备更高的基础血量和充能护甲，还拥有超高额盔甲值以及20点韧性加成"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "66F8DE39137B6F5E"
+			tasks: [{
+				id: "74790C49A707AC3F"
+				type: "item"
+				item: {
+					id: "pvz:tall_nut_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "08ADBAA33146754D"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 14.0d
+			y: -2.0d
+			subtitle: "保护同胞！人人有责！"
+			description: [
+				"看似空心的南瓜头，却有着丰富的情感世界和独特见解"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=20-3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"Tips："
+				"可与被保护植物同步充能"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "4C7F642CA6C4254B"
+			tasks: [{
+				id: "011B3390DD8A5A51"
+				type: "item"
+				item: {
+					id: "pvz:pumpkin_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1A763151DA7AA79F"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			subtitle: "星光闪耀"
+			description: [
+				"从天空俯瞰释放大招的星星果，你会发现整个草坪都熠熠生辉！"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=10-1.5*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"闪耀：         星星伤害=6+1*lvl  (max4)"
+				"体验卡消耗：2-2-3-3"
+				""
+				"Tips："
+				"在20格半径范围内种下5颗星星果，它们将同时燃烧绽放，如流星般倾泻而下，以生命为代价迸发出最耀眼的光芒"
+				"在充能状态下，星星果的攻击速度固定为每秒20次，每次攻击同时发射5发子弹"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "5A8119E4C350B231"
+			tasks: [{
+				id: "7BB623B6B92D40DE"
+				type: "item"
+				item: {
+					id: "pvz:star_fruit_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "741025E182A524CE"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 16.0d
+			y: 2.0d
+			subtitle: "圣光天使，孤高傲世"
+			description: [
+				"不屑与凡品为伍，独绽神圣光芒"
+				""
+				"强化升级一览："
+				""
+				"阳光减免：  阳光消耗=225-50*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=15-2.25*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"闪耀：         星星伤害=6+1*lvl  (max4)"
+				"体验卡消耗：2-2-3-3"
+				""
+				"双星：         双发概率=0.2+0.2*lvl  (max:4)"
+				"体验卡消耗：1-2-2-3"
+				""
+				"Tips："
+				"充能后爆发惊人战力，每秒攻击20次，每次攻击同时发射5发子弹"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "3679B609E919B665"
+			tasks: [{
+				id: "41E00D53198BDA94"
+				type: "item"
+				item: {
+					id: "pvz:angel_star_fruit_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "298911F0C037DEF1"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 20.0d
+			y: 2.0d
+			subtitle: "嘿~哈！"
+			description: [
+				"“给我充能，我要打十个！”"
+				"非充能状态下，菜问会快速攻击3.5格范围内的可见敌人"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=15-2.25*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"生生不息：  植物血量=60+20*lvl  (max:5)"
+				"体验卡消耗：2-2-3-3-5"
+				""
+				"拳击训练：  拳击伤害=5+2*lvl  (max:5)"
+				"体验卡消耗：1-2-2-3-3"
+				""
+				"Tips："
+				"充能时双倍伤害，重拳横扫5格范围内所有敌人"
+				"基础合成只能使用万能模板"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "4B5EDD5F9940BBE5"
+			tasks: [{
+				id: "2311BD24915BFE3F"
+				type: "item"
+				item: {
+					id: "pvz:bonk_choy_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "45A0AE75470E5E7D"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			subtitle: "当阳光与黄金融为一体"
+			description: [
+				"将金块转化为黄金地砖，种植其上的植物会像向日葵一样生产阳光。"
+				"升级黄金叶可提升瓷砖的阳光产量：25→50→75/次"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=15-2.25*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"金砖：      提升生产的黄金瓷砖等级 (max:2)"
+				"体验卡消耗：4-8"
+				""
+				"Tips："
+				"慢产高量，满级效率超越向日葵"
+				"转化后无视种植上限与天气，阳光产能飙升"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "5A0E37590A65259B"
+			tasks: [{
+				id: "1B53EAC95D6DA736"
+				type: "item"
+				item: {
+					id: "pvz:gold_leaf_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "315A1D47638B2DD1"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			subtitle: "爆竹？"
+			description: [
+				"烟花镇的慈祥老人，每逢春节都会给孩子们分发鞭炮烟花。"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=20-3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"爆炸训练：  爆炸伤害=80+80*lvl  (max:4)"
+				"体验卡消耗：3-5-7-9"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "77801C10D3A6920A"
+			tasks: [{
+				id: "51C686231657DFEB"
+				type: "item"
+				item: {
+					id: "pvz:bamboo_lord_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5C67566E96CBEBDA"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 10.0d
+			y: 6.0d
+			description: [
+				"生物老师曾经说：“菌类不含叶绿素，不能进行光合作用…”  “阳光菇可以！”一位学生自信的答道。"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=3-0.3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"Tips："
+				"全游戏最短的阳光产出冷却"
+				"30秒自动进化：15→20→25阳光/次"
+				"充能给予大量阳光（3500）"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "3A2061E0D8483B0C"
+			tasks: [{
+				id: "4ECA919F3A8D96F3"
+				type: "item"
+				item: {
+					id: "pvz:sun_shroom_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "559F314CC8A09447"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.0d
+			subtitle: "孢子永动机"
+			description: [
+				"小喷菇越多→孢子越多→小喷菇越强→小喷菇更多！"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=2-0.2*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"射击训练：  孢子伤害=2+1*lvl  (max:4)"
+				"体验卡消耗：2-2-3-3"
+				""
+				"Tips："
+				"低消耗快冷却，可以共享充能（范围内最多10株）"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "16C629E7DC718B62"
+			tasks: [{
+				id: "47D16527779E06F7"
+				type: "item"
+				item: {
+					id: "pvz:puff_shroom_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "063CDAF947D75429"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 14.0d
+			y: 6.0d
+			description: [
+				"套上南瓜头练胆？第二天就被发现晕倒在花盆里——原来是被自己的呼吸声吓晕了。"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=3-0.3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"射击训练：  孢子伤害=8+4*lvl  (max:4)"
+				"体验卡消耗：2-2-3-3"
+				""
+				"Tips："
+				"蘑菇家族的神枪手，超远射程搭配精准打击"
+				"充能爆发时化身“孢子机炮”（40发/秒）"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "1856A759F30BC925"
+			tasks: [{
+				id: "2291154EDEC2EEF5"
+				type: "item"
+				item: {
+					id: "pvz:scaredy_shroom_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3BE04D2556202B5B"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.0d
+			description: [
+				"“有时候，特别是当我吃下能量豆以后，我听到有植物在窃窃私语。他们居然叫我‘气球菇’！他们根本不知道这有多伤人！”气鼓鼓的大喷菇如是说"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=5-0.75*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"射击训练：  孢子伤害=2+0.5*lvl  (max:2)"
+				"体验卡消耗：3-5"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "02DE58A631EAAEAF"
+			tasks: [{
+				id: "3B129D83474B7440"
+				type: "item"
+				item: {
+					id: "pvz:fume_shroom_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "27C91C2EAFF9CEB2"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 14.0d
+			y: 4.0d
+			description: [
+				"“僵尸是我们的朋友”，魅惑菇坚持认为：“我们误解了这些在生态圈中扮演重要角色的家伙。我们能够而且应当多为他们想想。”"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=20-3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"Tips："
+				"魅惑菇能强化魅惑后的僵尸，充能后也许还有意想不到的惊喜"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "7F9DD4C242DFE604"
+			tasks: [{
+				id: "1F60EC5F1CE4C1FD"
+				type: "item"
+				item: {
+					id: "pvz:hypno_shroom_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "126FE21FBBF2E17D"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 18.0d
+			y: 0.0d
+			subtitle: "针灸专家"
+			description: [
+				"相传地刺原本家境并不富裕，不过现在他的针灸店事业蒸蒸日上。"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=5-0.75*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"锋利：      尖刺伤害=4+0.5*lvl (s)  (max:5)"
+				"体验卡消耗：2-2-3-5-5"
+				""
+				"Tips："
+				"1.5格范围针刺攻击"
+				"充能后永久+3次承伤上限（可叠加）"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "10C7E7670B2D412F"
+			tasks: [{
+				id: "6859CEDBEDC6CE68"
+				type: "item"
+				item: {
+					id: "pvz:spike_weed_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "47414FB2982C8D7D"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 18.0d
+			y: 2.0d
+			subtitle: "针灸大师"
+			description: [
+				"地刺针灸的头牌，被他扎过的僵尸没有说不好的！"
+				""
+				"强化升级一览："
+				""
+				"阳光减免：  阳光消耗=275-50*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=40-8*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"锋利：      尖刺伤害=8+1*lvl  (max:5)"
+				"体验卡消耗：2-2-3-5-5"
+				""
+				"更多尖刺：  抗压次数=6+2*lvl  (max:3)"
+				"体验卡消耗：2-3-3"
+				""
+				"Tips："
+				"1.5格范围针刺攻击"
+				"充能后永久+5次承伤上限（可叠加）"
+				"害怕僵尸AOE的误伤？试试南瓜护甲!"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "15E0349F23B9155C"
+			tasks: [{
+				id: "5521CA82D19D201A"
+				type: "item"
+				item: {
+					id: "pvz:spike_rock_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2AA648CC6E603CC3"
+				type: "command"
+				title: "智慧树高度+2"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 2"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			subtitle: "豌豆增幅器"
+			description: [
+				"“快看，他着火了！”植物们起初都很担心他，但见他一直安然无恙，便渐渐习以为常了。"
+				""
+				"强化升级一览："
+				""
+				"阳光减免：  阳光消耗=250-50*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"冷却减免：  种植CD=20-3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"生生不息：  植物血量=60+20*lvl  (max:5)"
+				"体验卡消耗：2-2-3-3-5"
+				""
+				"高温扩散：  火焰范围=1.5+1*lvl  (max:3)"
+				"体验卡消耗：2-4-6"
+				""
+				"Tips："
+				"火焰伤害会化解寒冷效果"
+				"普通火焰2倍/蓝色火焰3倍豌豆伤害增益"
+				"用能量豆给火炬添把火，享受一分钟的火力全开吧！"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "7F70B99DFCEC48D6"
+			tasks: [{
+				id: "5AAED8DB0BB23938"
+				type: "item"
+				item: {
+					id: "pvz:torch_wood_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7208EF60539269BB"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 12.0d
+			y: 8.0d
+			subtitle: "水中小喷菇"
+			description: [
+				"水兵菇从未见过大海。她总是听到关于大海的传闻，只是没有合适的时间，也从未有机会踏上旅程。总有一天……是的，她会亲眼看见大海的。"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=3-0.3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"射击训练：  孢子伤害=4+2*lvl  (max:4)"
+				"体验卡消耗：2-2-3-3"
+				""
+				"Tips："
+				"不同与脆弱的小喷菇，水兵菇拥有不逊于其他植物的血量"
+				"低消耗快冷却，可以共享充能（范围内最多10株）"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "62F13FF0C20C11CB"
+			tasks: [{
+				id: "02FAF9CAA20D574C"
+				type: "item"
+				item: {
+					id: "pvz:sea_shroom_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "26750EE5250786FE"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: 8.0d
+			description: [
+				"大家都说他的存在毫无意义，但他知道只有自己才能识破僵尸们的诡计，这就足够了！"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=5-0.75*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"光芒：         光照半径=20+10*lvl  (max:2)"
+				"体验卡消耗：3-4"
+				""
+				"夜视：         持续时间=30*lvl (s)  (max:2)"
+				"体验卡消耗：2-4"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "474927F5733C83D7"
+			tasks: [{
+				id: "11507660E7CC8755"
+				type: "item"
+				item: {
+					id: "pvz:plantern_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1DB22F5B0C1A0F8F"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			description: [
+				"“没错，我就是双子座，我知道这确实匪夷所思。”"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=5-0.75*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"射击训练：  豌豆伤害=3+0.5*lvl  (max:4)"
+				"体验卡消耗：2-2-3-3"
+				""
+				"前重后轻：  双发概率=0.2+0.2*lvl  (max:4)"
+				"体验卡消耗：2-2-3-3"
+				""
+				"Tips："
+				"裂荚射手仅锁定矿工僵尸，对其造成4倍专精伤害"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "5DD9B759326FC202"
+			tasks: [{
+				id: "78F1BBAF783DFA3E"
+				type: "item"
+				item: {
+					id: "pvz:split_pea_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A64E0959C9F9424"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 16.0d
+			y: 4.0d
+			description: [
+				"虽然磁力菇外形奇特，但这并不影响他找女朋友。可每次恋爱都维持不久，每个姑娘都因为同一个理由和他分手：太粘人。"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=15-2.25*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"效率：      恢复时长=30-5*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-5"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "1A5E5067E20918FB"
+			tasks: [{
+				id: "55DEAAF6AF1098AF"
+				type: "item"
+				item: {
+					id: "pvz:magnet_shroom_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "213BEF36EC4D4A4A"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 16.0d
+			y: 6.0d
+			subtitle: "起床！"
+			description: [
+				"“别睡了，起来干活！”工作狂咖啡豆！——当然不是说咖啡豆是工作狂，而是它喜欢看别人加班。"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=3-0.3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"Tips："
+				"可唤醒2.5格半径内植物，效果持续半天，可叠加"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "73A9A71466DCFE18"
+			tasks: [{
+				id: "29B4D9D7F2BDECDD"
+				type: "item"
+				item: {
+					id: "pvz:coffee_bean_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A92E5039082335B"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: [
+				"经过凋零玫瑰与河豚兄弟的特训，大蒜成功将独特气味转化为战斗武器。"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=20-3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"更多血量：  植物血量=200+100*lvl  (max:3)"
+				"体验卡消耗：2-3-5"
+				""
+				"臭名远扬：  恶臭半径=3.5+2*lvl  (max:2)"
+				"体验卡消耗：3-5"
+				""
+				"超级大蒜：  当受到单次超过50点的伤害时，生命值最多减少50点，同时使半径32格范围内的敌人获得“恶臭II”效果"
+				"体验卡消耗：5"
+				""
+				"Tips："
+				"被啃食时释放恶臭气体，造成范围减速（每层40%），对僵尸额外造成1点/秒伤害"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "5418581FD576C9E0"
+			tasks: [{
+				id: "21C7D8DAB32C3422"
+				type: "item"
+				item: {
+					id: "pvz:garlic_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "17BA1EEF3525FCFD"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: [
+				"这是植物？等等，好像不是植物……"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=2-0.2*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "722F63C9A2520BD9"
+			tasks: [{
+				id: "5A21446EFBB297D8"
+				type: "item"
+				item: {
+					id: "pvz:flower_pot_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "38265CC6BC8001E8"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			description: [
+				"狂风大作！三叶草掀起的气流足以吹动对岸的风车"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=10-1.5*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"狂风：         风力伤害=46+60*lvl  (max:4)"
+				"体验卡消耗：2-3-3-5"
+				""
+				"Tips："
+				"三叶草能对空中的跳跳僵尸造成伤害"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "096EF19E2E42F85C"
+			tasks: [{
+				id: "1918459932AAD13C"
+				type: "item"
+				item: {
+					id: "pvz:blover_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2071E9CABD6E1A22"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 20.0d
+			y: 0.0d
+			description: [
+				"俗话说天塌下来有高坚果顶着，要是天上掉下个蹦极，那就有保护伞兜着。"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=15-2.25*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "72F022B0F2897B85"
+			tasks: [{
+				id: "205D20ADD82CDBE5"
+				type: "item"
+				item: {
+					id: "pvz:umbrella_leaf_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B8C40A9E52B827B"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 18.0d
+			y: 4.0d
+			subtitle: "金钱至上！"
+			description: [
+				"据说吸金磁曾经是一家大公司的副总，直到僵尸越来越多地出现。不过他爱捡硬币的习惯始终没变。"
+				""
+				"强化升级一览："
+				""
+				"阳光减免：  阳光消耗=200-50*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=40-8*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "1529424A7182B181"
+			tasks: [{
+				id: "11D37E8BDD9E8348"
+				type: "item"
+				item: {
+					id: "pvz:gold_magnet_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "29AA52DDB2DCA8CA"
+				type: "command"
+				title: "智慧树高度+2"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 2"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			description: [
+				"墓碑吞噬者原本是一条长长的常春藤，他非常喜欢小猫，还利用业余时间在一家僵尸康复中心当志愿者。"
+				""
+				"强化升级一览："
+				""
+				"冷却减免：  种植CD=3-0.3*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "5A9473EADF6D5612"
+			tasks: [{
+				id: "000A21E0C3C2452B"
+				type: "item"
+				item: {
+					id: "pvz:grave_buster_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1741BD2192972F0D"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 14.0d
+			y: 8.0d
+			description: [
+				"“我一直很喜欢喷吐烟雾！”忧郁菇噗噗地说道，“虽然他们说这对环境很不友好，孢子的味道也很糟糕，但我只能说，这总比让僵尸吃掉脑袋强！”"
+				""
+				"强化升级一览："
+				""
+				"阳光减免：  阳光消耗=250-50*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=30-6*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"射击训练：  孢子伤害=2.5+0.5*lvl  (max:5)"
+				"体验卡消耗：2-2-3-3-5"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "16E076AD227C7219"
+			tasks: [{
+				id: "56ABCFB1A9A2BF15"
+				type: "item"
+				item: {
+					id: "pvz:gloom_shroom_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "36F564FD206A14F5"
+				type: "command"
+				title: "智慧树高度+2"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 2"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			description: [
+				"草鱼通过嘬饮水体获取能量，并向大气中排放一种特殊气体：这种气体对绝大多数植物来说是不可多得的养分，但对其他草鱼而言却是致命的毒素…"
+				""
+				"强化升级一览："
+				""
+				"生生不息：  植物血量=30+10*lvl  (max:2)"
+				"体验卡消耗：2-3"
+				""
+				"更快疗愈：  治疗CD=2-0.5*lvl (s) (max:2)"
+				"体验卡消耗：5-7"
+				""
+				"冷却减免：  种植CD=50-6*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"Tips："
+				"治疗半径：16格"
+				"治疗量：目标10%最大生命值（4-100点）"
+				"觉醒技：为护盾值<50的植物补充至50点"
+				"32格范围内不可共存其他草鱼"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "511862FA9D19B4BC"
+			tasks: [{
+				id: "1330E261B0C5F50B"
+				type: "item"
+				item: {
+					id: "bpmc:grass_carp_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0072FED64128BE15"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			subtitle: "霜菜危机"
+			description: [
+				"“听说霜打过的大白菜最美味！”"
+				"“可我们是卷心菜呀……”"
+				""
+				"强化升级一览："
+				""
+				"更多血量：  植物血量=20+10*lvl  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"冷却减免：  种植CD=10-1.5*lvl (s)  (max:3)"
+				"体验卡消耗：2-3-4"
+				""
+				"投掷训练：  卷心菜伤害=12+2*lvl  (max:4)"
+				"体验卡消耗：2-2-3-3"
+				""
+				"觉醒技：向30格半径内的所有敌人投掷双倍伤害的寒冰卷心菜"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			id: "6F3475D7F0C887E5"
+			tasks: [{
+				id: "7EF8D02C6D67B221"
+				type: "item"
+				item: {
+					id: "bpmc:ice_cabbage_pult_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+	]
+}

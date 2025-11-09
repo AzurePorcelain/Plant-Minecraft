@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "mowziesmobs:barako_mask"
+    },
+    "title": {
+      "translate": "advancements.mowziesmobs.kill_barako.title"
+    },
+    "description": {
+      "translate": "advancements.mowziesmobs.kill_barako.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "mowziesmobs:barakoa_village",
+  "criteria": {
+    "barako": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mowziesmobs:barako"
+        }
+      }
+    }
+  }
+}

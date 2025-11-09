@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "name": "spiritcaller",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

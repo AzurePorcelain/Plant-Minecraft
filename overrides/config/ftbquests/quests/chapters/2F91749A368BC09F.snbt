@@ -1,0 +1,429 @@
+{
+	id: "2F91749A368BC09F"
+	group: "0E3D3A551D756CC8"
+	order_index: 2
+	filename: "2F91749A368BC09F"
+	title: "高维物质"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "projecte:textures/item/matter/dark.png"
+		}
+	}
+	default_quest_shape: "pentagon"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 12.0d
+		height: 12.0d
+		rotation: 0.0d
+		image: "ftbquests:textures/1.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+		dependency: "3945927542E3575E"
+	}]
+	quests: [
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			subtitle: "触摸高维的碎片"
+			description: [
+				"暗物质，并非物质的终结，而是通往更高维度理解的起点。"
+				"你手中的，是构筑现实基底的第一块积木。"
+			]
+			dependencies: [
+				"128B11E20B944A02"
+				"2CFEAA8C3FF762B8"
+			]
+			hide: true
+			id: "3945927542E3575E"
+			tasks: [{
+				id: "01E7607FD03B5542"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+		}
+		{
+			title: "暗物质装甲"
+			x: 5.0d
+			y: -2.5d
+			description: [
+				"这是世间最顶级的护甲之一，由高维物质的碎片锻造而成。"
+				""
+				"§6‖ 套装效果 ‖§r"
+				"• §b固定减伤§f: 20点（部分特殊伤害除外）"
+				"• §b无限耐久§f: 护甲永不损耗"
+				"• §b无限盔甲§f: 提供最高80%的伤害减免（此效果不显示 在UI上）"
+				"• §c限制§f: 无法进行附魔"
+				""
+				"§7※ 伤害减免计算：先计算20点固定减伤，再计算最 高80%的比例减伤。"
+			]
+			dependencies: ["1CE80A3C86B7F137"]
+			hide: true
+			optional: true
+			id: "69F9D555B983E5F9"
+			tasks: [
+				{
+					id: "02EFE2365A3DF781"
+					type: "item"
+					item: "projecte:dm_helmet"
+				}
+				{
+					id: "6E1CF2B19918D635"
+					type: "item"
+					item: "projecte:dm_chestplate"
+				}
+				{
+					id: "0718927B0918368C"
+					type: "item"
+					item: "projecte:dm_leggings"
+				}
+				{
+					id: "35F2216775C1365D"
+					type: "item"
+					item: "projecte:dm_boots"
+				}
+			]
+			rewards: [
+				{
+					id: "38717D0A60DDF714"
+					type: "command"
+					title: "玩家抽奖次数+30"
+					icon: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:pool_night"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/playerstats @p add lottery_chance 30"
+					player_command: false
+				}
+				{
+					id: "1C0479338FE1D554"
+					type: "xp"
+					auto: "no_toast"
+					xp: 7500
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			subtitle: "物质的终焉"
+			description: [
+				"这是僵王用以压缩物质、创造黑洞的秘密科技。"
+				"在此物面前，万物的存在都走到了尽头。"
+			]
+			dependencies: ["3945927542E3575E"]
+			hide: true
+			id: "257D52575CDBDE12"
+			tasks: [{
+				id: "6272194792682DB0"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+			rewards: [{
+				id: "606EA875867AADEE"
+				type: "xp"
+				auto: "no_toast"
+				xp: 3000
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			subtitle: "锻造高维物质"
+			description: [
+				"以基础物质为锤，撬动引力法则的能量，"
+				"在能量的激荡中，锻造出属于你的暗物质装甲。"
+				""
+				"§a## 解锁暗物质装甲的锻造方式 §r"
+			]
+			dependencies: ["3945927542E3575E"]
+			hide: true
+			optional: true
+			id: "1CE80A3C86B7F137"
+			tasks: [{
+				id: "2DA40EACC9805D1B"
+				type: "item"
+				item: {
+					id: "projecte:dm_hammer"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "09064D1D6E64401F"
+					type: "gamestage"
+					auto: "no_toast"
+					stage: "Dark-matter-forging"
+				}
+				{
+					id: "323C52695B45D2AB"
+					type: "xp"
+					auto: "no_toast"
+					xp: 3000
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			subtitle: "熔炼奇点"
+			description: [
+				"§6‖ 核心特性 ‖§r"
+				"• 史上最快的熔炼速度"
+				"• §e固定产出双倍矿物§r"
+				""
+				"§6‖ 能源与开采 ‖§r"
+				"• 可直接连接§b以太仓库§f，消耗以太作为燃料"
+				"• §c只能使用带有「矿工热忱」附魔的镐子进行开采§r"
+			]
+			dependencies: ["3962E741BFA98702"]
+			hide: true
+			optional: true
+			id: "0FC8704ED99C5F80"
+			tasks: [{
+				id: "256E6F758DDFC4CF"
+				type: "item"
+				secret: true
+				item: "projecte:rm_furnace"
+			}]
+			rewards: [{
+				id: "44296B7BEEBF276F"
+				type: "xp"
+				auto: "no_toast"
+				xp: 3500
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			subtitle: "熔炼革新"
+			description: [
+				"§6‖ 核心特性 ‖§r"
+				"• 远超寻常的熔炼速度"
+				"• §e50%概率产出双倍矿物§r"
+				""
+				"§6‖ 能源与开采 ‖§r"
+				"• 可直接连接§b以太仓库§f，消耗以太作为燃料"
+				"• §c只能使用带有「矿工热忱」附魔的镐子进行开采§r"
+			]
+			dependencies: ["3945927542E3575E"]
+			hide: true
+			optional: true
+			id: "3962E741BFA98702"
+			tasks: [{
+				id: "24E60C19661F5335"
+				type: "item"
+				item: "projecte:dm_furnace"
+			}]
+			rewards: [{
+				id: "39DE5568B8C4F18C"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			subtitle: "生命礼赞"
+			description: [
+				"§6‖ 基础功能 ‖§r"
+				"• 置于快捷栏：加速附近植物生长（效果可叠加）"
+				"• 手持右键耕地：自动补种身上携带的作物"
+				""
+				"§6‖ 丰收模式 ‖§r"
+				"• 按§eJ键§f开启，消耗大量以太"
+				"• 效果：§e双倍加速§f并§e自动收获§f附近植物"
+				""
+				"§6‖ 收割模式 ‖§r"
+				"• 置于§5暗物质台座§f上激活"
+				"• 效果：无需以太，小幅加速生长并自动收割作物"
+			]
+			dependencies: ["3945927542E3575E"]
+			hide: true
+			optional: true
+			id: "4069CF3CE08EBC37"
+			tasks: [{
+				id: "5AAAA40113C11969"
+				type: "item"
+				item: {
+					id: "projecte:harvest_goddess_band"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "5DC11453E6EF59B4"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			subtitle: "共鸣增幅器"
+			description: [
+				"将特定的魔法饰品置于其上，可激发并增幅其潜在力 量。"
+				""
+				"§6‖ 核心特性 ‖§r"
+				"• §e效果叠加§f：多个台座同时作用时，其激发的效果可以 叠加。"
+				"• §7（此规则同样适用于「修复护符」等饰品）§r"
+			]
+			dependencies: ["4069CF3CE08EBC37"]
+			hide: true
+			optional: true
+			id: "53CE0EA95EE5F4F8"
+			tasks: [{
+				id: "221DADA3E4BA4302"
+				type: "item"
+				item: "projecte:dm_pedestal"
+			}]
+			rewards: [{
+				id: "6DAE448F4D0357DE"
+				type: "xp"
+				auto: "no_toast"
+				xp: 3500
+			}]
+		}
+		{
+			title: "光合作用"
+			x: 0.0d
+			y: -3.5d
+			subtitle: "将阳光铸为货币"
+			description: [
+				"这台设备能将无形的光能转化为宝贵的以太。"
+				""
+				"§6‖ 以太管理 ‖§r"
+				"• 可直接从连接的§b以太仓库§f中提取以太。"
+				"• 将存有以太的仓库放入§b交易站右面板中间§f，即可将其 以太存入交易站。"
+				""
+				"§6‖ 自动化交易 ‖§r"
+				"• 可使用§b自动化以太交易站§f直接兑换所需物品。"
+				""
+				"§c※ 重要提示 ※§r"
+				"通过自动化交易站出售物品，同样会存在以太价格损 耗。"
+			]
+			dependencies: ["3945927542E3575E"]
+			hide: true
+			id: "2218D8FF48445C7A"
+			tasks: [{
+				id: "0495EA843E9A9950"
+				type: "item"
+				item: "projecte:collector_mk1"
+			}]
+			rewards: [{
+				id: "3E7C7C18D225B886"
+				type: "item"
+				auto: "enabled"
+				item: {
+					id: "projecte:condenser_mk1"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			description: [
+				"当时空之匙在史蒂夫手中凝聚成型的刹那，一股无形的波纹自钥匙尖端荡漾开来。紧接着，一阵奇特的、仿佛来自世界之外的嗡鸣，从屋子的角落传来。"
+				""
+				"他循声而去，赫然发现那里的空间如同破碎的镜面般撕裂开来。裂隙之后，并非另一间屋子，而是深邃的、星光斑驳的虚空。"
+				""
+				"“…共鸣…是旅者？”一道空灵而缥缈的声音从裂隙中渗出，带着试探的意味。“…原来…是您……”"
+				""
+				"那声音顿了顿，仿佛在极力压抑着某种情绪。"
+				""
+				"“…您似乎…尚未完全洞悉此物的价值…”它的语气变得异常谨慎，“…我愿用一台巅峰造极的能量收集器…交换您手中的钥匙…您意下如何？”"
+				"史蒂夫隐约察觉到，那空灵的音调下，似乎隐藏着一丝不易察觉的…颤栗。"
+				""
+				"【制造提示】"
+				"时空之匙的合成零件，可由埃德加090505与090517型号机甲掉落。"
+				""
+				"▸ 解锁  旅者见闻录「强化太阳能收集器」"
+			]
+			dependencies: [
+				"2218D8FF48445C7A"
+				"0D40A1D791055EC4"
+			]
+			hide: true
+			id: "77AC595A8274656F"
+			tasks: [{
+				id: "1311F6874221A12D"
+				type: "item"
+				item: "pvz:time_key_to_deep"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "79744F1B1D3D2525"
+				type: "item"
+				item: "projecte:collector_mk3"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			subtitle: "骸骨克星"
+			description: [
+				"§6‖ 武器特效：【骷髅斩首】‖§r"
+				"• 承继红物质的终结之力，对所有骷髅系生物（含「遗 忘者」）实现一击必杀。"
+				"• 被此剑斩杀者，§e必定掉落其对应的头颅§r。"
+				""
+				"§a※ 升级提示 ※§r"
+				"后续升级此武器时，将完整保留「骷髅斩首」特效与所有现有附魔。"
+			]
+			dependencies: ["257D52575CDBDE12"]
+			id: "3A8626B633F0FE11"
+			tasks: [{
+				id: "19FBDF48125930C0"
+				type: "item"
+				item: {
+					id: "wstweaks:lava_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0EA0A367B73C72AC"
+				type: "xp"
+				auto: "no_toast"
+				xp: 3500
+			}]
+		}
+	]
+}

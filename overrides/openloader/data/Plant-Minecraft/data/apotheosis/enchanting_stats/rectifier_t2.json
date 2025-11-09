@@ -1,0 +1,10 @@
+{
+	"block": "apotheosis:rectifier_t2",
+	"stats": {
+		"maxEterna": 5,
+		"eterna": 1.5,
+		"quanta": 0,
+		"arcana": 1.5,
+		"rectification": 10
+	}
+}

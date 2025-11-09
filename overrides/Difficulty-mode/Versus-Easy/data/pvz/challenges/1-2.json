@@ -1,0 +1,113 @@
+{
+  "title":"1-2",
+  "authors": [
+    "qing"
+  ],
+  "tags": [
+    "overworld"
+  ],
+  "bar_color": "green",
+  "can_trade": false,
+  "recommend_level": 5,
+  "placement": {
+    "outer": {
+      "min": 5,
+      "max": 12,
+      "ground": true
+    }
+  },
+  "messages":[
+  	{
+  		"title":"这是1-2关卡"
+  	}
+  ],
+  "waves": [
+    {
+      "spawns": [
+        {
+          "entity_type": "pvz:normal_zombie",
+          "spawn_tick": 10,
+          "spawn_amount": {
+            "random": {
+              "min": 8,
+              "max": 10
+            }
+          }
+        }
+      ],
+      "duration": 2000
+    },
+    {
+      "spawns": [
+        {
+          "entity_type": "pvz:flag_zombie",
+          "spawn_tick": 10,
+          "spawn_amount": {
+            "random": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        },
+        {
+          "entity_type": "pvz:normal_zombie",
+          "spawn_tick": 20,
+          "spawn_amount": {
+            "random": {
+              "min": 10,
+              "max": 12
+            }
+          }
+        },
+        {
+          "entity_type": "pvz:conehead_zombie",
+          "spawn_tick": 60,
+          "spawn_amount": {
+            "random": {
+              "min": 2,
+              "max": 3
+            }
+          }
+        },
+        {
+          "entity_type": "pvz:normal_zombie",
+          "spawn_tick": 250,
+          "spawn_amount": {
+            "random": {
+              "min": 5,
+              "max": 8
+            }
+          }
+        },
+        {
+          "entity_type": "pvz:normal_zombie",
+          "spawn_tick": 400,
+          "spawn_amount": {
+            "random": {
+              "min": 5,
+              "max": 8
+            }
+          }
+        }
+      ],
+      "duration": 2000
+    }
+  ],
+  "rewards": {
+    "unlocks": [
+      "pvz:wall_nut"
+    ],
+    "items": [
+      {
+        "item": "pvz:challenge_envelope",
+        "nbt":"{challenge_type:\"pvz:1-3\"}",
+        "amount": {
+          "random": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      }
+    ]
+  }
+}

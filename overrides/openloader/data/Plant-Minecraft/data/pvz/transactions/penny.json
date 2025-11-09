@@ -1,0 +1,99 @@
+{
+  "good_count": {
+    "random": {
+      "min": 2,
+      "max": 3
+    }
+  },
+  "has_enjoy_card": true,
+  "goods": [
+    {
+      "type": "money_1",
+      "price": 1,
+      "must": true
+    },
+    {
+      "type": "item",
+      "item": "pvz:gold_leaf_enjoy_card",
+      "price": 1,
+      "must": true
+    },
+    {
+      "type": "item",
+      "item": "bpmc:dave_token",
+      "price": 1,
+      "must": true
+    },
+    {
+      "type": "item",
+      "item": "pvz:lawn_mower",
+      "price": 1,
+      "weight": 10,
+      "limit": 1
+    },
+    {
+      "type": "item",
+      "item": "quark:ancient_tome",
+      "nbt": "{StoredEnchantments:[{'id':'apotheosis:crescendo', 'lvl':1}]}",
+      "price": 1,
+      "weight": 80,
+      "limit": 1
+    },
+    {
+      "type": "item",
+      "item": "quark:ancient_tome",
+      "nbt": "{StoredEnchantments:[{'id':'apotheosis:earths_boon', 'lvl':1}]}",
+      "price": 2,
+      "weight": 60,
+      "limit": 1
+    },
+    {
+      "type": "item",
+      "item": "quark:ancient_tome",
+      "nbt": "{StoredEnchantments:[{'id':'pvz:break_out', 'lvl':1}]}",
+      "price": 1,
+      "weight": 100,
+      "limit": 1
+    },
+    {
+      "type": "item",
+      "item": "quark:ancient_tome",
+      "nbt": "{StoredEnchantments:[{'id':'pvz:bandage', 'lvl':1}]}",
+      "price": 1,
+      "weight": 80,
+      "limit": 1
+    },
+    {
+      "type": "item",
+      "item": "quark:ancient_tome",
+      "nbt": "{StoredEnchantments:[{'id':'pvz:densely_plant', 'lvl':1}]}",
+      "price": 2,
+      "weight": 30,
+      "limit": 3
+    },
+    {
+      "type": "item",
+      "item": "quark:ancient_tome",
+      "nbt": "{StoredEnchantments:[{'id':'minecraft:smite', 'lvl':1}]}",
+      "price": 5,
+      "weight": 30,
+      "limit": 3
+    },
+    {
+      "type": "item",
+      "item": "minecraft:enchanted_book",
+      "nbt": "{StoredEnchantments:[{'id':'pvz:soilless_plant', 'lvl':1}]}",
+      "price": 1,
+      "weight": 100,
+      "limit": 1
+    },
+    {
+      "type": "item",
+      "item": "minecraft:enchanted_book",
+      "nbt": "{StoredEnchantments:[{'id':'minecraft:sharpness', 'lvl':14}]}",
+      "price": 3,
+      "weight": 60,
+      "limit": 1
+    }
+  ]
+}

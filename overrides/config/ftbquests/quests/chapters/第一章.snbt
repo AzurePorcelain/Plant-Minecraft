@@ -1,0 +1,1623 @@
+{
+	id: "69E7133EA261763F"
+	group: "7F20F7173F1C796A"
+	order_index: 0
+	filename: "第一章"
+	title: "    《壹》"
+	icon: "pvz:origin_essence"
+	subtitle: ["初遇精华"]
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 23.5d
+			y: 0.0d
+			width: 2.75d
+			height: 2.75d
+			rotation: 0.0d
+			image: "pvz:textures/ftbq/2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "55908B968BFFADB7"
+		}
+		{
+			x: 25.5d
+			y: -0.5d
+			width: 2.75d
+			height: 2.75d
+			rotation: 0.0d
+			image: "pvz:textures/ftbq/1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "55908B968BFFADB7"
+		}
+		{
+			x: 24.5d
+			y: -0.5d
+			width: 2.75d
+			height: 2.75d
+			rotation: 0.0d
+			image: "pvz:textures/ftbq/1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "55908B968BFFADB7"
+		}
+		{
+			x: 24.0d
+			y: 0.5d
+			width: 2.75d
+			height: 2.75d
+			rotation: 0.0d
+			image: "pvz:textures/ftbq/1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "55908B968BFFADB7"
+		}
+		{
+			x: 25.0d
+			y: 0.0d
+			width: 2.75d
+			height: 2.75d
+			rotation: 0.0d
+			image: "pvz:textures/ftbq/1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "55908B968BFFADB7"
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "3D8B8F70451A0DD1"
+			tasks: [{
+				id: "214D778880A1B431"
+				type: "checkmark"
+				title: "重新获取戴夫小屋定位"
+			}]
+			rewards: [
+				{
+					id: "4D606EDF95DE2896"
+					type: "command"
+					auto: "invisible"
+					command: "/locate pvz:dave_villa"
+					player_command: true
+				}
+				{
+					id: "2146A13EF1B1CCE6"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 3D8B8F70451A0DD1"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			id: "4968B505DFDA29E0"
+			tasks: [{
+				id: "0A28ECB309E30595"
+				type: "checkmark"
+				title: "重新获取禅境花园定位"
+			}]
+			rewards: [
+				{
+					id: "72F00D3CFF086ABD"
+					type: "command"
+					auto: "invisible"
+					command: "/locatebiome pvz:zen_garden"
+					player_command: true
+				}
+				{
+					id: "2F8C1D1296C8BC29"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4968B505DFDA29E0"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "TPS"
+			icon: "minecraft:writable_book"
+			disable_toast: true
+			x: 0.0d
+			y: 2.0d
+			optional: true
+			id: "54155EA059754C44"
+			tasks: [{
+				id: "40934B014FA6B8B4"
+				type: "checkmark"
+				title: "显示TPS"
+				icon: "minecraft:writable_book"
+			}]
+			rewards: [
+				{
+					id: "5F3EAEC67FC8278A"
+					type: "command"
+					auto: "invisible"
+					command: "/forge tps"
+					player_command: true
+				}
+				{
+					id: "5E7A239F03DED4A5"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 54155EA059754C44"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "游戏指引——游玩前请读我"
+			x: -2.0d
+			y: 0.0d
+			description: [
+				"作弊指令默认关闭，如需启用请通过“难度切换脚本”开启【测试模式】后重新开档游玩。"
+				""
+				"任务线将随游戏进程逐步解锁。持续推进任务，即可探索更多隐藏剧情与内容。"
+				""
+				"部分物品需将任务线推进至特定阶段，方可合成与使 用。"
+				""
+				"从主线第二章节起，将开放更多主线与支线PVZ关卡。完成主线关卡可解锁新植物，并直接获得永久卡；完成支线关卡则可解锁各类特殊强力植物。通常来说，通过这些关卡获得的植物，足以助您顺利完成所有任务。"
+			]
+			id: "0513867778454FF7"
+			tasks: [{
+				id: "30DCC81DCEC3B886"
+				type: "checkmark"
+				title: "确认已阅读"
+			}]
+			rewards: [{
+				id: "1E2C753BE1E67E7C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "又一个世界"
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			subtitle: "初临植物世界 对于史蒂夫而言，这不过是他探索过的无数世界之一。按照惯例，他会先砍树、挖矿，然后前往下界，最终击败末影龙。他预感到，这一次的旅程，想必也会像往常一样顺利。"
+			description: [
+				"难度设置说明："
+				"森罗万藏游戏难度仅可在游戏关闭时通过整合包专用脚本切换，无法通过原版难度设置调整。"
+				""
+				"局域网联机指南(支持任务进度共享)："
+				"使用 /ftbteams party create 创建队伍"
+				"使用 /ftbteams party join 加入队伍"
+				"注意：联机模式下所有玩家需保持相同难度设置。"
+				""
+				"多人对抗模式说明："
+				"创建阵营：使用 /team add 玩家小队队伍名"
+				"加入队伍：使用 /team join 队伍名（创建者同样需要执行此命令）"
+				"退队/删队：为避免滥用，需临时开启局域网作弊模式，使用 /team leave 队伍名 或 /team remove 队伍名"
+				"注意：不同阵营的植物和玩家将自动敌对。"
+				""
+				"游戏特色机制："
+				"本整合包包含僵尸入侵日机制，入侵频率由难度决定。"
+				"首次入侵前存在充足安全期，供玩家熟悉环境和布防。"
+				"入侵难度与僵尸种类随智慧树等级提升而增强。"
+				"疯狂戴夫商店专售防御型植物支援信（无法用于任务关卡），建议新手提前做好入侵日防御准备。"
+			]
+			id: "49808CB779EA7B93"
+			tasks: [{
+				id: "6A3CE9026D939C11"
+				type: "advancement"
+				title: "史蒂夫的重生"
+				icon: {
+					id: "minecraft:totem_of_undying"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				advancement: "pvz:adventure/root"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "57748EE67200F61A"
+					type: "command"
+					auto: "invisible"
+					command: "/gamerule sendCommandFeedback false"
+					player_command: false
+				}
+				{
+					id: "0394917A185E61A3"
+					type: "command"
+					auto: "invisible"
+					command: "/clear @p pvz:challenge_envelope{challenge_type: \"pvz:strange_help\" }"
+					player_command: false
+				}
+				{
+					id: "1B02DB3A86B7B719"
+					type: "command"
+					auto: "invisible"
+					command: "/clear @p pvz:pea_shooter_card"
+					player_command: false
+				}
+				{
+					id: "71B7C2E95820EF02"
+					type: "command"
+					auto: "invisible"
+					command: "/clear @p pvz:sun_flower_card"
+					player_command: false
+				}
+				{
+					id: "5803FF3F63AA856F"
+					type: "command"
+					auto: "invisible"
+					command: "/clear @p pvz:wall_nut_card"
+					player_command: false
+				}
+				{
+					id: "713C40C122D5983E"
+					type: "command"
+					auto: "invisible"
+					command: "/clear @p pvz:potato_mine_card"
+					player_command: false
+				}
+				{
+					id: "66BC562D3CCCE83D"
+					type: "command"
+					auto: "invisible"
+					command: "/clear @p patchouli:guide_book"
+					player_command: false
+				}
+				{
+					id: "73E8953E2FB50F58"
+					type: "command"
+					auto: "invisible"
+					command: "/clear @p alexsmobs:animal_dictionary"
+					player_command: false
+				}
+				{
+					id: "269CA5F0D5C9164F"
+					type: "command"
+					auto: "invisible"
+					command: "/gamerule sendCommandFeedback true"
+					player_command: false
+				}
+				{
+					id: "74AF72CF6689FF96"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p，欢迎来到植物世界！按 G 键即可开启你的专属任务系统，探索更多精彩内容！"
+					player_command: false
+				}
+				{
+					id: "27354F0C4E274DF8"
+					type: "item"
+					auto: "no_toast"
+					item: {
+						id: "solcarrot:food_book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "阳光"
+			icon: "minecraft:grass_block"
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"一切看似正常——除了那些从天而降、落地后仍在旋转的阳光......不过它们并无大碍：接触时只会带来一丝暖意，并不影响史蒂夫砍树挖矿的进度。"
+				""
+				"他若有所思......"
+				""
+				"至少这次的世界与以往有所不同，缓解了重复流程的枯燥。史蒂夫希望一切仍能如往常般顺利。"
+				""
+				"Tips："
+				"植物世界的夜晚不会生成包括史莱姆在内的大多数原版敌对生物。"
+				"善用CapsLock功能键疾跑及施展特技（如翻越栅栏、攀爬2格高方块等），落地时空格键翻滚可转化部分动量。"
+			]
+			dependencies: ["49808CB779EA7B93"]
+			id: "0806272403B0C055"
+			tasks: [{
+				id: "3C55FBF1D1B00C6B"
+				type: "dimension"
+				title: "来到植物世界"
+				icon: "minecraft:grass_block"
+				disable_toast: true
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [
+				{
+					id: "02BD7CED798896B5"
+					type: "item"
+					auto: "no_toast"
+					item: {
+						id: "simplefarming:potato_knish"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "67A917A4AE8DBE72"
+					type: "item"
+					auto: "no_toast"
+					item: {
+						id: "farmersdelight:honey_cookie"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "78166AD67B1EA32C"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/locate pvz:dave_villa"
+					player_command: true
+				}
+				{
+					id: "184705A76551AFC2"
+					type: "command"
+					auto: "invisible"
+					command: "/locatebiome pvz:zen_garden"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "泥土结晶"
+			x: 4.0d
+			y: -1.0d
+			description: [
+				"这个世界的树木仿佛蕴藏着更强的生长渴望。"
+				"当树苗从大地汲取过多能量却无法释放时，下方的泥土便会析出发光的绿色晶体......"
+				"这是史蒂夫在以往世界中从未见过的现象。"
+				""
+				"结晶后的泥土异常坚硬，看来他需要一把更好的镐子。"
+				""
+				"史蒂夫陷入沉思......"
+				"恍惚间，他似乎产生了一种错觉，仿佛那些结晶正试图向他传达什么......"
+				"但结晶又怎么会说话呢？他摇了摇头。"
+				""
+				"Tips:"
+				"夜晚的林间星光点点，那正是结晶的微光。而在自然灵气充沛的禅境花园，它们或许更为常见......"
+			]
+			dependencies: ["0806272403B0C055"]
+			id: "476D56DC24D9FE59"
+			tasks: [{
+				id: "6F66DDD4DA5116B5"
+				type: "observation"
+				title: "找到原始精华矿"
+				icon: "pvz:origin_ore"
+				timer: 0L
+				observe_type: 0
+				to_observe: "pvz:origin_ore"
+			}]
+			rewards: [{
+				id: "08EA195E96475402"
+				type: "xp"
+				auto: "no_toast"
+				xp: 300
+			}]
+		}
+		{
+			title: "豌豆"
+			x: 4.0d
+			y: 1.0d
+			description: [
+				"从草丛中采集到的作物，或许可以作为食物？"
+				"……"
+				"虽然目前只能煮成鲜美的豌豆羹，但史蒂夫隐约感到，它未来或许会有意想不到的用途。"
+				""
+				"前所未见的事物不断涌现。"
+				"尽管目前遇到的新东西尚未显露威胁，但史蒂夫明白，很难保证之后遇到的仍会如此温和无害。"
+				""
+				"Tips：整合包剧情文本中包含大量提示，细心留意将显著提升游戏体验。"
+			]
+			dependencies: ["0806272403B0C055"]
+			id: "0DC1D88A5158DA6B"
+			tasks: [{
+				id: "76A961AC877B30CB"
+				type: "item"
+				item: "pvz:pea"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "60B6BCBDC6A7375C"
+				type: "item"
+				auto: "enabled"
+				item: {
+					id: "pvz:pea_soup"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "树的梦（获得床后可解锁后续任务）"
+			icon: "minecraft:dark_oak_sapling"
+			x: 6.0d
+			y: 0.0d
+			subtitle: "《绿茵史诗》（节选）"
+			description: [
+				"一个灰色土豆静立于参天巨树前，似在与巨树无声对 话。"
+				"地下根系不断延伸、分叉、缠绕，逐渐变得透明并泛起微光……每一段根须的切面都如动态画卷，无数画面各异却又彼此关联，直到史蒂夫在其中看见了自己……"
+				""
+				"史蒂夫从梦中惊醒，头痛欲裂，昨夜的梦境难以捉摸。此刻他只想找到一把铁镐，探明那泥土中生长的结晶究竟为何物。"
+			]
+			dependencies: [
+				"476D56DC24D9FE59"
+				"0DC1D88A5158DA6B"
+			]
+			dependency_requirement: "one_completed"
+			hide_text_until_complete: true
+			id: "0794A970FC454AD5"
+			tasks: [
+				{
+					id: "0DBB37020485FB42"
+					type: "item"
+					title: "一张舒服的床"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:beds"
+						}
+					}
+				}
+				{
+					id: "5C8F64F45EE77B11"
+					type: "advancement"
+					icon: {
+						id: "minecraft:dark_oak_sapling"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					advancement: "minecraft:adventure/sleep_in_bed"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "0099A297B004EEA3"
+					type: "item"
+					title: "来自高维的旅者，这是独属于你的赠礼"
+					item: {
+						id: "sophisticatedbackpacks:backpack"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6CED326DDDF3FEED"
+					type: "xp"
+					auto: "no_toast"
+					xp: 1000
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			description: [
+				"按照惯例，史蒂夫此刻本该一心想着合成钻石镐、挖掘黑曜石、搭建通往下界的门户……然后，便是前往末地，去击败那条他已战胜过无数次的末影龙。"
+				""
+				"但梦中那泛着微光的根系，以及其中映出的身影，总在他脑海中挥之不去。"
+				""
+				"——在一切之前，他必须先去弄明白，那块在泥土中诡谲生长的结晶，究竟是什么。"
+			]
+			dependencies: ["0794A970FC454AD5"]
+			hide: true
+			dependency_requirement: "all_started"
+			hide_text_until_complete: true
+			id: "2A557957D8A01F7F"
+			tasks: [{
+				id: "3DA12F5FBDA5D035"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "32D93EAA36D2681D"
+				type: "xp"
+				auto: "no_toast"
+				xp: 100
+			}]
+		}
+		{
+			title: "翠绿的起源"
+			x: 11.0d
+			y: 0.0d
+			subtitle: "《绿茵史诗》（节选）"
+			description: [
+				"史蒂夫从恍惚中惊醒，手中那翠绿的晶体正散发着诡异的紫色光芒。光芒仿佛拥有意志，正试图将某种信息，强行烙印进他的脑海。"
+				"是什么呢……"
+				""
+				"一棵树的意象悄然萌发。此刻它尚是新生的嫩芽，透明的根系经由他的双足与大地相连。它静默生长，未显侵扰之意。"
+				"但史蒂夫明白，这仅仅是一个开端——它不会无缘无故地出现。他确信，某些事情注定将会发生。"
+				"他的预感没有错。只是，那个时刻还未到来。他必须等待。"
+				""
+				"※提示：晶体块形态恒固，无法逆向分解。"
+			]
+			dependencies: ["2A557957D8A01F7F"]
+			hide: true
+			hide_text_until_complete: true
+			id: "6A6F4BBA3D9F637A"
+			tasks: [{
+				id: "3FEBE28C6184ED2B"
+				type: "item"
+				item: "pvz:origin_essence"
+			}]
+			rewards: [{
+				id: "20794C1DC2100AE5"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "pvz:pvz_guide"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.0d
+			description: [
+				"原始精华块会持续释放强烈的能量辐射。利用这一特性，将其置于特定方块附近，或许能激活那些原本惰性的物质，使其逐渐孕育出结晶。"
+				""
+				"当精华之力与其他元素融合，所形成的结晶将蕴含更为纯粹、指向性更强的能量。这种融合结晶的核心用途，在于定向激发植物的潜在能力，使其发挥特定作用。"
+				""
+				"史蒂夫思忖着，或许可以用背包里的豌豆尝试练习。"
+				""
+				"Tips：非关卡期间，种植冷却时间将大幅缩减："
+				"· 休闲难度：缩减至10%"
+				"· 其他难度：缩减至25%"
+				"（仅对非灰烬植物生效）"
+			]
+			dependencies: ["6A6F4BBA3D9F637A"]
+			hide: true
+			hide_text_until_complete: true
+			id: "6461D058BFEB9EE5"
+			tasks: [{
+				id: "7B9E000362D06991"
+				type: "item"
+				title: "合成原始精华块"
+				item: "pvz:origin_block"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "06D49F07D126934A"
+					type: "command"
+					title: "请查阅《植物大战僵尸指南》“精华”章节，了解可受辐射影响的方块详情"
+					icon: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "pvz:pvz_guide"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/msg @p 请查阅《植物大战僵尸指南》“精华”章节，了解可受辐射影响的方块详情"
+					player_command: false
+				}
+				{
+					id: "662F1B0DD06FF434"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "pvz:white_card"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			description: ["原始精华与各类矿物展现出极佳的相容性。将它们融合锻造而成的「精华锭」，既保留了金属的优良特性，也蕴含着原始精华的特殊力量，是制作拥有特殊能力工具的绝佳材料。"]
+			dependencies: ["6A6F4BBA3D9F637A"]
+			hide: true
+			hide_text_until_complete: true
+			id: "5005EE74F344E696"
+			tasks: [{
+				id: "72ADB1AC0D330906"
+				type: "item"
+				title: "合成原始精华锭"
+				item: "pvz:origin_ingot"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "791954A847494F66"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "pvz:origin_essence"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 13.5d
+			y: 2.5d
+			description: [
+				"牺牲了钻石的部分坚硬特性，却换来了无与伦比的植物魔力特性与对魔法的卓越兼容性。"
+				""
+				"“或许，这把剑能更有效地对付那些从墓碑里爬出的怪物？”史蒂夫暗自思忖。"
+				""
+				"这些天来，史蒂夫饱受夜间出没的墓碑与僵尸侵扰。除了少数几夜因及早入眠得以避开侵扰外，大多数晚上他都疲于应对这些从地底钻出的不速之客。"
+				""
+				"※提示：对植物使用精华剑（右键），可将能量豆的磅礴能量瞬间注入其中。"
+				""
+				"Tips："
+				"· 除首夜外，每晚九时后，墓碑下将陆续爬出僵尸， 数天后墓碑会自行腐朽。"
+				"· 若永夜降临，墓碑将进入无可阻挡的「狂暴」状态。"
+			]
+			dependencies: [
+				"5005EE74F344E696"
+				"41E4715E4731BBD7"
+			]
+			hide: true
+			id: "7036EBA4A78ED827"
+			tasks: [{
+				id: "5BEDB5D3CB982FED"
+				type: "item"
+				item: {
+					id: "pvz:origin_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "327995117E8E65CD"
+				type: "xp"
+				auto: "no_toast"
+				xp: 300
+			}]
+		}
+		{
+			title: "成就：精华收割者"
+			x: 13.5d
+			y: -2.5d
+			subtitle: "集齐植物世界精华"
+			description: [
+				"恭喜你成功收集所有精华！"
+				""
+				"初始拥有10次抽奖机会。智慧树每升1级增加3次机会，每次成功抵御入侵额外奖励2次机会。"
+			]
+			dependencies: ["6461D058BFEB9EE5"]
+			hide: true
+			hide_text_until_complete: true
+			optional: true
+			id: "7FF57E4E0AF016C7"
+			tasks: [
+				{
+					id: "3A0D8B5B734CB386"
+					type: "item"
+					item: "pvz:appease_essence"
+				}
+				{
+					id: "00876A0DB3E10B58"
+					type: "item"
+					item: "pvz:light_essence"
+				}
+				{
+					id: "5C04A46D20A4D713"
+					type: "item"
+					item: "pvz:explosion_essence"
+				}
+				{
+					id: "7C8D0C1242000C0A"
+					type: "item"
+					item: "pvz:defence_essence"
+				}
+				{
+					id: "688795C9E80BB948"
+					type: "item"
+					item: "pvz:ice_essence"
+				}
+				{
+					id: "7142F9A3BDF6B0AE"
+					type: "item"
+					item: "pvz:enforce_essence"
+				}
+				{
+					id: "7D64C96F7985BCE7"
+					type: "item"
+					item: "pvz:toxic_essence"
+				}
+				{
+					id: "15A4893F62DB78A0"
+					type: "item"
+					item: "pvz:assist_essence"
+				}
+				{
+					id: "2C68D922518D763C"
+					type: "item"
+					item: "pvz:magic_essence"
+				}
+				{
+					id: "2D36B623F4C6D847"
+					type: "item"
+					item: "pvz:flame_essence"
+				}
+				{
+					id: "4D1F2DCD96E754C4"
+					type: "item"
+					item: "pvz:spear_essence"
+				}
+				{
+					id: "74D57EC98E1A57B7"
+					type: "item"
+					item: "pvz:arma_essence"
+				}
+			]
+			rewards: [
+				{
+					id: "3A8BDF4D0F9BD4B3"
+					type: "command"
+					title: "奖励老虎机一台（仅限此途径获取），同队玩家抽奖次数+30"
+					icon: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:pool_night"
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/playerstats @p add lottery_chance 30"
+					player_command: false
+				}
+				{
+					id: "6C080C8430B0DA7B"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:all_plants"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "薏米"
+			x: 16.0d
+			y: 0.0d
+			description: [
+				"“你好！能带我回家吗？”"
+				""
+				"“你是……？”史蒂夫警惕地问道。"
+				"这个灰色小个子自称“薏米”，但看外表，更像他梦里见过的那个灰色土豆。"
+				"……太可疑了，史蒂夫心想。"
+				""
+				"“我是炼金术士，以前也写过剧本，现在不写了。送我回家吧，这个给你，它能帮到你。”"
+				""
+				"那是一张向日葵植物卡，制作方式和史蒂夫做出的豌豆射手一模一样。它在史蒂夫成功做出豌豆射手后出现，绝非偶然。"
+				"“你既然是魔法师，为什么非要和我一起？”史蒂夫追问。"
+				""
+				"“我只是炼金术士，没你那么强的力量，独自对付不了那些怪物。原本我和一个叫戴夫的人、一辆叫潘妮的车住在一座大宅子里，后来走丢了，怎么也找不到回去的路……我的屋子很大，坚固又安全，你搬来住也没问题，至少不用担心被到处游荡的僵尸抓走……”"
+				""
+				"时机如此精准，还主动邀他同住。对方自称无力，行为却刻意又可疑，处处透着不合理。史蒂夫对这个未知世界充满困惑，不如将计就计，看看能否从这可疑的土豆身上，窥见世界的秘密——他怕过什么？"
+				"“可我也不知道那座大宅子在哪。”史蒂夫说。"
+				""
+				"“没关系，我们一起边走边找，总会认出来的。”"
+				""
+				"“好吧，那我们赶紧出发！”"
+			]
+			dependencies: ["6461D058BFEB9EE5"]
+			hide: true
+			hide_text_until_complete: true
+			id: "41079CD279A4E7CC"
+			tasks: [{
+				id: "63A7CA62ADD0721B"
+				type: "item"
+				title: "合成豌豆射手卡"
+				item: {
+					id: "pvz:pea_shooter_card"
+					Count: 1b
+					tag: { }
+				}
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "6485ADACDFE454D9"
+					type: "item"
+					item: {
+						id: "pvz:sun_flower_card"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0600E8148C6E6739"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/locate pvz:dave_villa"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "别墅"
+			x: 19.0d
+			y: 0.0d
+			subtitle: "《绿茵史诗》（节选）"
+			description: [
+				"那栋别墅极为庞大，红砖屋顶与石英墙在平原上格外显眼，远远就能望见。屋顶悬挂的灯笼，散发着令人不安的光晕。"
+				"此情此景，加上薏米始终言辞闪烁，令史蒂夫心生退意，只打算暂住一晚便离开。"
+				""
+				"在房间的箱子里，他发现了一封挑战信，落款日期竟是两天前。当史蒂夫将此事告知薏米时，“挑战信”三字让对方眼神瞬间由惊转惧。薏米恳求他务必留下，并终于道出真相—— 这个世界怪物肆虐的根源，正是僵王博士。"
+				""
+				"【挑战信使用说明】"
+				"· 副手持信右键：对空查看敌情；对地显示范围。"
+				"· 主手持信：对地右键，将以瞄准点为中心召唤尸潮， 直接开启挑战。"
+				""
+				"※ 彩蛋提示： 主手持信对空右键，或可触发特殊信件中的隐藏剧情。"
+			]
+			dependencies: ["41079CD279A4E7CC"]
+			hide: true
+			hide_text_until_complete: true
+			id: "75128AA679838A5F"
+			tasks: [{
+				id: "793A32B346ECAB29"
+				type: "advancement"
+				advancement: "pvz:adventure/dave_villa"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4BE2169C5E3E6B72"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "pvz:challenge_envelope"
+						Count: 1b
+						tag: {
+							challenge_type: "pvz:strange_help"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4EE2F21DF640B113"
+					type: "xp"
+					auto: "no_toast"
+					xp: 500
+				}
+			]
+		}
+		{
+			title: "钻石（炼金线前置）"
+			x: 15.5d
+			y: 2.0d
+			description: [
+				"“这是钻石吗？”薏米问道。"
+				"史蒂夫点了点头。"
+				""
+				"“我想和你做个交易。”说着，薏米取出一把泛着紫色附魔光泽的铁镐，“这是我在矿洞里找到的。”"
+				"史蒂夫认出上面刻着“时运IV”——这把镐的价值显然远超一颗钻石。他是想用它交换吗？史蒂夫暗自思忖。"
+				""
+				"“我不是要你的钻石，”薏米顿了顿，“我是需要你挖更多的钻石。越多越好。”"
+			]
+			dependencies: ["41079CD279A4E7CC"]
+			hide: true
+			hide_text_until_complete: true
+			id: "41E4715E4731BBD7"
+			tasks: [{
+				id: "3636462D5A92CE15"
+				type: "advancement"
+				title: "钻石！"
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "70B5624FF75E2BE8"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 4
+							id: "minecraft:fortune"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "更多的钻石"
+			x: 17.0d
+			y: 3.5d
+			description: [
+				"“感谢你的钻石，但还不够。我保证，当你带来足够多的钻石时，我会给你一份特别的回礼。这些钻石……和我以往见过的宝石不太一样。”"
+				"薏米的眼中闪烁着炼金术士独有的炽热，那神情看起来并非虚假。"
+				""
+				"但史蒂夫没有立刻回应。那双眼睛里的真诚不似作伪，但他仍需要时间权衡——在一个身份不明、意图存疑的“伙伴”身上投入如此庞大的资源，绝非明智之举。"
+			]
+			dependencies: ["41E4715E4731BBD7"]
+			hide: true
+			hide_text_until_complete: true
+			id: "758DD846F78D2E2F"
+			tasks: [{
+				id: "7E08BDFBC0E1A107"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 10L
+			}]
+			rewards: [{
+				id: "48F47FEC4ABA462B"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+		{
+			title: "钻石，乃炼金哲学之土壤"
+			x: 19.0d
+			y: 4.5d
+			subtitle: "完成此任务开启第二主线"
+			description: [
+				"“足够了。”薏米长舒一口气，“谢谢你。作为回报，我将用这些钻石，为你揭示量变引发质变的奇迹——这是无数术士穷尽一生追寻的终极梦想。”"
+				"他以玄奥的轨迹将钻石铺陈于地，晶体相互叩击，发出清脆而规律的咔嗒声，如同古老的钟摆。"
+				"“正因缺少这种特质的宝石，我才始终未能触及此 境……”"
+				"话音未落，地上的钻石骤然亮起，逸散出的璀璨光粒如受感召，在空中汇聚成团，迸发出夺目的辉光。"
+				"伴随着薏米低沉的吟唱与旋转的舞步，光团的色彩流转不息，由湛蓝化为紫晕，最终定格为深邃的绯红。旋即，光芒尽数收敛，唯余一颗静谧悬浮的赤色宝珠。"
+				"“此即，贤者之石。现在，它是你的了。”薏米对史蒂夫说道。"
+				""
+				"———————— 解锁《贤者》系列配方 ————————"
+			]
+			dependencies: ["758DD846F78D2E2F"]
+			hide: true
+			hide_text_until_complete: true
+			id: "315A2A1B67AA267E"
+			tasks: [{
+				id: "6CDF09E3F60CEDC2"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 50L
+			}]
+			rewards: [{
+				id: "71A3490FCACEF792"
+				type: "gamestage"
+				auto: "no_toast"
+				stage: "Philosophers"
+			}]
+		}
+		{
+			title: "贤者之石，乃至高魔法之种子"
+			x: 21.5d
+			y: 5.0d
+			subtitle: "炼金术士的终极梦想"
+			description: ["「形而上」的路径已于你眼前展开。世界的法则正静候你的审阅——请查阅任务章节。"]
+			dependencies: ["315A2A1B67AA267E"]
+			hide: true
+			id: "0F1BF962091BC71A"
+			tasks: [{
+				id: "3101C43E105CFC60"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "12606153392C4A34"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			title: "豌豆枪"
+			x: 8.0d
+			y: 2.5d
+			description: [
+				"实验证实：将原始精华熔铸于现有工具，可锻造出更强的装备。这把新制的豌豆枪便是明证。"
+				"若能成功附魔，威力必将更上一层楼。"
+				""
+				"【无限附魔效果】"
+				"攻击时有概率不消耗弹药，该概率随智慧树等级提升。"
+				"详情请查阅《植物大战僵尸指南》。"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0DC1D88A5158DA6B"
+				"5005EE74F344E696"
+			]
+			hide: true
+			id: "25DA8787563E6B31"
+			tasks: [{
+				id: "7324CB94BBC649BA"
+				type: "item"
+				title: "合成豌豆枪"
+				item: {
+					id: "pvz:pea_gun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "01C0D275A92846CB"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			title: "更强的豌豆"
+			x: 6.5d
+			y: 4.0d
+			subtitle: "To fire, or not to fire"
+			description: [
+				"精华的灌注，使一颗豌豆的命运走向岔路。"
+				"是赋予它炽热的毁灭，还是极寒的凝滞？"
+				"这不再只是发射与否，而是关乎力量本质的抉择。"
+			]
+			dependencies: ["25DA8787563E6B31"]
+			hide: true
+			optional: true
+			id: "1C8793468799B361"
+			tasks: [
+				{
+					id: "046DCAEB50046072"
+					type: "item"
+					item: "pvz:flame_pea"
+				}
+				{
+					id: "103C3F0FEA4573DB"
+					type: "item"
+					item: "pvz:snow_pea"
+				}
+			]
+			rewards: [{
+				id: "588D5E9BF4F0D3AC"
+				type: "item"
+				auto: "enabled"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:infinity"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "大 菠 萝 ~"
+			x: 9.5d
+			y: 4.0d
+			subtitle: "正义的突突"
+			description: [
+				"最强射手的力量已成功注入豌豆枪！只需将对应植物卡片插入枪身插槽，即可让武器火力全开，执行你的“正义”。"
+				""
+				"※提示：机枪射手卡片可在戴夫处高价购买。"
+			]
+			dependencies: ["25DA8787563E6B31"]
+			hide: true
+			optional: true
+			id: "3D05B45EA98504A3"
+			tasks: [{
+				id: "6A07DE8725EE41AA"
+				type: "item"
+				item: {
+					id: "pvz:gatling_pea_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1F60AD7C3FC33301"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: {
+					id: "pvz:gatling_pea_enjoy_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			description: [
+				"通往屠龙之路的关键一步，是采集黑曜石搭建下界传送门。然而这一次，无形的屏障将史蒂夫阻隔在外。"
+				""
+				"一张不知何时出现的纸条揭示了真相："
+				"「下界与末地已被异界之力侵占，实力不足者，切莫踏足。」"
+				"看来，他必须先解开神秘结晶的谜团，才能继续前行。"
+				""
+				"※ 推进任务线可解锁后续主线关卡（挑战信）"
+			]
+			dependencies: ["2A557957D8A01F7F"]
+			hide: true
+			hide_text_until_complete: true
+			id: "172AE3AC219907A7"
+			tasks: [{
+				id: "6981C0F3E5CDB1FC"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "40ADDD9ADE214881"
+				type: "xp"
+				auto: "no_toast"
+				xp: 300
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			description: [
+				"原始精华质地特殊，无法直接制成镐具。"
+				"但它能与多种金属融合，铸成独特的「精华锭」。"
+				"以此锭为材，可运用类似下界合金的镀层工艺，为钻石镐进行强化升级。"
+			]
+			dependencies: [
+				"172AE3AC219907A7"
+				"1E6C4DFC463D6931"
+			]
+			hide: true
+			optional: true
+			id: "24C40E5A728F79FC"
+			tasks: [{
+				id: "3480E8CD9CC3ADBC"
+				type: "item"
+				item: {
+					id: "pvz:origin_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "59E387D643BC944D"
+				type: "xp"
+				auto: "no_toast"
+				xp: 300
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.0d
+			subtitle: "再镀一层暗紫合晶！"
+			description: ["末地紫晶与下界黑晶融合而成，硬度媲美下界合金，兼具卓越的魔力兼容性。"]
+			dependencies: [
+				"24C40E5A728F79FC"
+				"22934F650F247AEF"
+			]
+			hide: true
+			dependency_requirement: "all_started"
+			optional: true
+			id: "58C9B179F6A72E9B"
+			tasks: [{
+				id: "057F767EC7394EF1"
+				type: "item"
+				item: {
+					id: "bpmc:damson_crystal_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D2ACE02E4093ACF"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+		{
+			x: 13.5d
+			y: 4.5d
+			description: [
+				"以暗紫合晶再度淬炼，剑身精华之力彻底升华！"
+				"完美保留传导能量豆的特性，攻击力大幅强化，魔法兼容性更臻至全新境界。"
+			]
+			dependencies: [
+				"7036EBA4A78ED827"
+				"22934F650F247AEF"
+			]
+			hide: true
+			dependency_requirement: "all_started"
+			optional: true
+			id: "597DEF25552FD08B"
+			tasks: [{
+				id: "0C43E0A476325101"
+				type: "item"
+				item: {
+					id: "bpmc:damson_crystal_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "69152F18B466EDE1"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+		{
+			title: "换取挑战信《奇怪的帮助》"
+			x: 19.0d
+			y: -2.5d
+			subtitle: "可重复兑换"
+			description: ["警告：兑换时，若背包内钻石占据多个格子，系统将一次性兑换多份挑战信，请谨慎操作！"]
+			hide_dependency_lines: false
+			dependencies: ["75128AA679838A5F"]
+			optional: true
+			id: "14A018A830B50FD8"
+			tasks: [{
+				id: "54F7BE869625D906"
+				type: "item"
+				item: {
+					id: "minecraft:diamond"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4DAB0280434E4502"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "pvz:challenge_envelope"
+						Count: 1b
+						tag: {
+							challenge_type: "pvz:strange_help"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "12078D28A17643F0"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 14A018A830B50FD8"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 22.0d
+			y: 0.0d
+			description: [
+				"僵尸会定期对您的领地发动随机入侵。入侵种类与难度随智慧树高度提升。"
+				"成功抵御标准：在入侵中坚守存活24小时。"
+				""
+				"【额外奖励任务】"
+				"每次入侵将为每位玩家随机生成独立入侵类型与任务。"
+				"及时完成任务，可立即获得对应等级奖励："
+				"· 等级0：250钱币"
+				"· 等级1：5次抽奖机会"
+				"· 等级2：500钱币"
+				"· 等级3：10次抽奖机会"
+				"· 等级4：1个宝石"
+				""
+				"※提示：游戏后期将出现植物僵尸与隐形僵尸等特殊入侵，请谨慎规划防御。"
+			]
+			dependencies: ["75128AA679838A5F"]
+			id: "55908B968BFFADB7"
+			tasks: [{
+				id: "2E5481B78936D76E"
+				type: "checkmark"
+				title: "僵尸入侵事件"
+			}]
+			rewards: [{
+				id: "73C246A09421F87A"
+				type: "xp"
+				auto: "no_toast"
+				xp: 300
+			}]
+		}
+		{
+			title: "来自作者的提醒"
+			x: 22.0d
+			y: -2.5d
+			description: [
+				"【游戏流程】"
+				"无需为刷取经验等目的重复刷关。正常推进主线所解锁的植物，已足够完成后续所有关卡。"
+				"部分支线挑战会额外提供奖励植物（如樱桃炸弹、机枪射手、猫尾草等），可按需挑战。"
+				""
+				"【对抗模式】"
+				"请恪守“友谊第一，比赛第二”的原则。"
+				"请勿在对方植物阵容中恶意强行开启挑战。如遇此类情况，可使用应急实用工具清理附近生成的挑战信。"
+			]
+			dependencies: ["75128AA679838A5F"]
+			id: "1CCBD569E45E8CA6"
+			tasks: [{
+				id: "2CDD5B6965518290"
+				type: "checkmark"
+				title: "作者的提醒"
+			}]
+		}
+		{
+			title: "传送附近僵尸到玩家"
+			x: 25.0d
+			y: -2.5d
+			subtitle: "此为应急作弊工具，不属于常规游戏内容"
+			description: ["**请严格限制使用，严禁滥用！**"]
+			dependencies: ["1CCBD569E45E8CA6"]
+			id: "3ECF22FAED33BC84"
+			tasks: [{
+				id: "5647CDEF21C6BFF6"
+				type: "item"
+				item: {
+					id: "minecraft:diamond"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7EFB0AA6E6B919C3"
+					type: "command"
+					auto: "invisible"
+					command: "/tp @e[type=#forge:pvz_zombie_group_entities] @p"
+					player_command: false
+				}
+				{
+					id: "4DFBAED2A327444E"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p使用了应急作弊工具"
+					player_command: false
+				}
+				{
+					id: "6CC408636948B2EB"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 3ECF22FAED33BC84"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "清除所有挑战"
+			x: 25.0d
+			y: -5.0d
+			subtitle: "此为应急作弊工具，不属于常规游戏内容"
+			description: ["**请严格限制使用，严禁滥用！**"]
+			dependencies: ["1CCBD569E45E8CA6"]
+			id: "3B07EA690FCB458E"
+			tasks: [{
+				id: "59D057547CB9B598"
+				type: "item"
+				item: {
+					id: "minecraft:diamond"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5127A30CBB6AB646"
+					type: "command"
+					auto: "invisible"
+					command: "/challenge remove all"
+					player_command: false
+				}
+				{
+					id: "1237CEA8EF17DCBF"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p使用了应急作弊工具"
+					player_command: false
+				}
+				{
+					id: "7BC30F8948564F8D"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 3B07EA690FCB458E"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 22.0d
+			y: -5.0d
+			subtitle: "应急按钮-第一个"
+			description: [
+				"【操作步骤】"
+				"1. 首先点击本按钮。"
+				"2. 随后点击「可重复任务不能重复兑换-应急按钮-第二 个」。"
+				""
+				"【问题说明】"
+				"我们收到极少数玩家反馈，部分可重复任务无法再次触发。"
+				"由于该问题目前无法稳定复现，且反馈人数较少，开发团队暂未定位原因，也无法确认是否已修复。"
+				""
+				"【请求协助】"
+				"若您遇到此问题，请按上述步骤操作。"
+				"完成后，请在反馈频道告知我们第一个按钮的点击状态是否已被重置。"
+			]
+			dependencies: ["1CCBD569E45E8CA6"]
+			id: "2EEAA53975386949"
+			tasks: [{
+				id: "4634E050C90E8AE8"
+				type: "checkmark"
+				title: "可重复任务不能重复兑换"
+			}]
+			rewards: [{
+				id: "4DC6AEC1CE8304BB"
+				type: "command"
+				auto: "invisible"
+				command: "/ftbquests change_progress @p reset 3F4B414DED9EAEDA"
+				player_command: false
+			}]
+		}
+		{
+			x: 22.0d
+			y: -7.5d
+			subtitle: "应急按钮-第二个"
+			description: [
+				"【操作顺序】"
+				"1. 首先点击「可重复任务不能重复兑换-应急按钮-第一 个」。"
+				"2. 然后点击本按钮。"
+			]
+			dependencies: ["2EEAA53975386949"]
+			id: "3F4B414DED9EAEDA"
+			tasks: [{
+				id: "1A6CDAD44FF6810F"
+				type: "checkmark"
+				title: "可重复任务不能重复兑换"
+			}]
+			rewards: [{
+				id: "3E7EE8C7802ECF31"
+				type: "command"
+				auto: "invisible"
+				command: "/ftbquests change_progress @p reset 2EEAA53975386949"
+				player_command: false
+			}]
+		}
+	]
+}

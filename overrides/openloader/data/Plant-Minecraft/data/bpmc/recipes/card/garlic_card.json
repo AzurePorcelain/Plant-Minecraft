@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "pvz:defence_essence"
+    },
+    "B": {
+      "item": "bpmc:garlic"
+    },
+    "C": {
+      "tag": "pvz:card/green_cards"
+    }
+  },
+  "result": {
+    "item": "pvz:garlic_card"
+  }
+}

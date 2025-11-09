@@ -1,0 +1,27 @@
+
+["Raid settings"]
+	#How many Spiritcallers each wave
+	#Requires game restart
+	#Must have no more and no less than 8 integers
+	spiritcaller_raidcount = [0, 0, 0, 0, 0, 0, 0, 0]
+	#Controls if Spiritcaller should despawn if it spawns in the 7th wave before the bonus wave.
+	#Overrides spiritcaller_raidcount
+	#Default = true
+	spiritcaller_onlyOneAllowed = true
+	#Should the Spiritcaller only be allowed to fight once all other raiders in the wave are killed?
+	#Default = true
+	spiritcaller_forcefield = true
+
+	["Raid settings"."Spiritcaller settings"]
+		#Mobs put in this list have 'souls' the Spiritcaller can steal.
+		#Format must be like 'examplemod:entity'. Example: "minecraft:zombie"
+		#You can use the /summon command to scroll through and find the IDs for mobs you want!
+		#Requires game restart
+		spiritcaller_stealableMobs = ["minecraft:villager", "minecraft:wandering_trader", "minecraft:pig", "minecraft:cow", "minecraft:sheep", "minecraft:chicken", "minecraft:cat", "minecraft:zombie", "minecraft:husk", "minecraft:skeleton", "minecraft:stray", "minecraft:creeper", "minecraft:spider", "minecraft:enderman"]
+		#Mobs put in this list won't be attacked by mobs attacking the Spiritcaller, when their souls are taken.
+		#Format must be like 'examplemod:entity'. Example: "minecraft:zombie"
+		#You can use the /summon command to scroll through and find the IDs for mobs you want!
+		#Only actually happens if the mob is in spiritcaller_stealableMobs
+		#Requires game restart
+		spiritcaller_wontAttack = ["minecraft:villager", "minecraft:wandering_trader"]
+

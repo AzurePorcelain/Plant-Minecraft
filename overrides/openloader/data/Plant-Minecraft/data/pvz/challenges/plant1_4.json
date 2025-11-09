@@ -1,0 +1,64 @@
+{
+  "title":"豌豆支援Ⅳ",
+  "win_title":"所有支援植物阵亡",
+  "loss_title":"支援结束",
+  "authors": [
+    "qing"
+  ],
+  "tags": [
+    "overworld"
+  ],
+  "bar_color": "green",
+  "trade_price": 650,
+  "trade_weight": 20,
+  "loss_tick":100,
+  "sounds":{
+	  "loss_sound":"craid:win"
+  },
+  "placement": {
+    "outer": {
+      "min": 10,
+      "max": 20,
+      "ground": true
+    }
+  },
+  "messages":[
+  	{
+  		"title":"9*9方阵豌豆加坚果防御支援3分钟"
+  	}
+  ],
+  "waves": [
+    {
+      "spawns": [
+        {
+          "entity_type": "pvz:pea_shooter",
+          "spawn_tick": 10,
+          "placement": {
+            "center": {
+              "radius": 4,
+              "ground": true
+            }
+          },
+          "spawn_amount": {
+            "count": 500
+          }
+        },
+        {
+          "entity_type": "pvz:wall_nut",
+          "spawn_tick": 10,
+          "placement": {
+            "outer": {
+              "min": 7,
+              "max": 7,
+              "ground": true
+            }
+          },
+          "spawn_amount": {
+            "count": 25
+          }
+        }
+      ],
+      "duration": 3600
+    }
+  ]
+}

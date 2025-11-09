@@ -1,0 +1,12 @@
+{"tooltip.itemstages.hidden_name":"未知事物",
+"tooltip.itemstages.item.description":"This item has been staged to [%s]",
+"message.itemstages.drop":"你没有足够的能力保留 %s.",
+"message.itemstages.mine":"You do not know how to mine with the %s.",
+"message.itemstages.attack":"You do not know how to attack with the %s.",
+"message.itemstages.use":"你没有足够的能力使用 %s.",
+"message.itemstages.pickup":"你没有足够的能力捡起 %s.",
+"tooltip.itemstages.debug.drop":"- This item will be dropped out of the inventory.",
+"tooltip.itemstages.debug.pickup":"- This item can not be picked up.",
+"tooltip.itemstages.debug.use":"- This item can not be used on blocks or entities.",
+"tooltip.itemstages.debug.attack":"- This item can not be used as a weapon.",
+"tooltip.itemstages.debug.jei":"- This item will be hidden in JEI."}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.mowziesmobs:barakoa_village"
+    },
+    "description": {
+      "translate": "advancements.mowziesmobs:barakoa_village.desc"
+    },
+	"frame":"task",
+    "announce_to_chat": true
+  },
+  "parent":"mowziesmobs:root",
+  "criteria": {
+    "in_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "mowziesmobs:barakoa_village"
+        }
+      }
+    }
+  },
+  "requirements": [[
+    "in_city"
+  ]]
+}

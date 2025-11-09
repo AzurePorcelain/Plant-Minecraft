@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "name": "ender_guardian",
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.50,
+          "looting_multiplier": 0.05
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:gauntlet_of_guard",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "disc",
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.8,
+          "looting_multiplier": 0
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:music_disc_ender_guardian",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

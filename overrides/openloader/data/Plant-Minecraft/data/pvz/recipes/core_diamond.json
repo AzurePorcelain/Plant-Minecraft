@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ##",
+    "#X#",
+    "## "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/diamond"
+    },
+    "X": {
+      "tag": "forge:nether_stars"
+    }
+  },
+  "result": {
+    "item": "pvz:core_diamond"
+  }
+}

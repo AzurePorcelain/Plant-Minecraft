@@ -1,0 +1,25 @@
+
+#Overlay Settings
+["Overlay Settings"]
+	#turn to false to cancel the display of sun amount bar.
+	RenderSunAmountBar = true
+	#turn to false to cancel the display of money bar.
+	RenderMoneyBar = true
+	#turn to false to cancel the display of gem bar.
+	RenderGemBar = true
+	#turn to false to cancel the display of tree maxLevel bar.
+	RenderTreeLevelBar = true
+	#turn to false to cancel the display of plant food bar.
+	RenderPlantFoodBar = true
+	#turn to false to cancel the display of invasion progress.
+	RenderInvasionProgress = true
+	#turn to false to cancel the display of fog.
+	RenderFog = true
+	#turn to false to cancel the display of summon card slots.
+	RenderCardSlots = true
+
+#Other Render Settings
+["Other Render Settings"]
+	#show pvz main menu
+	ShowPVZMainMenu = true
+

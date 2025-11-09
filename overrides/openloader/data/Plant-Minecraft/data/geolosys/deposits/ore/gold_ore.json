@@ -1,0 +1,31 @@
+{
+  "type": "geolosys:deposit_dense",
+  "config": {
+    "yMin": 5,
+    "yMax": 40,
+    "size": 20,
+    "dimensions": {
+      "isBlacklist": false,
+      "filter": [
+        "overworld"
+      ]
+    },
+    "blocks": [
+      {
+        "block": "minecraft:gold_ore",
+        "chance": 0.8
+      },
+      {
+        "block": "pvz:lunar_stone",
+        "chance": 0.2
+      }
+    ],
+    "samples": [
+      {
+        "block": null,
+        "chance": 1.0
+      }
+    ],
+    "generationWeight": 30
+  }
+}

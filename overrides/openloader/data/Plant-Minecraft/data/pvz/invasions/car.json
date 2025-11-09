@@ -1,0 +1,45 @@
+{
+  "isAssistInvasion": false,
+  "triggerChance": 90,
+  "bonus": "pvz:pool_day",
+  "display_color": "blue",
+  "invasion_level": 60,
+  "spawns": [
+    {
+      "entity_type": "pvz:normal_zombie",
+      "invasion_level": 1,
+      "spawn_weight": 100
+    },
+    {
+      "entity_type": "pvz:conehead_zombie",
+      "invasion_level": 20,
+      "spawn_weight": 60
+    },
+    {
+      "entity_type": "pvz:pole_zombie",
+      "invasion_level": 30,
+      "spawn_weight": 40
+    },
+    {
+      "entity_type": "pvz:buckethead_zombie",
+      "invasion_level": 40,
+      "spawn_weight": 20
+    },
+    {
+      "entity_type": "pvz:zomboni",
+      "invasion_level": 60,
+      "spawn_weight": 20
+    },
+    {
+      "entity_type": "pvz:bobsle_team",
+      "invasion_level": 75,
+      "spawn_weight": 15,
+      "placement": "snow"
+    },
+    {
+      "entity_type": "pvz:catapult_zombie",
+      "invasion_level": 120,
+      "spawn_weight": 20
+    }
+  ]
+}

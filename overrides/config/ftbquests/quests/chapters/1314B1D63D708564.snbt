@@ -1,0 +1,503 @@
+{
+	id: "1314B1D63D708564"
+	group: "1F7EC9B5A196C0BF"
+	order_index: 0
+	filename: "1314B1D63D708564"
+	title: "禅境花园"
+	icon: "pvz:chomper"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 12.0d
+			height: 12.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/4.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "1D3C1E4FCE876698"
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			width: 1.25d
+			height: 1.25d
+			rotation: 30.0d
+			image: "mowziesmobs:textures/item/wrought_helmet_icon.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "7E756C6A11A93309"
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			width: 1.5d
+			height: 1.5d
+			rotation: -107.5d
+			image: "mowziesmobs:textures/item/wrought_axe_icon.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "7E756C6A11A93309"
+		}
+	]
+	quests: [
+		{
+			title: "到访禅境花园"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"传说中，这里是食人花一族最后现身之地。"
+				"大地滋养着发光的矿石，与形态各异的奇妙果树。"
+				"而当夜幕降临，更有无数姿态诡异的灵魂在此游荡……"
+				""
+				"............"
+				""
+				"「这里，就是传说中的禅境花园？」"
+			]
+			id: "1D3C1E4FCE876698"
+			tasks: [{
+				id: "3BE6F88FFD82072C"
+				type: "advancement"
+				advancement: "pvz:adventure/zen_garden"
+				criterion: ""
+			}]
+		}
+		{
+			title: "坚果"
+			x: 2.0d
+			y: -1.0d
+			subtitle: "磁石之木"
+			description: [
+				"坚果树不仅在其叶间藏有丰硕的果实，其树干之中，"
+				"更蕴藏着一种奇特的天然磁力。若能善加引导，"
+				"或许能成为我们探索世界的助力？"
+				""
+				"§a※ 提示 ※§r"
+				"此树的磁力特性，是开启一段隐藏故事的关键线索之一。"
+			]
+			dependencies: ["1D3C1E4FCE876698"]
+			hide: true
+			id: "4398C92364FFE952"
+			tasks: [
+				{
+					id: "5F0B499365268B60"
+					type: "observation"
+					title: "辨识树木的种类"
+					icon: "pvz:nut_leaves"
+					timer: 30L
+					observe_type: 0
+					to_observe: "pvz:nut_leaves"
+				}
+				{
+					id: "05E51C655EEB303D"
+					type: "item"
+					item: "pvz:nut_log"
+				}
+			]
+			rewards: [{
+				id: "11C0635075ABEC5A"
+				type: "xp"
+				auto: "no_toast"
+				xp: 300
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			subtitle: "自然的引路者"
+			description: [
+				"以蕴含磁力的坚果木为壳，包裹住核心的罗盘；"
+				"再以充满自然之力的原始精华镶嵌四周。"
+				"如此，指针便能感应并指向这植物世界的任何一处角 落！"
+				""
+				"§a※ 进度预告 ※§r"
+				"完成关卡 2-9 后将开启隐藏支线。"
+			]
+			dependencies: ["4398C92364FFE952"]
+			hide: true
+			id: "4D13F422DF877516"
+			tasks: [{
+				id: "5EDCD06A586F6979"
+				type: "item"
+				title: "合成一个群系指南针"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "6099B772B8EF9EF8"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+		{
+			disable_toast: true
+			x: 6.0d
+			y: -3.0d
+			subtitle: "古遗迹的引路者"
+			description: ["制作一枚能指引古老遗迹方向的魔法指南针。"]
+			dependencies: [
+				"70DBBC015334772D"
+				"4D13F422DF877516"
+			]
+			hide: true
+			id: "7E756C6A11A93309"
+			tasks: [{
+				id: "42B5BCBF88A56D8A"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "67A7028659B88A91"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			title: "樱桃"
+			x: 2.0d
+			y: 1.0d
+			subtitle: "绯红的馈赠"
+			description: [
+				"枝头挂满了饱满多汁的绯红果实，散发着诱人的甜香。"
+				""
+				"据说，有缘人还能在此遇见一对脾气火爆的「好兄弟」"
+			]
+			dependencies: ["1D3C1E4FCE876698"]
+			hide: true
+			id: "20FCEA0FBE659C5C"
+			tasks: [
+				{
+					id: "5C5601B14E81FBFD"
+					type: "observation"
+					title: "辨识树木的种类"
+					icon: "bpmc:cherry_leaves"
+					timer: 30L
+					observe_type: 0
+					to_observe: "bpmc:cherry_leaves"
+				}
+				{
+					id: "63293BB6F174ECD5"
+					type: "item"
+					item: "bpmc:cherry"
+				}
+			]
+			rewards: [{
+				id: "67ED1116C52D7674"
+				type: "xp"
+				auto: "no_toast"
+				xp: 300
+			}]
+		}
+		{
+			title: "暴躁的兄弟俩"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "双生的爆裂"
+			description: [
+				"樱桃炸弹那火爆的脾气，与禅境花园的静谧格格不入。"
+				"它们对谁都怒目而视——尤其是当僵尸贴近时，"
+				"那份积攒的怒火便会化作最炽烈的……告别。"
+			]
+			dependencies: ["20FCEA0FBE659C5C"]
+			id: "525921EA5CF20FFB"
+			tasks: [{
+				id: "32F131377BE406E7"
+				type: "item"
+				item: {
+					id: "pvz:cherry_bomb_card"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "杨桃"
+			x: 0.0d
+			y: 2.5d
+			subtitle: "星形的恩赐"
+			description: [
+				"枝头挂满了饱满的五棱果实，如同繁星坠入凡间。"
+				""
+				"这般独特的美味，或许本就是来自星辰的赠礼。"
+			]
+			dependencies: ["1D3C1E4FCE876698"]
+			hide: true
+			id: "1FFFA15D712107C2"
+			tasks: [
+				{
+					id: "6832ACD9E819295D"
+					type: "observation"
+					title: "辨识树木的种类"
+					icon: "bpmc:starfruit_leaves"
+					timer: 30L
+					observe_type: 0
+					to_observe: "bpmc:starfruit_leaves"
+				}
+				{
+					id: "648B99BDB096BC99"
+					type: "item"
+					item: "bpmc:starfruit"
+				}
+			]
+			rewards: [{
+				id: "0A4D91058154AFB8"
+				type: "xp"
+				auto: "no_toast"
+				xp: 300
+			}]
+		}
+		{
+			title: "天上的星星？！"
+			x: 0.0d
+			y: 5.0d
+			subtitle: "神圣的滋味"
+			description: [
+				"「真的好美味啊~」"
+				""
+				"史蒂夫无视了旁边天使星星果那惊恐万状的眼神，"
+				"忍不住对着手中散发着星辉的杨桃，结结实实地啃下了一大口。"
+			]
+			dependencies: ["1FFFA15D712107C2"]
+			hide: true
+			id: "6CEB7446990060CB"
+			tasks: [{
+				id: "516D937B599B5885"
+				type: "item"
+				item: "bpmc:angel_starfruit"
+			}]
+			rewards: [{
+				id: "1623187682A2AEE6"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			description: [
+				"小心，别把它和那个会蹦起来的「窝瓜」搞混了——"
+				"这是倭瓜，据说它们的数量比食人花还要稀少。"
+				""
+				"许多旅人跨越千山万水，"
+				"也未能寻得一枚真正的倭瓜。"
+			]
+			dependencies: ["1D3C1E4FCE876698"]
+			hide: true
+			id: "796838A664622DC3"
+			tasks: [{
+				id: "13DCA6D52787A305"
+				type: "observation"
+				title: "这是什么？"
+				icon: "bpmc:squash"
+				timer: 30L
+				observe_type: 0
+				to_observe: "bpmc:squash"
+			}]
+			rewards: [{
+				id: "7AF024D3D7BA2171"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			subtitle: "稀世珍馐"
+			description: [
+				"「嘎吱嘎吱——」"
+				""
+				"这酥脆的倭瓜片，稀有到令无数旅者只曾耳闻，"
+				"却从未有幸亲口品尝。"
+			]
+			dependencies: ["796838A664622DC3"]
+			id: "5B991C4E9E6CAD56"
+			tasks: [{
+				id: "37D363C212DA25E1"
+				type: "item"
+				item: "bpmc:squash_slice"
+			}]
+			rewards: [{
+				id: "2B4B358469A94F88"
+				type: "xp"
+				auto: "no_toast"
+				xp: 300
+			}]
+		}
+		{
+			title: "食人花？"
+			x: -2.0d
+			y: -1.0d
+			subtitle: "深紫的掠食者"
+			description: [
+				"在铺天盖地的绿意之中，蓦然浮现出点点深邃的紫影。"
+				""
+				"那莫非就是……传说中以血肉为食的植物？"
+			]
+			dependencies: ["1D3C1E4FCE876698"]
+			hide: true
+			id: "782A367AAB962CF2"
+			tasks: [{
+				id: "435856C1B7883503"
+				type: "observation"
+				title: "这就是食人花？"
+				icon: "pvz:chomper"
+				timer: 30L
+				observe_type: 0
+				to_observe: "pvz:chomper"
+			}]
+			rewards: [{
+				id: "2893B1DDFCE1542B"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			title: "种植食人花"
+			icon: "minecraft:bone"
+			x: -4.0d
+			y: -2.0d
+			subtitle: "危险！保持安全距离！"
+			description: [
+				"在食人花旁撒下骨粉……"
+				""
+				"§c哗啦！§r"
+				""
+				"一瞬间，它们便疯狂地增殖开来！"
+			]
+			dependencies: ["782A367AAB962CF2"]
+			id: "0FF2133B5E9F5643"
+			tasks: [{
+				id: "4648C1C069CC1C86"
+				type: "questsadditions:use"
+				title: "对食人花使用骨粉"
+				icon: {
+					id: "minecraft:bone_meal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				block_type: 0
+				block: "pvz:chomper"
+				value: 1L
+				checkItem: false
+				isItemInteraction: false
+			}]
+			rewards: [{
+				id: "27C1DAA08FF7316D"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+		{
+			title: "奇怪的罐子"
+			x: 0.0d
+			y: -2.5d
+			subtitle: "脆弱的谜题"
+			description: [
+				"这些散布各处的罐子散发着微弱的自然之力，"
+				"但其结构却异常脆弱，徒手触碰恐将损毁。"
+				""
+				"它们似乎需要一种特定的共鸣方能安全开启……"
+				"或许，一件富含生命力的工具会是关键？"
+			]
+			dependencies: ["1D3C1E4FCE876698"]
+			hide: true
+			id: "1380A875DCD8C919"
+			tasks: [
+				{
+					id: "3BA81A4B2B359100"
+					type: "observation"
+					title: "探查罐子的奥秘"
+					icon: "bpmc:question_mark_pot"
+					timer: 30L
+					observe_type: 0
+					to_observe: "bpmc:question_mark_pot"
+				}
+				{
+					id: "5C06C1F640654297"
+					type: "observation"
+					title: "探查罐子的奥秘"
+					icon: "bpmc:plant_pot"
+					timer: 30L
+					observe_type: 0
+					to_observe: "bpmc:plant_pot"
+				}
+			]
+			rewards: [{
+				id: "5675C722C31A5622"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			subtitle: "共鸣之锤"
+			description: [
+				"灵感源自那些奇特的罐子——将原始精华与其他金属一同锻造，制成这种蕴含生命力的「共鸣之锭」。"
+				""
+				"§6‖ 功能说明 ‖§r"
+				"• §b开启罐子§f：以此锤敲击，可安全开启脆弱的魔法罐。"
+				"• §b克制亡灵§f：其中饱含的生机，对僵尸能造成显著伤 害。"
+				""
+				"§6‖ 罐内秘藏 ‖§r"
+				"• §a植物罐§f：必定开出各种植物体验卡。"
+				"• §6问号罐§f：高概率出现僵尸或体验卡，§e小概率§f开出「罐 子草」。"
+				"• §a罐子草§f：可召唤中立增援植物，与你并肩作战。"
+			]
+			dependencies: ["1380A875DCD8C919"]
+			hide: true
+			dependency_requirement: "all_started"
+			id: "059ABD26A1CCFA38"
+			tasks: [{
+				id: "32ECC20630BC28E6"
+				type: "item"
+				item: {
+					id: "bpmc:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "54BC34F2946CB1A9"
+				type: "xp"
+				auto: "no_toast"
+				xp: 300
+			}]
+		}
+	]
+}

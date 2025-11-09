@@ -1,0 +1,196 @@
+
+#Settings about invasion.
+["Invasion Settings"]
+	#If you set to 5, then the first 5 * 20 minutes of the world will not have any zombie invasion event.
+	#Range: 0 ~ 1000000
+	SafeDayLength = 2
+	#If on, invasions of different players will happen in different days.
+	ScatterInvasions = false
+	#The interval day length between each invasion.
+	#Range: 0 ~ 1000000
+	InvasionIntervalLength = 3
+	#If true, you will receive detail message about each event when zombie invasion happened.
+	ShowEventMessages = true
+	#If true, players will be invaded by a huge wave of zombies in zombie invasion day
+	EnableHugeWave = true
+	#how many amount of entity will spawn to player when the plant amount reaches the limit.
+	#Range: 1 ~ 1000
+	MaxSpawnCount = 75
+	#how far can entity spawn in invasion.
+	#Range: 50 ~ 100
+	MaxSpawnRange = 70
+
+#Settings about challenge
+["Challenge Settings"]
+	#Turn to false, no new challenge will happen, and old challenges will be clear.
+	EnableChallenge = true
+	#how many ticks will challenge wait to remove, when there is no player in it.
+	#Range: 1 ~ 1000000
+	ChallengeWaitTime = 400
+	#how far will a player join the raid.
+	#Range: 1 ~ 1000
+	ChallengeRange = 50
+
+#Settings about global rules.
+["Rule Settings"]
+	#if turn to false, there will have no monster of other monsters spawn in overworld except pvz zombies.
+	CanSpawnDefaultMonster = true
+	#If you set it true, you will get some basic plantcards when you first join world.
+	GiveBeginnerReward = false
+	#If turn to false, saplings no longer to grow to Origin Ore naturally, except there is a block above it.
+	AllowNaturalTurnOrigin = true
+	#if turn to true, when plant's owner is in a team, the plant will attack the entity from other team(include players).
+	PlantAttackTeam = false
+	#how many plants can you place in 128 x 128 area without increasing cost.
+	#Range: 5 ~ 300
+	LimitPlantCount = 170
+	#if turn to true, player will keep its sun after death.
+	KeepSunWhenDie = true
+	#how many damage could plants and zombies deal to other living entity.
+	#Range: 0 ~ 100000
+	MaxDamageLimit = 50
+	#an experience multiplier for multiplayer games.
+	#Range: 1 ~ 6
+	PlayerCount = 1
+	#if turn to true, DaveVilla only spawn on the plane. May make DaveVilla far away form player.
+	StrictVilla = false
+
+#Settings about world.
+["World Settings"]
+
+	#Settings about the biome gen.
+	["World Settings"."Biome Settings"]
+		#the gen chance of Zen Garden biome(the larger the more chance to see it).
+		#Range: 10 ~ 100
+		GenZenGardenChance = 10
+
+	#Settings about the structure gen.
+	["World Settings"."Structure Settings"]
+		#the distance value between dave villa.
+		#Range: 10 ~ 100
+		DaveVillaDistance = 40
+		#the distance value between bucket house.
+		#Range: 10 ~ 100
+		BucketHouseDistance = 54
+		#the distance value between dolphin house.
+		#Range: 10 ~ 100
+		DolphinHouseDistance = 48
+		#the distance value between grave house.
+		#Range: 10 ~ 100
+		GraveHouseDistance = 56
+		#the distance value between sun temple.
+		#Range: 10 ~ 100
+		SunTempleDistance = 50
+		#the distance value between yeti house.
+		#Range: 10 ~ 100
+		YetiHouseDistance = 70
+
+	#Settings about the ore gen.
+	["World Settings"."Ore Settings"]
+		#the gen chance of origin ore in overworld(the larger the more chance to see it).
+		#Range: 1 ~ 20
+		GenOriginOreChance = 20
+		#the gen chance of amethyst ore in the end(the larger the more chance to see it).
+		#Range: 1 ~ 15
+		GenAmethystOreChance = 15
+
+	#The Spawn Weight of entity.
+	["World Settings".EntitySpawnWeight]
+		#spawn weight of Sun.
+		#Range: 1 ~ 200
+		SunSpawnWeight = 50
+		#spawn weight of LavaZombie at nether.
+		#Range: 1 ~ 200
+		LavaZombieSpawnWeight = 10
+		#spawn weight of TombStone at night in overworld.
+		#Range: 1 ~ 10
+		TombStoneSpawnWeight = 1
+		#spawn weight of YetiZombie in overworld when thunder.
+		#Range: 0 ~ 200
+		YetiZombieSpawnWeight = 0
+
+#Settings about entities.
+["Entity Settings"]
+
+	#Settings about players.
+	["Entity Settings"."Player Settings"]
+		#Player Initial Group When they join the world for the first time(-2 means other monsters, -1 means zombies, 0 means neutral creatures, 1 means plants and 2 means other guards).
+		#Range: -2 ~ 2
+		PlayerInitialGroup = 1
+		#players' base sun amount, it will increase when tree maxLevel increasing.
+		#Range: 100 ~ 750
+		PlayerInitialSun = 500
+
+	#Settings about zombies.
+	["Entity Settings"."Zombie Settings"]
+		#the spawn chance of zombie with plant energy(the bigger,the more chance it spawn).
+		#Range: 0 ~ 5
+		ZombieSuperChance = 2
+		#the spawn chance of zombie with sun layer(the bigger,the more chance it spawn).
+		#Range: 0 ~ 40
+		ZombieSunChance = 0
+		#the drop chance of coin when zombie die(the bigger,the less chance it spawn).
+		#Range: 3 ~ 100
+		ZombieDropMultiper = 5
+		#enable zombies to drop hands and heads when they got hurt(turn false to disable).
+		EnableZombieDropParts = false
+
+	#Settings about plants.
+	["Entity Settings"."Plant Settings"]
+		#the max number StrangeCats can copy themselves in a range of 20 * 20.
+		#Range: 0 ~ 100
+		StrangeCatCount = 10
+		#whether two same bullets merge into one when coincide.
+		PlantBulletMerge = true
+
+	#The Max live time for Entity like sun.
+	["Entity Settings".EntityLiveTime]
+		#how many ticks can the sun entity live.
+		#Range: 1 ~ 1200
+		SunLiveTick = 400
+		#how many ticks can the coin entity live.
+		#Range: 1 ~ 1200
+		CoinLiveTick = 800
+		#how many ticks can the jewel entity live.
+		#Range: 1 ~ 2400
+		JewelLiveTick = 2400
+		#how many ticks can the energy entity live.
+		#Range: 1 ~ 1200
+		PlantFoodLiveTick = 1200
+		#how many ticks can yeti entity live(how long will it stay).
+		#Range: 2400 ~ 7200
+		YetiLiveTick = 7200
+		#how many ticks can lawnmower entity live.
+		#Range: 1 ~ 1000000
+		LawnMowerLiveTick = 200
+		#how many ticks can element ball entity live.
+		#Range: 1 ~ 1000000
+		ElementBallLiveTick = 600
+
+#Settings about blocks.
+["Block Settings"]
+	#The chance to get Essence Ore from Origin Block's effect
+	#Range: 0.0 ~ 0.25
+	OriginEffectChance = 0.25
+	#The chance when sapling turn to origin ore
+	#Range: 0.0 ~ 0.1
+	SaplingTurnChance = 0.1
+	#The chance to anger nearby endermen when break amethyst ore
+	#Range: 0.0 ~ 1.0
+	AmethystAngerChance = 1.0
+
+	#Setting about break blocks.
+	["Block Settings"."Break Block Setting"]
+		#the drop chance of pea when you break grass
+		#Range: 0.0 ~ 1.0
+		PeaDropChance = 0.05
+		#the drop chance of cabbage when you break grass
+		#Range: 0.0 ~ 1.0
+		CabbageDropChance = 0.025
+
+#Settings about items.
+["Item Settings"]
+	#The chance when player got a surprise when use jack box.the bigger the value is,the lower chance you get.(more specifically 1/x)
+	#Range: 1 ~ 1000000
+	JackBoxSurpriseChance = 10
+

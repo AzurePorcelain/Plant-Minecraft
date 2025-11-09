@@ -1,0 +1,32 @@
+{
+  "parent": "pvz:adventure/1-7",
+  "display": {
+    "icon": {
+      "item": "pvz:challenge_envelope"
+    },
+    "title": {
+      "translate": "advancement.pvz.1-8"
+    },
+    "description": {
+      "translate": "advancement.pvz.1-8.desc"
+    },
+    "frame":"task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "in_world": {
+      "trigger": "pvz:challenge",
+      "conditions": {
+        "type": "pvz:1-8"
+      }
+    }
+  },
+  "requirements": [[
+    "in_world"
+  ]],
+  "rewards":{
+    "experience":1000
+  }
+}

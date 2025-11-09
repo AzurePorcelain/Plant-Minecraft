@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_sword"
+  },
+  "addition": {
+    "item": "pvz:origin_ingot"
+  },
+  "result": {
+    "item": "pvz:origin_sword"
+  }
+}

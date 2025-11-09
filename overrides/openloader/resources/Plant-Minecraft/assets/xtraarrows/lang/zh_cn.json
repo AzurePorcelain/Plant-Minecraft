@@ -1,0 +1,87 @@
+{
+    "item.xtraarrows.iron_arrow": "铁质箭矢",
+    "item.xtraarrows.diamond_arrow": "钻石箭矢",
+    "item.xtraarrows.golden_arrow": "金质箭矢",
+    "item.xtraarrows.netherite_arrow": "下界合金箭矢",
+    "item.xtraarrows.headless_arrow": "无头箭矢",
+    "item.xtraarrows.padded_arrow": "羊毛箭矢",
+
+    "item.xtraarrows.diamond_lightning_arrow": "引雷箭矢",
+
+    "item.xtraarrows.flint_torch_arrow": "火把箭矢",
+
+    "item.xtraarrows.diamond_ender_arrow": "钻石末影箭",
+    "item.xtraarrows.netherite_ender_arrow": "合金末影箭",
+    "item.xtraarrows.golden_ender_arrow": "金质末影箭",
+    "item.xtraarrows.iron_ender_arrow": "铁质末影箭",
+    "item.xtraarrows.flint_ender_arrow": "末影箭矢",
+
+    "item.xtraarrows.diamond_tracking_arrow": "钻石追踪箭",
+    "item.xtraarrows.netherite_tracking_arrow": "合金追踪箭",
+    "item.xtraarrows.golden_tracking_arrow": "金质追踪箭",
+    "item.xtraarrows.iron_tracking_arrow": "铁质追踪箭",
+    "item.xtraarrows.flint_tracking_arrow": "追踪箭矢",
+
+    "item.xtraarrows.diamond_vexing_arrow": "钻石穿透箭",
+    "item.xtraarrows.netherite_vexing_arrow": "合金穿透箭",
+    "item.xtraarrows.golden_vexing_arrow": "金质穿透箭",
+    "item.xtraarrows.iron_vexing_arrow": "铁质穿透箭",
+    "item.xtraarrows.flint_vexing_arrow": "穿透箭矢",
+
+    "item.xtraarrows.flint_soul_torch_arrow": "灵魂火把箭矢",
+
+    "item.xtraarrows.diamond_atlantean_arrow": "钻石海神箭矢",
+    "item.xtraarrows.netherite_atlantean_arrow": "合金海神箭矢",
+    "item.xtraarrows.golden_atlantean_arrow": "金质海神箭矢",
+    "item.xtraarrows.iron_atlantean_arrow": "铁质海神箭矢",
+    "item.xtraarrows.flint_atlantean_arrow": "海神箭矢",
+
+    "item.xtraarrows.iron_arrowhead": "铁质箭头",
+    "item.xtraarrows.diamond_arrowhead": "钻石箭头",
+    "item.xtraarrows.golden_arrowhead": "金质箭头",
+    "item.xtraarrows.netherite_arrowhead": "合金箭头",
+    "item.xtraarrows.flint_arrowhead": "箭头",
+
+    "item.xtraarrows.arrow_padding": "羊毛箭头",
+    "item.xtraarrows.copper_arrow_lining": "雷电之力",
+    "item.xtraarrows.vex_wing": "恼鬼的翅膀",
+
+    "entity.xtraarrows.iron_arrow": "铁质箭矢",
+    "entity.xtraarrows.diamond_arrow": "钻石箭矢",
+    "entity.xtraarrows.golden_arrow": "金质箭矢",
+    "entity.xtraarrows.netherite_arrow": "下界合金箭矢",
+    "entity.xtraarrows.headless_arrow": "无头箭矢",
+    "entity.xtraarrows.padded_arrow": "羊毛箭矢",
+
+    "entity.xtraarrows.diamond_lightning_arrow": "引雷箭矢",
+
+    "entity.xtraarrows.flint_torch_arrow": "火把箭矢",
+
+    "entity.xtraarrows.diamond_ender_arrow": "钻石末影箭",
+    "entity.xtraarrows.netherite_ender_arrow": "合金末影箭",
+    "entity.xtraarrows.golden_ender_arrow": "金质末影箭",
+    "entity.xtraarrows.iron_ender_arrow": "铁质末影箭",
+    "entity.xtraarrows.flint_ender_arrow": "末影箭矢",
+
+    "entity.xtraarrows.diamond_tracking_arrow": "钻石追踪箭",
+    "entity.xtraarrows.netherite_tracking_arrow": "合金追踪箭",
+    "entity.xtraarrows.golden_tracking_arrow": "金质追踪箭",
+    "entity.xtraarrows.iron_tracking_arrow": "铁质追踪箭",
+    "entity.xtraarrows.flint_tracking_arrow": "追踪箭矢",
+
+    "entity.xtraarrows.diamond_vexing_arrow": "钻石穿透箭",
+    "entity.xtraarrows.netherite_vexing_arrow": "合金穿透箭",
+    "entity.xtraarrows.golden_vexing_arrow": "金质穿透箭",
+    "entity.xtraarrows.iron_vexing_arrow": "铁质穿透箭",
+    "entity.xtraarrows.flint_vexing_arrow": "穿透箭矢",
+
+    "entity.xtraarrows.flint_soul_torch_arrow": "灵魂火把箭矢",
+
+    "entity.xtraarrows.diamond_atlantean_arrow": "钻石海神箭矢",
+    "entity.xtraarrows.netherite_atlantean_arrow": "合金海神箭矢",
+    "entity.xtraarrows.golden_atlantean_arrow": "金质海神箭矢",
+    "entity.xtraarrows.iron_atlantean_arrow": "铁质海神箭矢",
+    "entity.xtraarrows.flint_atlantean_arrow": "海神箭矢",
+
+    "itemGroup.xtraarrows": "更多箭矢"
+}

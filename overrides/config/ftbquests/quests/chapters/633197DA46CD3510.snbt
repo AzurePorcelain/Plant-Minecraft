@@ -1,0 +1,294 @@
+{
+	id: "633197DA46CD3510"
+	group: "1ABB7C487E06073F"
+	order_index: 1
+	filename: "633197DA46CD3510"
+	title: "永恒的伙伴"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "revampedwolf:textures/item/diamond_wolf_armor.png"
+		}
+	}
+	default_quest_shape: "diamond"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "永恒的伙伴"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"在这生机勃勃的世界里，潜藏着许多独特的生灵。"
+				"去结识、去驯服它们，与这些野性而忠诚的灵魂，"
+				"结下永恒的羁绊，共同踏上未知的旅途。"
+			]
+			dependencies: [
+				"6D0C28CFCE49BF94"
+				"747C7AAAC24EC47B"
+			]
+			dependency_requirement: "one_completed"
+			id: "70C2A3D7A99B5727"
+			tasks: [{
+				id: "573BAF1B3D19BF4F"
+				type: "advancement"
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+			}]
+		}
+		{
+			title: "狼王"
+			x: 1.5d
+			y: 1.5d
+			shape: "diamond"
+			subtitle: "荒野的君主"
+			description: [
+				"在那神秘的狼群中，存在着一位傲视群雄的君主。"
+				"它高贵而凶猛，引领族群狩猎，分享盛宴。"
+				"月圆之夜，它的嗥叫便是这片土地的法则。"
+			]
+			id: "747C7AAAC24EC47B"
+			tasks: [{
+				id: "3DBDA8D9065C2007"
+				type: "observation"
+				title: "与狼对视"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "revampedwolf:textures/item/bagu_hat.png"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:wolf"
+			}]
+			rewards: [{
+				id: "71923D68EFD4B08D"
+				type: "xp"
+				auto: "no_toast"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: [
+				"与狼群建立友谊，一根骨头是最友善的问候。"
+				"若一根不足以表达你的诚意，那就慷慨地献上更多。"
+				""
+				"§7※ 提示 ※§r"
+				"遗迹箱或下界是骨头的绝佳来源。"
+			]
+			dependencies: ["747C7AAAC24EC47B"]
+			hide: true
+			id: "243FE6F193723FEB"
+			tasks: [{
+				id: "770770BA2927E85D"
+				type: "questsadditions:interaction"
+				title: "友好的交流"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "minecraft:wolf"
+					}
+				}
+				entity: "minecraft:wolf"
+				nbt: { }
+				value: 1L
+				checkItem: true
+				item: {
+					id: "minecraft:bone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "639C7C3725D4C3EE"
+				type: "xp"
+				auto: "no_toast"
+				xp: 300
+			}]
+		}
+		{
+			title: "驯服一头狼"
+			x: 6.0d
+			y: 1.5d
+			subtitle: "狼群的契约"
+			description: [
+				"真正的勇者从不拒绝狼的挑战，而是选择成为它们的 王。"
+				"当你与这些野性而敏感的灵魂建立起信任，"
+				"一种无需言语的默契，将成为你们之间最牢固的纽带。"
+			]
+			dependencies: ["243FE6F193723FEB"]
+			hide: true
+			id: "1160AB0617FF9C5B"
+			tasks: [{
+				id: "525CD1EC14DB966D"
+				type: "advancement"
+				advancement: "minecraft:husbandry/tamed_wolf"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1FAB9AB9DE0EDBC7"
+				type: "xp"
+				auto: "no_toast"
+				xp: 300
+			}]
+		}
+		{
+			title: "多！再多一点！"
+			x: 8.0d
+			y: 3.0d
+			subtitle: "忠诚的狼群"
+			description: [
+				"驯服的狼不仅是伙伴，更是一支无坚不摧的忠诚军团。"
+				"繁殖它们，壮大你的狼群，让它们成为你最信赖的力 量。"
+			]
+			dependencies: ["1160AB0617FF9C5B"]
+			hide: true
+			id: "6C6A12BD2938BA7D"
+			tasks: [{
+				id: "3E37A622E578818D"
+				type: "advancement"
+				advancement: "minecraft:husbandry/breed_wolf"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "37BB60BBA2F8405B"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			subtitle: "武裝与荣耀"
+			description: [
+				"§6‖ 武装狼群 ‖§r"
+				"• 为狼装备§c下界合金狼铠§f，将其打造成真正的战争机 器。"
+				"• 还可以为铠甲附魔，使其更加强大。"
+				""
+				"§6‖ 赋予荣耀 ‖§r"
+				"• 用命名牌为忠诚伙伴取一个富有力量的名字，"
+				"  如「影刃」、「雷霆」，以彰显其独特的魅力。"
+				""
+				"▸ 解锁  旅者见闻录「命名牌」"
+			]
+			dependencies: ["1160AB0617FF9C5B"]
+			hide: true
+			optional: true
+			id: "2F94654872D8EF4F"
+			tasks: [{
+				id: "256B135D8C6A970D"
+				type: "item"
+				item: {
+					id: "revampedwolf:netherite_wolf_armor"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "184939A84E892F11"
+					type: "item"
+					item: "minecraft:name_tag"
+				}
+				{
+					id: "78F2136C75562A94"
+					type: "xp"
+					auto: "no_toast"
+					xp: 1000
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: [
+				"驯养一匹骏马，体验风驰电掣的亲密。"
+				""
+				"§6‖ 坐骑系统 ‖§r"
+				"• §eP键§f：将马匹设为§b专属坐骑§f。"
+				"• §eR键§f：吹响口哨，在有空位时召唤它至身边。"
+				"• §eY键§f：打开GUI，查看坐骑的状态与位置。"
+			]
+			id: "6D0C28CFCE49BF94"
+			tasks: [{
+				id: "215BDE239DA84DBD"
+				type: "observation"
+				title: "寻找骏马"
+				icon: {
+					id: "minecraft:saddle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:horse"
+			}]
+			rewards: [
+				{
+					id: "3E86A5C77D473E7A"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "minecraft:saddle"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2BFAA2F7A0C4FA9A"
+					type: "xp"
+					auto: "no_toast"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			description: ["当与马儿建立起深厚的情感，便可为它披上§c下界合金马铠§f，让这位忠诚的伙伴在冒险中更加英武不凡。"]
+			dependencies: ["6D0C28CFCE49BF94"]
+			hide: true
+			optional: true
+			id: "0C1E81F217D37F19"
+			tasks: [{
+				id: "3096F468BFA75E01"
+				type: "item"
+				item: {
+					id: "netherite_plus:netherite_horse_armor"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "62EABC19AAF51E50"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+	]
+}

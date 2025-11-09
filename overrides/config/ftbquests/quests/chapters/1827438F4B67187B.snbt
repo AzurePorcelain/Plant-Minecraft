@@ -1,0 +1,684 @@
+{
+	id: "1827438F4B67187B"
+	group: "61357C1B696394B5"
+	order_index: 1
+	filename: "1827438F4B67187B"
+	title: "下界合金！"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "netherite_plus:textures/item/netherite_elytra.png"
+		}
+	}
+	default_quest_shape: "diamond"
+	default_hide_dependency_lines: true
+	quests: [
+		{
+			x: -3.0d
+			y: 0.0d
+			description: [
+				"相传，这块古老的残骸来自一处早已失落的锻造厂，"
+				"是某个辉煌时代留下的最后刻印。"
+				""
+				"黑曜石的坚毅与黄金的延展在此交融，"
+				"共同铸就了它不朽的形体。"
+			]
+			dependencies: ["54BDC77423A52BF8"]
+			id: "48CF20BD39E02489"
+			tasks: [{
+				id: "1D283EDAAE16160E"
+				type: "advancement"
+				advancement: "minecraft:nether/obtain_ancient_debris"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"指尖轻抚，史蒂夫仿佛仍能感受到"
+				"那锻造它的岩浆在缓缓流动，炽热未息。"
+				""
+				"在许多世界，这已是凡人所能企及的金属巅峰。"
+				""
+				"▸ 解锁  旅者见闻录「下界合金」"
+			]
+			hide_dependency_lines: false
+			dependencies: ["48CF20BD39E02489"]
+			hide: true
+			id: "09D93B09B046796A"
+			tasks: [{
+				id: "4CD3AC46D6604FF7"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+			rewards: [{
+				id: "029D1F74661677F5"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			subtitle: "苍穹的坚翼"
+			description: [
+				"§6‖ 下界合金鞘翅 ‖§r"
+				"• §e双倍耐久§f，伴你翱翔更远的距离。"
+				"• 穿戴时提供§b少量护甲值§f，增加生存保障。"
+				""
+				"§a‖ 使用技巧 ‖§r"
+				"它同样可以置于§d饰品栏§f，让你在保留原有胸甲属性的同时，获得翱翔天际的能力！"
+			]
+			dependencies: ["09D93B09B046796A"]
+			hide: true
+			id: "6E994BF5BD98D394"
+			tasks: [{
+				id: "642E00AD76033DFE"
+				type: "item"
+				item: {
+					id: "netherite_plus:netherite_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A4575B166E3DDF2"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			description: [
+				"§6‖ 下界合金剑 ‖§r"
+				"斩神屠魔，一剑诛仙。"
+				"凝光似霜雪，剑起气如虹。"
+				""
+				"此乃凡铁之巅，亦是弑神之始。"
+			]
+			dependencies: ["09D93B09B046796A"]
+			hide: true
+			id: "65053D5E98123459"
+			tasks: [{
+				id: "7B278FE913E83763"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B9B837F9D605C98"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: [
+				"§6‖ 下界合金镐 ‖§r"
+				"如今在地下破土碎岩时，即便一头扎进岩浆湖，"
+				"它也绝不会离你而去——这实在太酷了！"
+			]
+			dependencies: ["09D93B09B046796A"]
+			hide: true
+			id: "556A7279A185AAC3"
+			tasks: [{
+				id: "5BA37EE3AB3F7872"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2EEB9A96AB94235F"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			title: "下界合金装甲"
+			x: 2.5d
+			y: 3.0d
+			description: [
+				"以古老的残骸铸就崭新的铠甲，"
+				"赋予你直面深渊、迎击神魔的勇气与力量。"
+			]
+			dependencies: ["09D93B09B046796A"]
+			hide: true
+			id: "2DC3386E458D2580"
+			tasks: [
+				{
+					id: "33C416120212D6D8"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "minecraft:netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "00C3958DEAD18BB4"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "minecraft:netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "08058E91121EA18F"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "minecraft:netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "45A4E49F4688F832"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "minecraft:netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3A8123FA31BC6D81"
+				type: "xp"
+				auto: "no_toast"
+				xp: 2500
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			description: [
+				"§6‖ 下界合金背包 ‖§r"
+				"大，越大越好！"
+				""
+				"谁不渴望一个远超想象的、"
+				"能装下整个冒险旅途的背包呢？"
+			]
+			hide_dependency_lines: false
+			dependencies: ["09D93B09B046796A"]
+			hide: true
+			id: "18CEC1A62D7F2E3F"
+			tasks: [{
+				id: "294B346F509B70EB"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [{
+				id: "34FF3B72A8675CC2"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			subtitle: "坚如磐石"
+			description: [
+				"§6‖ 下界合金盾牌 ‖§r"
+				"它如叹息之壁般坚不可摧，能格挡世间绝大部分攻击。"
+				""
+				"§7※ 机制说明 ※§r"
+				"然而，部分毁灭性的力量仍会穿透防御，"
+				"将冲击传递至你的盔甲，使其承受耐久损耗。"
+			]
+			dependencies: ["09D93B09B046796A"]
+			hide: true
+			id: "29F6E183511B3B95"
+			tasks: [{
+				id: "71237F93233D2510"
+				type: "item"
+				item: {
+					id: "netherite_plus:netherite_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3A9339244ADE9A74"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			subtitle: "星骸之弓"
+			description: [
+				"§6‖ 下界合金弓 ‖§r"
+				"群星伟力，汇聚于此。"
+				"只此一箭，贯穿星辰。"
+				""
+				"§7※ 性能提升 ※§r"
+				"• 牺牲了瞄准镜的辅助，换取了极致的破坏力。"
+				"• 最终伤害提升至§c110%§f（×1.1）。"
+			]
+			dependencies: ["09D93B09B046796A"]
+			hide: true
+			id: "33AE0FD0D02BAD88"
+			tasks: [{
+				id: "07627701B498A292"
+				type: "item"
+				item: {
+					id: "netherite_plus:netherite_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C7F231CED2D57FD"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			description: [
+				"§6‖ 下界合金弩 ‖§r"
+				"以深渊之金重铸弩身，其结构足以承受更为狂暴的弹射力。"
+				""
+				"§7‖ 性能提升 ‖§r"
+				"• 基础伤害提升至§c120%§f（×1.2），并额外附加§c1点§f伤 害。"
+			]
+			dependencies: ["09D93B09B046796A"]
+			hide: true
+			id: "4E1DA240FEFF3721"
+			tasks: [{
+				id: "1BDE0929CD3D1022"
+				type: "item"
+				item: {
+					id: "netherite_plus:netherite_crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FC8C89FEF609C11"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.0d
+			subtitle: "深渊垂钓者"
+			description: [
+				"§6‖ 下界合金钓竿 ‖§r"
+				"「哥钓的不是鱼——」"
+				"「是深埋于岩浆之海下的远古残骸。」"
+			]
+			dependencies: ["09D93B09B046796A"]
+			hide: true
+			optional: true
+			id: "5DEEBBF11A5E41DB"
+			tasks: [{
+				id: "049F8AC982363B08"
+				type: "item"
+				item: {
+					id: "netherite_plus:netherite_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B42A838AAFE7BCE"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			description: [
+				"§6‖ 下界合金马铠 ‖§r"
+				"此乃马铠锻造工艺的巅峰，"
+				"亦是骑士与其伙伴荣光的终极见证。"
+				""
+				"最优雅的骑士，自当为最忠诚的伙伴，"
+				"披上这身最坚毅的荣耀。"
+			]
+			dependencies: ["09D93B09B046796A"]
+			hide: true
+			id: "5BAD8DBB7F66956E"
+			tasks: [{
+				id: "589DEE0D85E19C15"
+				type: "item"
+				item: "netherite_plus:netherite_horse_armor"
+			}]
+			rewards: [{
+				id: "0F3D9934ABE838DC"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			description: [
+				"§6‖ 下界合金狼铠 ‖§r"
+				"为你的狼群披上这身来自深渊的坚甲，"
+				"将它们锻造成真正的战争伙伴。"
+				""
+				"当狼嚎响彻战场之时，你便是它们唯一的、"
+				"无可争议的——狼王。"
+			]
+			dependencies: ["09D93B09B046796A"]
+			hide: true
+			optional: true
+			id: "5A681EB93A9AD04F"
+			tasks: [{
+				id: "7B1D465C987EF458"
+				type: "item"
+				item: {
+					id: "revampedwolf:netherite_wolf_armor"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3EBF51A08C6B6F68"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			description: [
+				"§6‖ 下界合金斧 ‖§r"
+				"以最坚利之锋，成就最酣畅之伐。"
+				""
+				"每一次挥砍，都是对效率的终极诠释。"
+			]
+			dependencies: ["09D93B09B046796A"]
+			hide: true
+			id: "540A115869292918"
+			tasks: [{
+				id: "059B7E689D34576C"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0637292DFCA8570A"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: [
+				"抹去额前因熔炼合金而沁出的汗水，史蒂夫咧嘴一笑——"
+				"这些闪耀着深渊光泽的金属，"
+				"应当足以支撑他很长、很长一段时间的冒险了。"
+			]
+			hide_dependency_lines: false
+			dependencies: ["09D93B09B046796A"]
+			hide: true
+			id: "7AC6149104C1E257"
+			tasks: [{
+				id: "1C00E8E1FB77BE40"
+				type: "item"
+				item: "minecraft:netherite_block"
+				count: 3L
+			}]
+			rewards: [{
+				id: "3A8EB5095C24953E"
+				type: "xp"
+				auto: "no_toast"
+				xp: 3000
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			subtitle: "力量的丰碑"
+			description: [
+				"极尽奢华，非凡入圣！"
+				""
+				"历经漫长的地下探索，史蒂夫早已熟稔地底的一切："
+				"他曾穿越巨型岩浆湖，与矿工一族邂逅；"
+				"也曾漫步于地下森林，劈开无数神秘的板条箱……"
+				""
+				"然而，当这把蕴含着深邃魔咒之力的金镐，"
+				"毫无征兆地出现在他的背包中时，"
+				"即便是他也感到了惊疑——"
+				""
+				"这究竟是哪个板条箱的秘藏，"
+				"还是某座失落遗迹的赠礼？"
+				"抑或……答案远非如此简单？"
+				""
+				"§7※ 进度预告 ※§r"
+				"完成屋顶最终关卡后，将解锁相关的隐藏任务与奖励。"
+			]
+			hide_dependency_lines: false
+			dependencies: ["7AC6149104C1E257"]
+			hide: true
+			id: "215B94F2DAC541AC"
+			tasks: [{
+				id: "58A6A8F8863309D7"
+				type: "item"
+				item: "netherite_plus:netherite_beacon"
+			}]
+			rewards: [{
+				id: "548B148CD00BDF84"
+				type: "item"
+				auto: "enabled"
+				item: {
+					id: "minecraft:golden_pickaxe"
+					Count: 1b
+					tag: {
+						Unbreakable: 1
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "apotheosis:earths_boon"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:efficiency"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"§e丰饶\"}"
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "凡世之巅"
+			x: 0.0d
+			y: 9.0d
+			subtitle: "以下界合金块筑就满级信标基座"
+			description: [
+				"当这座极致的下界合金信标塔亮起，光柱冲天而上时，"
+				"史蒂夫仰望着它，过往挖矿的艰辛历历在目。"
+				""
+				"然而，一股异样感陡然袭来——"
+				"他眯眼望向光束的尽头，"
+				"只见天外有什么东西，正以不可思议的速度破空坠来！"
+				""
+				"来不及做出任何反应，那团光芒已瞬息而至，"
+				"在他瞪大的双眼前骤然悬停，"
+				"散发着静谧而神秘的蓝色辉光……"
+			]
+			hide_dependency_lines: false
+			dependencies: [
+				"215B94F2DAC541AC"
+				"0D40A1D791055EC4"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "17483CB4B38206C7"
+			tasks: [{
+				id: "4DA7F55EC6600DD8"
+				type: "advancement"
+				title: "见证凡世的奇迹"
+				advancement: "netherite_plus:netherite_plus/netherite_beacon_ultra"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7C4663AF382A64E8"
+					type: "gamestage"
+					auto: "no_toast"
+					stage: "Netherite_feeding_upgrade"
+				}
+				{
+					id: "7E9A2049BF16028F"
+					type: "xp_levels"
+					auto: "no_toast"
+					xp_levels: 200
+				}
+				{
+					id: "61F6E706E247B847"
+					type: "command"
+					title: "玩家抽奖次数+50"
+					icon: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:pool_night"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/playerstats @p add lottery_chance 50"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -6.0d
+			description: [
+				"§6‖ 下界合金箭 ‖§r"
+				"最强的远程武器，自当配以最坚不可摧的锋镝。"
+				""
+				"让每一次离弦，都成为无可阻挡的终结。"
+			]
+			dependencies: ["09D93B09B046796A"]
+			hide: true
+			optional: true
+			id: "3179DC116C7593A4"
+			tasks: [{
+				id: "7BCDE44AABEC1A02"
+				type: "item"
+				item: {
+					id: "xtraarrows:netherite_arrow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6F634FD3C4D924BA"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+	]
+}

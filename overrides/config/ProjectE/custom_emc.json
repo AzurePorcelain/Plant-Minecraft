@@ -1,0 +1,512 @@
+{
+  "entries": [
+    {
+      "item": "pvz:origin_essence",
+      "emc": 512
+    },
+    {
+      "item": "pvz:sun_flower_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:cherry_bomb_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:wall_nut_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:potato_mine_enjoy_card",
+      "emc": 4096
+    },
+    {
+      "item": "pvz:snow_pea_enjoy_card",
+      "emc": 4096
+    },
+    {
+      "item": "pvz:chomper_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:repeater_enjoy_card",
+      "emc": 8192
+    },
+    {
+      "item": "pvz:puff_shroom_enjoy_card",
+      "emc": 1024
+    },
+    {
+      "item": "pvz:sun_shroom_enjoy_card",
+      "emc": 2048
+    },
+    {
+      "item": "pvz:fume_shroom_enjoy_card",
+      "emc": 8192
+    },
+    {
+      "item": "pvz:grave_buster_enjoy_card",
+      "emc": 2048
+    },
+    {
+      "item": "pvz:hypno_shroom_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:scaredy_shroom_enjoy_card",
+      "emc": 1024
+    },
+    {
+      "item": "pvz:ice_shroom_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:squash_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:lily_pad_enjoy_card",
+      "emc": 1024
+    },
+    {
+      "item": "pvz:three_peater_enjoy_card",
+      "emc": 8192
+    },
+    {
+      "item": "pvz:tangle_kelp_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:jalapeno_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:spike_weed_enjoy_card",
+      "emc": 4096
+    },
+    {
+      "item": "pvz:torch_wood_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:tall_nut_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:sea_shroom_enjoy_card",
+      "emc": 1024
+    },
+    {
+      "item": "pvz:plantern_enjoy_card",
+      "emc": 4096
+    },
+    {
+      "item": "pvz:cactus_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:blover_enjoy_card",
+      "emc": 8192
+    },
+    {
+      "item": "pvz:split_pea_enjoy_card",
+      "emc": 4096
+    },
+    {
+      "item": "pvz:star_fruit_enjoy_card",
+      "emc": 4096
+    },
+    {
+      "item": "pvz:pumpkin_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:magnet_shroom_enjoy_card",
+      "emc": 8192
+    },
+    {
+      "item": "pvz:cabbage_pult_enjoy_card",
+      "emc": 2048
+    },
+    {
+      "item": "pvz:flower_pot_enjoy_card",
+      "emc": 1024
+    },
+    {
+      "item": "pvz:kernel_pult_enjoy_card",
+      "emc": 2048
+    },
+    {
+      "item": "pvz:coffee_bean_enjoy_card",
+      "emc": 2048
+    },
+    {
+      "item": "pvz:garlic_enjoy_card",
+      "emc": 2048
+    },
+    {
+      "item": "pvz:umbrella_leaf_enjoy_card",
+      "emc": 2048
+    },
+    {
+      "item": "pvz:marigold_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:gatling_pea_enjoy_card",
+      "emc": 65536
+    },
+    {
+      "item": "pvz:twin_sunflower_enjoy_card",
+      "emc": 8192
+    },
+    {
+      "item": "pvz:gloom_shroom_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:cat_tail_enjoy_card",
+      "emc": 32768
+    },
+    {
+      "item": "pvz:winter_melon_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:melon_pult_enjoy_card",
+      "emc": 32768
+    },
+    {
+      "item": "pvz:gold_magnet_enjoy_card",
+      "emc": 8192
+    },
+    {
+      "item": "minecraft:emerald",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:detector_rail",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:activator_rail",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:powered_rail",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:rotten_flesh",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:quartz",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:redstone",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:crying_obsidian",
+      "emc": 1024
+    },
+    {
+      "item": "pvz:pea_shooter_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:bamboo_lord_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:iceberg_lettuce_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:spike_rock_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:cob_cannon_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:water_guard_enjoy_card",
+      "emc": 4096
+    },
+    {
+      "item": "pvz:strange_cat_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:gold_leaf_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:angel_star_fruit_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:butter_pult_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:pea",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:prismarine_shard",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:diamond",
+      "emc": 0
+    },
+    {
+      "item": "pvz:bonk_choy_enjoy_card",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:rail",
+      "emc": 0
+    },
+    {
+      "item": "pvz:green_card",
+      "emc": 0
+    },
+    {
+      "item": "pvz:black_card",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:skeleton_skull",
+      "emc": 4096
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:ender_eye",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:bone",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "emc": 192
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dragon_breath",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:anvil",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chipped_anvil",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:damaged_anvil",
+      "emc": 0
+    },
+    {
+      "item": "pvz:small_meat",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:porkchop",
+      "emc": 96
+    },
+    {
+      "item": "minecraft:beef",
+      "emc": 96
+    },
+    {
+      "item": "minecraft:nether_star",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:end_stone",
+      "emc": 6
+    },
+    {
+      "item": "minecraft:prismarine_crystals",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:heart_of_the_sea",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cod",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:honeycomb",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:wither_rose",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:white_wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:orange_wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:magenta_wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:light_blue_wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:yellow_wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:lime_wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:pink_wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:gray_wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:light_gray_wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cyan_wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:purple_wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:blue_wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:brown_wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:green_wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:red_wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:black_wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:book",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:nether_wart_block",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:warped_wart_block",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dragon_egg",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "emc": 96
+    },
+    {
+      "item": "minecraft:netherite_scrap",
+      "emc": 6144
+    },
+    {
+      "item": "minecraft:ghast_tear",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:bell",
+      "emc": 4096
+    },
+    {
+      "item": "minecraft:iron_horse_armor",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:golden_horse_armor",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:diamond_horse_armor",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:leather_horse_armor",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:red_nether_bricks",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:magma_block",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:obsidian",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:zombie_head",
+      "emc": 4096
+    },
+    {
+      "item": "minecraft:creeper_head",
+      "emc": 4096
+    },
+    {
+      "item": "minecraft:golden_pickaxe",
+      "emc": 0
+    }
+  ]
+}

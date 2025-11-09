@@ -1,0 +1,201 @@
+{
+  "title":"太阳神的愤怒（ 1-X ）",
+  "authors": [
+    "qing"
+  ],
+  "tags": [
+    "overworld"
+  ],
+  "bar_color": "yellow",
+  "can_trade": false,
+  "recommend_level": 20,
+  "placement": {
+    "outer": {
+      "min": 8,
+      "max": 15,
+      "ground": true
+    }
+  },
+  "waves": [
+    {
+      "spawns": [
+        {
+          "entity_type": "pvz:ra_zombie",
+          "spawn_tick": 20,
+          "spawn_amount": {
+            "random": {
+              "min": 15,
+              "max": 15
+            }
+          }
+        },
+        {
+          "entity_type": "pvz:ra_zombie",
+          "spawn_tick": 200,
+          "spawn_amount": {
+            "random": {
+              "min": 25,
+              "max": 25
+            }
+          }
+        },
+        {
+          "entity_type": "mowziesmobs:barakoana",
+          "spawn_tick": 260,
+          "placement": {
+            "center": {
+              "radius": 5,
+              "ground": true
+            }
+          },
+          "spawn_amount": {
+            "random": {
+              "min": 5,
+              "max": 5
+            }
+          }
+        },
+        {
+          "entity_type": "pvz:ra_zombie",
+          "spawn_tick": 600,
+          "spawn_amount": {
+            "random": {
+              "min": 15,
+              "max": 15
+            }
+          }
+        }
+      ],
+      "duration": 12000
+    },
+    {
+      "spawns": [
+        {
+          "entity_type": "pvz:ra_zombie",
+          "spawn_tick": 20,
+          "spawn_amount": {
+            "random": {
+              "min": 15,
+              "max": 15
+            }
+          }
+        },
+        {
+          "entity_type": "mowziesmobs:barakoana",
+          "spawn_tick": 120,
+          "placement": {
+          	"outer": {
+              "min": 5,
+              "max": 10,
+              "ground": true
+          	}
+          },
+          "spawn_amount": {
+            "random": {
+              "min": 5,
+              "max": 5
+            }
+          }
+        },
+        {
+          "entity_type": "pvz:ra_zombie",
+          "spawn_tick": 300,
+          "spawn_amount": {
+            "random": {
+              "min": 15,
+              "max": 15
+            }
+          }
+        },
+        {
+          "entity_type": "mowziesmobs:barako",
+          "nbt":"{'Attributes':[{Name:'generic.max_health',Base:128f}],Health:128f,CustomName:'{\"text\":\"太阳神使\"}', CustomNameVisible: 0}",
+          "spawn_tick": 400,
+          "placement": {
+            "center": {
+              "radius": 1,
+              "ground": true
+            }
+          },
+          "spawn_amount": {
+            "random": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        },
+        {
+          "entity_type": "mowziesmobs:barako",
+          "nbt":"{'Attributes':[{Name:'generic.max_health',Base:80f}],Health:80f}",
+          "spawn_tick": 500,
+          "placement": {
+          	"outer": {
+         	    "min": 5,
+         	    "max": 10,
+          	  "ground": true
+          	}
+          },
+          "spawn_amount": {
+            "random": {
+              "min": 3,
+              "max": 3
+            }
+          }
+        },
+        {
+          "entity_type": "mowziesmobs:barakoana",
+          "spawn_tick": 550,
+          "placement": {
+          	"outer": {
+         	    "min": 5,
+         	    "max": 10,
+          	  "ground": true
+          	}
+          },
+          "spawn_amount": {
+            "random": {
+              "min": 10,
+              "max": 10
+            }
+          }
+        }
+      ],
+      "duration": 12000
+    }
+  ],
+  "rewards": {
+    "unlocks": [
+      "pvz:cherry_bomb",
+      "pvz:twin_sunflower"
+    ],
+    "items": [
+      {
+        "item": "pvz:sun_flower_enjoy_card",
+        "amount": {
+          "random": {
+            "min": 3,
+            "max": 4
+          }
+        }
+      },
+      {
+        "item": "pvz:wall_nut_enjoy_card",
+        "amount": {
+          "random": {
+            "min": 2,
+            "max": 3
+          }
+        }
+      },
+      {
+        "item": "pvz:twin_sunflower_enjoy_card",
+        "amount": {
+          "random": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      }
+    ]
+  }
+}

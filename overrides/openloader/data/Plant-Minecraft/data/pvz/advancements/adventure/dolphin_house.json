@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "itemfilters:or"
+    },
+    "title": {
+      "translate": "advancement.pvz.dolphin_house"
+    },
+    "description": {
+      "translate": "advancement.pvz.dolphin_house.desc"
+    },
+    "frame":"task",
+    "announce_to_chat": true
+  },
+  "parent":"pvz:adventure/root",
+  "criteria": {
+    "in_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "pvz:dolphin_house"
+        }
+      }
+    }
+  },
+  "requirements": [[
+    "in_city"
+  ]]
+}

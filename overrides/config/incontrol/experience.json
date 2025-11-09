@@ -1,0 +1,18 @@
+[
+  {
+    "mob": "dungeons_mobs:endersent",
+    "setxp": 2000
+  },
+  {
+    "mob": "dungeons_mobs:blastling",
+    "setxp": 150
+  },
+  {
+    "mob": "dungeons_mobs:snareling",
+    "setxp": 150
+  },
+  {
+    "mob": "dungeons_mobs:watchling",
+    "setxp": 50
+  }
+]

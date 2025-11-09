@@ -1,0 +1,3 @@
+#Set to false to disable join message. Place a copy of this config in the defaultconfigs/ folder in the main server/.minecraft directory (or make the folder if it's not there) to copy this to new worlds.
+enable_join_message = false
+

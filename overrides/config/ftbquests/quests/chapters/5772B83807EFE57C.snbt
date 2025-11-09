@@ -1,0 +1,1487 @@
+{
+	id: "5772B83807EFE57C"
+	group: "1ABB7C487E06073F"
+	order_index: 3
+	filename: "5772B83807EFE57C"
+	title: "万藏僵尸图鉴"
+	icon: "pvz:almanac"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"生命值：20"
+				"攻击力：4"
+				"移动速度：0.2（普通）"
+				""
+				"僵尸们日夜不停地追寻着脑子，以至于人类只能听到他们念叨着“脑子…脑子…”"
+				""
+				"Tips："
+				"普通僵尸是僵尸社会的最底层，甚至有些身上爬满蛆虫都浑然不觉"
+				"击杀僵尸有极低概率(0.01%+0.02%*抢夺等级)掉落真脑子"
+				"多数僵尸的攻击速度会受到寒冷效果影响"
+			]
+			dependencies: ["21775BF1BC76DC6E"]
+			hide: true
+			id: "30AA7EA92AA34A5A"
+			tasks: [{
+				id: "05FF28120F4E257A"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/1.png"
+					}
+				}
+				entity: "pvz:normal_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7DDF48266E141FA7"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: [
+				"生命值：19"
+				"攻击力：4"
+				"移动速度：0.225（稍快）"
+				""
+				"旗帜僵尸总是冲锋在前，带领队伍前进"
+				"作为先锋，成功掠夺食物时可优先享用"
+				""
+				"Tips："
+				"击杀有5%概率掉落真脑子（每级抢夺+1%）"
+			]
+			dependencies: ["30AA7EA92AA34A5A"]
+			hide: true
+			id: "31A281D9DAEDBE7E"
+			tasks: [{
+				id: "7A7520E085375563"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/2.png"
+					}
+				}
+				entity: "pvz:flag_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "26EDC445CA98C8FB"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"生命值：20"
+				"护甲血量：40"
+				"攻击力：4"
+				"移动速度：0.2（普通）"
+				""
+				"原本与普通僵尸无异，直到它停下脚步，将路障戴在了头上。"
+			]
+			dependencies: ["30AA7EA92AA34A5A"]
+			hide: true
+			id: "242E3ACAF92236BB"
+			tasks: [{
+				id: "562E9460DAC08CA8"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/3.png"
+					}
+				}
+				entity: "pvz:conehead_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7524BB97C584330D"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: [
+				"生命值：50"
+				"攻击力：4"
+				"移动速度：0.25（快）"
+				""
+				"有些僵尸不甘平凡，撑杆跳僵尸就是其中代表。"
+			]
+			dependencies: ["30AA7EA92AA34A5A"]
+			hide: true
+			id: "2B17B18927FABC6E"
+			tasks: [{
+				id: "254736ED337A4403"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/4.png"
+					}
+				}
+				entity: "pvz:pole_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4D88A633CC7D633F"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			description: [
+				"生命值：20"
+				"护甲血量：110"
+				"攻击力：4"
+				"移动速度：0.2（普通）"
+				""
+				"铁桶提供了更强的防护，不过据说很多僵尸根本没意识到自己戴着它。"
+			]
+			dependencies: ["242E3ACAF92236BB"]
+			hide: true
+			id: "7DA80FFFD8F48617"
+			tasks: [{
+				id: "7A4E0BFFD0F9392A"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/5.png"
+					}
+				}
+				entity: "pvz:buckethead_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0FAC049FD02F4325"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			description: [
+				"生命值：22"
+				"防具：10（报纸）"
+				"攻击力：4"
+				"移动速度：0.18（稍慢）"
+				""
+				"离解开报纸数独只差最后一步……"
+				""
+				"【特征】"
+				"防具免疫寒冷效果"
+				"报纸破损后获得速度加成与1-3级力量加成"
+				"可绕过防具攻击本体"
+			]
+			dependencies: ["30AA7EA92AA34A5A"]
+			hide: true
+			id: "27569AB68CE8D1A7"
+			tasks: [{
+				id: "0FFA85F2052E0583"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/6.png"
+					}
+				}
+				entity: "pvz:newspaper_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5ADDEC5DBB54D76F"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			description: [
+				"生命值：90"
+				"防具：40（报纸）"
+				"攻击力：7"
+				"移动速度：0.2（普通）"
+				""
+				"你二爷还是你二爷！"
+				""
+				"【特征】"
+				"防具免疫寒冷效果"
+				"报纸破损后获得速度加成与3-5级力量加成"
+				"可绕过防具直接攻击本体"
+			]
+			dependencies: ["27569AB68CE8D1A7"]
+			hide: true
+			hide_text_until_complete: true
+			id: "437C580D792872C6"
+			tasks: [{
+				id: "302E8170B79C9341"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/33.png"
+					}
+				}
+				entity: "pvz:old_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4D6C905D81043F2A"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			description: [
+				"生命值：350"
+				"防具：100（周刊）"
+				"攻击力：15"
+				"移动速度：0.225（稍快）"
+				""
+				"你大爷更是你大爷！"
+				""
+				"【特征】"
+				"免疫寒冷效果"
+				"周刊破损后获得速度加成与8-10级力量加成"
+				"可绕过防具直接攻击本体"
+			]
+			dependencies: ["437C580D792872C6"]
+			hide: true
+			hide_text_until_complete: true
+			id: "16E087F95CAC1D9C"
+			tasks: [{
+				id: "4C10593D5B45643E"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/34.png"
+					}
+				}
+				entity: "pvz:sunday_edition_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "17D135F56BC3C860"
+				type: "command"
+				title: "智慧树高度+2"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 2"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"生命值：24"
+				"防具：200（铁门）"
+				"攻击力：4"
+				"移动速度：0.2（普通）"
+				""
+				"他上次拜访的那户人家防守生疏，他吃掉房主的脑子后，还顺手拆下了大门。"
+				""
+				"【特征】"
+				"防具免疫寒冷效果"
+				"可绕过防具直接攻击本体"
+			]
+			dependencies: ["30AA7EA92AA34A5A"]
+			hide: true
+			id: "02D8D9549B107496"
+			tasks: [{
+				id: "13E75A3D3380C95F"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/7.png"
+					}
+				}
+				entity: "pvz:screendoor_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "776CDA3EC257A997"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: [
+				"生命值：30"
+				"护甲血量：160"
+				"攻击力：4"
+				"移动速度：0.25（快）"
+				""
+				"橄榄球僵尸在球场上总是全力以赴。虽然对规则一窍不通，但他出色的团队配合能力让他在攻防两端都表现出色。"
+			]
+			dependencies: ["02D8D9549B107496"]
+			hide: true
+			id: "567F07A1D79F06E0"
+			tasks: [{
+				id: "6BC0181CCFDF4D49"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/8.png"
+					}
+				}
+				entity: "pvz:football_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "57167D5E8C4EFAB7"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: [
+				"生命值：50"
+				"攻击力：4"
+				"移动速度：0.18（稍慢）"
+				""
+				"【特征】"
+				"自带紫色聚光灯，会周期性尬舞。"
+				"伴舞僵尸不足4名时，概率召唤新伴舞（上限20名）。"
+				"尬舞时暂停移动，伴舞僵尸同步舞蹈。"
+			]
+			dependencies: ["02D8D9549B107496"]
+			hide: true
+			id: "40CBD1B4E406B70D"
+			tasks: [{
+				id: "2C14EC3BCE42F4E0"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/9.png"
+					}
+				}
+				entity: "pvz:dancing_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "18194DC4C75C1434"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			description: [
+				"生命值：100"
+				"护甲血量：300"
+				"攻击力：10"
+				"冲撞伤害：30%目标最大生命值"
+				"移动速度：0.25（快）"
+				""
+				"【特征】"
+				"周期性（10-30秒）进入冲刺状态，对首个碰撞目标造成高额伤害，冲刺期间免疫寒冷效果。"
+				"冲刺时会呈现半俯身姿态，可在其路径上放置植物进行拦截。"
+				"冲撞伤害无视盔甲值减免"
+			]
+			dependencies: ["567F07A1D79F06E0"]
+			hide: true
+			id: "475D3B5B85B9F5A1"
+			tasks: [{
+				id: "3EDDC0F7E4B3C61E"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/10.png"
+					}
+				}
+				entity: "pvz:giga_football_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "6FAB270C0723246E"
+				type: "command"
+				title: "智慧树高度+2"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 2"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			description: [
+				"生命值：20"
+				"攻击力：4"
+				"移动速度：0.225（稍快）"
+				""
+				"僵尸不需要呼吸，为何潜水僵尸还要用呼吸管？答案：同行的压力。"
+			]
+			dependencies: ["40CBD1B4E406B70D"]
+			hide: true
+			id: "25783364D520647C"
+			tasks: [{
+				id: "041EC1FD8F3FFEFE"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/11.png"
+					}
+				}
+				entity: "pvz:snorkel_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2E7AF1C1585B6ED2"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			description: [
+				"生命值：130"
+				"碾压伤害：碾压目标最大生命值"
+				"移动速度：0.15（慢）"
+				""
+				"有人称其为驾驶造雪车的僵尸，也有人认为它是一种独特的生物。"
+				""
+				"【特征】"
+				"行进路径会留下雪地，地刺可与其同归于尽。"
+				"碾压伤害无视盔甲值减免"
+			]
+			dependencies: ["20605B3DA6674727"]
+			hide: true
+			id: "5D6B7B0821364E83"
+			tasks: [{
+				id: "0BCB5D6CF1D77205"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/12.png"
+					}
+				}
+				entity: "pvz:zomboni"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7F3493A9AA76440B"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			description: [
+				"雪橇队离开雪地时，四名雪橇僵尸会下车作战。"
+				""
+				"雪橇生命值：60"
+				"雪橇僵尸生命值：20"
+				"雪橇碰撞伤害：10"
+				"雪橇僵尸攻击力：4"
+				"雪橇移动速度：0.275（很快）"
+				"雪橇僵尸移动速度：0.2（普通）"
+				""
+				"【特征】"
+				"来自极地的雪橇僵尸在冰雪上移动速度提升，并获得高额抗性加成。"
+			]
+			dependencies: ["5D6B7B0821364E83"]
+			hide: true
+			id: "42D8B879533F7070"
+			tasks: [{
+				id: "365F49700A74F692"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/13.png"
+					}
+				}
+				entity: "pvz:bobsle_zombie"
+				value: 1L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			description: [
+				"生命值：30"
+				"攻击力：4"
+				"移动速度：0.275（很快）"
+				"水中移动速度：0.8"
+				""
+				"海豚龙骑手僵尸生前一直梦想骑着海豚遨游大海，可惜直到成为僵尸都未能如愿。"
+				""
+				"【特征】"
+				"水中骑乘海豚时移动极快。"
+				"离开水域后，会下地继续作战。"
+			]
+			dependencies: ["25783364D520647C"]
+			hide: true
+			id: "20605B3DA6674727"
+			tasks: [{
+				id: "313D2D965408AB4C"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/14.png"
+					}
+				}
+				entity: "pvz:dolphin_rider_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "779B9DF076EF2255"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"生命值：40"
+				"攻击力：4"
+				"移动速度：0.25（快）"
+				""
+				"他曾是带来欢笑的小丑，如今却成了恐惧的化身。"
+				""
+				"【特征】"
+				"携带一个玩偶匣，准备时间随机为20至100秒"
+				"准备就绪后，若附近有敌人，将引爆玩偶匣与目标同归于尽"
+			]
+			dependencies: ["40CBD1B4E406B70D"]
+			hide: true
+			id: "42431A673F306FDF"
+			tasks: [{
+				id: "09FCC12537035A11"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/15.png"
+					}
+				}
+				entity: "pvz:jack_in_box_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "21956FFDC027CDCA"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			description: [
+				"生命值：23"
+				"攻击力：4"
+				"飞行速度：0.5"
+				"行走速度：0.18（稍慢）"
+				""
+				"气球僵尸意外获得了一个鲜红的大气球，幸运的是，一路上没有被其他僵尸抢走。"
+				""
+				"【特征】"
+				"持有气球时，气球僵尸可快速飞行，不会被植物锁定，只有猫尾草、仙人掌和箭能刺破气球。气球破裂后，气球僵尸将转为慢速行走。"
+			]
+			dependencies: ["42431A673F306FDF"]
+			hide: true
+			id: "642AC1FB16472A60"
+			tasks: [{
+				id: "5D8F895DC9747616"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/16.png"
+					}
+				}
+				entity: "pvz:balloon_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "6A8B3252D4A1AB72"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			description: [
+				"生命值：40"
+				"攻击力：持镐时5，无镐时3"
+				"挖掘速度：0.225（稍快）"
+				"行走速度：0.18（稍慢）"
+				""
+				"矿难之后，他封闭了内心，只信任那位将他从深渊中救起的神秘博士。"
+			]
+			dependencies: [
+				"40CBD1B4E406B70D"
+				"24F2DB1F2FE5EABB"
+			]
+			hide: true
+			id: "6FC062F488B5FCB3"
+			tasks: [{
+				id: "3AAE208461804373"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/17.png"
+					}
+				}
+				entity: "pvz:digger_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3330DBD76430DFCE"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			description: [
+				"生命值：48"
+				"攻击力：4"
+				"移动速度：0.2（普通）"
+				""
+				"蹦！蹦！蹦！跳跳僵尸活力四射，跳个不停！"
+				""
+				"【特征】"
+				"跳跳僵尸持续跳跃，普通射手难以命中。仅当磁力菇吸走其工具后，才会停止跳跃。"
+			]
+			dependencies: ["642AC1FB16472A60"]
+			hide: true
+			id: "51B83415E93BBCBD"
+			tasks: [{
+				id: "1E20FCBFEF04B4CA"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/18.png"
+					}
+				}
+				entity: "pvz:pogo_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "331039CA886FC52D"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			description: [
+				"生命值：135"
+				"攻击力：7"
+				"移动速度：0.225（稍快）"
+				""
+				"一种罕见而让人眼前一亮的生物"
+				""
+				"【特征】"
+				"雪人僵尸极为稀有，击杀必定掉落1个宝石。"
+				"出现五分钟后会隐形（可见粒子效果），并每tick恢复0.5生命值，一分钟后彻底消失。"
+				"单次承受伤害上限为20"
+			]
+			dependencies: ["30AA7EA92AA34A5A"]
+			hide: true
+			id: "62C3F251572D53F7"
+			tasks: [{
+				id: "49CD8034D73FD8A2"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/19.png"
+					}
+				}
+				entity: "pvz:yeti_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5D38F7ED034DF728"
+				type: "command"
+				title: "智慧树高度+3"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 3"
+				player_command: false
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			description: [
+				"生命值：45"
+				"攻击力：抓取目标的最大生命值"
+				"移动速度：特殊"
+				""
+				"蹦极僵尸热爱冒险。毕竟，如果不再活着，死亡自然无足轻重。"
+				""
+				"【特征】"
+				"蹦极僵尸背后系有可伸缩的拴绳，随其移动而延长。"
+				"分为两种类型：一种偷取植物，一种投放僵尸。偷植物的蹦极僵尸会随机选择目标，发射带靶箭后迅速蹦极捕捉。"
+			]
+			dependencies: ["42431A673F306FDF"]
+			hide: true
+			hide_text_until_complete: true
+			id: "3D1F555CE7FFA0E7"
+			tasks: [{
+				id: "63325487FFAB68A1"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/20.png"
+					}
+				}
+				entity: "pvz:bungee_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "1ACE28CA1D326132"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.0d
+			description: [
+				"生命值：65"
+				"护甲血量：250"
+				"攻击力：4"
+				"移动速度：有梯子时0.25（快），没梯子时0.2（普通）"
+				""
+				"据说这架梯子只花了他八块九毛九。"
+			]
+			dependencies: ["7E9855024572B6E3"]
+			id: "3088733DE6EC5649"
+			tasks: [{
+				id: "364F7AA1C9A597FA"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/21.png"
+					}
+				}
+				entity: "pvz:ladder_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "18DABF65792ADAFF"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			description: [
+				"生命值：105"
+				"篮球伤害：6"
+				"碾压伤害：碾压目标最大生命值"
+				"移动速度：0.18（稍慢）"
+				""
+				"投球车僵尸曾是练习时长两年半的篮球练习生，因始终投不进球，愤而转行开起了投球车。"
+				""
+				"【特征】"
+				"初始携带20颗篮球，每投出5发，篮中便少一颗。篮球耗尽后转为近战，碾压植物继续推进。"
+			]
+			dependencies: ["5FFBB1AAF7F50F31"]
+			id: "7E9855024572B6E3"
+			tasks: [{
+				id: "6966ED4C2ACC2ADD"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/22.png"
+					}
+				}
+				entity: "pvz:catapult_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "24F190431A06B93E"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			description: [
+				"生命值：10"
+				"攻击力：4"
+				"移动速度：0.25（快）"
+				""
+				"小鬼僵尸是族群中的“兄长”。它们曾与一位巨人症的兄弟相依为命，并在失去他后立下誓言：绝不让任何一位家人再孤身赴战。"
+				""
+				"【特征】"
+				"生成时有50%概率获得[伤害吸收II、速度II、力量II、生命提升II、跳跃提升II]中的一项效果，持续30秒。常伴随伽刚特尔出现。"
+			]
+			dependencies: ["42431A673F306FDF"]
+			id: "5FFBB1AAF7F50F31"
+			tasks: [{
+				id: "5BFFDF84D33C8D35"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/23.png"
+					}
+				}
+				entity: "pvz:imp"
+				value: 1L
+			}]
+			rewards: [{
+				id: "104DC6DAB62E7C2E"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			description: [
+				"生命值：300"
+				"攻击力：目标最大生命值的2倍"
+				"移动速度：0.15（慢）"
+				""
+				"伽刚特尔从小就常被欺负。"
+				"小学时连1+1=2都不懂，同龄人总笑他是“大傻个”。"
+				"他早已习惯这样的命运，直到遇见那个没有血缘的哥哥……"
+			]
+			dependencies: ["5FFBB1AAF7F50F31"]
+			id: "55E91BF1A1962A51"
+			tasks: [{
+				id: "06F3303ADE6893F5"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/24.png"
+					}
+				}
+				entity: "pvz:gargantuar"
+				value: 1L
+			}]
+			rewards: [{
+				id: "54543112952E91BE"
+				type: "command"
+				title: "智慧树高度+2"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 2"
+				player_command: false
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			description: [
+				"生命值：600"
+				"攻击力：目标最大生命值的4倍"
+				"移动速度：0.18（稍慢）"
+				""
+				"目睹同伴在战斗中牺牲，伽刚特尔双眼染上血色，心中燃起复仇之火。他立誓：必将让植物付出惨痛代价！"
+				""
+				"【特征】"
+				"红眼伽刚特尔不仅拥有更高的伤害与更强的生存能力，攻击时还会对3格范围内的所有敌人造成其最大生命值一半的伤害。"
+				"当生命值低于一半时，它会一次性投掷出3个小鬼僵尸。"
+			]
+			dependencies: ["55E91BF1A1962A51"]
+			hide: true
+			id: "3EEF1561EE0A8EE5"
+			tasks: [{
+				id: "634602CD702E4825"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/25.png"
+					}
+				}
+				entity: "pvz:giga_gargantuar"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0478045EAF2B891B"
+				type: "command"
+				title: "智慧树高度+3"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 3"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			description: [
+				"生命值：20"
+				"啃食伤害：4"
+				"豌豆伤害：2"
+				"移动速度：0.2（普通）"
+				""
+				"【特征】"
+				"头部为豌豆射手，会边移动边以1.5秒间隔发射豌豆攻击目标。"
+				"豌豆攻击频率受寒冷效果影响，死亡时有10%概率掉落豌豆射手体验卡。"
+			]
+			dependencies: ["40CBD1B4E406B70D"]
+			hide: true
+			id: "77114DFA7102BC7C"
+			tasks: [{
+				id: "277A073F1CF9DFC7"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/26.png"
+					}
+				}
+				entity: "pvz:peashooter_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4A40AFE86C321CC6"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			description: [
+				"生命值：30"
+				"啃食伤害：4"
+				"豌豆伤害：2*4发"
+				"移动速度：0.2（普通）"
+				""
+				"【特征】"
+				"头部为机枪射手，发现目标后会边移动边攻击，每1.5秒发射4颗豌豆。"
+				"豌豆攻击频率受寒冷效果影响，死亡时有5%概率掉落机枪射手体验卡。"
+			]
+			dependencies: ["77114DFA7102BC7C"]
+			hide: true
+			id: "4724C187AB9453C3"
+			tasks: [{
+				id: "3536D4801C36321F"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/27.png"
+					}
+				}
+				entity: "pvz:gatlingpea_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2B48AA8F5619238D"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			description: [
+				"生命值：160"
+				"攻击力：4"
+				"移动速度：0.2（普通）"
+				""
+				"【特征】"
+				"头部为坚果墙结构，生命值较高。"
+				"死亡时有10%概率掉落坚果墙体验卡。"
+			]
+			dependencies: ["77114DFA7102BC7C"]
+			hide: true
+			id: "48A2CEBFC9AE156B"
+			tasks: [{
+				id: "39CE0BD450DAFA07"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/28.png"
+					}
+				}
+				entity: "pvz:wallnut_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "30A4BAD82B480DC0"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.0d
+			description: [
+				"生命值：320"
+				"攻击力：4"
+				"移动速度：0.15（慢）"
+				""
+				"【特征】"
+				"头部由高坚果构成，防御力非常强。"
+				"死亡时有10%概率掉落高坚果体验卡。"
+			]
+			dependencies: ["48A2CEBFC9AE156B"]
+			hide: true
+			id: "5911241EC6F563D9"
+			tasks: [{
+				id: "001386215C5241F5"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/29.png"
+					}
+				}
+				entity: "pvz:tallnut_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7EA24B75475DEB6B"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			description: [
+				"生命值：180"
+				"攻击力：4"
+				"移动速度：0.15（慢）"
+				""
+				"【特征】"
+				"头部被南瓜头保护着，拥有较强的防御力。"
+				"啃食植物可快速恢复自身生命值。"
+				"死亡时有10%概率掉落南瓜头体验卡。"
+			]
+			dependencies: ["48A2CEBFC9AE156B"]
+			hide: true
+			id: "4E9E1E82522AB391"
+			tasks: [{
+				id: "5576826609517608"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/30.png"
+					}
+				}
+				entity: "pvz:pumpkin_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "340E950E9014FED1"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			description: [
+				"生命值：25"
+				"窝瓜砸击伤害：100"
+				"移动速度：0.25（快）"
+				""
+				"【特征】"
+				"靠近目标时，窝瓜头部会脱离本体跃起攻击，造成范围高伤。"
+				"死亡时有10%概率掉落窝瓜体验卡。"
+			]
+			dependencies: ["77114DFA7102BC7C"]
+			hide: true
+			id: "3B910A7C4CE2E9A1"
+			tasks: [{
+				id: "18A69F0CF9468E79"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/31.png"
+					}
+				}
+				entity: "pvz:squash_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4498EC4B426C6E4A"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			description: [
+				"生命值：44"
+				"啃食伤害：4"
+				"火爆辣椒伤害：目标最大生命值的2倍"
+				"移动速度：0.225（稍快）"
+				""
+				"【特征】"
+				"头部为火爆辣椒，死亡时触发十字火焰，对范围内敌人造成致命伤害。"
+				"若死亡时处于寒冷或冰封状态，则不会触发爆炸效果！"
+				"死亡时有10%概率掉落火爆辣椒体验卡。"
+			]
+			dependencies: ["77114DFA7102BC7C"]
+			hide: true
+			id: "1216D19BD00BCD4B"
+			tasks: [{
+				id: "6446CCE794CE90B0"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/32.png"
+					}
+				}
+				entity: "pvz:jalapeno_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0AF7B8A3E5F960D2"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			description: [
+				"生命值：12"
+				"攻击力：10"
+				"移动速度：0.225（稍快）"
+				""
+				"【特征】"
+				"身着苦力怕服装，试图在万圣节骗取糖果。"
+				"死亡时有12.5%概率引发小范围爆炸（半径0.5格）。"
+				"若死亡时处于魅惑或寒冷状态，则不会爆炸。"
+				"受到超过6点伤害时，有33%概率在附近召唤另一只捣蛋鬼僵尸（冷却2秒）。"
+				"死亡时有概率掉落糖果（受抢夺影响）。"
+			]
+			dependencies: ["42431A673F306FDF"]
+			id: "73B24700B923DE79"
+			tasks: [{
+				id: "1D5A82D4FE1C5799"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/35.png"
+					}
+				}
+				entity: "pvz:trick_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "40F687758813569C"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			description: [
+				"生命值：36"
+				"攻击力：4"
+				"移动速度：0.18（稍慢）"
+				""
+				"不知是太阳部落的亡者化为僵尸，还是苏醒的僵尸开始崇拜太阳。"
+				""
+				"【特征】"
+				"身披埃及风格外衣，手持阳光法杖，热衷于与玩家争夺阳光。"
+				"收集阳光时将其染为红色，阳光转化器无法自动拾取，但玩家可用收集器抢夺。"
+				"被击败后，会吐出所有已收集的阳光。"
+			]
+			dependencies: [
+				"30AA7EA92AA34A5A"
+				"7AA076A7286206F1"
+			]
+			hide: true
+			id: "367AF4D5E393FD92"
+			tasks: [{
+				id: "7BCD0622321DE434"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/36.png"
+					}
+				}
+				entity: "pvz:ra_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5216BEC64CBD772B"
+				type: "command"
+				title: "智慧树高度+2"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 2"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			description: [
+				"生命值：40"
+				"攻击力：7"
+				"移动速度：0.225（稍快）"
+				""
+				"【特征】"
+				"身着潜岩浆服，可在岩浆中自由行动，攻击附带5秒灼烧效果。"
+				"死亡时有概率掉落辣椒（受抢夺影响）。"
+			]
+			dependencies: ["20605B3DA6674727"]
+			hide: true
+			id: "504538E0946A1226"
+			tasks: [{
+				id: "06591A9340EA8293"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pvz:textures/ftbq/37.png"
+					}
+				}
+				entity: "pvz:lava_zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4B9D6CC510AD29B0"
+				type: "command"
+				title: "智慧树高度+2"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 2"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			description: ["旗帜僵尸有更高几率掉落真脑子"]
+			hide_dependency_lines: true
+			dependencies: ["30AA7EA92AA34A5A"]
+			hide: true
+			id: "1F3EEF7535520579"
+			tasks: [{
+				id: "20D1AEC179DAC794"
+				type: "item"
+				title: "获得一个真脑子"
+				item: "pvz:real_brain"
+			}]
+			rewards: [{
+				id: "477729AD4EF5E83D"
+				type: "command"
+				title: "智慧树高度+1"
+				icon: "bpmc:wisdom_sapling"
+				auto: "enabled"
+				command: "/playerstats @p add tree_lvl 1"
+				player_command: false
+			}]
+		}
+	]
+}

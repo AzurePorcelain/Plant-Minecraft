@@ -1,0 +1,14 @@
+#Tue May 23 20:28:29 CST 2023
+light_brightness=0.2
+Clouds=0
+waterheight=2.0
+Brightness=2.2
+uwatertint=false
+Nearshadowplane=0.1
+Cloud_reflection=false
+Godrays_Density=0.575
+Rain_Drops=false
+Moonlight=0.009
+Adaptive_sharpening=true
+uFogDensity=200.0
+AS_sharpening=1.0

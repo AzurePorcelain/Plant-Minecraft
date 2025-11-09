@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+            "item": "citadel:fancy_item",
+            "nbt": "{DisplayItem:\"itemfilters:always_false\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "title": {
+      "translate": "advancement.pvz.dave_villa"
+    },
+    "description": {
+      "translate": "advancement.pvz.dave_villa.desc"
+    },
+    "frame":"task",
+    "announce_to_chat": true
+  },
+  "parent":"pvz:adventure/root",
+  "criteria": {
+    "in_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "pvz:dave_villa"
+        }
+      }
+    }
+  },
+  "requirements": [[
+    "in_city"
+  ]]
+}

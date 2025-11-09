@@ -1,0 +1,34 @@
+{
+  "isAssistInvasion": false,
+  "triggerChance": 60,
+  "bonus": "pvz:grass_night",
+  "display_color": "white",
+  "invasion_level": 25,
+  "spawns": [
+    {
+      "entity_type": "pvz:normal_zombie",
+      "invasion_level": 1,
+      "spawn_weight": 60
+    },
+    {
+      "entity_type": "pvz:newspaper_zombie",
+      "invasion_level": 25,
+      "spawn_weight": 120
+    },
+    {
+      "entity_type": "pvz:screendoor_zombie",
+      "invasion_level": 30,
+      "spawn_weight": 20
+    },
+    {
+      "entity_type": "pvz:old_zombie",
+      "invasion_level": 60,
+      "spawn_weight": 60
+    },
+    {
+      "entity_type": "pvz:sunday_edition_zombie",
+      "invasion_level": 120,
+      "spawn_weight": 20
+    }
+  ]
+}

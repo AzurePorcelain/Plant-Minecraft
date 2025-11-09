@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "itemfilters:and"
+    },
+    "title": {
+      "translate": "advancement.pvz.grave_house"
+    },
+    "description": {
+      "translate": "advancement.pvz.grave_house.desc"
+    },
+    "frame":"task",
+    "announce_to_chat": true
+  },
+  "parent":"pvz:adventure/root",
+  "criteria": {
+    "in_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "pvz:grave_house"
+        }
+      }
+    }
+  },
+  "requirements": [[
+    "in_city"
+  ]]
+}

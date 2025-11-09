@@ -1,0 +1,50 @@
+{
+  "title":"西瓜支援Ⅰ",
+  "win_title":"所有支援植物阵亡",
+  "loss_title":"支援结束",
+  "authors": [
+    "qing"
+  ],
+  "tags": [
+    "overworld"
+  ],
+  "bar_color": "green",
+  "trade_price": 3000,
+  "trade_weight": 20,
+  "loss_tick":100,
+  "sounds":{
+	  "loss_sound":"craid:win"
+  },
+  "placement": {
+    "outer": {
+      "min": 10,
+      "max": 20,
+      "ground": true
+    }
+  },
+  "messages":[
+  	{
+  		"title":"5*5方阵西瓜投手支援3分钟"
+  	}
+  ],
+  "waves": [
+    {
+      "spawns": [
+        {
+          "entity_type": "pvz:melon_pult",
+          "spawn_tick": 10,
+          "placement": {
+            "center": {
+              "radius": 2,
+              "ground": true
+            }
+          },
+          "spawn_amount": {
+            "count": 75
+          }
+        }
+      ],
+      "duration": 3600
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "isAssistInvasion": false,
+  "triggerChance": 80,
+  "bonus": "pvz:all_plants",
+  "display_color": "black",
+  "invasion_level": 30,
+  "spawns": [
+    {
+      "entity_type": "pvz:normal_zombie",
+      "invasion_level": 1,
+      "spawn_weight": 100
+    },
+    {
+      "entity_type": "pvz:screendoor_zombie",
+      "invasion_level": 30,
+      "spawn_weight": 60
+    },
+    {
+      "entity_type": "pvz:buckethead_zombie",
+      "invasion_level": 40,
+      "spawn_weight": 20
+    },
+    {
+      "entity_type": "pvz:football_zombie",
+      "invasion_level": 50,
+      "spawn_weight": 20
+    },
+    {
+      "entity_type": "pvz:giga_football_zombie",
+      "invasion_level": 100,
+      "spawn_weight": 10
+    },
+    {
+      "entity_type": "pvz:jack_in_box_zombie",
+      "invasion_level": 80,
+      "spawn_weight": 30
+    },
+    {
+      "entity_type": "pvz:pogo_zombie",
+      "invasion_level": 95,
+      "spawn_weight": 30
+    },
+    {
+      "entity_type": "pvz:ladder_zombie",
+      "invasion_level": 100,
+      "spawn_weight": 50
+    },
+    {
+      "entity_type": "pvz:digger_zombie",
+      "invasion_level": 110,
+      "spawn_weight": 20
+    }
+  ]
+}

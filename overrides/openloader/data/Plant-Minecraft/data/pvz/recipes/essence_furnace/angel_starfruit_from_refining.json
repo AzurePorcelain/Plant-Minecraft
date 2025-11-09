@@ -1,0 +1,15 @@
+{
+  "type": "pvz:essence_furnace",
+  "ingredient": {
+    "item": "bpmc:starfruit"
+  },
+  "fuel": {
+    "item": "pvz:amethyst_ingot",
+    "fueltime": 20
+  },
+  "result": {
+    "item": "bpmc:angel_starfruit",
+    "count": 1
+  },
+  "cookingtime": 40
+}

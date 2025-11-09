@@ -1,0 +1,3 @@
+{"type":"minecraft:crafting_shaped","pattern":["A","B"],
+  "key":{"A":{"item":"pvz:time_source"},"B":{"item":"pvz:edgar_doll"}},
+  "result":{"item":"pvz:time_key_to_deep"}}

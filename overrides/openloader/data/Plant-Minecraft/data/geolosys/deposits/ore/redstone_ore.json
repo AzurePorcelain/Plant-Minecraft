@@ -1,0 +1,28 @@
+{
+  "type": "geolosys:deposit_sparse",
+  "config": {
+    "yMin": 7,
+    "yMax": 30,
+    "size": 16,
+    "spread": 16,
+    "dimensions": {
+      "isBlacklist": false,
+      "filter": [
+        "overworld"
+      ]
+    },
+    "blocks": [
+      {
+        "block": "minecraft:redstone_ore",
+        "chance": 1.0
+      }
+    ],
+    "samples": [
+      {
+        "block": null,
+        "chance": 1.0
+      }
+    ],
+    "generationWeight": 15
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#r#"
+        
+    ],
+    "key": {
+        "#": {
+      "item": "minecraft:gold_ingot"
+    },
+        "r": {
+            "item": "minecraft:redstone_block"
+        }
+    },
+    "result": {
+        "item": "xtraarrows:copper_arrow_lining"
+    }
+}

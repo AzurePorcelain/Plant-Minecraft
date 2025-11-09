@@ -1,0 +1,7 @@
+{"type":"minecraft:crafting_shapeless",
+  "ingredients":[{"item":"simplefarming:cornbread"},
+    {"tag":"forge:crops/cabbage"},
+    {"tag":"forge:cooked_bacon"},
+    {"item":"pvz:real_brain"}],
+  "result":{"item":"pvz:tacos"}
+}

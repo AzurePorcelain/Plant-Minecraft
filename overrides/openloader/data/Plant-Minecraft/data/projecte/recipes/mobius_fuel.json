@@ -1,0 +1,4 @@
+{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"projecte:philosophers_stone"},{"item":"projecte:alchemical_coal"},
+    {"item":"projecte:alchemical_coal"},{"item":"projecte:alchemical_coal"},
+    {"item":"projecte:alchemical_coal"},{"item":"minecraft:redstone_block"},
+    {"item":"minecraft:redstone_block"},{"item":"minecraft:redstone_block"},{"item":"minecraft:redstone_block"}],"result":{"item":"projecte:mobius_fuel"}}

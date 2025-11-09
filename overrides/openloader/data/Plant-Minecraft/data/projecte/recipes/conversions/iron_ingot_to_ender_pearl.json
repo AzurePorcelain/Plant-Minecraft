@@ -1,0 +1,3 @@
+{"type":"minecraft:crafting_shaped","pattern":["SSS","SPS","SSS"],
+"key":{"S":{"item":"minecraft:lapis_lazuli"},"P":{"item":"projecte:philosophers_stone"}},
+"result":{"item":"minecraft:ender_pearl"}}

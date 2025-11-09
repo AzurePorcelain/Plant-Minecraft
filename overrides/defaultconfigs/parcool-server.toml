@@ -1,0 +1,119 @@
+
+[Limitations]
+	#Whether these limitations will be imposed to players
+	limitation_imposed = true
+
+	[Limitations.Action_Permissions]
+		permit_BreakfallReady = true
+		permit_CatLeap = false
+		permit_ChargeJump = false
+		permit_ClimbPoles = false
+		permit_ClimbUp = true
+		permit_ClingToCliff = true
+		permit_Crawl = true
+		permit_Dive = true
+		permit_Dodge = false
+		permit_FastRun = true
+		permit_FastSwim = true
+		permit_Flipping = true
+		permit_HangDown = false
+		permit_HorizontalWallRun = false
+		permit_JumpFromBar = false
+		permit_QuickTurn = false
+		permit_Roll = true
+		permit_SkyDive = true
+		permit_Slide = true
+		permit_Tap = true
+		permit_Vault = true
+		permit_VerticalWallRun = true
+		permit_WallJump = false
+		permit_WallSlide = false
+
+	[Limitations.Stamina]
+		#Permission of infinite stamina
+		allow_infinite_stamina = false
+		#Limitation of max stamina value
+		#Range: > 300
+		max_stamina_limit = 300
+		#Limitation of max stamina recovery
+		#Range: > 1
+		max_stamina_recovery_limit = 300
+
+		[Limitations.Stamina.Least_Consumption]
+			#Range: 0 ~ 10000
+			stamina_consumption_of_BreakfallReady = 200
+			#Range: 0 ~ 10000
+			stamina_consumption_of_CatLeap = 150
+			#Range: 0 ~ 10000
+			stamina_consumption_of_ChargeJump = 100
+			#Range: 0 ~ 10000
+			stamina_consumption_of_ClimbPoles = 0
+			#Range: 0 ~ 10000
+			stamina_consumption_of_ClimbUp = 150
+			#Range: 0 ~ 10000
+			stamina_consumption_of_ClingToCliff = 2
+			#Range: 0 ~ 10000
+			stamina_consumption_of_Crawl = 0
+			#Range: 0 ~ 10000
+			stamina_consumption_of_Dive = 0
+			#Range: 0 ~ 10000
+			stamina_consumption_of_Dodge = 80
+			#Range: 0 ~ 10000
+			stamina_consumption_of_FastRun = 3
+			#Range: 0 ~ 10000
+			stamina_consumption_of_FastSwim = 3
+			#Range: 0 ~ 10000
+			stamina_consumption_of_Flipping = 80
+			#Range: 0 ~ 10000
+			stamina_consumption_of_HangDown = 3
+			#Range: 0 ~ 10000
+			stamina_consumption_of_HorizontalWallRun = 2
+			#Range: 0 ~ 10000
+			stamina_consumption_of_JumpFromBar = 100
+			#Range: 0 ~ 10000
+			stamina_consumption_of_QuickTurn = 0
+			#Range: 0 ~ 10000
+			stamina_consumption_of_Roll = 100
+			#Range: 0 ~ 10000
+			stamina_consumption_of_SkyDive = 0
+			#Range: 0 ~ 10000
+			stamina_consumption_of_Slide = 0
+			#Range: 0 ~ 10000
+			stamina_consumption_of_Tap = 100
+			#Range: 0 ~ 10000
+			stamina_consumption_of_Vault = 50
+			#Range: 0 ~ 10000
+			stamina_consumption_of_VerticalWallRun = 150
+			#Range: 0 ~ 10000
+			stamina_consumption_of_WallJump = 120
+			#Range: 0 ~ 10000
+			stamina_consumption_of_WallSlide = 8
+
+	[Limitations.Control]
+		#How long duration of dodge is deal as successive dodge
+		#Range: > 0
+		least_successive_dodge_cool_time = 0
+		#Cool time of Dodge action
+		#Range: > 11
+		least_dodge_cool_time = 11
+		#Max number of times of successive Dodge action
+		#Range: > 1
+		max_successive_dodge_count = 2147483647
+
+		[Limitations.Control.Modifier]
+			#How long you can do Horizontal Wall Run
+			#Range: 15 ~ 40
+			wall-run_continuable_tick = 40
+			#How long you can do Slide
+			#Range: 10 ~ 30
+			sliding_continuable_tick = 30
+			#FastRun speed modifier
+			#Range: 0.001 ~ 4.0
+			max_fast-run_modifier = 4.0
+			#FastSwim speed modifier
+			#Range: 0.001 ~ 4.0
+			max_fast-swim_modifier = 4.0
+			#Dodge speed modifier
+			#Range: 0.5 ~ 1.5
+			max_dodge-speed_modifier = 1.0
+

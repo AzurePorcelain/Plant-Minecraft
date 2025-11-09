@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "netherite_plus:netherite_shield"
+    },
+    "addition": {
+        "item": "cataclysm:ignitium_ingot"
+    },
+    "result": {
+        "item": "cataclysm:bulwark_of_the_flame"
+    }
+}

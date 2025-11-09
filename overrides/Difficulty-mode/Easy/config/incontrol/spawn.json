@@ -1,0 +1,78 @@
+[
+  {
+    "mob": "minecraft:zombie",
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_end",
+    "mod": "dungeons_mobs",
+    "mincount": {
+      "amount": 1,
+      "mod": "dungeons_mobs",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombified_piglin",
+    "dimension": "minecraft:overworld",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:spider",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:creeper",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:drowned",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:husk",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:slime",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:enderman",
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:stray",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombified_piglin",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:witch",
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:fly",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "dungeons_mobs:necromancer",
+    "result": "deny"
+  }
+]

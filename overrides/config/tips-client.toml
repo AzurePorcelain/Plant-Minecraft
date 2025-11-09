@@ -1,0 +1,7 @@
+#The amount of time to wait before cycling the displayed tip. This is in miliseconds. 1000ms = 1s
+cycleTime = 5000
+#A list of tip IDs to remove from the list. Restart is required for changes to take effect.
+removedTips = ["tips:turtle_shell", "tips:baby_panda_slimeball", "tips:portal_trick", "tips:dog_health", "tips:cooked_drops", "tips:lava_fuel", "tips:wandering_invis", "tips:undead_damage", "tips:undead_helmet", "tips:fishing_resources", "tips:poison_immune", "tips:note_block_instrument", "tips:piglin_gold", "tips:iron_golem_heal", "tips:creeper_drops_disc", "tips:creeper_cat", "tips:swamp_slimes", "tips:coarse_to_dirt", "tips:barrel", "tips:biome_bonemeal", "tips:biome_fishing", "tips:blaze_fuel", "tips:boat_jump", "tips:boat_passenger", "tips:crouch_blocks", "tips:deflect_ghast_fireballs", "tips:dragon_blocks", "tips:east", "tips:enderman_blocks", "tips:fortress_triangulation", "tips:gravity_torch", "tips:job_site_dimension", "tips:mooshroom_lightning", "tips:ore_tiers", "tips:shulker_golem", "tips:sponge_bucket", "tips:string_wool", "tips:villager_sweat", "tips:witch_conversion", "tips:wooden_tool_fuel", "tips:zombie_armor"]
+#A list of tip namespaces to remove from the list. Restart is requird for changes to take effect.
+removedNamespaces = []
+

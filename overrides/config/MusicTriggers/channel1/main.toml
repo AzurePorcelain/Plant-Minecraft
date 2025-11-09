@@ -1,0 +1,368 @@
+# Please refer to the wiki page located at https://github.com/TheComputerizer/Music-Triggers/wiki
+# or the discord server located at https://discord.gg/FZHXFYp8fc
+# for any specific questions you might have regarding the main config file
+
+[triggers]
+	[[triggers.mob]]
+		identifier = "EnderDragon"
+		resource_name = [ "ender_dragon" ]
+		level = "1"
+		detection_range = "128"
+		fade_out = "200"
+		persistence = "200"
+		mob_targeting = false
+		priority = "8"
+	[[triggers.mob]]
+		identifier = "Boss_Spiritcaller"
+		resource_name = [ "spiritcaller" ]
+		level = "1"
+		detection_range = "64"
+		fade_out = "200"
+		persistence = "200"
+		trigger_delay = "0"
+		song_delay = "120000"
+		mob_targeting = false
+		max_tracks = "1"
+		priority = "7"
+	[[triggers.mob]]
+		identifier = "Boss_Ender_guardian"
+		resource_name = [ "ender_guardian" ]
+		level = "1"
+		detection_range = "64"
+		start_delay = "0"
+		fade_out = "200"
+		persistence = "200"
+		trigger_delay = "0"
+		song_delay = "0"
+		priority = "7"
+	[[triggers.mob]]
+		identifier = "Boss_Wroughtnaut"
+		resource_name = [ "wroughtnaut" ]
+		level = "1"
+		detection_range = "64"
+		fade_out = "200"
+		persistence = "200"
+		trigger_delay = "0"
+		song_delay = "0"
+		mob_targeting = false
+		priority = "7"
+	[[triggers.mob]]
+		identifier = "Boss_Frostmaw"
+		resource_name = [ "frostmaw" ]
+		level = "1"
+		detection_range = "32"
+		fade_out = "200"
+		persistence = "200"
+		trigger_delay = "0"
+		song_delay = "0"
+		mob_targeting = false
+		priority = "7"
+	[[triggers.mob]]
+		identifier = "Boss_Barako"
+		resource_name = [ "barako" ]
+		mob_nbt = "EQUAL;ForgeData;Summoner;Challenge"
+		level = "1"
+		detection_range = "64"
+		fade_out = "200"
+		persistence = "200"
+		trigger_delay = "0"
+		song_delay = "0"
+		mob_targeting = false
+		priority = "7"
+	[[triggers.mob]]
+		identifier = "challenge"
+		resource_name = [ "normal_zombie" "flag_zombie" "conehead_zombie" "pole_zombie" "buckethead_zombie" "snorkel_zombie" "zomboni" "bobsle_team" "bobsle_zombie" "zombie_dolphin" "dolphin_rider" "dolphin_rider_zombie" "lava_zombie" "newspaper_zombie" "screendoor_zombie" "football_zombie" "dancing_zombie" "giga_football_zombie" "old_zombie" "sunday_edition_zombie" "jack_in_box_zombie" "balloon_zombie" "digger_zombie" "pogo_zombie" "yeti_zombie" "ladder_zombie" "catapult_zombie" "gargantuar" "imp" "giga_gargantuar" "peashooter_zombie" "wallnut_zombie" "gatlingpea_zombie" "tallnut_zombie" "squash_zombie" "jalapeno_zombie" "coffin" "mourner_zombie" "noble_zombie" "pumpkin_zombie" "trick_zombie" "ra_zombie" ]
+		mob_nbt = "EQUAL;ForgeData;Summoner;Challenge"
+		level = "1"
+		detection_range = "64"
+		mob_targeting = false
+		start_delay = "20"
+		stop_delay = "0"
+		fade_in = "40"
+		fade_out = "150"
+		persistence = "600"
+		trigger_delay = "0"
+		song_delay = "0"
+		priority = "6"
+	[[triggers.mob]]
+		identifier = "Boss_Ender_golem"
+		resource_name = [ "ender_golem" ]
+		level = "1"
+		detection_range = "64"
+		fade_out = "200"
+		persistence = "200"
+		trigger_delay = "0"
+		song_delay = "0"
+		mob_targeting = false
+		priority = "5"
+	[triggers.structure]
+		identifier = "dave_villa"
+		resource_name = [ "dave_villa" ]
+		max_tracks = "1"
+		trigger_delay = "2400:7200"
+		song_delay = "120000"
+		priority = "5"
+	[[triggers.height]]
+		identifier = "under"
+		level = "40"
+		priority = "4"
+	[[triggers.height]]
+		identifier = "sky"
+		check_for_sky = false
+		not = true
+		level = "128"
+		priority = "4"
+	[triggers.fishing]
+		start_delay = "40"
+		stop_delay = "100"
+		fade_in = "200"
+		fade_out = "200"
+		persistence = "100"
+		trigger_delay = "100:1200"
+		song_delay = "600:3600"
+		priority = "4"
+	[triggers.riding]
+		identifier = "any"
+		start_delay = "100"
+		stop_delay = "100"
+		fade_in = "40"
+		fade_out = "40"
+		persistence = "40"
+		trigger_delay = "100:300"
+		song_delay = "300:2400"
+		priority = "4"
+	[triggers.raining]
+		trigger_delay = "600:2400"
+		song_delay = "1200:5400"
+		priority = "3"
+	[[triggers.biome]]
+		identifier = "netherbiome1"
+		resource_name = [ "soul_sand_valley" ]
+		priority = "2"
+	[[triggers.biome]]
+		identifier = "netherbiome2"
+		resource_name = [ "crimson_forest" "warped_forest" ]
+		priority = "2"
+	[[triggers.biome]]
+		identifier = "netherbiome3"
+		resource_name = [ "basalt_deltas" ]
+		priority = "2"
+	[[triggers.biome]]
+		identifier = "forest"
+		resource_name = [ "forest" "taiga" ]
+		priority = "2"
+	[[triggers.biome]]
+		identifier = "plains"
+		resource_name = [ "plains" ]
+		priority = "2"
+	[[triggers.biome]]
+		identifier = "bewilder_garden"
+		resource_name = [ "bewilder_garden" ]
+		priority = "2"
+	[[triggers.biome]]
+		identifier = "night"
+		resource_name = [ "night" ]
+		priority = "2"
+	[[triggers.biome]]
+		identifier = "zen_garden"
+		resource_name = [ "zen_garden" ]
+		priority = "2"
+	[[triggers.gamestage]]
+		identifier = "roof_over"
+		resource_name = [ "roof_over" ]
+		priority = "2"
+	[[triggers.gamestage]]
+		identifier = "no_roof_over"
+		resource_name = [ "roof_over" ]
+		is_whitelist = false
+		priority = "2"
+	[[triggers.gamestage]]
+		identifier = "roof_night"
+		resource_name = [ "roof_night" ]
+		priority = "2"
+	[[triggers.gamestage]]
+		identifier = "no_roof_night"
+		resource_name = [ "roof_night" ]
+		is_whitelist = false
+		priority = "2"
+	[[triggers.gamestage]]
+		identifier = "roof_day"
+		resource_name = [ "roof_day" ]
+		priority = "2"
+	[[triggers.gamestage]]
+		identifier = "no_roof_day"
+		resource_name = [ "roof_day" ]
+		is_whitelist = false
+		priority = "2"
+	[[triggers.gamestage]]
+		identifier = "pool_night"
+		resource_name = [ "pool_night" ]
+		priority = "2"
+	[[triggers.gamestage]]
+		identifier = "no_pool_night"
+		resource_name = [ "pool_night" ]
+		is_whitelist = false
+		priority = "2"
+	[[triggers.gamestage]]
+		identifier = "pool_day"
+		resource_name = [ "pool_day" ]
+		priority = "2"
+	[[triggers.gamestage]]
+		identifier = "no_pool_day"
+		resource_name = [ "pool_day" ]
+		is_whitelist = false
+		priority = "2"
+	[[triggers.gamestage]]
+		identifier = "grass_night"
+		resource_name = [ "grass_night" ]
+		priority = "2"
+	[[triggers.gamestage]]
+		identifier = "no_grass_night"
+		resource_name = [ "grass_night" ]
+		is_whitelist = false
+		priority = "2"
+	[[triggers.dimension]]
+		identifier = "overworld"
+		resource_name = [ "minecraft:overworld" ]
+		priority = "1"
+	[[triggers.dimension]]
+		identifier = "nether"
+		resource_name = [ "minecraft:the_nether" ]
+		priority = "1"
+	[[triggers.dimension]]
+		identifier = "end"
+		resource_name = [ "minecraft:the_end" ]
+		priority = "1"
+	[triggers.menu]
+		start_delay = "100"
+		stop_delay = "0"
+		fade_in = "100"
+		fade_out = "0"
+		persistence = "0"
+		trigger_delay = "0"
+		song_delay = "0"
+		priority = "100"
+	[triggers.universal]
+		start_delay = "300"
+		stop_delay = "200"
+		fade_in = "100"
+		fade_out = "100"
+		persistence = "300"
+		trigger_delay = "100:1200"
+		song_delay = "600:3600"
+[songs]
+	[songs.main]
+		volume = "0.625"
+		triggers = [ "menu" ]
+	[songs.overworld1]
+		volume = "0.625"
+		triggers = [ "dimension-overworld" ]
+	[songs.overworld2]
+		volume = "0.625"
+		triggers = [ "dimension-overworld" ]
+	[songs.overworld3]
+		volume = "0.625"
+		triggers = [ "dimension-overworld" ]
+	[songs.forest1]
+		volume = "0.625"
+		triggers = [ "biome-forest" ]
+	[songs.forest2]
+		volume = "0.625"
+		triggers = [ "biome-forest" ]
+	[songs.plains]
+		volume = "0.625"
+		triggers = [ "biome-plains" ]
+	[songs.zen_garden]
+		volume = "0.5"
+		triggers = [ "biome-zen_garden" ]
+	[songs.night_garden]
+		triggers = [ "biome-night" ]
+	[songs.bewilder_garden]
+		triggers = [ "biome-bewilder_garden" ]
+	[songs.nether1]
+		volume = "0.75"
+		triggers = [ "biome-netherbiome1" ]
+	[songs.nether2]
+		volume = "0.625"
+		triggers = [ "biome-netherbiome2" ]
+	[songs.nether3]
+		volume = "0.75"
+		triggers = [ "biome-netherbiome3" ]
+	[songs.nether4]
+		volume = "1.25"
+		triggers = [ "dimension-nether" ]
+	[songs.nether5]
+		volume = "0.625"
+		triggers = [ "dimension-nether" ]
+	[songs.end1]
+		volume = "0.5"
+		triggers = [ "dimension-end" ]
+	[songs.end2]
+		volume = "0.625"
+		triggers = [ "dimension-end" ]
+	[songs.end3]
+		volume = "0.55"
+		triggers = [ "dimension-end" ]
+	[songs.end4]
+		volume = "0.75"
+		triggers = [ "dimension-end" ]
+	[songs.Epic_End]
+		volume = "0.5"
+		triggers = [ "dimension-end" ]
+	[songs.Epic_Dragon]
+		volume = "0.75"
+		triggers = [ "mob-EnderDragon" ]
+	[songs.Boss_Spiritcaller]
+		volume = "0.75"
+		triggers = [ "mob-Boss_Spiritcaller" ]
+	[songs.Boss_Barako]
+		volume = "0.5"
+		triggers = [ "mob-Boss_Barako" ]
+	[songs.Boss_Frostmaw]
+		volume = "0.625"
+		triggers = [ "mob-Boss_Frostmaw" ]
+	[songs.Boss_Wroughtnaut]
+		volume = "0.55"
+		triggers = [ "mob-Boss_Wroughtnaut" ]
+	[songs.Boss_Ender_guardian]
+		volume = "0.625"
+		triggers = [ "mob-Boss_Ender_guardian" ]
+	[songs.Boss_Ender_golem]
+		triggers = [ "mob-Boss_Ender_golem" ]
+	[songs.PvZ_grass_day]
+		volume = "0.5"
+		triggers = [ "mob-challenge" "gamestage-no_grass_night" ]
+	[songs.PvZ_grass_night]
+		volume = "0.5"
+		triggers = [ "mob-challenge" "gamestage-grass_night" "gamestage-no_pool_day" ]
+	[songs.PvZ_pool_day]
+		volume = "0.5"
+		triggers = [ "mob-challenge" "gamestage-pool_day" "gamestage-no_pool_night" ]
+	[songs.PvZ_pool_night]
+		volume = "0.5"
+		triggers = [ "mob-challenge" "gamestage-pool_night" "gamestage-no_roof_day" ]
+	[songs.PvZ_roof_day]
+		volume = "0.625"
+		triggers = [ "mob-challenge" "gamestage-roof_day" "gamestage-no_roof_night" ]
+	[songs.PvZ_roof_night]
+		volume = "0.625"
+		triggers = [ "mob-challenge" "gamestage-roof_night" "gamestage-no_roof_over" ]
+	[songs.PvZ_UltimateBattle]
+		triggers = [ "mob-challenge" "gamestage-roof_over" ]
+	[songs.dave_villa]
+		volume = "0.5"
+		triggers = [ "structure-dave_villa" ]
+	[songs.cavern]
+		triggers = [ "height-under" ]
+	[songs.rain]
+		volume = "1.25"
+		triggers = [ "raining" ]
+	[songs.fishing]
+		volume = "1.25"
+		triggers = [ "fishing" ]
+	[songs.horse]
+		volume = "0.75"
+		triggers = [ "riding-any" ]
+	[songs.thesky]
+		triggers = [ "height-sky" ]
+	[songs.universal]

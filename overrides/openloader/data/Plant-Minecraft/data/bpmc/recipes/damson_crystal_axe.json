@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "pvz:origin_axe"
+  },
+  "addition": {
+    "item": "bpmc:damson_crystal_ingot"
+  },
+  "result": {
+    "item": "bpmc:damson_crystal_axe"
+  }
+}

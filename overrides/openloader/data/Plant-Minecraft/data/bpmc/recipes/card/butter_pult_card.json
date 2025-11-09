@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":[
+    "AAA",
+    "ABA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "pvz:arma_essence"
+    },
+    "B": {
+      "item": "pvz:butter_block"
+    },
+    "C": {
+      "item": "pvz:mega_card"
+    }
+  },
+  "result": {
+    "item": "pvz:butter_pult_card"
+  }
+}

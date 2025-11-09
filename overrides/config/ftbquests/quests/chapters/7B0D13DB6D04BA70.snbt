@@ -1,0 +1,1220 @@
+{
+	id: "7B0D13DB6D04BA70"
+	group: "61357C1B696394B5"
+	order_index: 2
+	filename: "7B0D13DB6D04BA70"
+	title: "旅者见闻录[可选]"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "minecraft:textures/item/emerald.png"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "强化太阳能收集器"
+			icon: "projecte:collector_mk2"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "不可重复任务"
+			description: [
+				"裂隙再次泛起微光，那道空灵的声音如约而至，却比上次更多了几分刻意的斟酌。"
+				""
+				"“…交易…已完成。您真是位…高效的旅者。”声音轻微地顿了一下，“…坦白说，上次的交易，我们几乎无利可图…”"
+				""
+				"“…但我们仍希望能维持这段…宝贵的贸易关系。”裂隙中投映出另一种收集器的复杂蓝图，“…我们愿提供这份稍逊一筹，但依旧卓越的设计图…作为替代。”"
+				""
+				"史蒂夫能感觉到，那声音正极力维持着表面的平静，仿佛在小心翼翼地避免任何可能触怒他的言辞。"
+				""
+				"“…鉴于我们蒙受了…呃…一些损失…”声音的音调不自然地抬高了些许，“…这份配方的价格，或许需要…进行一些合理的调整…您能理解吗？”"
+			]
+			dependencies: ["77AC595A8274656F"]
+			hide: true
+			id: "303D6D920F296848"
+			tasks: [{
+				id: "0BB58227B5CA9621"
+				type: "item"
+				item: {
+					id: "pvz:time_key_to_deep"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "14386E383A136CE1"
+				type: "gamestage"
+				auto: "no_toast"
+				stage: "Isekai_collector"
+			}]
+		}
+		{
+			title: "命名牌"
+			icon: "minecraft:name_tag"
+			x: 2.5d
+			y: -2.0d
+			description: [
+				"清晨，一阵急促的敲门声打破了宁静。史蒂夫一开门，就被眼前的景象惊住了——"
+				""
+				"“尊敬的先生！看看这优质的命名牌，三个绿宝石，童叟无欺！”一个戴眼镜的村民高举着商品。"
+				""
+				"“别听他瞎说！”另一个胖村民挤上前来，“我这只要两个绿宝石，还附赠命名服务！”"
+				""
+				"转眼间，更多的村民涌了上来，七嘴八舌地叫卖着："
+				"“三个绿宝石两个！亏本大甩卖！”"
+				"“我出六个绿宝石七个！倒贴钱交个朋友！”"
+				""
+				"场面一度失控，村民们为了抢生意竟然开始恶性竞 价……"
+				""
+				"最终，在激烈的价格战后，命名牌的价格被压到了一个令人难以置信的低价——"
+				"一个绿宝石一个命名牌"
+			]
+			dependencies: ["2F94654872D8EF4F"]
+			hide: true
+			id: "148250F253F369C6"
+			tasks: [{
+				id: "34D3A3623C64B0E8"
+				type: "item"
+				item: {
+					id: "minecraft:emerald"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "71C2612F8FD45BB8"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2AD0F898BFEECF7C"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 148250F253F369C6"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "菌丝球"
+			icon: "alexsmobs:gongylidia"
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"漫步于繁花平原，史蒂夫正寻觅着可能藏于花丛的蜂巢，脚下却险些踩中一个蹲伏的身影——那人身着浅绿夹克与深绿牛仔裤，头戴登山帽，几乎与花海融为一体。"
+				"“妙啊，妙极了！这么多上好的郁金香，卖给芬吉尔准能大赚一笔！”对方对着花丛喃喃自语，兴奋的嗓音让史蒂夫确信，这绝非一个遇难者，而是个活生生的怪 人。"
+				""
+				"突然，那人的鼻翼翕动，仿佛捕捉到了某种不可思议的气息。他瞬间弹起，将珍爱的花丛抛诸脑后，目光左右扫视，很快便锁定了近处的史蒂夫。"
+				""
+				"“是你！绝对是你！”他一把抓住史蒂夫的肩膀，力道之大让史蒂夫险些拔剑。若非他眼中闪烁着寻觅宝藏般的狂热，史蒂夫早已将这无礼之徒推开。"
+				""
+				"“就是这个味道，不会错的！”他陶醉地嗅着史蒂夫的衣襟，眼中迸发出星辰般的光彩，“龙涎香……这是龙涎香的味道！哈哈哈！”"
+				""
+				"“噢，失礼了。”他像是忽然找回理智，整了整衣领，正色道，“我是来自戈特洛的生物学家，为采集稀有样本而来——比如你身上这块龙涎香。”"
+				""
+				"“瞧瞧这个，孩子。”他变戏法般掏出一片菌毯，其上矗立着乳白的菌柄，“芬群岛特产，菌丝球。我敢打赌你从未尝过此等美味。”"
+				""
+				"“只需一块龙涎香，”他脸上堆起诱哄的笑容，“这片珍馐就是你的了。当然，多多益善！这笔买卖，你稳赚不赔。”"
+			]
+			dependencies: ["0C5ACC52C7EE1E29"]
+			hide: true
+			id: "5B87BAA2863F338D"
+			tasks: [{
+				id: "646ED68353DA8FB4"
+				type: "item"
+				item: {
+					id: "alexsmobs:ambergris"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "18BDC5ADCD036054"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "alexsmobs:gongylidia"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "359E7CCF46A6C354"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5B87BAA2863F338D"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "兴奋药水"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "pvz:excite_potion_3"
+				}
+			}
+			x: 2.5d
+			y: 0.0d
+			subtitle: "不可重复任务"
+			description: [
+				"“呼……总算结束了。”史蒂夫放下举了许久的剑，长舒一口气。尸潮再次退去，战场暂时恢复了平静。就在这时，屋后传来一阵细微而急促的脚步声。"
+				""
+				"他循声而去，发现一位游商打扮的人正焦虑地来回踱步。对方的出现与这残酷的战场格格不入。史蒂夫不由上前问道：“你是？”"
+				"“噢——！”那人惊得险些跳起，见是史蒂夫才松了口气，赶忙躬身行礼，“您好！没想到能在这里遇见能击退尸潮的强者，真是……万分荣幸。”"
+				""
+				"见史蒂夫仍有疑虑，他神色一黯，沉声道：“我来自西北……我的故乡，已被一支恐怖的僵尸大军踏平。它们……它们每个头上都顶着一杆豌豆机枪，我们的防线不堪一击。”"
+				""
+				"“但我身上，带着故乡最核心的机密！”说到这里，他脸上泛起一丝昔日的骄傲，随即又被巨大的悲伤淹没，“那是周边所有城邦都曾渴求的不传之秘。”"
+				""
+				"“我被迫流浪，只为替它找到一个值得托付的主人。”他望向史蒂夫的眼神中，坚毅里透出一丝柔和，“而经过观察，我相信，你就是那位传承者。”"
+				""
+				"一丝宽慰的笑容在他沧桑的脸上绽开：“只要五块巧克力，我就能为您演示如何调制我故乡的骄傲——兴奋药水。只需一口，您便能领略它的非凡。”"
+				""
+				"“之后……我这颗漂泊的心，也终于能平静地回到那里……”他闭上双眼，泪水却止不住地从脸颊滑落，“……回到，我的故乡。”"
+			]
+			dependencies: ["7E71A1C58B60C72C"]
+			hide: true
+			id: "69223543835C2558"
+			tasks: [{
+				id: "62FBF07701A8F6FC"
+				type: "item"
+				item: {
+					id: "pvz:chocolate"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "22B947AA2BA1C7E9"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "pvz:excite_potion_3"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "兴奋药水-低廉"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "pvz:excite_potion_3"
+				}
+			}
+			x: 5.0d
+			y: 0.0d
+			description: [
+				"在史蒂夫收集巧克力的日子里，这位暂居的游商已成了家中的常客。他时常与史蒂夫聊起尸潮来临前，故乡的风土人情与四方见闻。"
+				""
+				"“我的朋友，”这天，他又沉浸在往昔的回忆中，“若非生于丛林，我们的先祖也未必能窥见巧克力中蕴藏的奥秘。”"
+				""
+				"他感叹着先人的智慧：“即便邻邦得到了成品药水，也始终无法勘破其中的炼制工艺。”"
+				""
+				"“不过嘛，”他话锋一转，眼中泛起一丝商人的狡黠与旧日的荣光，“我们倒也出售些低阶版本，为城邦换回了堆积如山的财富与物资。”"
+				""
+				"“告诉你个诀窍，”他凑近了些，压低声音，“只需省去第三步和倒数第二步，就能以五分之一的材料，炼制出时效三分之一的简化版药水。”"
+				""
+				"“当然，”他直起身，赞许地看着史蒂夫，“待你掌握了完整配方，这一切自会融会贯通。以你的天赋，这绝非难事。”"
+			]
+			dependencies: ["69223543835C2558"]
+			hide: true
+			id: "5A0248F96C324976"
+			tasks: [{
+				id: "43BFAB64D47ABF02"
+				type: "item"
+				item: {
+					id: "pvz:chocolate"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0D86A2AD0701A445"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "pvz:excite_potion_1"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "39FC43CA93837742"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5A0248F96C324976"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "兴奋药水-高端"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "pvz:excite_potion_3"
+				}
+			}
+			x: 2.5d
+			y: 2.0d
+			description: [
+				"“唔…这西瓜虽不及我故乡的清甜，但在这末世之中，已是难得的享受。”他品尝着史蒂夫亲手种植的西瓜，中肯地评价道。"
+				""
+				"“你的种植技艺实在令人惊叹，我的朋友。”享用完毕，他一边净手，一边由衷赞叹，“即便在我的故乡，也寻不出如你这般全能的农夫。”"
+				""
+				"“说起来…”他眼中重现神采，“我们故乡的药水，其实还有一个更为精粹的高阶版本。”"
+				""
+				"“以你在培育植株中展现的耐心与巧思，我相信你定能驾驭这门技艺。”他语气笃定，随即耐心讲解起来：“关键在于第二步重复投料，并在倒数第三步蒸馏后滤净水分。”"
+				""
+				"“虽然用料倍增，但成效远非普通品质可比。”他微笑着望向史蒂夫，“一旦掌握此法，寻常药水于你便再无意义了。”"
+				""
+				"“我越来越期待你成功的那天了。”游商脸上绽开欣慰的笑容，眼角的纹路里满是期许，“我们传奇的兴奋药水，必将在你手中绽放更耀眼的光华。加油吧，少 年！”"
+			]
+			dependencies: ["69223543835C2558"]
+			hide: true
+			id: "4CA9340F358AD9FD"
+			tasks: [{
+				id: "3038854E3774A15A"
+				type: "item"
+				item: {
+					id: "pvz:chocolate"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4760C4BE58200065"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "pvz:excite_potion_2"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3551B4F63717F56E"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4CA9340F358AD9FD"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "下界合金"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"史蒂夫在黑森林中穿行，搜寻着林地府邸的踪迹，一边想象着其中隐藏的密室。忽然，远处一个歇息的人影引起了他的注意。绕过巨大的橡树，他看到一位独行者——令人费解的是，对方的脸上并未流露出末世中常见的哀伤。"
+				""
+				"“您好，我亲爱的朋友！在此相遇真是荣幸之至。”那人敏捷地拾起手边的黑色圆顶帽戴好，行了一个略显浮夸的礼。“您无法想象我经历了什么……突围时，那些该死的僵尸毁掉了我全部的装备！”"
+				"他身上的行装确实破烂，但这份“惊险”与他眼中一闪而过的精明，以及那过于流畅的诉苦，让人隐隐觉得有些刻意。"
+				""
+				"“噢！这金属的质感……”他的目光忽然锁定在史蒂夫背包侧兜的下界合金上，摩挲着下巴，“如果我没记错，这是下界合金，对吧？”"
+				"“想当年，我可是拥有一整套用它打造的铠甲，别提多气派了！”他沉浸在“回忆”中，随即却话锋一转，摆摆手便转身没入森林深处。“唉，都是往事了。”"
+				""
+				"次日，他竟主动寻来。一照面，他便不自觉地摸了摸鼻子。"
+				"“嘿，小子！瞧我搞到了什么——一整块下界合金。”他眼中精光一闪，神秘地拉开厚重外套的一角，亮出一块金属。那合金块的光泽似乎…过于均匀完美，与他破旧的衣衫格格不入。"
+				"“它的品质，绝对远超你见过的任何一块。”他迅速将合金收回怀中，语气笃定，“这可是我从沦陷城邦的宝库里……‘抢救’出来的，价值连城。”"
+				"“可惜啊，城邦没了，再也找不到能工巧匠重铸它了。”他絮叨许久，最终图穷匕见：“这样，只要你用一件下界合金胸甲，就能换走我手里这块‘极品’。怎么样，这买卖……很划算吧？”"
+			]
+			dependencies: ["09D93B09B046796A"]
+			hide: true
+			optional: true
+			id: "1BF5D274328492A4"
+			tasks: [{
+				id: "4C0C044632DBAB4B"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "668FF4C48F80AE36"
+				type: "item"
+				title: "下界合金块"
+				auto: "enabled"
+				item: {
+					id: "netherite_plus:fake_netherite_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "阅历"
+			x: -2.5d
+			y: 0.0d
+			description: [
+				"虚空符文自史蒂夫掌心绽放，幽光驱散了四周蠢动的末影生物。"
+				""
+				"蓦然间，一只独特的潜影贝攫住了他的目光——"
+				"它的贝壳微张，内里流转着与同类迥异的辉光。"
+				""
+				"“妮…妮手里的符文，”它用生涩而蹩脚的语调开口，令史蒂夫大为惊异，“和窝族…传说里的，很像。”"
+				""
+				"“蒸馍…蒸馍样，才能换回它？”它贝壳微颤，眼巴巴地望着史蒂夫，“这…应改是窝族的圣物。”"
+				""
+				"“窝…窝只有哲本古卷，”它小心翼翼地从壳内推出一本萦绕着魔力的典籍，“很古老…很珍贵……”"
+				""
+				"“遮个…足够换回窝族的符文吗？”"
+				"史蒂夫清晰地看见，它眼中满溢着卑微与祈求。"
+			]
+			dependencies: ["181EDA680AA40E95"]
+			hide: true
+			id: "75512E0F40EEDCC6"
+			tasks: [{
+				id: "56FF1BAE21062718"
+				type: "item"
+				item: {
+					id: "cataclysm:void_core"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "71AE834715A9A11F"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "apotheosis:knowledge"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0E8C412B1B28E5E9"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 75512E0F40EEDCC6"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "锋利"
+			x: -2.5d
+			y: 2.0d
+			description: [
+				"最后一头巨兽在冰原上轰然倒下，史蒂夫取下它额前的寒霜之精，四周重归寂静。"
+				""
+				"就在这时，一抹转瞬即逝的白色掠过了他的视野。他循迹而去，在一处背风坡后，发现了三位身披巨兽细羽的猎人。"
+				""
+				"“你们是？”史蒂夫轻声问道。"
+				"那几道白色的身影猛然转身，眼中写满了惊愕——猎人们盯着他手中的结晶，一如他注视着他们身上华贵的羽 氅。"
+				""
+				"“你（们）……猎杀了那些巨兽？”"
+				"双方异口同声的问话，让空气瞬间凝固。猎人们的目光不约而同地聚焦在史蒂夫的剑上。"
+				""
+				"“未经神启的异乡人？”"
+				"“竟能独自猎兽……”"
+				"惊疑的低语在风中交织。"
+				""
+				"围坐在篝火旁，史蒂夫与猎人们畅谈许久。这些雪原的游猎之子世代居住于此，从未踏足外界。"
+				""
+				"他们传承着一门古老的秘术，能将剑戟的锋锐推至极 致。"
+				"如今，猎人们愿以这门技艺，交换史蒂夫手中的寒霜之精，以及那些关于外面世界的辽阔见闻。"
+			]
+			dependencies: ["1B6BAADF5EBA123F"]
+			hide: true
+			id: "4F847D21561843CB"
+			tasks: [{
+				id: "57B405D38992B1AF"
+				type: "item"
+				item: {
+					id: "mowziesmobs:ice_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5D761254598C82A6"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 14s
+								id: "minecraft:sharpness"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3EDAB1F65883CEFB"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4F847D21561843CB"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "落难的大厨"
+			icon: "alexsmobs:shrimp_fried_rice"
+			x: -2.5d
+			y: -2.0d
+			subtitle: "不可重复任务"
+			description: [
+				"一位流浪者登门拜访，尽管衣衫褴褛，厨师帽也不知所踪，但那挺直的脊梁与锐利的眼神，依然诉说着他昔日身为大厨的骄傲。"
+				""
+				"“我曾是令所有食客赞不绝口的厨师！”他声音洪亮，随即却又染上一丝苦涩，“可逃难时，我竟遗落了我的锅具……这是厨师最大的耻辱！”"
+				""
+				"眼中的火光倏然熄灭，他以手覆面，声音低沉下去：“已经……太久没有触摸过完整的炊具了。连最拿手的龙虾炒饭，滋味都有些模糊了……”"
+				""
+				"忽然，他抬起头，目光灼灼地望向史蒂夫：“朋友！能否……借您的锅具一用？”那眼神里不再是悲愤与怒火，而是纯粹的、近乎虔诚的渴望。"
+				""
+				"“若是您还能提供这些……”他在衣物的夹层中摸索良久，郑重地取出一张泛黄的食谱。"
+				""
+				"“成年龙虾尾、新鲜卷心菜、单季稻米……”他轻声念着，如数家珍。"
+				""
+				"“只要您愿意，我将用这道菜回报您的慷慨——一顿足以慰藉灵魂的盛宴。”"
+			]
+			dependencies: ["22CA803AEDA8FDFD"]
+			hide: true
+			id: "56ED9A49A72399CC"
+			tasks: [
+				{
+					id: "6CA074A6CCA9C61C"
+					type: "item"
+					item: {
+						id: "alexsmobs:lobster_tail"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5B3D4D6486394DEB"
+					type: "item"
+					title: "Any #forge:crops/cabbage"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:crops/cabbage"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "0B6691202F820DA9"
+					type: "item"
+					title: "Any #forge:crops/rice"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:crops/rice"
+						}
+					}
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "6C68305045496A4C"
+					type: "item"
+					item: {
+						id: "farmersdelight:skillet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "72567FCB5CF6C53F"
+					type: "item"
+					item: {
+						id: "farmersdelight:cooking_pot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1D07D5DA263E19D0"
+					type: "item"
+					item: {
+						id: "farmersdelight:stove"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "17F91DA7B26A91E5"
+				type: "item"
+				auto: "disabled"
+				item: {
+					id: "alexsmobs:shrimp_fried_rice"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "金合欢花"
+			icon: "alexsmobs:acacia_blossom"
+			x: 5.0d
+			y: -2.0d
+			description: [
+				"船只驶过暖洋，一片遍布高大金合欢树的海岸线映入眼帘。靠海的金合欢村庄生机勃勃，村民们忙碌的身影穿梭其间。"
+				""
+				"不一会儿，史蒂夫便背着鼓囊的行囊离开了村庄，品尝着村民慷慨赠与的烤面包。远眺间，几个此前未曾注意的庞然大物正缓缓移动。"
+				""
+				"他快步上前，惊讶地发现当地的旅行商人们正骑着大象往来奔走。象背上满载的货箱缝隙间，溢出缕缕清甜的花香。"
+				""
+				"“远道来的客人，愿风指引你。”一位肤色黝黑、颧骨高耸的旅商在象背上向史蒂夫致意，他的声音浑厚而带着风沙磨砺的质感。“看你装束，不是本地人。我们这儿的‘沙原之星’，是别处没有的宝贝，你瞧瞧。”"
+				""
+				"他小心地捧出一束白润的花枝，动作郑重如同献上哈 达。"
+				"“这金合欢花，只在最干净的沙地里长。七颗绿宝石，换一份草原的祝福。朋友，公平交易，不欺生人。”"
+			]
+			dependencies: ["76CCE0B2C18295B9"]
+			hide: true
+			id: "470C7D3EA8F487A2"
+			tasks: [{
+				id: "0D392DD170E2FE12"
+				type: "item"
+				item: {
+					id: "minecraft:emerald"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 7L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "34B4FC682C6DB6E6"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "alexsmobs:acacia_blossom"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4F3375E3B625AC24"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 470C7D3EA8F487A2"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "水滴鱼"
+			x: 5.0d
+			y: 2.0d
+			description: [
+				"船行海上，迷雾中悄然荡出一叶扁舟。"
+				"舟上老渔夫手持茶盏，含笑相邀：“善哉，有朋远方 来，共饮一盏云雾何如？”"
+				""
+				"史蒂夫展图查阅，方知已至浩渺大陆东海岸。此地民风之雅，令他暗自称奇。"
+				""
+				"随老者入其篷屋，绕过未理的渔网，二人对坐品茗。"
+				"“观君风尘，似已周游久矣。”老翁捋须轻叹，“不知可曾涉足西方大漠？”"
+				""
+				"“吾有一故友，居于极西之地，草木枯槁，江河绝迹。"
+				"然闻其居处生有奇株，名曰仙人掌，其状若碧手向天。"
+				"此树偶结佳果，汁液甘醇，堪称珍品。"
+				"吾曾托友携来一尝，奈何路途迢递，至时风味已失，深以为憾。”"
+				""
+				"言及此处，老翁目光恳切："
+				"“故在此烦请小友代为留意，若他日有获，愿以少许相赠。翁无长物，唯深海获此奇鱼，其质若凝脂，聊表谢忱。”"
+				""
+				"史蒂夫虽觉此事颇奇，然感其诚，遂执礼应下。"
+			]
+			dependencies: ["19B9C4D3752E283B"]
+			hide: true
+			id: "7EC34DC9B8EE0A92"
+			tasks: [{
+				id: "3C78F342D099842F"
+				type: "item"
+				item: {
+					id: "simplefarming:cactus_fruit"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2C2BB72B27528149"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "alexsmobs:blobfish"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "028171EF5044373E"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 7EC34DC9B8EE0A92"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "水手"
+			x: 7.5d
+			y: 2.0d
+			subtitle: "不可重复任务"
+			description: [
+				"“噢，我的上帝！”一位行色匆匆的旅人停下脚步，他的装束和浓重的海风味儿，一看就是位老水手。“这可真够糟的，比本杰明老头儿那双在咸水里泡了三年的旧皮鞋还糟！”"
+				""
+				"他懊恼地抓着头：“咱们的主舰一头撞上了海底的石头遗迹，把上好的锚给弄丢了！最气人的是，从那破石头堆里只捞出来些发臭的腐肉和黑煤块！”"
+				""
+				"忽然，他瞥见了史蒂夫基地里闲置的一座船锚，眼睛顿时亮了。"
+				"“嘿！小子，你这锚看着不赖嘛！虽然个头不大，但拿去应付我们头儿，那是绰绰有余了。”"
+				""
+				"“这么着，”他在口袋里摸索着，脸上堆起一种过分热络的笑容，“我年轻时捞到个老箱子，里头装着这么个蓝汪汪的小球，一看就是个宝贝儿！我用它换你这闲着也是闲着的锚，怎么样？”"
+				""
+				"他努力眨着眼睛，试图让自己看起来既真诚又和善。"
+			]
+			dependencies: ["1F299C9560623654"]
+			hide: true
+			id: "66BB2479BDBAD9CE"
+			tasks: [{
+				id: "420150A0FF08FCB2"
+				type: "item"
+				item: {
+					id: "dungeoncrates:anchor"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1B8F8816FB2C62D1"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "minecraft:heart_of_the_sea"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			subtitle: "不可重复任务"
+			description: [
+				"史蒂夫正在熔岩湖畔挖掘矿石，感慨着钻石的稀有，幻想着取之不尽的矿物。"
+				""
+				"突然，左侧岩壁传来异响！未等他反应，一个矮小矿工便破壁而出。他手持一把金镐，其上流转的符文，似乎已超越了此世法则的极限。"
+				""
+				"他本未留意史蒂夫，鼻翼却不由自主地抽动了一下。"
+				"“你去过下界？”他转身问道。见史蒂夫皱眉未否认，他便不紧不慢地继续说：“我爷爷说过，那里充满岩浆、火焰与硫磺。”"
+				"“除非常年在火山里打滚，否则沾不上这么浓的味 道。”他挤出一个尽可能友善的笑容，“既然你去过，能帮我找一样东西吗？”"
+				""
+				"“我爷爷曾想打造一把能自动熔炼矿石的神奇镐子，却始终缺少一种炽热的材料来铸造最关键的镐头。”"
+				""
+				"“直至离世，他都没能成功。但在留下的一本古籍里，‘熔岩锭’三字被反复圈画。我们相信，这就是那把镐子的核心……”"
+				""
+				"“可惜古籍残破，我们寻遍世界也找不到记载中的下界群系。”他眼中失望与希望交织，“但您既然去过，或许……或许您曾见过它？”"
+				""
+				"“所以，我想拜托您，”他眼中闪烁着近乎祈求的真 诚，“若在下界见到传说中的远古熔岩锭，能否为我们带来？这对我们家族至关重要！”"
+				""
+				"“作为回报…”他略一迟疑，随即坚定道，“我愿用爷爷留下的神秘卷轴交换！”"
+			]
+			dependencies: ["7F1B9DEAF696CDA3"]
+			hide: true
+			id: "10FA1EBC91FDC329"
+			tasks: [{
+				id: "69658382263F6288"
+				type: "item"
+				item: {
+					id: "pvz:ancient_blazing_chrome"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "17C8DB128CC9C32F"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s
+							id: "minecraft:fortune"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			description: [
+				"护手泛着不祥的幽光，手背上的紫瞳妖冶地流转，仿佛拥有自己的生命。"
+				""
+				"“竟能将空间之力熔铸于甲胄……”史蒂夫测试着其中蕴含的新奇力量，不禁低声赞叹。"
+				""
+				"忽然，一阵被凝视的异样感掠过脊背。他环顾四周，只见一只末影人静立不远处，背负行囊，默然注视着他——更准确地说，是注视着他手中的护手。"
+				""
+				"“…空间的涟漪…”它发出沙哑的低语，恍若叹息， “…上一次实验，已是久远之前了……”"
+				""
+				"沉默片刻，它的语调骤然变得清晰而庄重："
+				"“此物的来历，我便不多过问了。”"
+				"“它乃我族昔日一项失败实验的造物，不知何故流落在外，给阁下平添困扰，是我等之过。”"
+				""
+				"“若阁下愿将其交还，允我将其销毁…”"
+				"“我愿以族中秘卷相赠，内有‘缩地成寸’之法，聊表谢忱。”"
+			]
+			dependencies: ["1DC476CAF005D96B"]
+			hide: true
+			id: "47B70F4926737079"
+			tasks: [{
+				id: "41BB23C7322F56AC"
+				type: "item"
+				item: {
+					id: "cataclysm:gauntlet_of_guard"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "592CF14CEDE04E53"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "pvz:range_reach"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5736319D43E97304"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 47B70F4926737079"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			subtitle: "荣耀之证"
+			description: [
+				"于生机盎然的植物世界，"
+				"冰霜巨兽在他手中伏诛，寒躯再难复苏；"
+				""
+				"于烈焰奔腾的炽热下界，"
+				"合金巨像在他剑下崩解，残骸支离破碎；"
+				""
+				"于诡谲莫测的终末之地，"
+				"古老的终末之手被他剥离，重归永恒死寂；"
+				""
+				"冒险者的足迹已踏遍三界，"
+				"英雄的传奇将与世长存……"
+				""
+				"然而史蒂夫深知，异界之力犹如无垠星海，远未穷尽。"
+				""
+				"他未曾有片刻懈怠，再度投身于对终末秘法的深研。"
+				"若能彻底复现那奥术矩阵，这位传奇冒险者便将掌握以空间波动干涉物质硬度的无上秘术。"
+			]
+			dependencies: [
+				"339C53697002F6BC"
+				"1DC476CAF005D96B"
+				"1B6BAADF5EBA123F"
+			]
+			hide: true
+			id: "726DE100EF16234F"
+			tasks: [{
+				id: "764755495775F039"
+				type: "item"
+				item: {
+					id: "cataclysm:music_disc_ender_guardian"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6EABD39F16C4FA98"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "apotheosis:depth_miner"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0E225369CECCED9D"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 726DE100EF16234F"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			subtitle: "英勇之章"
+			description: [
+				"在熔岩噼啪作响的下界深处，"
+				"上古的巨兽于英雄剑锋下归于沉寂。"
+				"藏宝室中，时光积攒的远古残骸，"
+				"被逐一纳入冒险者的行囊。"
+				""
+				"而在巨兽崩解之际，"
+				"其核心或有概率凝成一枚符文唱片，"
+				"其中封存着它撼动山岳的怪力本源……"
+				""
+				"发掘其形，复刻其韵，最终掌控其髓，"
+				"勇者便可再现这古老的隐秘魔法，"
+				"将巨兽的磅礴之力，化为己用。"
+			]
+			dependencies: ["339C53697002F6BC"]
+			hide: true
+			id: "687E974EA114765C"
+			tasks: [{
+				id: "6E563EA0BABC42A4"
+				type: "item"
+				item: {
+					id: "cataclysm:music_disc_netherite_monstrosity"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6B19D7561C548E20"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:power"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "22D402562F83304D"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 687E974EA114765C"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			description: [
+				"当史蒂夫再次拜访阳光戴夫时，发现屋里多了一位陌生的客人。对方衣着华美，袍服上绣着精致的太阳纹样，像是一位来自远方的旅商。"
+				""
+				"“您是？”史蒂夫投去疑惑的目光。"
+				""
+				"“我们与其他太阳部落不同。”对方微微一笑，语气中带着自豪，“我们更崇尚智慧，懂得如何精进技艺，并通过贸易来改善族人的生活。”"
+				""
+				"他的目光在史蒂夫身上停留，渐渐眯起了眼。"
+				"“如此精纯的太阳之力……若在我们部落，您定会被尊为受太阳祝福的天选者。”"
+				""
+				"“为表善意，”他展开一卷闪烁着辉光的卷轴，“我们愿以新研制的魔法卷轴相赠。而您只需回赠些许凝聚太阳之力的阳光徽章即可。”"
+				"他优雅地行了一礼：“感谢您的参与。”"
+				""
+				"史蒂夫疑惑地看向阳光戴夫，寻求确认。然而——“歪比歪比，歪比巴卜！”——依旧是他唯一的回应。"
+			]
+			dependencies: ["337D954489DCDC03"]
+			hide: true
+			id: "419700EF14EC314F"
+			tasks: [{
+				id: "4275013AB376B461"
+				type: "item"
+				item: {
+					id: "bpmc:sun_dave_token"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "62402C32DD9E1E39"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "pvz:sun_mending"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "21B3763BCE1F2F07"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 419700EF14EC314F"
+					player_command: false
+				}
+			]
+		}
+	]
+}

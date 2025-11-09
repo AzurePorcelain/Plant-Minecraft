@@ -1,0 +1,39 @@
+{
+  "isAssistInvasion": false,
+  "triggerChance": 120,
+  "bonus": "pvz:all_plants",
+  "display_color": "dark_green",
+  "invasion_level": 85,
+  "spawns": [
+    {
+      "entity_type": "pvz:peashooter_zombie",
+      "invasion_level": 55,
+      "spawn_weight": 80
+    },
+    {
+      "entity_type": "pvz:wallnut_zombie",
+      "invasion_level": 65,
+      "spawn_weight": 80
+    },
+    {
+      "entity_type": "pvz:squash_zombie",
+      "invasion_level": 80,
+      "spawn_weight": 60
+    },
+    {
+      "entity_type": "pvz:tallnut_zombie",
+      "invasion_level": 85,
+      "spawn_weight": 60
+    },
+    {
+      "entity_type": "pvz:gatlingpea_zombie",
+      "invasion_level": 100,
+      "spawn_weight": 50
+    },
+    {
+      "entity_type": "pvz:jalapeno_zombie",
+      "invasion_level": 120,
+      "spawn_weight": 5
+    }
+  ]
+}

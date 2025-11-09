@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "bpmc:origin_helmet"
+  },
+  "addition": {
+    "item": "bpmc:damson_crystal_ingot"
+  },
+  "result": {
+    "item": "bpmc:damson_crystal_helmet"
+  }
+}

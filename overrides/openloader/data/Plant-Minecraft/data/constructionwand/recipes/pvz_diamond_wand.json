@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " PX",
+    "P#P",
+    "#P "
+  ],
+  "key": {
+    "X": {
+      "item": "pvz:core_diamond"
+    },
+    "P": {
+      "item": "minecraft:leather"
+    },
+    "#": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "constructionwand:diamond_wand"
+  }
+}

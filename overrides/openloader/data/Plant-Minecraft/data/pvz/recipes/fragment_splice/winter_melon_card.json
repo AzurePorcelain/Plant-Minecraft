@@ -1,0 +1,24 @@
+{
+  "type": "pvz:fragment_splice",
+  "pattern": [
+    "AAAAA",
+    "ABBBA",
+    "ABCBA",
+    "ABBBA",
+    "AAAAA"
+  ],
+  "key": {
+    "B": {
+      "item": "pvz:winter_melon_enjoy_card"
+    },
+    "A": {
+      "item": "pvz:ice_essence"
+    },
+    "C": {
+      "item": "pvz:mega_card"
+    }
+  },
+  "result": {
+    "item": "pvz:winter_melon_card"
+  }
+}

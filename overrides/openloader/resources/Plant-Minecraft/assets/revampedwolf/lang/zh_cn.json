@@ -1,0 +1,13 @@
+{
+  "item.revampedwolf.leather_wolf_armor": "\u76ae\u9769\u72fc\u94e0",
+  "item.revampedwolf.iron_wolf_armor": "\u94c1\u72fc\u94e0",
+  "item.revampedwolf.golden_wolf_armor": "\u91d1\u72fc\u94e0",
+  "item.revampedwolf.diamond_wolf_armor": "\u94bb\u77f3\u72fc\u94e0",
+  "item.revampedwolf.netherite_wolf_armor": "\u4e0b\u754c\u5408\u91d1\u72fc\u94e0",
+  "item.revampedwolf.bagu_hat": "\u906e\u9633\u5e3d",
+  "advancements.husbandry.breed_wolf.title": "更多的狼",
+  "advancements.husbandry.breed_wolf.description": "繁殖一对狼",
+  "advancements.husbandry.tamed_wolf.title": "狼啊！请听从我的指令",
+  "advancements.husbandry.tamed_wolf.description": "驯服一头狼"
+
+}

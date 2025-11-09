@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "advancements.mowziesmobs:frostmaw_spawn"
+    },
+    "description": {
+      "translate": "advancements.mowziesmobs:frostmaw_spawn.desc"
+    },
+	"frame":"task",
+    "announce_to_chat": true
+  },
+  "parent":"mowziesmobs:root",
+  "criteria": {
+    "in_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "mowziesmobs:frostmaw_spawn"
+        }
+      }
+    }
+  },
+  "requirements": [[
+    "in_city"
+  ]]
+}

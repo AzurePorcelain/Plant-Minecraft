@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","group":"projecte:red_matter","pattern":["ASA","SDS","ASA"],"key":{"A":{"item":"projecte:aeternalis_fuel"},"D":{"item":"minecraft:nether_star"},"S":{"item":"projecte:dark_matter"}},"result":{"item":"projecte:red_matter"}}

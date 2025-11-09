@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "pvz:ice_essence"
+    },
+    "B": {
+      "item": "bpmc:origin_spore"
+    },
+    "C": {
+      "tag": "pvz:card/blue_cards"
+    }
+  },
+  "result": {
+    "item": "pvz:ice_shroom_card"
+  }
+}

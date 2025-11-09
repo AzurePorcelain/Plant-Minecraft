@@ -1,0 +1,9 @@
+{"type":"minecraft:crafting_shaped","pattern":["GTG","GDG","GFG"],
+    "key":{
+        "G":{"item":"minecraft:glowstone"},
+        "F":{"item":"minecraft:furnace"},
+        "D":{"item":"projecte:dark_matter"},
+        "T":{"item":"minecraft:daylight_detector"}
+    },
+    "result":{"item":"projecte:collector_mk1"}
+}

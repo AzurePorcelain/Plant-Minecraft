@@ -1,0 +1,59 @@
+
+["Configurations for Xtra Arrows [Forge Edition]"]
+	#Should Fletcher Villagers be allowed to trade Xtra Arrows? This may fix compatibility issues if other mods modify fletcher trading. Note that any villagers that have already generated their trades will maintain them. [True = Yes, False = No]
+	fletchersTradeXtraArrows = false
+	#
+	#Should Padded Arrows fall off walls? [True = Yes, False = No]
+	paddedArrowsFall = true
+	#
+	#Should Explosive Arrows be functional? [True = Yes, False = No]
+	explosiveArrowsEnabled = false
+	#Should explosive arrows do damage to the world? [True = Yes, False = No]
+	explosiveArrowDoesBlockDamage = false
+	#What Should the radius of the Explosive Arrow explosions be by default? [The higher the number, the bigger the explosion. Default: 2.5]
+	#Range: 0.0 ~ 1000.0
+	explosiveArrowRadius = 1.5
+	#
+	#Should Lightning Arrows be functional? [True = Yes, False = No]
+	lightningArrowsEnabled = true
+	#Should the lightning bolts of Lightning Arrows be visual-only? If true, lightning bolts from the arrows would not impact the world or damage entities. [True = Yes, False = No]
+	lightningArrowVisOnly = false
+	#Should the lightning bolts of Lightining Arrows cause fire?[True = Yes, False = No]
+	lightningArrowCausesFire = false
+	#How much damage should the lightning bolts of Lightning Arrows do? [The higher the number, the more the damage. Default: 3.5]
+	#Range: 0.0 ~ 1000.0
+	lightningArrowsDamage = 1.5
+	#
+	#Should Torch Arrows be functional? [True = Yes, False = No]
+	torchArrowsEnabled = true
+	#
+	#Should Soul Torch Arrows be functional? [True = Yes, False = No]
+	soulTorchArrowsEnabled = true
+	#
+	#Should Redstone Torch Arrows be functional? [True = Yes, False = No]
+	redstoneTorchArrowsEnabled = false
+	#
+	#Should Slime Arrows be functional? [True = Yes, False = No]
+	slimeArrowsEnabled = false
+	#What is the maximum amount of times a Slime Arrow should be able to bounce off a wall? [Default: 5]
+	#Range: 0 ~ 1000
+	slimeArrowsBounceOffWalls = 5
+	#What should the bounce multiplier be valued at? Keep this number positive otherwise things will break. [The greater the value, the further the slime arrow will travel. Default: 10.0]
+	#Range: 0.0 ~ 1000.0
+	slimeArrowsBounceMultiplier = 10.0
+	#
+	#Should Ender Arrows be functional? [True = Yes, False = No]
+	enderArrowsEnabled = true
+	#How much damage should shooting an Ender Arrow enact upon the shooter? [2 damage = 1 heart, Default: 2.0]
+	#Range: 0.0 ~ 1000.0
+	enderArrowFallDamage = 0.0
+	#
+	#Should Tracking Arrows be functional? [True = Yes, False = No]
+	trackingArrowsEnabled = true
+	#
+	#Should Vexing Arrows be functional? [True = Yes, False = No]
+	vexingArrowsEnabled = true
+	#What is the maximum amount of times a vexing arrow should be able to traverse through blocks [Default: 1]
+	#Range: 0 ~ 1000
+	vexingArrowsInAndOutMax = 3
+

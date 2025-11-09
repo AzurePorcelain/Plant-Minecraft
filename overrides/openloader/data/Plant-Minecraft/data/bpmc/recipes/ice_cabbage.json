@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XBX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pvz:ice_essence"
+    },
+    "B": {
+      "tag": "forge:crops/cabbage"
+    }
+  },
+  "result": {
+    "item": "bpmc:ice_cabbage",
+    "count": 1
+  }
+
+}

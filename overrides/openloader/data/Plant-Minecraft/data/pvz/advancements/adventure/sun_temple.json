@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "itemfilters:not"
+    },
+    "title": {
+      "translate": "advancement.pvz.sun_temple"
+    },
+    "description": {
+      "translate": "advancement.pvz.sun_temple.desc"
+    },
+    "frame":"task",
+    "announce_to_chat": true
+  },
+  "parent":"pvz:adventure/root",
+  "criteria": {
+    "in_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "pvz:sun_temple"
+        }
+      }
+    }
+  },
+  "requirements": [[
+    "in_city"
+  ]],
+  "rewards":{
+    "recipes":[
+     
+    ]
+  }
+}

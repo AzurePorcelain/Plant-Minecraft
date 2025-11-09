@@ -1,0 +1,29 @@
+{
+  "isAssistInvasion": false,
+  "triggerChance": 80,
+  "bonus": "pvz:pool_night",
+  "display_color": "gold",
+  "invasion_level": 60,
+  "spawns": [
+    {
+      "entity_type": "pvz:conehead_zombie",
+      "invasion_level": 20,
+      "spawn_weight": 60
+    },
+    {
+      "entity_type": "pvz:pole_zombie",
+      "invasion_level": 30,
+      "spawn_weight": 40
+    },
+    {
+      "entity_type": "pvz:trick_zombie",
+      "invasion_level": 60,
+      "spawn_weight": 100
+    },
+    {
+      "entity_type": "pvz:pumpkin_zombie",
+      "invasion_level": 80,
+      "spawn_weight": 20
+    }
+  ]
+}

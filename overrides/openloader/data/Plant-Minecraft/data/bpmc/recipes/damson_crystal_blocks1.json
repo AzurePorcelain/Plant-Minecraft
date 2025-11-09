@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base":{
+    "item": "pvz:amethyst_block"
+  },
+  "addition": {
+    "item": "bpmc:morion_block"
+  },
+  "result": {
+    "item": "bpmc:damson_crystal_block"
+  }
+}

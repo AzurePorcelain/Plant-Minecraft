@@ -1,0 +1,39 @@
+{
+  "isAssistInvasion": false,
+  "triggerChance": 80,
+  "bonus": "pvz:pool_night",
+  "display_color": "red",
+  "invasion_level": 80,
+  "spawns": [
+    {
+      "entity_type": "pvz:normal_zombie",
+      "invasion_level": 1,
+      "spawn_weight": 100
+    },
+    {
+      "entity_type": "pvz:pole_zombie",
+      "invasion_level": 30,
+      "spawn_weight": 60
+    },
+    {
+      "entity_type": "pvz:jack_in_box_zombie",
+      "invasion_level": 80,
+      "spawn_weight": 40
+    },
+    {
+      "entity_type": "pvz:balloon_zombie",
+      "invasion_level": 80,
+      "spawn_weight": 20
+    },
+    {
+      "entity_type": "pvz:pogo_zombie",
+      "invasion_level": 95,
+      "spawn_weight": 30
+    },
+    {
+      "entity_type": "pvz:digger_zombie",
+      "invasion_level": 110,
+      "spawn_weight": 10
+    }
+  ]
+}

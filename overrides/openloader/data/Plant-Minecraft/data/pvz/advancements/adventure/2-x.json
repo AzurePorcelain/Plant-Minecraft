@@ -1,0 +1,33 @@
+
+{
+  "parent": "pvz:adventure/2-9",
+  "display": {
+    "icon": {
+      "item": "pvz:challenge_envelope"
+    },
+    "title": {
+      "translate": "advancement.pvz.2-x"
+    },
+    "description": {
+      "translate": "advancement.pvz.2-x.desc"
+    },
+    "frame":"challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "in_world": {
+      "trigger": "pvz:challenge",
+      "conditions": {
+        "type": "pvz:2-x"
+      }
+    }
+  },
+  "requirements": [[
+    "in_world"
+  ]],
+  "rewards":{
+    "experience":5000
+  }
+}

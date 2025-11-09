@@ -1,0 +1,17 @@
+{
+  "type": "pvz:card_fusion",
+  "ingredients": [
+    {
+      "item": "pvz:puff_shroom_card"
+    },
+    {
+      "item": "pvz:tangle_kelp_card"
+    },
+    {
+      "tag": "pvz:card/white_cards"
+    }
+  ],
+  "result": {
+    "item": "pvz:sea_shroom_card"
+  }
+}

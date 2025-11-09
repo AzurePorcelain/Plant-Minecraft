@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "B": {
+      "item": "bpmc:origin_spore"
+    },
+    "A": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "result": {
+    "item": "pvz:spore"
+  }
+}

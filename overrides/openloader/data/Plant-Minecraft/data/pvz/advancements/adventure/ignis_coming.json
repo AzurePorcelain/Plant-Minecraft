@@ -1,0 +1,33 @@
+
+{
+  "parent": "pvz:adventure/5-x",
+  "display": {
+    "icon": {
+      "item": "pvz:challenge_envelope"
+    },
+    "title": {
+      "translate": "advancement.pvz.ignis_coming"
+    },
+    "description": {
+      "translate": "advancement.pvz.ignis_coming.desc"
+    },
+    "frame":"challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "in_world": {
+      "trigger": "pvz:challenge",
+      "conditions": {
+        "type": "pvz:ignis_coming"
+      }
+    }
+  },
+  "requirements": [[
+    "in_world"
+  ]],
+  "rewards":{
+    "experience":20000
+  }
+}

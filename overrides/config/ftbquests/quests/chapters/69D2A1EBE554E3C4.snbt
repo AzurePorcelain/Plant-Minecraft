@@ -1,0 +1,575 @@
+{
+	id: "69D2A1EBE554E3C4"
+	group: "0E3D3A551D756CC8"
+	order_index: 0
+	filename: "69D2A1EBE554E3C4"
+	title: "魔法的传承"
+	icon: {
+		id: "projecte:philosophers_stone"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: "octagon"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -4.0d
+		width: 28.0d
+		height: 28.0d
+		rotation: 0.0d
+		image: "ftbquests:textures/2.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+		dependency: "153C552967D657F5"
+	}]
+	quests: [
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			subtitle: "炼金术士的终极梦想"
+			description: [
+				"你手握贤者之石，感受到其中流淌的古老魔力。"
+				""
+				"按下K键，召唤炼金术士的便携工作台。"
+				"右键方块可进行正序转换，Shift+右键则逆转转化进程。"
+				"V键增大转化范围，Shift+V减小范围，J键切换范围形 态。"
+				""
+				"这股力量既能创造，也能回归本源——全在你一念之间。"
+			]
+			dependencies: ["315A2A1B67AA267E"]
+			hide: true
+			id: "5F61B297FF5CA72B"
+			tasks: [{
+				id: "51FA01F1E7FE8881"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["5F61B297FF5CA72B"]
+			hide: true
+			id: "0A5F3F01CF0C6E43"
+			tasks: [{
+				id: "12C6DEC99F0AF886"
+				type: "item"
+				item: "projecte:alchemical_coal"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["0A5F3F01CF0C6E43"]
+			hide: true
+			id: "1B8D416A896575E0"
+			tasks: [{
+				id: "004025D504281AF1"
+				type: "item"
+				item: "projecte:mobius_fuel"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			description: ["完成「以太之力」阶段（关卡2-9后的指南针支线），即可解锁全新的篇章。"]
+			dependencies: ["1B8D416A896575E0"]
+			hide: true
+			hide_text_until_complete: false
+			id: "15CD962F563E7F39"
+			tasks: [{
+				id: "690850F52FD7CB31"
+				type: "item"
+				item: "projecte:aeternalis_fuel"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			description: [
+				"以太之力已在你手中流转。"
+				"通往万物本质的篇章，于此开启。"
+			]
+			dependencies: [
+				"15CD962F563E7F39"
+				"4009206C97A3954F"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "01ACA0E47F457D30"
+			tasks: [{
+				id: "21089A5BBE1A78D4"
+				type: "item"
+				item: "projecte:transmutation_table"
+			}]
+			rewards: [{
+				id: "23EA42038AA695A0"
+				type: "xp"
+				auto: "no_toast"
+				xp: 3000
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			dependencies: ["0A5F3F01CF0C6E43"]
+			hide: true
+			optional: true
+			id: "4E9CB67B8382A03A"
+			tasks: [{
+				id: "503F91BE28AB1EA0"
+				type: "item"
+				item: "projecte:alchemical_coal_block"
+			}]
+			rewards: [{
+				id: "01401F2853DBD59E"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			dependencies: ["1B8D416A896575E0"]
+			hide: true
+			optional: true
+			id: "2370CC7D8D7961B3"
+			tasks: [{
+				id: "687C146CADA6A604"
+				type: "item"
+				item: "projecte:mobius_fuel_block"
+			}]
+			rewards: [{
+				id: "1162820A2A591FF9"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.0d
+			dependencies: ["15CD962F563E7F39"]
+			hide: true
+			optional: true
+			id: "1EA0D364AED633EC"
+			tasks: [{
+				id: "6A03F2D885F589E2"
+				type: "item"
+				item: "projecte:aeternalis_fuel_block"
+			}]
+			rewards: [{
+				id: "4931FC1C7743C057"
+				type: "xp"
+				auto: "no_toast"
+				xp: 2500
+			}]
+		}
+		{
+			title: "探知之杖"
+			x: -4.0d
+			y: 4.0d
+			description: [
+				"倒果为因——以共价之粉为引，让结果指引你寻得矿藏的源头。"
+				""
+				"手持时，它将根据矿物的以太价值发出共鸣："
+				"§c- 红石矿石§f: 32"
+				"§7- 煤矿石§f: 128"
+				"§f- 铁矿石§f: 256"
+				"§6- 金矿石§f: 1024"
+				"§6- 远古残骸§f: 6144"
+				""
+				"按下§eJ键§f可在不同探测模式间切换。"
+			]
+			dependencies: ["5B95025F3C13F030"]
+			hide: true
+			optional: true
+			id: "1F4F0EADAD906EA7"
+			tasks: [{
+				id: "581868B541542EA3"
+				type: "item"
+				item: {
+					id: "projecte:divining_rod_3"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "4223880A24A03347"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			description: ["将坚实的矿物转化为流动的能量之尘，迈出物质本质理解的第一步。"]
+			dependencies: ["5F61B297FF5CA72B"]
+			hide: true
+			optional: true
+			id: "5B95025F3C13F030"
+			tasks: [{
+				id: "261FB7C0552179DE"
+				type: "item"
+				title: "共价粉"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "projecte:covalence_dust"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E5552ECC520B3E7"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			subtitle: "“黑洞”箱子"
+			description: ["炼金术扭曲了空间法则，将浩瀚纳入方寸之间。"]
+			dependencies: ["5B95025F3C13F030"]
+			hide: true
+			optional: true
+			id: "76F9DC76BD8D69B2"
+			tasks: [{
+				id: "450F27A2C7D78C2B"
+				type: "item"
+				item: "projecte:alchemical_chest"
+			}]
+			rewards: [{
+				id: "13AAAB4A37B80AD5"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+		{
+			x: -8.0d
+			y: 4.0d
+			subtitle: "永恒修复之力"
+			description: [
+				"§l§e无限耐久！§r"
+				""
+				"置于饰品栏或背包中，可自动缓慢修复身上装备。"
+				"放置在§5暗物质台座§f上时，能为附近玩家提供更快的修复效果。"
+			]
+			dependencies: ["5B95025F3C13F030"]
+			hide: true
+			optional: true
+			id: "24F91A90B7FDBCD9"
+			tasks: [{
+				id: "0DD670527D013FC4"
+				type: "item"
+				item: {
+					id: "projecte:repair_talisman"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "6775313D5F8D1961"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "circle"
+			description: [
+				"末影生物的遗骸，"
+				"蕴藏着神秘的维度之力。"
+			]
+			dependencies: ["5F61B297FF5CA72B"]
+			hide: true
+			id: "153C552967D657F5"
+			tasks: [{
+				id: "7FF1B18DBC335490"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+			rewards: [{
+				id: "354BFE9B7EF44048"
+				type: "xp"
+				auto: "no_toast"
+				xp: 300
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			shape: "circle"
+			description: ["这块魔法石铭刻着所有指路石碑的坐标，赋予你无限次传送的权能。"]
+			dependencies: ["153C552967D657F5"]
+			hide: true
+			optional: true
+			id: "2C5B7780587BEBDF"
+			tasks: [{
+				id: "4B0BCB0504155099"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C7AABB57E0324E9"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: -4.0d
+			y: -8.0d
+			shape: "circle"
+			description: ["将你传送至最后使用的指路石碑。若在石碑间传送，则返回传送目的地。"]
+			dependencies: ["153C552967D657F5"]
+			hide: true
+			optional: true
+			id: "3E3EE79273ABAEA0"
+			tasks: [{
+				id: "6BD5E64424E872A3"
+				type: "item"
+				item: "waystones:return_scroll"
+			}]
+			rewards: [{
+				id: "206DBD28DC015B6D"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			shape: "circle"
+			description: ["将末影珍珠研磨成蕴含传送之力的神秘粉末。"]
+			dependencies: ["153C552967D657F5"]
+			hide: true
+			optional: true
+			id: "3C1AC4C0E83A448F"
+			tasks: [{
+				id: "6466A532F4F755BF"
+				type: "item"
+				item: "waystones:warp_dust"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -8.0d
+			shape: "circle"
+			description: ["凭借此卷轴，你可传送至任意一座已记录的指路石碑。"]
+			dependencies: ["3E3EE79273ABAEA0"]
+			optional: true
+			id: "7D2AAFF39B6D5F06"
+			tasks: [{
+				id: "6B07D196254BCE92"
+				type: "item"
+				item: "waystones:warp_scroll"
+			}]
+			rewards: [{
+				id: "019337BBCA040A2E"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: -4.0d
+			y: -12.0d
+			shape: "circle"
+			description: ["此卷轴可将你传送至与其绑定的特定指路石碑。"]
+			dependencies: ["3E3EE79273ABAEA0"]
+			optional: true
+			id: "633BE846ADEC7EF0"
+			tasks: [{
+				id: "53FF3D53EB1597B8"
+				type: "item"
+				item: "waystones:bound_scroll"
+			}]
+			rewards: [{
+				id: "2839A03C84923BEA"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: -12.5d
+			y: -4.0d
+			shape: "circle"
+			description: ["在传送石盘中，于中央放置燧石，四周放置传送粉尘，即可合成更多与该石盘绑定的调谐燧石。"]
+			dependencies: ["4C6C7EA7140DAEC4"]
+			hide: true
+			optional: true
+			id: "443C9C4E13E624EB"
+			tasks: [{
+				id: "0AA76F13904F1EE9"
+				type: "item"
+				item: "waystones:attuned_shard"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			shape: "circle"
+			subtitle: "同维虫洞"
+			description: [
+				"首次使用传送石盘时，它会自动合成一枚调谐燧石并与之绑定。"
+				""
+				"将两个石盘中的调谐燧石互换，即可建立两者间的虫洞连接。"
+			]
+			dependencies: ["3C1AC4C0E83A448F"]
+			hide: true
+			optional: true
+			id: "4C6C7EA7140DAEC4"
+			tasks: [{
+				id: "52D1C316389A792E"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+			rewards: [{
+				id: "11A9D66C012FBAA0"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			title: "同族指路石"
+			x: 4.0d
+			y: -8.0d
+			shape: "circle"
+			subtitle: "同色共鸣"
+			description: ["仅限在颜色相同的同族指路石之间进行传送。"]
+			dependencies: ["2C5B7780587BEBDF"]
+			hide: true
+			optional: true
+			id: "7DC31AF8BB888F04"
+			tasks: [{
+				id: "412EE213D6232BB5"
+				type: "item"
+				title: "同族指路石"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "waystones:sharestone"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CB4B50916BB44BB"
+				type: "xp"
+				auto: "no_toast"
+				xp: 3000
+			}]
+		}
+		{
+			x: 0.0d
+			y: -12.0d
+			shape: "circle"
+			subtitle: "单向传送"
+			description: [
+				"可传送至任一普通指路石，但任何指路石都无法定位其坐标。"
+				""
+				"在多人对抗中，这或许能成为你的秘密据点。"
+			]
+			dependencies: ["2C5B7780587BEBDF"]
+			hide: true
+			optional: true
+			id: "6384893CA611014F"
+			tasks: [{
+				id: "2CB16215AC4CF7FF"
+				type: "item"
+				item: "waystones:portstone"
+			}]
+			rewards: [{
+				id: "0FC395A9BD52F714"
+				type: "xp"
+				auto: "no_toast"
+				xp: 3000
+			}]
+		}
+		{
+			x: 4.0d
+			y: -12.0d
+			shape: "circle"
+			description: [
+				"最基础的指路石，亦是遍布世界的古老路标。"
+				"你也能在村庄中发现它的身影……"
+			]
+			dependencies: ["2C5B7780587BEBDF"]
+			hide: true
+			optional: true
+			id: "62256052F6EB13B6"
+			tasks: [{
+				id: "69A91D80F60ABF3C"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			rewards: [{
+				id: "5848645DC6930AB6"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			subtitle: "经验典藏"
+			description: ["单个典籍最高可存储100级经验，助你妥善保管来之不易的力量。"]
+			dependencies: ["1B8D416A896575E0"]
+			hide: true
+			optional: true
+			id: "1B7BE00C55FDEC64"
+			tasks: [{
+				id: "2DC80B4B83DFC88D"
+				type: "item"
+				item: {
+					id: "xpbook:xp_tome"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "51F3A31E6055A3B6"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+	]
+}

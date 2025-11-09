@@ -1,0 +1,36 @@
+{
+  "type": "geolosys:deposit_dike",
+  "config": {
+    "yMin": 30,
+    "yMax": 60,
+    "baseRadius": 10,
+    "dimensions": {
+      "isBlacklist": false,
+      "filter": [
+        "overworld"
+      ]
+    },
+    "blockStateMatchers": [ "minecraft:stone" ],
+    "blocks": [
+      {
+        "block": "minecraft:iron_ore",
+        "chance": 0.1
+      },
+      {
+        "block": "minecraft:diorite",
+        "chance": 0.5
+      },
+      {
+        "block": null,
+        "chance": 0.4
+      }
+    ],
+    "samples": [
+      {
+        "block": null,
+        "chance": 1.0
+      }
+    ],
+    "generationWeight": 10
+  }
+}

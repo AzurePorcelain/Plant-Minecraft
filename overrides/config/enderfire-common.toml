@@ -1,0 +1,30 @@
+
+[AbyssIgnis]
+	#Ignis's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	IgnisHealthMultiplier = 6.0
+	#Ignis's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	IgnisDamageMultiplier = 6.0
+	#Ignis's Immune to Long distance attack range.
+	#Range: 1.0 ~ 1000000.0
+	IgnisLongRangelimit = 35.0
+	#Ignis's DamageCap
+	#Range: 0 ~ 1000000
+	IgnisDamageCap = 20
+	#Ignis's cracked block breaking ignore the MobGriefing
+	IgnisBlockBreaking = true
+
+[EnderPocket]
+
+	#EnderPocket Configuration
+	[EnderPocket.ender_pocket_configuration]
+		#the summons Amount for the enderPocket
+		#Range: 0 ~ 100
+		EnderPocketSummonsAmount = 6
+		#Add mobs (preferably undead) that the EnderPocket can summon. 
+		#To do so, enter the namespace ID of the mob, like "cataclysm:endermaptera".
+		#If this list is empty, endermaptera will be summoned instead.
+		#If a mob chosen from this list cannot be spawned, a zombie will be summoned instead.
+		necromancerMobSummons = ["cataclysm:endermaptera", "dungeons_mobs:watchling", "dungeons_mobs:watchling", "dungeons_mobs:blastling", "dungeons_mobs:snareling"]
+

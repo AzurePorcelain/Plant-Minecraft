@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "pvz:assist_essence"
+    },
+    "B": {
+      "item": "minecraft:oxeye_daisy"
+    },
+    "C": {
+      "item": "pvz:mega_card"
+    }
+  },
+  "result": {
+    "item": "pvz:marigold_card"
+  }
+}

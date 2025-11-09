@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "itemfilters:xor"
+    },
+    "title": {
+      "translate": "advancement.pvz.yeti_house"
+    },
+    "description": {
+      "translate": "advancement.pvz.yeti_house.desc"
+    },
+    "frame":"task",
+    "announce_to_chat": true
+  },
+  "parent":"pvz:adventure/root",
+  "criteria": {
+    "in_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "pvz:yeti_house"
+        }
+      }
+    }
+  },
+  "requirements": [[
+    "in_city"
+  ]]
+}

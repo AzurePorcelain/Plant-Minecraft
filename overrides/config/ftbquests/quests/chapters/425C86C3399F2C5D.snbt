@@ -1,0 +1,298 @@
+{
+	id: "425C86C3399F2C5D"
+	group: "0E3D3A551D756CC8"
+	order_index: 1
+	filename: "425C86C3399F2C5D"
+	title: "以太之力"
+	icon: "projecte:transmutation_tablet"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 11.0d
+			height: 11.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/3.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "2CFEAA8C3FF762B8"
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "projecte:textures/item/stars/klein_star_6.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "578C1E6DFD026306"
+		}
+	]
+	quests: [
+		{
+			title: "“以太”交易站"
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			subtitle: "连通万界的奇物市场"
+			description: [
+				"此处是科技与魔法交织的奇迹，一座能与万千异界进行贸易的神秘站点。"
+				"「以太」是这里唯一的硬通货。"
+				""
+				"§6‖ 交易准则 ‖§r"
+				"• 售出与收购价格并不对等，请务必审慎决策。"
+				"• 交易前，请熟读并理解《交易站使用准则》。"
+			]
+			dependencies: [
+				"15CD962F563E7F39"
+				"4009206C97A3954F"
+			]
+			hide: true
+			id: "2CFEAA8C3FF762B8"
+			tasks: [{
+				id: "4005F7E137DB5E02"
+				type: "item"
+				item: "projecte:transmutation_table"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			subtitle: "以太的容器"
+			description: [
+				"这个便携的能量核心，是你随身携带的以太仓库。"
+				""
+				"§b‖ 使用方式 ‖§r"
+				"• 置于交易站左侧：为它注入以太。"
+				"• 置于交易站右侧：从中提取以太。"
+				""
+				"§6‖ 容量 ‖§r"
+				"• 最多可存储 §e50,000§f 单位以太。"
+			]
+			dependencies: ["2CFEAA8C3FF762B8"]
+			hide: true
+			id: "4398C702D36BAD6D"
+			tasks: [{
+				id: "11270ACBBA94C1DF"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_ein"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "3572F5B5A844C098"
+				type: "xp"
+				auto: "no_toast"
+				xp: 300
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			subtitle: "容量的进阶"
+			description: ["升级你的以太容器，获得高达§e 200,000 §f单位的存储空间！"]
+			dependencies: ["4398C702D36BAD6D"]
+			hide: true
+			id: "6E9675FE960D53C1"
+			tasks: [{
+				id: "0DA333CC371AE926"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_zwei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "58E61EAABC0A3E74"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			subtitle: "近乎无限的容器"
+			description: [
+				"将存储容量提升至惊人的§e 3,200,000 §f单位以太！"
+				""
+				"§7※ 工艺提示 ※§r"
+				"暗物质在此仅作为合成催化剂，不会被消耗。"
+			]
+			dependencies: [
+				"6E9675FE960D53C1"
+				"73E212272F2C5DC2"
+			]
+			hide: true
+			id: "1627DE9FFF554769"
+			tasks: [{
+				id: "2B961F6843D8CCD5"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_vier"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "25CFCD3B4D2DD9B9"
+				type: "xp"
+				auto: "no_toast"
+				xp: 2500
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			subtitle: "以太奇点"
+			description: [
+				"技术的终极突破，将能量压缩至奇点。"
+				"你终于拥有了近乎无限的以太存储能力。"
+				""
+				"§e‖ 终极容量 ‖§r"
+				"• §e51,200,000§f 单位以太"
+				""
+				"§7※ 合成须知 ※§r"
+				"红物质在此作为合成催化剂，不会被消耗。"
+			]
+			dependencies: [
+				"1627DE9FFF554769"
+				"257D52575CDBDE12"
+			]
+			hide: true
+			optional: true
+			id: "578C1E6DFD026306"
+			tasks: [{
+				id: "73D3C02DCC2E4EA1"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_omega"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "579A9B3AA5D14F03"
+				type: "xp"
+				auto: "no_toast"
+				xp: 5000
+			}]
+		}
+		{
+			title: "量子交易"
+			x: -3.5d
+			y: -2.0d
+			subtitle: "便携的异界市场"
+			description: [
+				"利用量子纠缠原理与异界交易站绑定。"
+				"从此，跨越维度的贸易触手可及。"
+				""
+				"§a※ 重要提示 ※§r"
+				"合成此便携终端 §o不会消耗§r  原有的交易站。"
+			]
+			dependencies: ["2CFEAA8C3FF762B8"]
+			hide: true
+			optional: true
+			id: "08EF8FFB631356FC"
+			tasks: [{
+				id: "3B552512619EB2EB"
+				type: "item"
+				item: "projecte:transmutation_tablet"
+			}]
+			rewards: [{
+				id: "7D1B7FD343E8CD4E"
+				type: "xp"
+				auto: "no_toast"
+				xp: 5000
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			subtitle: "暗物质之谜"
+			description: [
+				"这种颠覆物理法则的物质，究竟是科学的终点，"
+				"还是揭示了更深层真理的序幕？"
+			]
+			dependencies: [
+				"128B11E20B944A02"
+				"2CFEAA8C3FF762B8"
+			]
+			hide: true
+			id: "73E212272F2C5DC2"
+			tasks: [{
+				id: "15D6E5651F066492"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+			rewards: [{
+				id: "212F80E22D2035BC"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			title: "交易站使用准则"
+			x: 0.0d
+			y: -4.0d
+			description: [
+				"§6‖ 面板功能 ‖§r"
+				"• §b左面板§f：放置物品以发起交易，或存取以太仓库。"
+				"• §b右面板§f：显示曾交易过的物品（需充足以太）。"
+				"• §b锁定功能§f：在右面板中间格放入物品可锁定显示。锁 定后，上方将固定显示该物品，并同时筛选显示价格低于它的其他物品。"
+				""
+				"§6‖ 界面元素 ‖§r"
+				"• §b左下角§f：显示玩家当前以太总量。"
+				"• §b书本框§f：用于遗忘已交易的物品记录。"
+				"• §b火焰框§f：放入物品将按其售价出售为以太。默认按住 §eShift+左键§f点击背包内物品可快速出售。"
+				"• §b顶部搜索栏§f：输入物品名或其部分字词可筛选显示结 果。"
+				""
+				"§6‖ 重要警告 ‖§r"
+				"• §c售出价与收购价§f并不对等，请务必在交易前确认！"
+				"• 并非所有物品都可交易，§o仅显示标有以太价格的物 品§r。（部分物品不可交易为正常设定）"
+				"• 当以太充足时，您可兑换所需物品：§eShift+右键§f取出 一组，§eShift+左键§f连续取出。"
+				"• §c严禁使用鼠标中键整理！§f由此造成的一切后果请自行 承担。"
+			]
+			dependencies: ["2CFEAA8C3FF762B8"]
+			hide: true
+			id: "6E92C2FA661070DE"
+			tasks: [{
+				id: "2E21245A7FA4B7D1"
+				type: "checkmark"
+				title: "确认：我已阅读并知晓所有准则与风险"
+			}]
+			rewards: [{
+				id: "7B34C34FED6B5032"
+				type: "xp"
+				auto: "no_toast"
+				xp: 300
+			}]
+		}
+	]
+}

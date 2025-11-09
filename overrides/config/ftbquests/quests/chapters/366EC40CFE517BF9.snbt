@@ -1,0 +1,982 @@
+{
+	id: "366EC40CFE517BF9"
+	group: "61357C1B696394B5"
+	order_index: 0
+	filename: "366EC40CFE517BF9"
+	title: "异界之力"
+	icon: "pvz:time_source"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -2.0d
+			y: -4.0d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "cataclysm:textures/mob_effect/monstrous.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "339C53697002F6BC"
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "mowziesmobs:textures/item/icecrystal.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "1B6BAADF5EBA123F"
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "cataclysm:textures/items/void_core.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "181EDA680AA40E95"
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "cataclysm:textures/blocks/ender_guardian_spawner.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "1DC476CAF005D96B"
+		}
+	]
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			subtitle: "禁忌的知识"
+			description: [
+				"这座附魔台已被异界之力侵蚀，"
+				"它能提供更强大、更诡异的附魔选项，"
+				"但每一次使用，都可能招致来自其他位面的诅咒。"
+				""
+				"§7※ 附魔机制 ※§r"
+				"附魔等级与物品质地无关，"
+				"但物品的品质将决定其可容纳的附魔点上限。"
+			]
+			dependencies: ["41E4715E4731BBD7"]
+			id: "369E4A9F57B2295F"
+			tasks: [{
+				id: "058E15EA09982413"
+				type: "item"
+				item: {
+					id: "minecraft:enchanting_table"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "415B24FD8833DBAF"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			subtitle: "力量的呼唤"
+			description: [
+				"用十五个书架环绕，让附魔台的力量达到新的高峰。"
+				""
+				"然而，这远非它的极限……"
+				"那异界的低语仍在呼唤着更多的祭品。"
+				""
+				"§7※ 现状评估 ※§r"
+				"异界之力已彻底融入这个世界的法则之中。"
+			]
+			dependencies: ["369E4A9F57B2295F"]
+			id: "62D1A5B5EA90F8A4"
+			tasks: [{
+				id: "6B5893D718AFDCA3"
+				type: "item"
+				title: "任意木质书架"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:bookshelves"
+					}
+				}
+			}]
+			rewards: [{
+				id: "657F16BB6260675B"
+				type: "xp"
+				auto: "no_toast"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			subtitle: "混沌之力"
+			description: [
+				"为书架涂上金黄的蜂蜜，再细心地裹上蜂蜡……"
+				"然后，向混沌祈祷吧！"
+				""
+				"没人知道蜂群的意志，会为施法者带来何种「惊喜」。"
+			]
+			dependencies: ["62D1A5B5EA90F8A4"]
+			optional: true
+			id: "4AC03A40C2550E89"
+			tasks: [{
+				id: "3F1F04B71D6D5250"
+				type: "item"
+				item: {
+					id: "apotheosis:beeshelf"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2F4FCC081DAA3C50"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			subtitle: "冷静之力"
+			description: [
+				"「给我拿本书吃。」"
+				""
+				"「哦不，说错了——」"
+				"「是拿片西瓜，慢慢看。」"
+			]
+			dependencies: ["62D1A5B5EA90F8A4"]
+			optional: true
+			id: "7778D7E56BF818FC"
+			tasks: [{
+				id: "3C81BBDA838006B4"
+				type: "item"
+				item: {
+					id: "apotheosis:melonshelf"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A6491935BF60514"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+		{
+			title: "重组、储存与守卫之力"
+			x: 5.5d
+			y: 0.0d
+			subtitle: "附魔的掌控者"
+			description: [
+				"§6‖ 守卫蛛网 ‖§r"
+				"• 在去除诅咒的仪式中至关重要"
+				"• 每次净化都需要消耗§e30级经验§f"
+				""
+				"§6‖ 附魔储备台 ‖§r"
+				"• 利用炼狱之力从物品上剥离魔咒"
+				"• 借助末影之力将魔咒安全存储"
+				"• 从此各种附魔书都有了专属的殿堂！"
+			]
+			hide_dependency_lines: true
+			dependencies: ["62D1A5B5EA90F8A4"]
+			optional: true
+			id: "215FB84D744A1309"
+			tasks: [
+				{
+					id: "4C74F679D64B52B7"
+					type: "item"
+					item: {
+						id: "apotheosis:enchantment_library"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3BEE69AEF5E1366B"
+					type: "item"
+					item: {
+						id: "apotheosis:prismatic_web"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "12AC45FB38C19B11"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			subtitle: "海洋的呼唤"
+			description: [
+				"在薏米的帮助下，史蒂夫利用海洋书架，"
+				"初次调动了那份融入海洋的异界之力。"
+				""
+				"但......"
+				""
+				"「河豚！河——豚！」"
+				"戴夫在一旁坚持认为，河豚是河里的，而非海洋的。"
+			]
+			dependencies: ["62D1A5B5EA90F8A4"]
+			id: "1340B24077206174"
+			tasks: [{
+				id: "4580777C46BF2784"
+				type: "item"
+				item: {
+					id: "apotheosis:seashelf"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "079C4818C150CFE2"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			subtitle: "力量的渴求"
+			description: ["既然一个海洋书架便能引动这股力量，为何不追求更多？让海洋的权能，尽数为史蒂夫所用。"]
+			dependencies: ["1340B24077206174"]
+			id: "0FFD199026587180"
+			tasks: [{
+				id: "47FB7FBED04C30DF"
+				type: "item"
+				item: {
+					id: "apotheosis:seashelf"
+					Count: 1b
+					tag: {
+						Enchantments: [{
+							lvl: 3
+							id: "apotheosis:sea_infusion"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "26041C4BE311EC34"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			subtitle: "晶化歧路"
+			description: [
+				"以海晶砂粒点缀书架，或许能换来更稀有的附魔，"
+				"但这条捷径，也同时断绝了通往更深层力量的可能。"
+			]
+			dependencies: ["0FFD199026587180"]
+			optional: true
+			id: "330F1FF621CEA4B8"
+			tasks: [{
+				id: "1C1380DF91766BEB"
+				type: "item"
+				item: {
+					id: "apotheosis:crystal_seashelf"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "604C540F05FA99D4"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			subtitle: "心胜于物"
+			description: [
+				"若能从那被埋藏的宝藏中寻得海洋之心，"
+				"史蒂夫便将有机会，彻底掌控这份海洋的终极权能。"
+			]
+			dependencies: ["0FFD199026587180"]
+			id: "5F05E4EEBF7587A4"
+			tasks: [{
+				id: "5372E1C7DCB7EEE1"
+				type: "item"
+				item: {
+					id: "apotheosis:heart_seashelf"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "181F0DD7FEA32759"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.5d
+			subtitle: "海洋的赠礼"
+			description: [
+				"海洋之心的力量远超想象——"
+				"它所铸就的璀璨书架，其威能已彻底凌驾于普通的末地书架之上。"
+			]
+			dependencies: ["5F05E4EEBF7587A4"]
+			id: "15E8736FC929E512"
+			tasks: [{
+				id: "31292ADACA3F19BC"
+				type: "item"
+				item: {
+					id: "apotheosis:pearl_endshelf"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "582D7D8289217D0D"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			subtitle: "力量的终局"
+			description: [
+				"旅途似乎已至终点，史蒂夫触及了异界之力的全部。"
+				""
+				"然而，真正的考验此刻才开始——"
+				"这份足以扭曲现实的力量，他真的能驾驭它，"
+				"而不被其吞噬吗？"
+			]
+			dependencies: ["5F05E4EEBF7587A4"]
+			id: "2B1A2FD5153CB783"
+			tasks: [{
+				id: "1607B7220A2A37A1"
+				type: "item"
+				item: {
+					id: "apotheosis:draconic_endshelf"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "47C5FCCD774DBDDD"
+				type: "xp"
+				auto: "no_toast"
+				xp: 2500
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.5d
+			subtitle: "约束混沌"
+			description: [
+				"史蒂夫察觉到量子波动正剧烈影响着附魔，"
+				"这源于异界之力固有的不确定性。"
+				""
+				"与其对抗，不如引导——"
+				"他开始尝试约束这股混沌，至少，不让结果走向最糟。"
+			]
+			dependencies: ["0FFD199026587180"]
+			optional: true
+			id: "0F975C11C8EAB870"
+			tasks: [{
+				id: "121CE79F9B41CAA3"
+				type: "item"
+				item: {
+					id: "apotheosis:rectifier"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5364350FF4EC12E2"
+				type: "xp"
+				auto: "no_toast"
+				xp: 2500
+			}]
+		}
+		{
+			x: 6.5d
+			y: -8.0d
+			subtitle: "约束混沌"
+			description: ["现在，让它将那来自异界的恶魔诅咒，彻底地禁锢起来吧！"]
+			dependencies: ["0F975C11C8EAB870"]
+			optional: true
+			id: "055965C0262D0EDC"
+			tasks: [{
+				id: "7A84B9CC80A30993"
+				type: "item"
+				item: {
+					id: "apotheosis:rectifier_t2"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6CA59D1E5E842ECD"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: 6.5d
+			y: -10.5d
+			subtitle: "引力奇点"
+			description: [
+				"物质因引力相互吸引，那么力量呢？"
+				""
+				"史蒂夫开始尝试，让这股混沌之力本身，"
+				"成为吸引并汇聚更多权能的奇点。"
+			]
+			dependencies: ["055965C0262D0EDC"]
+			optional: true
+			id: "0F70F66ECEA4FCB2"
+			tasks: [{
+				id: "0080856E74175DC8"
+				type: "item"
+				item: {
+					id: "apotheosis:rectifier_t3"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F6BA9A8AD849F6B"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			subtitle: "安全的烈焰"
+			description: ["别担心，它虽然来自烈焰之地，但并不会着火——至少现在不会。"]
+			dependencies: ["62D1A5B5EA90F8A4"]
+			id: "749649AB8182C940"
+			tasks: [{
+				id: "3249AED85E75B3DA"
+				type: "item"
+				item: {
+					id: "apotheosis:hellshelf"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E51D8E1E20555F5"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			subtitle: "撬动深渊"
+			description: ["利用地狱浸注的杠杆原理，撬动更深层的异界之力！"]
+			dependencies: ["749649AB8182C940"]
+			id: "1D93F5F16A4C06A4"
+			tasks: [{
+				id: "0BB35787EBA83411"
+				type: "item"
+				item: {
+					id: "apotheosis:hellshelf"
+					Count: 1b
+					tag: {
+						Enchantments: [{
+							lvl: 3
+							id: "apotheosis:hell_infusion"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "7B574A4E00F7AA61"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.5d
+			subtitle: "灼目的代价"
+			description: [
+				"§6‖ 炽焰之力 ‖§r"
+				"• 不稳定的炽焰会§c灼伤施法者的感知§f（魔咒线索-1）。"
+				"• 这§o仅影响界面显示§r，§a不影响实际附魔数量§f。"
+				""
+				"「相信我，它真的不会烧毁！」"
+				""
+				"「哼，之前还说不会着火！我要用它来烤玉米！」"
+				"——戴夫对此深表怀疑"
+			]
+			dependencies: ["1D93F5F16A4C06A4"]
+			optional: true
+			id: "310102E6464FEE37"
+			tasks: [{
+				id: "3280F2BFEE588825"
+				type: "item"
+				item: {
+					id: "apotheosis:blazing_hellshelf"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2307B3201A72D6BC"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: 8.5d
+			y: 4.0d
+			subtitle: "下界的低语"
+			description: [
+				"「你不会以为它真的会发光吧？」"
+				""
+				"若能静心聆听它的低语，施法者会发现——"
+				"整个下界，都在回应它的呼唤！"
+			]
+			dependencies: ["1D93F5F16A4C06A4"]
+			id: "2AFE9CFCCBEF898C"
+			tasks: [{
+				id: "0803BDE5246DA5B4"
+				type: "item"
+				item: {
+					id: "apotheosis:glowing_hellshelf"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0FCCA02E3BC07C6D"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.0d
+			subtitle: "万法归宗"
+			description: ["所有的异界之力本就同源。既然史蒂夫已掌控其一，自然能触类旁通，驾驭更多。"]
+			dependencies: ["2AFE9CFCCBEF898C"]
+			id: "249AAA9017921418"
+			tasks: [{
+				id: "20F59CCF0B7D6A2C"
+				type: "item"
+				item: {
+					id: "apotheosis:endshelf"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6F55F55A0C84A0BB"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			subtitle: "初窥门径"
+			description: [
+				"那笼罩在附魔之上的神秘面纱之后，"
+				"究竟隐藏着怎样的真相与力量？"
+				""
+				"这书架，便是史蒂夫窥探其奥秘的第一只眼睛。"
+			]
+			dependencies: ["1D93F5F16A4C06A4"]
+			optional: true
+			id: "76E4CA31AB31F46F"
+			tasks: [{
+				id: "1793E65B8770285F"
+				type: "item"
+				item: {
+					id: "apotheosis:sightshelf"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F745C93B1FA3BE8"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			x: 6.5d
+			y: 8.5d
+			subtitle: "洞察本质"
+			description: [
+				"现在，是时候了——"
+				"用更强大的力量，彻底揭开那层神秘的面纱，"
+				"让附魔最本源的模样，在史蒂夫眼前一览无余。"
+			]
+			dependencies: ["76E4CA31AB31F46F"]
+			optional: true
+			id: "0F59B9D0CE041F98"
+			tasks: [{
+				id: "6C7C4991E3F7B2AB"
+				type: "item"
+				item: {
+					id: "apotheosis:sightshelf_t2"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "64C14C200EA0F176"
+				type: "xp"
+				auto: "no_toast"
+				xp: 2500
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			subtitle: "灵魂锻造厂的守护者"
+			description: [
+				"不知在下界奔走了多久，前方地势豁然下沉。"
+				"广场尽头是一片燃烧不熄的灵魂火海，一座熔岩巨像伫立其中——"
+				"史蒂夫能感受到爆炸性的能量在其岩壳下奔涌。"
+				""
+				"机轮之声蓦然响起，那沉寂的巨像缓缓站正，"
+				"巨口之中能量汇聚，直射向仍在边缘观望的史蒂夫。"
+				""
+				"熔岩炮弹铺天盖地袭来，他仓皇躲闪，"
+				"却惊恐地发现：生成的熔岩正不断为巨像回馈能量。"
+				"「看来，得想办法阻断这些岩浆……」"
+				""
+				"回到要塞图书馆，史蒂夫在古籍中找到了答案："
+				"这头古老的熔岩巨械，镇守着传说中的灵魂锻造厂，"
+				"其密室内藏有黄金与神秘的合金残骸。"
+				""
+				"§6‖ 狩猎奖励 ‖§r"
+				"• §b下界符文唱片§f：铭刻于巨像体内的力量核心。"
+				"• §6炼狱锻锤§f：极少数巨像体内孕育的至宝，永不磨损， 不惧岩浆。"
+				""
+				"§7※ 狩猎提示 ※§r"
+				"所有掉落物均§o不受「抢夺」附魔影响§r；"
+				"§6炼狱锻锤§f的掉落几率受§c游戏难度§f影响。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["369E4A9F57B2295F"]
+			id: "339C53697002F6BC"
+			tasks: [{
+				id: "5C916E9279362D1C"
+				type: "kill"
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4C7F62B581A06833"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "minecraft:nether_star"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			description: [
+				"在群岛间穿行时，史蒂夫发现了一座与末地城风格迥异的破败堡垒。"
+				""
+				"穿梭其中，他听见转瞬即逝的机械沉鸣，"
+				"遭遇扑上来的巨大甲虫，而最可怕的——"
+				"是密室中那具沉默的巨型傀儡。"
+				""
+				"历经苦战，巨像终于倒下，胸口的虚空石结晶逐渐暗 淡。四周陷入死寂，唯有地下仍传来齿轮的扎扎作 响……"
+				""
+				"凿开地面，他跃入尘封的地下室。"
+				"迷宫深处矗立着更多傀儡，几番鏖战后，"
+				"史蒂夫抵达尽头，凝视着地面上那扇诡异的铁门——"
+				"门后机械之声此起彼伏，魔法的气息缓缓溢出。"
+				""
+				"理智在警告他：不要轻易跳下。或许，日后再来才是明智之举。"
+				""
+				"§7※ 狩猎提示 ※§r"
+				"傀儡掉落的§b虚空符文§f，其几率§a受「抢夺」附魔影响§r。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["369E4A9F57B2295F"]
+			id: "181EDA680AA40E95"
+			tasks: [{
+				id: "3292F348D3E6EA1C"
+				type: "kill"
+				entity: "cataclysm:ender_golem"
+				value: 5L
+			}]
+			rewards: [{
+				id: "4643B16409AEF895"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "apotheosis:knowledge"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			description: [
+				"堡垒的最底层，一片恢弘的法阵散发着莹莹紫光……"
+				""
+				"做足准备，史蒂夫纵身跃下。紫颂果的辉光、末地石的折射皆已成过往，"
+				"此刻，唯有虚空石绽放的深紫幽光，为他照亮前路。"
+				""
+				"这底层近乎完全由黑曜石构筑。巨大的地下厅堂内，"
+				"黑曜石地板上镶嵌着块块虚空石，它们纠缠成巨大的法阵，仿佛正汇聚着整个终末世界的浩瀚伟力。"
+				""
+				"史蒂夫谨慎地绕行一周，缓缓走向法阵的中心——"
+				""
+				"刹那间，中心那印有繁奥花纹的立方体蓦然崩解！"
+				"一座真正的巨像拔地而起，势大力沉的重拳已轮番轰 来。"
+				""
+				"好不容易招架住猛烈的轰击，巨像双臂一展，"
+				"背后竟弹射出漫天炮弹！"
+				"「这炮弹……好生眼熟！」"
+				""
+				"来不及细想，眼中倒映的弹幕已越来越大，"
+				"他唯有再次退避，寻觅新的战机。"
+				""
+				"§7※ 狩猎提示 ※§r"
+				"守卫掉落的§6守护者护手§f，其几率§a受「抢夺」附魔影响§r。"
+			]
+			dependencies: ["181EDA680AA40E95"]
+			dependency_requirement: "one_started"
+			optional: true
+			id: "1DC476CAF005D96B"
+			tasks: [{
+				id: "17ED1DA2B9695C8D"
+				type: "kill"
+				entity: "cataclysm:ender_guardian"
+				value: 3L
+			}]
+			rewards: [{
+				id: "10AFF9EC398876A7"
+				type: "item"
+				auto: "enabled"
+				item: {
+					id: "bpmc:damson_crystal_chestplate"
+					Count: 1b
+					tag: {
+						Unbreakable: 1
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 10
+								id: "minecraft:protection"
+							}
+							{
+								lvl: 20
+								id: "minecraft:projectile_protection"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"§d潜影晶甲\"}"
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			description: [
+				"当她苏醒的那一刻，史蒂夫才真正明白，"
+				"何为植物世界中，君临冰原的蛮荒巨兽。"
+				""
+				"来不及心疼那面被巨掌几近拍碎的盾牌，"
+				"她巨口中隆隆作响的冰霜龙卷，已然蓄势待发——"
+				""
+				"冰球肆虐，擦身而过便是刺骨的严寒。"
+				""
+				"是继续缠斗，还是暂避锋芒？"
+				"生存的本能在他脑中疯狂预警。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["369E4A9F57B2295F"]
+			id: "1B6BAADF5EBA123F"
+			tasks: [{
+				id: "2E68DD4FF1D6F9C9"
+				type: "kill"
+				entity: "mowziesmobs:frostmaw"
+				value: 3L
+			}]
+			rewards: [{
+				id: "011635C2F8A330C1"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 14s
+							id: "minecraft:sharpness"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+	]
+}

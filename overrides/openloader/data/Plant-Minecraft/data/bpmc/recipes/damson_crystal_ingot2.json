@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base":{
+    "item": "bpmc:morion_ingot"
+  },
+  "addition": {
+    "item": "pvz:amethyst_ingot"
+  },
+  "result": {
+    "item": "bpmc:damson_crystal_ingot"
+  }
+}

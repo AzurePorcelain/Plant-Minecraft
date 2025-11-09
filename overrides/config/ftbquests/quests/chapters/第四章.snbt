@@ -1,0 +1,1594 @@
+{
+	id: "0B6A440369100859"
+	group: "7F20F7173F1C796A"
+	order_index: 3
+	filename: "第四章"
+	title: "    《肆》"
+	icon: "pvz:zombie_doll"
+	subtitle: ["背水一战"]
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 22.0d
+			y: 0.0d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "projecte:textures/models/yuecircle.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "67E3CA879ADD6A87"
+		}
+		{
+			x: 18.0d
+			y: -4.0d
+			width: 2.5d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/5.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "65E7275E01979B12"
+		}
+		{
+			x: 18.0d
+			y: -4.0d
+			width: 1.25d
+			height: 1.5d
+			rotation: 0.0d
+			image: "cataclysm:textures/mob_effect/blazing_brand.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "65E7275E01979B12"
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"“他们的攻势没那么疯狂了，难道是因为永夜机被我们破坏了？”话音未落，最后一辆投石车也在植物的集火下轰然炸裂……"
+				""
+				"“但他们已经重整旗鼓了。”薏米将最新的挑战信递给史蒂夫，信上显示更多的僵尸正在涌来。"
+				""
+				"“我们不能坐以待毙。凭什么只能他们包围我们，不能我们主动出击，反过去包围他们？”史蒂夫陷入沉思，随即眼神一亮，“比如，来一次两面夹击！”"
+			]
+			dependencies: ["128B11E20B944A02"]
+			hide: true
+			hide_text_until_complete: true
+			id: "1D8B216EF6C75B9E"
+			tasks: [{
+				id: "06BFB4E363F45904"
+				type: "advancement"
+				advancement: "pvz:adventure/1-2"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "45D2FEA2491E92E9"
+					type: "item"
+					item: {
+						id: "pvz:umbrella_leaf_card"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "32F2646176291288"
+					type: "command"
+					title: "玩家抽奖次数+12"
+					icon: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:pool_night"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/playerstats @p add lottery_chance 12"
+					player_command: false
+				}
+				{
+					id: "7560CD2A010607D1"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "projecte:klein_star_ein"
+						Count: 1b
+						tag: {
+							StoredEMC: 50000
+						}
+						ForgeCaps: {
+							Parent: { }
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6A9129DD129F51B4"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "roof_day"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"蹦极僵尸无疑是最富冒险精神的——毕竟，若生命早已逝去，那么再体验一次死亡又有何妨？"
+				""
+				"作为植物僵尸实验的协助者，他们为僵王博士盗取了各式各样的植物，甚至连最不可能得手的火爆辣椒都敢尝试，并且奇迹般地成功了。据说，火爆辣椒本不在计划之内，是蹦极僵尸主动请缨。对于这些生前就常在鬼门关前徘徊的家伙而言，死后的世界，实在过于乏味了。"
+				""
+				"然而，在被叶子保护伞狠狠弹飞之后，蹦极僵尸第一次感受到了腰间绳索的束缚。于是在绳子再次绷紧前，他主动解开了胸前的锁扣。"
+				""
+				"他不知道自己为何要这样做。正如他一直想不明白：植物与僵尸拼接的躯壳中，为何能诞生出属于“自己”的灵魂？而早已死过一次的他，究竟还想在这无拘无束的坠落中，重新寻获什么……"
+			]
+			dependencies: ["1D8B216EF6C75B9E"]
+			hide: true
+			hide_text_until_complete: true
+			id: "166BDE2C3E241C71"
+			tasks: [{
+				id: "2D09D7420A565943"
+				type: "advancement"
+				advancement: "pvz:adventure/5-2"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3B9E3E5F6809ACC8"
+					type: "item"
+					item: {
+						id: "pvz:kernel_pult_card"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2720A55D7D0BE436"
+					type: "command"
+					title: "玩家抽奖次数+12"
+					icon: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:pool_night"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/playerstats @p add lottery_chance 12"
+					player_command: false
+				}
+				{
+					id: "3BA0745D6CA8F60C"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "projecte:klein_star_zwei"
+						Count: 1b
+						tag: {
+							StoredEMC: 80000
+						}
+						ForgeCaps: {
+							Parent: { }
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: [
+				"“伽刚特尔？”挑战信上出现了一个奇怪的名字，这是史蒂夫第一次在信上看到有名有姓的僵尸。"
+				"“这是什么来头？”他转向身旁的薏米问道。"
+				""
+				"“僵尸巨人。”薏米随口答道，脸色却不由自主地沉了下来，仿佛被这个名字勾起了某些不愿回想的记忆。"
+				""
+				"………………"
+				""
+				"“神经元对接测试090505号，启动。”"
+				""
+				"冰冷的电子音割破了寂静。僵王博士平躺在手术台上，密密麻麻的传感器将他与一旁的巨型机甲紧密相连。"
+				""
+				"僵尸无需呼吸。他如同真正的尸体般静止。唯有传感器上疯狂闪烁的指示灯，与那对眼窝中幽深的眸光，昭示着躯壳之下远未安息的意志。"
+			]
+			dependencies: ["166BDE2C3E241C71"]
+			hide: true
+			hide_text_until_complete: true
+			id: "540A2C6F5BD8CFBB"
+			tasks: [{
+				id: "34221C5DEA7114B8"
+				type: "advancement"
+				advancement: "pvz:adventure/5-3"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5F89E417894C66AC"
+					type: "command"
+					title: "玩家抽奖次数+12"
+					icon: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:pool_night"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/playerstats @p add lottery_chance 12"
+					player_command: false
+				}
+				{
+					id: "48F1591DAAAFA3D3"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "projecte:klein_star_zwei"
+						Count: 1b
+						tag: {
+							StoredEMC: 80000
+						}
+						ForgeCaps: {
+							Parent: { }
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"巨人僵尸，无疑是“力量”二字的化身。他是一座不断推进的饥饿堡垒，目标一旦被锁定便无处可逃；他是挣脱束缚的恐惧，是行走的天灾。然而，唯有在望向背上那渺小的身影时，他那狂暴的眼中才会闪过一丝与毁灭格格不入的温情。"
+				""
+				"“当心！绝对不要被他们砸中！”"
+				""
+				"伽刚特尔笨重到几乎谁都能将其戏耍一番，但这献祭敏捷所换来的，是足以将眼前万物彻底碾碎的爆炸性力 量！"
+			]
+			dependencies: ["540A2C6F5BD8CFBB"]
+			hide: true
+			hide_text_until_complete: true
+			id: "1BAE487B5F76D2B2"
+			tasks: [{
+				id: "58283F64AE7D5E44"
+				type: "advancement"
+				advancement: "pvz:adventure/5-4"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "000326FBD544CEF9"
+					type: "item"
+					item: {
+						id: "pvz:pumpkin_card"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4EC17BE572099BEE"
+					type: "command"
+					title: "玩家抽奖次数+12"
+					icon: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:pool_night"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/playerstats @p add lottery_chance 12"
+					player_command: false
+				}
+				{
+					id: "4C471FE62CB16BA0"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "projecte:klein_star_zwei"
+						Count: 1b
+						tag: {
+							StoredEMC: 80000
+						}
+						ForgeCaps: {
+							Parent: { }
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			subtitle: "《绿茵史诗》（节选）"
+			description: [
+				"史蒂夫从树下猛然坐起。高处的阳光穿过叶隙，泼洒而下，在他脚边碎成一地晃眼的光斑。"
+				""
+				"他揉了揉眼，撑地起身。层叠的树叶在高天的风中缓缓摇动，恍惚间，翻涌的云海竟传来了真实的浪潮之声——循声望去，他惊觉自己已置身于海边一处高耸的悬崖。"
+				""
+				"巨树的根系自崖壁伸出，纠缠盘绕着向下蔓延，直至遍布海底，消失在视野尽头。翻涌的洋面模糊地倒映出巨树的轮廓，天空的云块正朝着那方正的太阳缓缓流动。"
+				""
+				"蓦然回首，视线尽头仿佛有一个灰色的小点，静立于一座深灰的巨物之旁。那景象……熟悉得令人不安。"
+				""
+				"他不由自主地向前迈出一步——却只觉眼前骤然一黑。"
+				""
+				"再度惊醒时，冷汗已浸透衣衫。他终于悚然意识到，自己从未真正逃离这个诡谲的梦境。"
+			]
+			dependencies: ["1BAE487B5F76D2B2"]
+			hide: true
+			hide_text_until_complete: true
+			id: "76407CE77756923F"
+			tasks: [{
+				id: "10FD9208472E4DA9"
+				type: "advancement"
+				advancement: "pvz:adventure/5-5"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "09F96B662D4C661B"
+					type: "command"
+					title: "玩家抽奖次数+12"
+					icon: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:pool_night"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/playerstats @p add lottery_chance 12"
+					player_command: false
+				}
+				{
+					id: "2B838B0004F67C54"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "projecte:klein_star_zwei"
+						Count: 1b
+						tag: {
+							StoredEMC: 80000
+						}
+						ForgeCaps: {
+							Parent: { }
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			description: [
+				"初登场的西瓜投手毫不羞怯！"
+				"“在所有的投手之中，我的力量可是数一数二的！”他高声宣告，“这可不是吹牛，不信您瞧好了。”"
+				""
+				"只见一颗硕大的西瓜被高高抛起，随即狠狠砸在铁桶僵尸头上——沉重的冲击力撞得对方一个趔趄，飞溅的西瓜碎片甚至将旁边的小鬼僵尸也带倒在地。"
+				""
+				"史蒂夫望着眼前这位勇猛的植物伙伴，下意识地摸了摸自己的脑袋，终于理解了戴夫头上那口铁锅的深远智 慧。"
+			]
+			dependencies: ["76407CE77756923F"]
+			hide: true
+			hide_text_until_complete: true
+			id: "3A235349A5B0B85C"
+			tasks: [{
+				id: "6B83E2843B0ED176"
+				type: "advancement"
+				advancement: "pvz:adventure/5-6"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "28BE06F07B26D698"
+					type: "item"
+					item: {
+						id: "pvz:melon_pult_card"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1C5102CA7ADF4A09"
+					type: "command"
+					title: "玩家抽奖次数+12"
+					icon: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:pool_night"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/playerstats @p add lottery_chance 12"
+					player_command: false
+				}
+				{
+					id: "4E58B8390AAD528D"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "projecte:klein_star_zwei"
+						Count: 1b
+						tag: {
+							StoredEMC: 80000
+						}
+						ForgeCaps: {
+							Parent: { }
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			description: [
+				"伽刚特尔永远学不会冷静。它那狭小的脑颅容不下复杂的思绪，当目睹同伴们成群倒下，胸中燃起的狂暴怒火便会彻底吞噬理智，将双眼烧成一片骇人的血红。"
+				""
+				"或许是从那片血红中读懂了它的痛苦与孤独，那些视它为亲人的小鬼僵尸们纷纷跃上了它的肩背。它们曾立誓不再让任何家人孤身战斗，此刻，便要追随这暴怒的巨人，向防线发起最后的冲锋。"
+				""
+				"“让他们冷静一下！”"
+				"随着史蒂夫脚下的冰冻生菜绽放，刚挣脱寒冰菇侵蚀的红眼巨人与其背上的小鬼们，再度被坚冰封印。接踵而至的猛烈攻击瞬间将其吞没——"
+				""
+				"硝烟散尽，巨人轰然倒地。"
+				"然而，即便在生命终结的最后一刻，伽刚特尔那双血色的眼眸，也终究未能闭上……"
+				""
+				"※提示：红眼巨人的重击会猛烈撼动大地，对范围内的所有单位造成高额震荡伤害。"
+			]
+			dependencies: ["3A235349A5B0B85C"]
+			hide: true
+			hide_text_until_complete: true
+			id: "481ABE762106F406"
+			tasks: [{
+				id: "1CC61351FBCC4E34"
+				type: "advancement"
+				advancement: "pvz:adventure/5-7"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "51A3E2D0EB3766AD"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "pvz:challenge_envelope"
+						Count: 1b
+						tag: {
+							challenge_type: "pvz:roof_day"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "018D2A202BF47C62"
+					type: "command"
+					title: "玩家抽奖次数+12"
+					icon: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:pool_night"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/playerstats @p add lottery_chance 12"
+					player_command: false
+				}
+				{
+					id: "701E9766C324E275"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "projecte:klein_star_zwei"
+						Count: 1b
+						tag: {
+							StoredEMC: 80000
+						}
+						ForgeCaps: {
+							Parent: { }
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			description: [
+				"“下一次，来的就会是僵王博士本人了。”"
+				""
+				"院子里一片狼藉。刚结束一场持久恶战的史蒂夫精神还有些恍惚，他展开新的挑战信，上面的字迹比以往更加潦草稀疏，仿佛书写者心绪不宁。然而，那个落款名字却异常清晰、刺眼——"
+				""
+				"    乔治·埃德加"
+				""
+				"他记得薏米曾用无比凝重的语气提起过这个名字。"
+				""
+				"“僵王博士本身并不可怕，他的身体和普通僵尸一样脆弱。”薏米接过信纸，指尖在落款的名字上轻轻摩挲，仿佛在感知某种残留的痕迹，“或许，智慧本身就是最强大的‘脑子’，所以僵尸们都心甘情愿地追随他。”"
+				""
+				"“为了博士！为了植物世界！”"
+				"史蒂夫回想起刚才某个旗帜僵尸声嘶力竭的呐喊，嘴角不由得泛起一丝复杂的苦笑。"
+				""
+				"一种冰冷的违和感顺着脊椎悄然爬升——他强烈地预感，这一切，绝不会如此简单地迎来终结……"
+			]
+			dependencies: ["481ABE762106F406"]
+			hide: true
+			hide_text_until_complete: true
+			id: "571FD39392BA6A18"
+			tasks: [{
+				id: "7093E8E0DAA7BFC1"
+				type: "advancement"
+				advancement: "pvz:adventure/5-8"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4DD83BABE15A6E06"
+					type: "command"
+					title: "玩家抽奖次数+12"
+					icon: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:pool_night"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/playerstats @p add lottery_chance 12"
+					player_command: false
+				}
+				{
+					id: "48ADF4B0580BDADD"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "projecte:klein_star_zwei"
+						Count: 1b
+						tag: {
+							StoredEMC: 120000
+						}
+						ForgeCaps: {
+							Parent: { }
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "42A3978A91EB1663"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "roof_night"
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			description: [
+				"巨大的埃德加机器人轰然解体，无数凝聚着尖端科技的碎片如陨星般坠落，每一片都映照着技术的辉光。然而，无论是史蒂夫还是薏米，都无暇瞥上一眼——他们的目光，被牢牢钉在了地上那封崭新的挑战信上。"
+				""
+				"“它必须由僵王博士亲自驾驭……”薏米的语气平静得没有一丝波澜，仿佛在宣读既定的法则，“寻常的头脑，无法承载如此复杂的巨械。它仍不完美，下一次的……必将更强。”"
+				""
+				"下一次？史蒂夫在心中默念。这理应是最后一幕了……"
+				""
+				"他凝视着沉默的薏米，时间的流逝感骤然变得尖锐。从初遇至今，仿佛已度过无数轮回。若非踏入此界，邂逅这颗灰色的小土豆，他或许仍在那个熟悉的循环里，重复着屠龙与归寂的剧本。"
+				""
+				"可直至此刻，他依然无法洞悉薏米那微小躯壳中深藏的秘密。一定还有更重大的真相，被悄然隐瞒。"
+				"这种感知从未如此清晰——他们方才倾尽全力达成的，并非一场荣光的胜利，而更像是一幕按预定剧本上演的终场。"
+				""
+				"“我们……即将迎来分别了吗？”"
+				"当这个念头浮现的刹那，一阵深邃的不安攫住了史蒂夫的心脏。"
+			]
+			dependencies: ["571FD39392BA6A18"]
+			hide: true
+			hide_text_until_complete: true
+			id: "00C67FE150F0FE57"
+			tasks: [{
+				id: "23AAA9D92C066774"
+				type: "advancement"
+				advancement: "pvz:adventure/5-9"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "271456925BDEE935"
+					type: "command"
+					title: "玩家抽奖次数+18"
+					icon: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:pool_night"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/playerstats @p add lottery_chance 18"
+					player_command: false
+				}
+				{
+					id: "75806E5B77648F95"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "projecte:klein_star_zwei"
+						Count: 1b
+						tag: {
+							StoredEMC: 200000
+						}
+						ForgeCaps: {
+							Parent: { }
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: 0.0d
+			description: [
+				"“可喜可贺，可喜可贺！”戴夫挥舞着锅铲，在零件废墟上雀跃欢呼。"
+				""
+				"“啾~啾啾，嘟~嘟嘟~~”潘妮的车灯明快地闪烁着，奏响欢庆的乐章。"
+				""
+				"史蒂夫长长地舒了一口气，紧绷的神经终于得以放松。然而，当他望向薏米时，却发现那灰色的身影正静立于硝烟之中，沉默地凝视着“僵王”机甲剩余的残骸，仿佛在参加一场无声的葬礼。"
+				""
+				"……"
+				""
+				"“谢谢你，史蒂夫。”"
+				"薏米转过身，郑重地道谢。他的语气里听不出太多胜利的喜悦，反而浸透着一种使命达成的释然，与一丝无法抹去的沉重。"
+				""
+				"这确实不是一次轻松的旅程。"
+				""
+				"史蒂夫清晰地捕捉到了薏米眼中的复杂心绪——那是不舍，是悲伤，甚至……还有一抹深沉的、几乎将他淹没的歉意。这绝不仅仅是对一位即将分别的战友的感情。"
+				""
+				"一个冰冷的念头如利刃般刺入他的脑海：薏米为何如此确信我即将离开？仿佛我的离去，本就是这场“胜利”之后早已注定的终章。"
+				""
+				"........."
+				""
+				"不对！"
+				"这看似圆满的结局，其背后绝对隐藏着更深的秘密！"
+			]
+			dependencies: ["00C67FE150F0FE57"]
+			hide: true
+			hide_text_until_complete: true
+			id: "0D40A1D791055EC4"
+			tasks: [{
+				id: "7ADBCB1EAF9B309F"
+				type: "advancement"
+				advancement: "pvz:adventure/5-x"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1196A27470B68320"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "curios:ring"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1BD021F4EEFEF029"
+					type: "command"
+					title: "玩家抽奖次数+30"
+					icon: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:pool_night"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/playerstats @p add lottery_chance 30"
+					player_command: false
+				}
+				{
+					id: "53CBD3941E4409C8"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "projecte:klein_star_ein"
+						Count: 1b
+						tag: {
+							StoredEMC: 50000
+						}
+						ForgeCaps: {
+							Parent: { }
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 10
+				}
+				{
+					id: "57015486AC25C6C5"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "roof_over"
+				}
+			]
+		}
+		{
+			title: "换取挑战信5-2"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "可重复兑换"
+			description: [
+				"挑战失败可在此重新获得挑战信。"
+				""
+				"警告：兑换时，若背包内钻石占据多个格子，系统将一次性兑换多份挑战信，请谨慎操作！"
+			]
+			dependencies: ["1D8B216EF6C75B9E"]
+			hide: true
+			optional: true
+			id: "440017FD6105D181"
+			tasks: [{
+				id: "384B38317EDD18F6"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:diamond"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4EFD012ED33DD798"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "pvz:challenge_envelope"
+						Count: 1b
+						tag: {
+							challenge_type: "pvz:5-2"
+						}
+					}
+				}
+				{
+					id: "48BD038F9D349666"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 440017FD6105D181"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "换取挑战信5-3"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "可重复兑换"
+			description: [
+				"挑战失败可在此重新获得挑战信。"
+				""
+				"警告：兑换时，若背包内钻石占据多个格子，系统将一次性兑换多份挑战信，请谨慎操作！"
+			]
+			dependencies: ["166BDE2C3E241C71"]
+			hide: true
+			optional: true
+			id: "49C87789EAF1A42C"
+			tasks: [{
+				id: "259418BF7BB0F644"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:diamond"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "11D29BD4BA483909"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "pvz:challenge_envelope"
+						Count: 1b
+						tag: {
+							challenge_type: "pvz:5-3"
+						}
+					}
+				}
+				{
+					id: "062E1D1C73AE4132"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 49C87789EAF1A42C"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "换取挑战信5-4"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "可重复兑换"
+			description: [
+				"挑战失败可在此重新获得挑战信。"
+				""
+				"警告：兑换时，若背包内钻石占据多个格子，系统将一次性兑换多份挑战信，请谨慎操作！"
+			]
+			dependencies: ["540A2C6F5BD8CFBB"]
+			hide: true
+			optional: true
+			id: "5D6986F2266B92C5"
+			tasks: [{
+				id: "55EF9FFA025EA4C3"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:diamond"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1888B687AB3AF726"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "pvz:challenge_envelope"
+						Count: 1b
+						tag: {
+							challenge_type: "pvz:5-4"
+						}
+					}
+				}
+				{
+					id: "041F955608A688FE"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5D6986F2266B92C5"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "换取挑战信5-5"
+			x: 6.0d
+			y: 2.0d
+			subtitle: "可重复兑换"
+			description: [
+				"挑战失败可在此重新获得挑战信。"
+				""
+				"警告：兑换时，若背包内钻石占据多个格子，系统将一次性兑换多份挑战信，请谨慎操作！"
+			]
+			dependencies: ["1BAE487B5F76D2B2"]
+			hide: true
+			optional: true
+			id: "37E59CA29F4BC15E"
+			tasks: [{
+				id: "30582D2FFCD75B1C"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:diamond"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "27BC8D77B0408760"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "pvz:challenge_envelope"
+						Count: 1b
+						tag: {
+							challenge_type: "pvz:5-5"
+						}
+					}
+				}
+				{
+					id: "21CA1C339BFCFA54"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 37E59CA29F4BC15E"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "换取挑战信5-6"
+			x: 8.0d
+			y: 2.0d
+			subtitle: "可重复兑换"
+			description: [
+				"挑战失败可在此重新获得挑战信。"
+				""
+				"警告：兑换时，若背包内钻石占据多个格子，系统将一次性兑换多份挑战信，请谨慎操作！"
+			]
+			dependencies: ["76407CE77756923F"]
+			hide: true
+			optional: true
+			id: "56D77E2EDB63B685"
+			tasks: [{
+				id: "4CE3141B9618D26E"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:diamond"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "34596D6F9B94B494"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "pvz:challenge_envelope"
+						Count: 1b
+						tag: {
+							challenge_type: "pvz:5-6"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "58C721AEB5A4746A"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 56D77E2EDB63B685"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "换取挑战信5-7"
+			x: 10.0d
+			y: 2.0d
+			subtitle: "可重复兑换"
+			description: [
+				"挑战失败可在此重新获得挑战信。"
+				""
+				"警告：兑换时，若背包内钻石占据多个格子，系统将一次性兑换多份挑战信，请谨慎操作！"
+			]
+			dependencies: ["3A235349A5B0B85C"]
+			hide: true
+			optional: true
+			id: "3A2E790D43F10B6B"
+			tasks: [{
+				id: "4938FCD873A96372"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:diamond"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3E94B4087C684F65"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "pvz:challenge_envelope"
+						Count: 1b
+						tag: {
+							challenge_type: "pvz:5-7"
+						}
+					}
+				}
+				{
+					id: "05490A93AA1D7C8A"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 3A2E790D43F10B6B"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "换取挑战信5-8"
+			x: 12.0d
+			y: 2.0d
+			subtitle: "可重复兑换"
+			description: [
+				"挑战失败可在此重新获得挑战信。"
+				""
+				"警告：兑换时，若背包内钻石占据多个格子，系统将一次性兑换多份挑战信，请谨慎操作！"
+			]
+			dependencies: ["481ABE762106F406"]
+			hide: true
+			optional: true
+			id: "388457BC68803967"
+			tasks: [{
+				id: "038E551985D6178A"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7C1C88E08DA924D7"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "pvz:challenge_envelope"
+						Count: 1b
+						tag: {
+							challenge_type: "pvz:roof_day"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "40B5971AE7055084"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 388457BC68803967"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "换取挑战信5-9"
+			x: 14.0d
+			y: 2.0d
+			subtitle: "再次向初号机僵王宣战"
+			description: [
+				"可在此重复换取僵王入侵挑战信。"
+				"击败初号机僵王必定掉落珍贵的宝石。"
+			]
+			dependencies: ["571FD39392BA6A18"]
+			hide: true
+			optional: true
+			id: "4A3CF0A37074297D"
+			tasks: [{
+				id: "6C24179CFA485DD6"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3C0DF0DBC4BC5139"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "pvz:challenge_envelope"
+						Count: 1b
+						tag: {
+							challenge_type: "pvz:roof_night"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6F1795F8C824B41B"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4A3CF0A37074297D"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "换取挑战信5-X"
+			x: 16.0d
+			y: 2.0d
+			subtitle: "再次向改进型僵王宣战"
+			description: [
+				"可在此重复换取最终决战挑战信。"
+				"击败改进型僵王必定掉落大量珍贵的宝石。"
+			]
+			dependencies: ["00C67FE150F0FE57"]
+			hide: true
+			optional: true
+			id: "56809C052CE0401E"
+			tasks: [{
+				id: "171B0F3840038197"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5A32181391401F49"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "pvz:challenge_envelope"
+						Count: 1b
+						tag: {
+							challenge_type: "pvz:roof_again"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "538F0EC0EF74638F"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 56809C052CE0401E"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "换取挑战信《异界入侵》"
+			x: 18.0d
+			y: 2.0d
+			subtitle: "开启通往异界的大门"
+			description: [
+				"※ 警告：支线关卡难度较高，请慎重开启！"
+				"※ 提示：南瓜头与火炬机枪的配合或许能带来意想不到 的战术效果。"
+				"※ 关卡奖励与难度直接挂钩，难度越高，奖励越丰厚。"
+				""
+				"【通关奖励】"
+				"· 永久解锁：吸金磁"
+				"· 单次奖励：大量焰魔锭"
+			]
+			dependencies: ["0D40A1D791055EC4"]
+			hide: true
+			optional: true
+			id: "6090C3FA5BFBD4DF"
+			tasks: [{
+				id: "60BBF3B16475421D"
+				type: "item"
+				item: {
+					id: "pvz:time_key_to_deep"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6C9FC8ECF6CF8FE3"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "pvz:challenge_envelope"
+						Count: 1b
+						tag: {
+							challenge_type: "pvz:ignis_coming"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4384481291CA04C5"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6090C3FA5BFBD4DF"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 20.0d
+			y: 0.0d
+			description: [
+				"又一台埃德加机甲在庭院前化为废铁。身经百战的史蒂夫抚过剑刃，心中疑云如浓雾般翻涌，再也无法忽视。"
+				""
+				"“为什么还没结束？”他低声自语。"
+				"若僵王已死，何来这源源不断的机甲？"
+				"若僵王未死，为何要派这些必败的军队来徒增损耗？"
+				"这世界的僵尸，为何如同舞台上的配角，杀之不尽，准时登场？"
+				""
+				"“你们到底还瞒着我什么？！”"
+				"积压的疑虑几乎要破胸而出，可每次质问，薏米仍只是那样——眼含深意地摇摇头，将那抹熟悉的微笑挂在脸上，仿佛在欣赏一出早已知道结局的戏。"
+				""
+				"无可奈何，史蒂夫只能将怒火倾泻在一台又一台机甲上。日子在一种诡异的循环中流逝：他，薏米，还有那个永不现身却准时派发“剧本”的僵王。礼貌的挑战信，精准的僵尸投放，英勇的植物伙伴……这一切严丝合缝得令人窒息。"
+				""
+				"这不再是一场战争。"
+				"这俨然成了由他、薏米与僵王博士三“人”联袂上演的一场——宏大、精致，却毫无悬念的舞台戏！"
+				""
+				"舞台戏……"
+				"就像……那个梦！！！"
+				""
+				"史蒂夫猛然从休憩中惊坐而起，额角渗出冷汗。"
+				"记忆的迷雾被骤然驱散，梦中那立于视线尽头的灰色巨像，与巨像之畔静默的灰色身影……两者的轮廓在此刻完美地与他现实中的“对手”和“伙伴”重合！"
+				""
+				"那尊顶天立地的灰色巨像，分明就是与他周旋至今的——僵王博士！"
+				"而那巨像之下，渺小却无法被忽视的存在，正是他身边这位最熟悉的——薏米！"
+				""
+				"震惊与一丝被背叛的刺痛瞬间攫住了他。但他仍怀着一丝微弱的希望，希望这只是一个过于离奇的巧合。"
+				"当他带着这个石破天惊的发现，再次站到薏米面前时，薏米的表情却没有丝毫波澜。他只是平静地回望史蒂夫，仿佛早已等候多时，然后，用一种讲述古老传说般的悠缓语调，开始了他的讲述……"
+			]
+			dependencies: ["0D40A1D791055EC4"]
+			hide: true
+			hide_text_until_complete: true
+			id: "4C041C05FF3C6011"
+			tasks: [{
+				id: "2C2545FBA1494893"
+				type: "item"
+				item: {
+					id: "pvz:diamond_sunflower_trophy"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "33E16834A33DBD72"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "constructionwand:infinity_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "624DF9ED1C32DCDC"
+					type: "command"
+					title: "玩家抽奖次数+30"
+					icon: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:pool_night"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/playerstats @p add lottery_chance 30"
+					player_command: false
+				}
+				{
+					id: "53B558D66F181ECC"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "projecte:klein_star_zwei"
+						Count: 1b
+						tag: {
+							StoredEMC: 200000
+						}
+						ForgeCaps: {
+							Parent: { }
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 10
+				}
+				{
+					id: "3926FE713387CA4D"
+					type: "xp"
+					auto: "no_toast"
+					xp: 10000
+				}
+			]
+		}
+		{
+			title: "万藏"
+			x: 22.0d
+			y: 0.0d
+			description: [
+				"万藏、分支、平行、世界……"
+				"高维、见证、记忆、永恒……"
+				""
+				"薏米的话语如同洪钟，在史蒂夫脑海中反复撞击，重构着他对于这个世界的全部认知。"
+				""
+				"一个最根本的问题，凌驾于所有混乱之上："
+				"薏米，究竟是如何知晓“玩家”存在的？"
+				""
+				"“我们世界的存亡，与你们的‘记忆’息息相关。”"
+				"薏米的声音将史蒂夫的思绪拉回，“这个分支的万藏本源即将枯竭，世界正走向分崩离析……直到你们——高维玩家的到来。”"
+				""
+				"“你们的到来，让我们窥见了一线生机！”他的语气中积蓄着难以抑制的激动，“正因为这一线希望，世代为敌的植物与僵尸破天荒地联手；也正是为此，本应水火不容的我和乔治·埃德加，才倾尽所有，共同创造了那台惊世之作！”"
+				""
+				"永夜机！史蒂夫瞬间明悟。难怪那台机器如此不可思 议，它根本就是两个族群智慧与意志的结晶，而非单纯的科技或魔法造物。"
+				""
+				"薏米的眼神中混杂着歉意、无奈与岁月的沧桑。"
+				"“很抱歉……这一路上瞒了你这么久。”"
+				"他掏出一颗流转着绯红光辉的宝石，无比珍重地摩挲 着。“这是我的魔法生涯的巅峰，亦是绝唱……连我自己，也无法再复现第二颗。”"
+				""
+				"“开启它，符文将引导以太之力永续灌注你的身躯，从此饥饿将不再是你的困扰。”"
+				"他将宝石递出，仿佛托付着整个世界的重量。"
+				"“我的道路已至尽头，但它在你手中，定能绽放出超越我想象的光辉。请你……原谅我的独断专行。”"
+				""
+				"“所以，从最初的相遇，到我经历的每一场战斗……”史蒂夫的声音因震惊而干涩。他想起那个高呼口号的旗帜僵尸，自己曾嗤笑对方是被洗脑的蠢货，此刻才惊觉，那个沉浸于虚假英雄叙事中的愚蠢之人，或许正是他自己。过往无数被忽略的违和细节，此刻如潮水般涌上心头。“这一切，从开始到结束，都只是你们为了让 我‘记住’，而精心策划的剧本吗？”"
+				""
+				"“不，并非如此。”薏米缓缓摇头，他的目光深邃，仿佛穿透了史蒂夫，凝视着其背后那片无垠的高维领域。“我们无法理解，更无从预测神明的行为。我们所能做的，唯有搭建好舞台，布置好线索，然后……虔诚地祈祷。”"
+				"他的声音低沉下去，带着无限的敬畏。"
+				"“祈祷你们会愿意驻足，会愿意记住这个故事，记住我们这个世界。”"
+				"“毕竟，玩家于我而言，便是高维的神明，是我们……连仰望都需鼓足勇气的存在。”"
+				""
+				""
+				"※提示：智慧树等级提升至200级时，将额外获得抽奖次数奖励。"
+			]
+			dependencies: ["4C041C05FF3C6011"]
+			hide: true
+			hide_text_until_complete: true
+			id: "67E3CA879ADD6A87"
+			tasks: [{
+				id: "3DD1B07264ABE671"
+				type: "advancement"
+				advancement: "pvz:adventure/towering_wisdom"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2924B74C51F91692"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "projecte:body_stone"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3E5D764CA8949030"
+					type: "xp"
+					auto: "no_toast"
+					xp: 30000
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: -2.0d
+			description: [
+				"最后一名异魔将巨剑深深插入焦土，它破败的盔甲寸寸崩解，化作缕缕飞灰，随风彻底消散……"
+				""
+				"然而，胜利的喜悦并未如期而至。在方才激战的间隙，于异魔周身烈焰的爆裂声中，你清晰地捕捉到了它们那令人心悸的断续低语："
+				""
+				"“必须……将‘万藏本源’……带回……”"
+				"“找到……本源化身的世界树……攫取核心……”"
+				"话音未落，察觉你存在的异魔便骤然暴起，将一场本可窥探秘密的对话，化为了不死不休的厮杀。"
+				""
+				"“万藏本源”、“世界树”……这些禁忌的词语，与薏米所揭示的世界真相形成了骇人的呼应。它们背后究竟隐藏着什么？这些异魔又为何要不惜一切代价进行掠 夺？"
+				""
+				"你带着满腹疑窦找到薏米，转述了那令人不安的见闻。出乎意料的是，他没有任何解释，眼中反而掠过一丝冰冷的厉色，用一种你从未听过的、斩钉截铁的命令口吻说道："
+				"“清除所有踏入此界的异魔，格杀勿论，一个不留。”"
+				""
+				"语毕，他便陷入了长久的沉默，那阴郁的神情仿佛在无声地宣告——一场远比僵尸入侵更为深邃、更为致命的危机，其阴影已然笼罩而下。"
+				""
+				"※提示：焰魔系列盔甲具有无限耐久特性。"
+			]
+			dependencies: ["0D40A1D791055EC4"]
+			hide: true
+			hide_text_until_complete: true
+			id: "65E7275E01979B12"
+			tasks: [{
+				id: "1CD41FC2127A0E0B"
+				type: "advancement"
+				advancement: "pvz:adventure/ignis_coming"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "14137A0E821EFE61"
+					type: "gamestage"
+					auto: "enabled"
+					stage: "Ignitium"
+				}
+				{
+					id: "7828230D8247FA15"
+					type: "command"
+					title: "玩家抽奖次数+25"
+					icon: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:pool_night"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/playerstats @p add lottery_chance 25"
+					player_command: false
+				}
+				{
+					id: "0B5BB3958F01E76C"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "projecte:klein_star_zwei"
+						Count: 1b
+						tag: {
+							StoredEMC: 200000
+						}
+						ForgeCaps: {
+							Parent: { }
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

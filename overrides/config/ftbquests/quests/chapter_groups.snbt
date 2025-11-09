@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "7F20F7173F1C796A", title: "绿茵史诗" }
+		{ id: "1F7EC9B5A196C0BF", title: "附章" }
+		{ id: "0E3D3A551D756CC8", title: "形而上" }
+		{ id: "1ABB7C487E06073F", title: "植物世界的生物们" }
+		{ id: "61357C1B696394B5", title: "支线任务（可能有大量奖励）" }
+	]
+}

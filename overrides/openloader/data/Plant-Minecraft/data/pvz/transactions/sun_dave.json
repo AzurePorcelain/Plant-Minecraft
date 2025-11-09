@@ -1,0 +1,117 @@
+{
+  "good_count": {
+    "random": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  "has_slot_machine": false,
+  "goods": [
+    {
+      "type": "item",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:'pvz:light_eye_potion_1'}",
+      "price": 1000,
+      "must": true
+    },
+    {
+      "type": "item",
+      "item": "pvz:lantern",
+      "price": 1500,
+      "must": true
+    },
+    {
+      "type": "item",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:'pvz:light_eye_potion_2'}",
+      "price": 3000,
+      "must": true
+    },
+    {
+      "type": "item",
+      "item": "pvz:sun_storage_sapling4",
+      "nbt": "{sun_storage_amount:2000}",
+      "price": 2500,
+      "weight": 120,
+      "limit": 3
+    },
+    {
+      "type": "item",
+      "item": "pvz:sun_storage_sapling4",
+      "nbt": "{sun_storage_amount:7500}",
+      "price": 8000,
+      "weight": 90,
+      "limit": 2
+    },
+    {
+      "type": "item",
+      "item": "pvz:sun_storage_sapling4",
+      "nbt": "{sun_storage_amount:25000}",
+      "price": 28000,
+      "weight": 60,
+      "limit": 2
+    },
+    {
+      "type": "item",
+      "item": "pvz:sun_storage_sapling4",
+      "nbt": "{sun_storage_amount:50000}",
+      "price": 66000,
+      "weight": 10,
+      "limit": 1
+    },
+    {
+      "type": "item",
+      "item": "minecraft:enchanted_book",
+      "nbt": "{StoredEnchantments:[{'id':'pvz:sun_shovel', 'lvl':5}]}",
+      "price": 3000,
+      "weight": 40,
+      "limit": 1
+    },
+    {
+      "type": "item",
+      "item": "minecraft:enchanted_book",
+      "nbt": "{StoredEnchantments:[{'id':'pvz:sun_shovel', 'lvl':8}]}",
+      "price": 4500,
+      "weight": 60,
+      "limit": 1
+    },
+    {
+      "type": "item",
+      "item": "minecraft:enchanted_book",
+      "nbt": "{StoredEnchantments:[{'id':'pvz:sun_mending', 'lvl':1}]}",
+      "price": 4500,
+      "weight": 80,
+      "limit": 1
+    },
+    {
+      "type": "item",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:'pvz:excite_potion_2'}",
+      "price": 6000,
+      "weight": 120,
+      "limit": 1
+    },
+    {
+      "type": "item",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:'pvz:excite_potion_4'}",
+      "price": 15000,
+      "weight": 30,
+      "limit": 1
+    },
+    {
+      "type": "item",
+      "item": "pvz:gold_leaf_card",
+      "price": 6000,
+      "weight": 60,
+      "limit": 1
+    },
+    {
+      "type": "item",
+      "item": "bpmc:sun_dave_token",
+      "price": 8000,
+      "weight": 50,
+      "limit": 1
+    }
+  ]
+}

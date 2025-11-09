@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "name": "disc",
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.8,
+          "looting_multiplier": 0
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:music_disc_ignis",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "pvz:fragment_splice",
+  "pattern": [
+    "AAAAA",
+    "ABBBA",
+    "ABCBA",
+    "ABBBA",
+    "AAAAA"
+  ],
+  "key": {
+    "B": {
+      "item": "pvz:gloom_shroom_enjoy_card"
+    },
+    "A": {
+      "item": "pvz:toxic_essence"
+    },
+    "C": {
+      "item": "pvz:mega_card"
+    }
+  },
+  "result": {
+    "item": "pvz:gloom_shroom_card"
+  }
+}

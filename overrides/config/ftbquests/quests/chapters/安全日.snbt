@@ -1,0 +1,155 @@
+{
+	id: "58166EA838593854"
+	group: ""
+	order_index: 0
+	filename: "安全日"
+	title: "安全日"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["6A6F4BBA3D9F637A"]
+			secret: true
+			id: "1E6C4DFC463D6931"
+			tasks: [{
+				id: "6D3E8115854BC37A"
+				type: "item"
+				item: {
+					id: "pvz:origin_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			secret: true
+			id: "1EEFA2B31C86BDCA"
+			tasks: [{
+				id: "0C35D6247E7F6CA2"
+				type: "questsadditions:use"
+				title: "使用锤子敲碎一个青花瓷"
+				block_type: 0
+				block: "bpmc:chinaware_flower_pot"
+				value: 1L
+				checkItem: true
+				isItemInteraction: false
+				item: {
+					id: "bpmc:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "176EC0E494586753"
+					type: "command"
+					auto: "invisible"
+					command: "/gamerule sendCommandFeedback false"
+					player_command: false
+				}
+				{
+					id: "1FCE0B3053F49070"
+					type: "command"
+					auto: "invisible"
+					command: "/advancement grant @p only bpmc:adventure/chinaware_flower_pot"
+					player_command: false
+				}
+				{
+					id: "0C647F516CD2AC56"
+					type: "command"
+					auto: "invisible"
+					command: "/gamerule sendCommandFeedback true"
+					player_command: false
+				}
+				{
+					id: "0C647F51653F4956"
+					type: "command"
+					title: "玩家抽奖次数+30"
+					icon: {
+						id: "pvz:slot_machine"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								lottery_type: "pvz:pool_night"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/playerstats @p add lottery_chance 30"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "完美通关-见证主线终章并集齐所有旅者见闻"
+			x: 2.0d
+			y: 0.0d
+			dependencies: [
+				"65E7275E01979B12"
+				"67E3CA879ADD6A87"
+				"339C53697002F6BC"
+				"1DC476CAF005D96B"
+				"181EDA680AA40E95"
+				"1B6BAADF5EBA123F"
+				"22CA803AEDA8FDFD"
+				"77AC595A8274656F"
+				"09D93B09B046796A"
+				"0C5ACC52C7EE1E29"
+				"69223543835C2558"
+				"2F94654872D8EF4F"
+				"76CCE0B2C18295B9"
+				"19B9C4D3752E283B"
+				"1F299C9560623654"
+				"337D954489DCDC03"
+				"7F1B9DEAF696CDA3"
+			]
+			secret: true
+			id: "4699555934A61448"
+			tasks: [{
+				id: "6C2EBDEF206D07DF"
+				type: "questsadditions:time"
+				title: "完成前置自动解锁"
+				elapsedTime: 1L
+				gameTime: "game"
+			}]
+			rewards: [
+				{
+					id: "46CDF43A189D57EA"
+					type: "command"
+					auto: "invisible"
+					command: "/advancement grant @p only pvz:adventure/good_game"
+					player_command: false
+				}
+				{
+					id: "4008009A1577C241"
+					type: "command"
+					team_reward: true
+					auto: "invisible"
+					command: "/say 传奇铸就！您已集齐所有见闻，完美谱写植物世界篇章，万藏真相现已揭示于《万藏观测记录》之中，请于《植物大战僵尸指南》内探寻万藏之秘的终章。"
+					player_command: false
+				}
+			]
+		}
+	]
+}

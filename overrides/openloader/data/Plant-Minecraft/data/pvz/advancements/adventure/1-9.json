@@ -1,0 +1,32 @@
+{
+  "parent": "pvz:adventure/1-8",
+  "display": {
+    "icon": {
+      "item": "pvz:challenge_envelope"
+    },
+    "title": {
+      "translate": "advancement.pvz.1-9"
+    },
+    "description": {
+      "translate": "advancement.pvz.1-9.desc"
+    },
+    "frame":"challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "in_world": {
+      "trigger": "pvz:challenge",
+      "conditions": {
+        "type": "pvz:grass_day"
+      }
+    }
+  },
+  "requirements": [[
+    "in_world"
+  ]],
+  "rewards":{
+    "experience":3000
+  }
+}

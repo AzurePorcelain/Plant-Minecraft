@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "itemfilters:tag"
+    },
+    "title": {
+      "translate": "advancement.pvz.bucket_house"
+    },
+    "description": {
+      "translate": "advancement.pvz.bucket_house.desc"
+    },
+    "frame":"task",
+    "announce_to_chat": true
+  },
+  "parent":"pvz:adventure/root",
+  "criteria": {
+    "in_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "pvz:bucket_house"
+        }
+      }
+    }
+  },
+  "requirements": [[
+    "in_city"
+  ]]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:netherite_helmet"
+    },
+    "addition": {
+        "item": "cataclysm:monstrous_horn"
+    },
+    "result": {
+        "item": "cataclysm:monstrous_helm"
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cracked_stone_bricks"
+    },
+    "title": {
+      "translate": "advancements.mowziesmobs:wrought_chamber"
+    },
+    "description": {
+      "translate": "advancements.mowziesmobs:wrought_chamber.desc"
+    },
+	"frame":"task",
+    "announce_to_chat": true
+  },
+  "parent":"mowziesmobs:root",
+  "criteria": {
+    "in_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "mowziesmobs:wrought_chamber"
+        }
+      }
+    }
+  },
+  "requirements": [[
+    "in_city"
+  ]]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "pvz:essence_furnace",
+  "ingredient": {
+    "item": "pvz:cabbage"
+  },
+  "fuel": {
+    "item": "pvz:ice_essence",
+    "fueltime": 20
+  },
+  "result": {
+    "item": "bpmc:ice_cabbage",
+    "count": 1
+  },
+  "cookingtime": 40
+}

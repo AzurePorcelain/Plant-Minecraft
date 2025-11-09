@@ -1,0 +1,288 @@
+{
+	id: "484F7B32E8C4DE38"
+	group: "61357C1B696394B5"
+	order_index: 3
+	filename: "484F7B32E8C4DE38"
+	title: "这是谁留下来的？"
+	icon: {
+		id: "dungeoncrates:crate_finder"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "这是什么？"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "遍布世界的谜题"
+			description: [
+				"这些风格各异、遍布四方的板条箱，"
+				"它们究竟存在了多久？又是由何人放置？"
+				""
+				"§7※ 探索机制 ※§r"
+				"板条箱的奖励内容受游戏难度影响。"
+				"在高难度下，部分基础奖励将被更珍稀的奖励所取代。"
+			]
+			id: "5A3A7941F8680246"
+			tasks: [{
+				id: "039CE0752547BB6A"
+				type: "advancement"
+				advancement: "dungeoncrates:adv_whats_in_the_box"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			subtitle: "命运的馈赠"
+			description: [
+				"恭喜你，这或许是你人生中最幸运的时刻！"
+				""
+				"§6‖ 宝藏清单 ‖§r"
+				"• §e必定含有珍稀宝藏§f。"
+				"• §b小概率出现§f：鞘翅、拆解宝典、钢镚、万能模板。"
+				"• 高难度下，宝藏物品的出现种类与概率将§a大幅提升§f。"
+			]
+			dependencies: ["5A3A7941F8680246"]
+			id: "3C6C5F42FC74A74B"
+			tasks: [{
+				id: "5A468AC57CE1A668"
+				type: "questsadditions:break"
+				title: "找到并打开一个金制板条箱"
+				block_type: 0
+				block: "dungeoncrates:golden_dungeon_crate"
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "43CD1ECAF275B94B"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			title: "板条箱的共鸣"
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"手持侦测仪右键使用，它会与附近的板条箱产生共鸣。"
+				""
+				"§6‖ 共鸣信号 ‖§r"
+				"• 范围内有板条箱：发出清脆的§a「叮」§f声。"
+				"• 范围内有§6稀有金属板条箱§f：发出§e特殊的声响§f！"
+			]
+			dependencies: ["3C6C5F42FC74A74B"]
+			hide: true
+			id: "1FE236A33BD2E247"
+			tasks: [{
+				id: "41683A611012B393"
+				type: "advancement"
+				advancement: "dungeoncrates:adv_feeling_lucky"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "00BD61068D2A4274"
+				type: "xp"
+				auto: "no_toast"
+				xp: 500
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "深岩的秘藏"
+			description: [
+				"这些深埋于地壳深处的板条箱，储存着矿物与生物战利品，甚至还有概率出现早已附魔的铁制工具。"
+				""
+				"拥有如此工艺与财力……这到底是谁留下来的？"
+			]
+			dependencies: ["5A3A7941F8680246"]
+			id: "3B91640C1DBBEA2A"
+			tasks: [{
+				id: "08469BB3998FE19D"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "dungeoncrates:rare_dungeon_crate"
+				value: 5L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "06CB94851AC3D445"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			subtitle: "钢铁的遗产"
+			description: [
+				"§6‖ 内含珍宝 ‖§r"
+				"• 丰富的矿物与各类体验卡。"
+				"• §e极小概率§f出现§b钢镚§f与§b拆解宝典§f。"
+				""
+				"§7※ 难度影响 ※§r"
+				"高难度下，这些宝藏的出现概率将§a大幅提高§f。"
+				""
+				"你绝对不会后悔找到它的！ "
+			]
+			dependencies: ["5A3A7941F8680246"]
+			id: "27950FEA52EE0FAE"
+			tasks: [{
+				id: "068665DF9A922B4D"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "dungeoncrates:iron_dungeon_crate"
+				value: 3L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "559D067AFB2B18AC"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			subtitle: "熔岩之心"
+			description: [
+				"辣椒、下界合金、远古熔岩锭……"
+				"如此奇特的组合，仿佛在诉说着一个失落熔岩文明的故事。"
+				""
+				"▸ 解锁  旅者见闻录「远古熔岩锭」"
+			]
+			dependencies: ["5A3A7941F8680246"]
+			id: "7F1B9DEAF696CDA3"
+			tasks: [{
+				id: "37A272F1E615594E"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "dungeoncrates:nether_dungeon_crate"
+				value: 5L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "37A90B087C80699C"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			subtitle: "爆燃的余烬"
+			description: [
+				"「爆炸即是正义！」"
+				""
+				"内含灰烬体验卡与大量生物战利品，"
+				"它们散落于空旷而危险的灵魂沙峡谷。"
+			]
+			dependencies: ["5A3A7941F8680246"]
+			id: "17691676E74C6A09"
+			tasks: [{
+				id: "3D27A05B34322338"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "dungeoncrates:ash_dungeon_crate"
+				value: 5L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "7C575C7D2998A492"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			subtitle: "潮汐之匣"
+			description: [
+				"「咕噜咕噜...」"
+				""
+				"内里仿佛自成一方水域，生长着海草，"
+				"蕴藏着水生植物体验卡，并有小概率出现草鱼体验卡。"
+				""
+				"▸ 解锁  旅者见闻录「水手」"
+			]
+			dependencies: ["5A3A7941F8680246"]
+			id: "1F299C9560623654"
+			tasks: [{
+				id: "5ED16BA3A1CC9A6A"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "dungeoncrates:sea_dungeon_crate"
+				value: 5L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "667D5187F352F01B"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			subtitle: "雨林的低语"
+			description: [
+				"隐藏于丛林浅层洞穴，散发着勃然生机。"
+				""
+				"其中不仅有菌丝球、香蕉皮和荧光胶冻等稀罕物，"
+				"更藏有大蒜、原始孢子及大量的植物体验卡。"
+			]
+			dependencies: ["5A3A7941F8680246"]
+			id: "623FE273B2818D02"
+			tasks: [{
+				id: "019BCDAE02C03AD6"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "dungeoncrates:jungle_dungeon_crate"
+				value: 5L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "14014E5C359288A7"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			subtitle: "冰封的瞬间"
+			description: [
+				"隐藏于冰雪生物群系的浅层洞穴中，"
+				"如同被时光冻结。"
+				""
+				"据说，曾有幸运的旅人在此瞥见过樱桃兄弟的身影……"
+			]
+			dependencies: ["5A3A7941F8680246"]
+			id: "05CA65CC2873C4EF"
+			tasks: [{
+				id: "0664F21A2CDC2964"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "dungeoncrates:frozen_dungeon_crate"
+				value: 5L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "3CA29602A2A78724"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1000
+			}]
+		}
+	]
+}

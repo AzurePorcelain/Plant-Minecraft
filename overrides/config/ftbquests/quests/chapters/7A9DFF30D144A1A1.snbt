@@ -1,0 +1,1163 @@
+{
+	id: "7A9DFF30D144A1A1"
+	group: "1ABB7C487E06073F"
+	order_index: 0
+	filename: "7A9DFF30D144A1A1"
+	title: "野生生物"
+	icon: "alexsmobs:animal_dictionary"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "白头海雕"
+			x: 4.0d
+			y: -5.0d
+			description: [
+				"白头海雕是一种在树木茂密的山地生物群落中发现的大型中立猛禽。它们常常出现在湖泊附近，尝试潜水并从水中捕捉鲑鱼。它们也喜欢以同样的方式攻击兔子。当面对较大的猎物时，白头海雕通常会盘旋在空中，然后用锐利的爪子进行猛烈的攻击，并不断重复这个过程。"
+				""
+				"由于白头海雕对鱼的热爱，可以使用鱼油来引诱和驯服它们。像其他宠物一样，驯服的白头海雕可以被命令休息、跟随或徘徊。此外，驯服的白头海雕还可以被用作猎鹰。为了携带它们出猎，需要使用猎鹰手套。这种手套可以在主手或副手中使用，用来抓住白头海雕并将其握在手中。当你想让猎鹰出击时，只需伸出手并释放它们。如果你瞄准了一个目标并释放猎鹰，它会飞向目标并进行攻击，若没有在战斗中牺牲，它会返回到你的手上。但如果没有看向任何目标，猎鹰只会从手套上跳下来。"
+				""
+				"驯服的白头海雕在狩猎时可能会受到猎物的反击而受伤。但你可以使用任何鱼类来治愈它们。将鱼喂给受伤的雕，它们会通过进食鱼类来恢复健康。此外，你还可以使用腐烂的肉来繁殖它们。"
+			]
+			id: "594498C131B85266"
+			tasks: [{
+				id: "47CBC300B6803429"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_bald_eagle"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2BAC6E5C7B76BBF2"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "alexsmobs:tarantula_hawk_wing_fragment"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "0B402548F121F38B"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "alexsmobs:falconry_glove"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "大鳄龟"
+			x: 2.5d
+			y: 0.0d
+			description: [
+				"大鳄龟是一种体型巨大的半水生爬行动物，平时隐秘在浑浊的沼泽中。"
+				"与其被动的海龟表亲不同，大鳄龟是凶猛的野兽，拥有锋利的喙状嘴，可以攻击靠近它的任何物体。"
+				"这些鳄龟具有惊人的咬合力和咬合速度，遇到它们时最好保持一定的距离。"
+				""
+				"大鳄龟通常较少移动，并倾向于在水下停留几天。有时候因为太长时间没有运动，它们的龟壳上可能会生长苔藓。"
+				"如果苔藓长满了它们的龟壳，它们可以被剪掉，并有机会掉落锥形鳞甲。"
+				"这些可用于升级海龟壳头盔。尖刺龟壳头盔拥有击退抗性，能使玩家在水下呼吸时间额外延长15秒，并且偶尔可以击退近战攻击。 鳄龟可以用生鳕鱼繁殖。"
+			]
+			id: "2FB0D01C17A241DA"
+			tasks: [{
+				id: "410D722202D61C76"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/alligator_snapping_turtle"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "50EBA79705C4FB81"
+				type: "item"
+				item: {
+					id: "alexsmobs:spiked_scute"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "水滴鱼"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:blobfish"
+				}
+			}
+			x: 10.0d
+			y: -2.5d
+			description: [
+				"水滴鱼是一种在深海中发现的特殊鱼类，它的身体呈现凝胶状。原本水滴鱼的外观是灰色且扁长的，但是一旦离开水压低于十个方块的环境，它会变成粉红色的烂泥状。 当水滴鱼被杀死后，可以使用四条水滴鱼和一个空瓶来制作鱼油。"
+				""
+				"服用鱼油可以在水中或下雨时提供有限的漂浮效果，让人在水中更容易浮起或者漂浮。"
+				"此外，水滴鱼可以像其他鱼类一样被装进水桶中，方便携带和存储。"
+				""
+				"用一个粘液球右击涂抹水滴鱼后，它就可以在陆地上存活，这为水滴鱼提供了在干燥环境中生存的能力。"
+				""
+				"▸ 解锁  旅者见闻录「水滴鱼」"
+			]
+			id: "19B9C4D3752E283B"
+			tasks: [{
+				id: "4A077C248E11B21C"
+				type: "item"
+				item: "alexsmobs:fish_oil"
+			}]
+			rewards: [{
+				id: "644893056EEE28C6"
+				type: "xp"
+				auto: "no_toast"
+				xp: 1500
+			}]
+		}
+		{
+			title: "抹香鲸"
+			x: 2.5d
+			y: -2.5d
+			description: [
+				"抹香鲸是一种体型巨大的中性哺乳动物，生活在不冷不热的深海中，以鱿鱼为主要食物。它们利用回声定位来定位并捕捉鱿鱼，通过发出声波并接收回声来判断猎物的位置。"
+				"一旦抹香鲸确认了鱿鱼的位置，它们会持续加速并打开充满锋利牙齿的巨大嘴巴，以猛击猎物。有时，在这个过程中，抹香鲸可能会失去其中一颗长牙。然而，抹香鲸拥有多颗牙齿，失去一颗通常不会对它们的捕食能力产生重大影响"
+				""
+				"抹香鲸在夜晚睡觉时通常会直立着，头朝上，尾巴朝下。它们具有强大的体型和力量，在移动时能够破冰，甚至可以撞击船只和木头等物体。"
+				"全白鲸非常罕见，它们比其他鲸鱼强壮得多。"
+				""
+				"尽管抹香鲸看起来十分巨大，但它们仍然面临一些自然威胁。虎鲸是它们的天敌，喜欢捕食年幼的抹香鲸，所以母鲸会竭尽全力保护它们的幼崽免受攻击。"
+				"在雷暴期间，抹香鲸可能被冲上海滩。在这种无助的情况下，如果被推回水中，它们可能会吐出一种称为龙涎香的物质作为报答。龙涎香可以用来与渔民或旅商交易，或者可以用来制作回声定位器。"
+				""
+				"回声定位器可以用来显示附近的洞穴。一旦发现洞穴，它就会向洞穴方向释放声波。由于此工具的使用数量有限，因此应谨慎使用。如果用4颗末影珍珠升级为末影定位器，当身处要塞中时，右击会发射出一个声波，会指引你找到末地传送门。"
+				""
+				"▸ 解锁  旅者见闻录「菌丝球」"
+			]
+			id: "0C5ACC52C7EE1E29"
+			tasks: [{
+				id: "05984E69201DBD70"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/save_cachalot_whale"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "50FC81724B197DC0"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "alexsmobs:ambergris"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "卷尾猴"
+			x: 11.5d
+			y: -7.5d
+			description: [
+				"卷尾猴是原产于丛林的小型灵长类动物。 像其他灵长类动物一样，它们喜欢香蕉，可以喂它们来驯服它们。驯服的卷尾猴比其他驯服的生物（如狼）更复杂，能够跟随、停留和徘徊，并且能够使用远程和近战攻击。它们也可以骑在主人的肩膀上，它们也可以从肩膀上攻击，向目标投掷石块。"
+				""
+				"卷尾猴可以喂食各种其他物品。 给它们喂鸡蛋可以治愈它们，还可以用蛆来繁殖它们，蛆是它们最喜欢的食物之一。偶尔，他们会在吃香蕉时掉下香蕉皮。 这些香蕉皮可用于制作一种独特的菜肴，被称为“猴汤”，厨师将其描述为“Uma Delicia”。"
+			]
+			id: "4A760B577E8528CC"
+			tasks: [{
+				id: "3E72FCD0EDA93AA7"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_capuchin"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "01A41ACF0AE1AB14"
+				type: "item"
+				item: {
+					id: "alexsmobs:banana_peel"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: [
+				"鳄鱼是一种肉食性卵生爬行类脊椎动物，具有攻击性，通常生成在河流、沼泽等生物群系中。鳄鱼在水中时移速会更快，且会进行死亡翻滚，会更高频率的造成持续伤害。你也可以使用盾牌在鳄鱼攻击时挡住其锯齿，且能把其震晕。"
+				""
+				"鳄鱼经常在白天上岸晒太阳，若此时给予它们腐肉则会产卵。鳄鱼蛋可以像海龟蛋一样放在地上孵化，并可能会被踩坏。破壳的鳄鱼会把第一个见到的生物识别为父母，并会为保卫它的父母而战斗。"
+				""
+				"当鳄鱼成年或死亡时会掉落鳄鱼鳞甲。这些鳞甲可用于制作增加穿戴者游泳速度的胸甲。"
+			]
+			id: "2A81A0B0340C2D39"
+			tasks: [{
+				id: "7706BA89F6768AB5"
+				type: "advancement"
+				title: "鳄鱼"
+				advancement: "alexsmobs:alexsmobs/crocodile"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "369E6EE1C7077958"
+				type: "item"
+				item: {
+					id: "alexsmobs:crocodile_egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "乌鸦"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:crow"
+				}
+			}
+			x: 8.5d
+			y: -5.0d
+			subtitle: "一种容易被讨厌的生物"
+			description: [
+				"乌鸦是在平原出没的猛禽。这些生物被认为是害虫，因为它们经常出现在田地周围并偷吃作物。一个雕刻南瓜就足以吓跑附近的乌鸦。每当玩家靠近时，这些鸟通常会分散并飞上天空。乌鸦还会捡起食物并食用。"
+				""
+				"尽管乌鸦外表阴沉，但实际上可以通过向它们扔一些南瓜子来驯服它们。驯服的乌鸦能帮玩家进行战斗，并且能对亡灵生物造成额外伤害。"
+				""
+				"玩家可以把展示物品的物品展示框贴在容器上，这样乌鸦就会收集这种物品并放入容器中。当处于跟随时，乌鸦会在它们的主人周围飞来飞去，并在一段时间后尝试坐在主人的肩膀上。乌鸦可以通过潜行从肩膀上移除。"
+				""
+				"ps：它们沙哑的声音让僵尸们都不胜其烦，欲杀之而后快"
+			]
+			id: "7A0BD99BB1E192EC"
+			tasks: [{
+				id: "68DF0CEB2E2388DF"
+				type: "kill"
+				title: "杀死乌鸦！"
+				icon: {
+					id: "minecraft:feather"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "alexsmobs:crow"
+				value: 1L
+			}]
+			rewards: [{
+				id: "6C6F452F28F3D42A"
+				type: "item"
+				item: {
+					id: "alexsmobs:tarantula_hawk_wing_fragment"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "大象"
+			x: 2.5d
+			y: -7.5d
+			description: [
+				"大象是巨大的陆地哺乳动物，它们成群结队地在热带平原上漫步生活着。在大多数象群中，有三种形态的大象：小象、长牙象和非长牙象。群落中通常有一两只长牙大象，明显比其他大象强壮。它们具有一种特殊而具有破坏力的冲撞攻击方式。大象会保护它们的群落，而大多数的保护工作都依赖于这些长牙象。除了冲锋之外，大象还可以通过多种方式进行攻击，包括使用它们巨大的躯干来抛掷敌人，或者抬起并踩踏对手。"
+				""
+				"大象经常会站起来，从树上撕下叶子，寻找一种称为金合欢花的稀有食物。这些花偶尔从破坏金合欢树叶掉落，可以喂给大象来驯服它们。野生的长牙象无法驯服，但小象和非长牙象可以。长牙象只能通过驯服长牙象幼崽来获得。"
+				""
+				"一旦驯服了大象，你就可以与它们互动来骑乘它们。当你在大象身上装上箱子时，它可以提供相当大的存储空间，你可以通过潜行键访问它。此外，你还可以使用任何类型的地毯来装饰大象。如果你想移除箱子或地毯，可以使用剪刀进行操作。"
+				""
+				"驯服的长牙大象可以通过在骑乘时喂食小麦来使用冲锋攻击。这种冲锋攻击将短时间极大的增加大象的速度，并对范围内的任何生物造成大量伤害。然而，冲锋后的大象需要一段时间来休息和恢复。"
+				""
+				"大象一旦被驯服，就可以用金合欢花繁殖。有时，温暖生物群落中的流浪商人会骑在大象的身上。这些大象是有箱子的，并且存放着一些流浪商人的商品。"
+				""
+				"▸ 解锁  旅者见闻录「金合欢花」"
+			]
+			id: "76CCE0B2C18295B9"
+			tasks: [{
+				id: "622648EADADF5A21"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_elephant"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "784C31F53A8FD838"
+				type: "item"
+				item: {
+					id: "alexsmobs:acacia_blossom"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "鸸鹋"
+			x: 2.5d
+			y: -5.0d
+			description: [
+				"鸸鹋是一种不会飞的大型鸟，生活在主世界的恶地和热带草原上。 鸸鹋虽然外表略显滑稽，但绝不可小觑。传说这些生物曾经在与技术先进的国家的一场大战中获胜，仅仅是因为它们具有不可思议的躲避弹丸的能力，数量众多且速度快。受到攻击时，鸸鹋最初会惊慌失措并逃跑，但其中的一些可能会回头发起进攻。 鸸鹋不喜欢弓，因此它们有时会攻击骷髅。"
+				""
+				""
+				"鸸鹋可以用小麦繁殖。 它们偶尔会产下一个蓝色的大蛋，煮熟后可制成美味佳肴。 死亡时，他们可能会掉落一些羽毛，可以用来制作一套特殊的护腿，可以让穿着者像鸸鹋一样躲避一些射弹。 羽毛可用于制作旗帜图案。"
+			]
+			id: "70DBD2450A950CA0"
+			tasks: [{
+				id: "6F21494774126F66"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/emu"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "561F2732F3EEF196"
+				type: "item"
+				item: {
+					id: "alexsmobs:tarantula_hawk_wing_fragment"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "瞪羚"
+			x: 7.0d
+			y: -7.5d
+			description: [
+				"瞪羚是生活在主世界热带稀树草原中的小型哺乳动物。它们是一种优雅而敏捷的生物，在草原上觅食时十分警觉。当一只瞪羚受到攻击时，整个群体的成员都会试图逃离危险，迅速逃离任何被察觉的威胁。"
+				""
+				"瞪羚在被击杀时偶尔会掉落它们稀有的角。这些角可以酿造成罕见的速度III药水。瞪羚也会掉落羊肉，作为一种食物资源供人们利用。"
+				"另外，瞪羚可以通过食用金合欢花进行繁殖。金合欢花对它们来说是一种吸引力很高的食物，它们可以通过食用这些花朵来增加繁殖的机会和成功率。"
+			]
+			id: "7C01F11EE012EE4E"
+			tasks: [{
+				id: "28312D4D0C1FBEAC"
+				type: "observation"
+				title: "发现一只瞪羚并观察"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:gazelle"
+					}
+				}
+				timer: 20L
+				observe_type: 5
+				to_observe: "alexsmobs:gazelle"
+			}]
+			rewards: [{
+				id: "290691D26A6981C2"
+				type: "item"
+				item: {
+					id: "alexsmobs:gazelle_horn"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "大猩猩"
+			x: 10.0d
+			y: -7.5d
+			description: [
+				"大猩猩是一种在丛林中成群结队被发现的大型猿类。它们通常作为丛林的和平守护者存在，但这并不意味着它们毫无防备。如果激怒了大猩猩，它们会造成巨大的伤害。 每个大猩猩群体都有一个黑猩猩首领，它指挥着它的部队在丛林中穿行。黑猩猩的力量是其他大猩猩的两到三倍，有时它会捶胸示威。猩猩宝宝经常骑在它们父母的背上跟随觅食。"
+				""
+				"如果给予大猩猩香蕉，它们会变得信任和友好。香蕉可以通过破坏丛林树叶来获取。如果提供足够的香蕉，大猩猩可以被命令坐下或徘徊，并且它们将保护它们的新朋友。"
+			]
+			id: "27E63ED670E5A48A"
+			tasks: [{
+				id: "27F8ABAC7F5D00E2"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_gorilla"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3DD2055E08975687"
+				type: "item"
+				item: {
+					id: "alexsmobs:banana"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "灰熊"
+			x: 2.5d
+			y: -10.0d
+			description: [
+				"灰熊是一种在森林生态系统中常见的大型杂食性哺乳动物，它们通常带着一到两只跟随父母的幼崽。任何未做好准备的旅行者或猎人都应与灰熊保持距离，否则会其视为对幼崽的威胁。"
+				""
+				"众所周知，灰熊会袭击任何有蜂蜜的蜂箱，撕开它并享用里面的蜜糖。如果灰熊最近吃饱蜂蜜了，它可以安全地靠近。 据信，在灰熊吃饱了蜂蜜之后，喂给它三文鱼可以获得这些野生动物的信任。然而，与这些熊近距离接触并幸存下来的人很少（除了声称它们可以用作战争坐骑的 人）。"
+				""
+				"灰熊有时会脱落一些毛发。这些毛发可以用于酿造击退抗性药水，你可以制作出这种强大的药水来提高自己的战斗能力。"
+			]
+			id: "4D7900A091631CA2"
+			tasks: [{
+				id: "21FBB7D35D383987"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/grizzly_bear"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "62916737DAF3B5E5"
+				type: "item"
+				item: {
+					id: "minecraft:honey_bottle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "锤头鲨"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:hammerhead_shark"
+				}
+			}
+			x: 5.5d
+			y: -2.5d
+			description: ["锤头鲨是一种生活在温暖的水域的大型食肉性鱼类，以其捕食性而闻名。锤头怪会攻击任何健康低于一半的生物，是一种拾荒兽。 他们也喜欢捕食热带鱼。寻找食物时，锤头鲨会事先盘旋在猎物附近，以寻找理想的攻击角度。 有时，在攻击猎物时，锤头鲨可能会松动它的许多牙齿中的一颗。 这些牙齿可以用来制造能在水下行进并对水生生物造成额外伤害的箭。"]
+			id: "050982B79803A50C"
+			tasks: [{
+				id: "0A090EEEFB667EF2"
+				type: "item"
+				item: "alexsmobs:shark_tooth"
+			}]
+			rewards: [{
+				id: "6D56FDDA91AED8A1"
+				type: "item"
+				item: {
+					id: "minecraft:tropical_fish_bucket"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "蜂鸟"
+			x: 11.5d
+			y: -5.0d
+			description: ["蜂鸟是已知存在的最小的鸟类，但这并不能阻止它们快速飞行。 这些小鸟被发现于丛林、繁花森林和向日葵生物群系。鲜花是唯一能让它们平静下来的东西。 蜂鸟是庄稼和花卉的强力传粉者，甚至比蜜蜂更擅长传粉。它们可以用鲜花繁殖。"]
+			id: "0EEC85B170E565E0"
+			tasks: [{
+				id: "51F4DFB74F93ADAE"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/breed_hummingbird"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "48E1D4306FFA07F9"
+				type: "item"
+				item: {
+					id: "alexsmobs:tarantula_hawk_wing_fragment"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "袋鼠"
+			x: 4.0d
+			y: -7.5d
+			description: [
+				"袋鼠是大型的中立有袋动物，原产于热带草原和荒地。这些生物有独特的运动方式：它们只能通过跳跃来移动。有时还可以看到他们的小袋里有一只幼袋鼠。"
+				""
+				"袋鼠是严格的食草动物，喜欢以草为食。然而，他们不是好欺负的。如果受到攻击，袋鼠可以双脚拳打脚踢，造成毁灭性的攻击。"
+				""
+				"被杀死时，他们会掉落一些肉，这些肉可以煮熟并制成美味的袋鼠汉堡。他们还可以掉落一些皮革，这些皮革可以制作成皮革或独特的旗帜图案。"
+				""
+				"袋鼠可以用十到十五根胡萝卜来驯服。驯服后，您可以通过与它们互动来命令它们留下、跟随或徘徊，并通过潜行访问袋鼠袋子的库存。如果袋子里放有近战武器，袋鼠会在每次攻击时使用它。"
+				""
+				"成年袋鼠还可以装备任何放在袋子里的头盔或胸甲，并且可以在受伤时吃掉放在袋子里的任何非肉类食物来恢复健康。袋鼠可以用枯死的灌木或一些草繁殖。"
+			]
+			id: "32A3A5B3A3956B69"
+			tasks: [{
+				id: "75FA66DBC18F8E4A"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/kangaroo"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "34E877E16A5D54FB"
+				type: "item"
+				item: {
+					id: "alexsmobs:tarantula_hawk_wing_fragment"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "科莫多巨蜥"
+			x: 7.0d
+			y: -10.0d
+			description: [
+				"科莫多巨蜥是世界上最大的蜥蜴，通常生活在偏远的荒地生物群落中。它们视人类和野兽为食物，几乎可以攻击任何目标。此外，它们也会互相捕食，特别是对于弱小的科莫多巨蜥和幼体。这些巨蜥的咬伤带有强烈的毒性，用以迅速制服猎物。"
+				""
+				"科莫多龙是喜欢腐肉的生物，它们可能会从玩家身上偷走腐肉。 如果喂食它们大量的腐肉，它们就可以被玩家驯服。被驯服的科莫多巨蜥与野生的科莫多巨蜥一样具有野性，但它们可以被用作速度惊人的强大坐骑。"
+				""
+			]
+			id: "6B32911C18B643D3"
+			tasks: [{
+				id: "0BFD6650F0F9D85D"
+				type: "observation"
+				title: "发现一只巨蜥并观察"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:komodo_dragon"
+					}
+				}
+				timer: 20L
+				observe_type: 5
+				to_observe: "alexsmobs:komodo_dragon"
+			}]
+			rewards: [{
+				id: "34A8F5405F7C768D"
+				type: "item"
+				item: {
+					id: "minecraft:rotten_flesh"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			title: "龙虾"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:lobster"
+				}
+			}
+			x: 8.5d
+			y: -2.5d
+			description: [
+				"龙虾是小型水生甲壳类动物，可以在海滩生物群落的水下找到。 如果受到攻击，龙虾会夹住附近任何有攻击性的怪物，但不会追逐他们。 虽然最常见的是红色，但偶尔也有其他颜色的变种龙 虾。 如果被杀死，龙虾偶尔会掉下可以烹饪的美味龙虾尾。 它们也可以像其他鱼类一样被装入桶中。"
+				""
+				"▸ 解锁  旅者见闻录「落难的大厨」"
+			]
+			id: "22CA803AEDA8FDFD"
+			tasks: [{
+				id: "178B4164EBA185D4"
+				type: "kill"
+				icon: "alexsmobs:lobster_tail"
+				entity: "alexsmobs:lobster"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0CB2179D2A6CE211"
+				type: "item"
+				item: {
+					id: "alexsmobs:lobster_bucket"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "驼鹿"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:moose"
+				}
+			}
+			x: 5.5d
+			y: -7.5d
+			description: [
+				"驼鹿是体型庞大的食草动物，栖息在覆盖积雪的苔原和针叶林中。尽管如此，它们并非胆怯的食草动物。当受到攻击时，驼鹿会利用巨大的鹿角造成危险的伤害。它们常常会为了争夺领导地位而进行鹿角争斗。"
+				""
+				"每七到十天，驼鹿有机会掉落一对稀有的巨大鹿角。据说只要有两只鹿角可以制作成头饰，赋予佩戴者特殊的击退能力。驼鹿需要三到五天的时间才能再次长出它们的鹿角。"
+				""
+				"驼鹿是出色的父母，自然会保护他们的孩子免受包括狼在内的任何掠食者的伤害。驼鹿可以用多个蒲公英繁殖，这是它们最喜欢的食物。"
+			]
+			id: "6C28CFA5CE33919A"
+			tasks: [{
+				id: "71A00442FAE4C1A8"
+				type: "item"
+				item: "alexsmobs:moose_antler"
+			}]
+			rewards: [{
+				id: "5AC6279806481A73"
+				type: "item"
+				item: {
+					id: "alexsmobs:moose_headgear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "虎鲸"
+			x: 4.0d
+			y: -2.5d
+			description: [
+				"虎鲸是一种生活在寒冷的海洋中的大型海豚科动物。它们通常喜欢在水里一上一下的窜来窜去，与北极熊属于敌对关系，但和北极熊一样也会捕食海豹。不像他们的海豚表亲，这些鲸鱼并不友好——伤害其中一头可能会让整个集群攻击你。"
+				""
+				"与一群虎鲸一起游泳可以获得“逆戟之力”效果。这个效果可以提高攻击速度。虎鲸经常用自己的力量对付溺尸和守卫者。 可以使用鲑鱼来喂食虎鲸以进行繁殖。"
+			]
+			id: "2B10B614DBDF56A9"
+			tasks: [{
+				id: "67CE1E0C13C45D56"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/orcas_might"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5FFBAC6784EBC1FF"
+				type: "item"
+				item: {
+					id: "alexsmobs:tarantula_hawk_wing_fragment"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "鸭嘴兽"
+			x: 10.0d
+			y: -10.0d
+			description: [
+				"鸭嘴兽看起来像是其他几种动物的结合，但其实是一种独特而珍稀的哺乳动物。只有少数运气极佳之人才能在主世界的河流生物群系中遇到它。这种奇怪的哺乳动物脚上长着有毒的刺，用来对任何来袭的攻击者。"
+				""
+				"鸭嘴兽的嗅觉、听觉和视力较弱，导致它依靠电力来捕猎和寻路。 因此，鸭嘴兽会被红石吸引。如果喂食红石，鸭嘴兽会恢复其电灵敏度，并可能会在附近的粘土块中挖出几个粘土球和蛆虫。如果喂食整个红石块，挖出的物品数量会大大增加。 像其他小型水生生物一样，鸭嘴兽也可以被装入水桶 中。"
+				""
+				"因为鸭嘴兽最喜欢的食物是龙虾尾，只有龙虾尾和烤龙虾尾才能让两只鸭嘴兽之间进行繁殖。"
+			]
+			id: "5F70363E3CCC02B1"
+			tasks: [{
+				id: "41A28B3E16910645"
+				type: "observation"
+				title: "发现一只鸭嘴兽并观察"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:platypus"
+					}
+				}
+				timer: 20L
+				observe_type: 5
+				to_observe: "alexsmobs:platypus"
+			}]
+			rewards: [{
+				id: "1D4B580556051A0F"
+				type: "item"
+				item: {
+					id: "alexsmobs:tarantula_hawk_wing_fragment"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "浣熊"
+			x: 8.5d
+			y: -7.5d
+			description: [
+				"浣熊是平原与森林原生的小型哺乳类动物。尽管它是中立的，当它看到人手里拿着食物时，还是会向人们乞求。因为它们亮晶晶的双眼，它们经常能在晚上被认出来."
+				""
+				"虽然喂养这些可爱的动物可能很诱人，但通常没有什么好处。 浣熊是一个众所周知的小偷，经常从箱子和桶里偷食物，尽管它的外表很可爱，但可能非常具有攻击性。浣熊有趣的行为之一是它的“清洗”行为。 当食物靠近水时，浣熊会在水下清洗食物，然后吃掉 它。"
+				""
+				"只有当把鸡蛋放在靠近水的地方，浣熊才能被驯服，在那里它们会根据自己的需要清洗鸡蛋。驯服的浣熊可以坐下、跟随和游荡。 它们可以用面包繁殖。 当被杀死时，浣熊有机会掉下它们的尾巴。这些尾巴可用于制作拓荒者的帽子，在潜行时提供速度加成。"
+			]
+			id: "0397441DDE19834E"
+			tasks: [{
+				id: "3045BFAE8F6ECE22"
+				type: "observation"
+				title: "发现一只浣熊并观察"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:raccoon"
+					}
+				}
+				timer: 20L
+				observe_type: 5
+				to_observe: "alexsmobs:raccoon"
+			}]
+			rewards: [{
+				id: "64E11C81CB43E241"
+				type: "item"
+				item: {
+					id: "alexsmobs:raccoon_tail"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "响尾蛇"
+			x: 11.5d
+			y: -10.0d
+			description: [
+				"响尾蛇是一种在沙漠和恶地中发现的中型爬行动物。大多数时候，响尾蛇是被听到的，而不是被看到的，因为当潜在的捕食者在附近时，它会发出响亮的响尾警告 声。 如果一个人足够接近响尾蛇时，该生物会变得充满敌意并使用它的毒牙来保护自己。 响尾蛇是走鹃的天敌，是走鹃最常见的捕食者。"
+				""
+				"当响尾蛇被杀死，有几率掉落响尾。 "
+			]
+			id: "18F4392B8FEA6FB5"
+			tasks: [{
+				id: "6576F33ACEB15CD1"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/rattlesnake"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3FEF88380D1BA056"
+				type: "item"
+				item: {
+					id: "alexsmobs:roadrunner_feather"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "走鹃"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:roadrunner"
+				}
+			}
+			x: 10.0d
+			y: -5.0d
+			description: ["走鹃是一种中型鸟类，可以在沙漠和荒地中奔跑，以它的大小来说非常快速和敏捷。 走鹃经常与响尾蛇、其他沙漠居民发生冲突。据说这种鸟的羽毛可以用来制作靴子，使穿戴者在沙子上跑得飞快，因此受到高度追捧。"]
+			id: "72EA6ACE7AD91F5A"
+			tasks: [{
+				id: "0EE70DD1A8AC00BC"
+				type: "observation"
+				title: "发现一只走鹃并观察"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:roadrunner"
+					}
+				}
+				timer: 20L
+				observe_type: 5
+				to_observe: "alexsmobs:roadrunner"
+			}]
+			rewards: [{
+				id: "60966EB2850E7B55"
+				type: "item"
+				item: {
+					id: "alexsmobs:tarantula_hawk_wing_fragment"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "海鸥"
+			x: 7.0d
+			y: -5.0d
+			description: [
+				"海鸥是一种常见于海滩上的中型鸟类。 这些鸟因其能够窃取任何食物而引人注目，无论是手持还是在快捷栏中。他们还会捡起并吃掉地上的任何食 物。 海鸥会每隔一到三分钟才会偷取一次食物，虽然很烦人，但它们并不会造成威胁。"
+				""
+				"然而，海鸥不仅仅是一种烦人的鸟。 如果副手有一张通向埋藏宝藏的地图，人们可以将龙虾尾扔到地上。吃掉它的海鸥会直接坐在埋藏的宝藏上方来报答它的喂食者，这将极大地帮助定位宝藏。 海鸥也可以用生鳕鱼养殖。"
+			]
+			id: "261D03EDF9564440"
+			tasks: [{
+				id: "7F0FA180BA3ED4F5"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/seagull_steal"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "68DFE96CFF1CC096"
+				type: "item"
+				item: {
+					id: "alexsmobs:tarantula_hawk_wing_fragment"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "海豹"
+			x: 7.0d
+			y: -2.5d
+			description: [
+				"海豹是一种生活在主世界的海滩和冰川上的水生哺乳动物。 这些看似懒惰的生物经常在它们能找到的任何沙子或冰上晒太阳和睡懒觉。当它们不在陆地上休息时，海豹是一个非常熟练的游泳家，能够在其他大多数水生物种周围游荡，除了它们的终极捕食者：虎鲸。"
+				""
+				"如果一个海豹被攻击，整个群落都会想办法逃入水中，因为在水中它们更加敏捷。 在陆地上给一只晒太阳的海豹喂三条鱼，将引发人与海豹之间的原始“交易”：为了换取三条鱼，海豹会在海底搜寻物品并带回来。尽管通常是海带或沙子等毫无价值的垃圾，但有时也可能是稀有的物品，例如鲨鱼利齿、鲨鱼锯齿、鹦鹉螺壳。 海豹可以用龙虾尾繁殖。"
+			]
+			id: "0C517A9D536786E3"
+			tasks: [{
+				id: "324E17D5DBC4D2FA"
+				type: "observation"
+				title: "发现一只海豹并观察"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:seal"
+					}
+				}
+				timer: 20L
+				observe_type: 5
+				to_observe: "alexsmobs:seal"
+			}]
+			rewards: [{
+				id: "7140BCA6C5362645"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "alexsmobs:serrated_shark_tooth"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "鲸头鹳"
+			x: 5.5d
+			y: -5.0d
+			description: ["鲸头鹳是一种生活在沼泽中的奇特的鸟类，它们虽然看起来很恐怖，但实际上它们十分胆小，受到攻击后会立刻飞走。 人们经常看见鲸头鹳摇晃着又大又尖的喙在捕鱼，捕捉它们最爱吃的食物。 捕鱼时会产生副产物，这对它们来说是没有用处的，但也有例外。 可以使用鳄鱼蛋喂食鲸头鹳以增加它们对鱼类的吸引，喂食水滴鱼来增加鲸头鹳捕获鱼类的运气。鲸头鹳天生胆小，所以无法用食物来繁殖。 除了鱼，鲸头鹳还会主动攻击鳄鱼宝宝和海龟宝宝，这也是它们的食物来源之一。"]
+			id: "1F7BF07E35B668D5"
+			tasks: [{
+				id: "7F0FF5715E4B8BDD"
+				type: "observation"
+				title: "发现一只鲸头鹳并观察"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:shoebill"
+					}
+				}
+				timer: 20L
+				observe_type: 5
+				to_observe: "alexsmobs:shoebill"
+			}]
+			rewards: [{
+				id: "0E2D9C100C7A9E9D"
+				type: "item"
+				item: {
+					id: "minecraft:turtle_egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "雪豹"
+			x: 5.5d
+			y: -10.0d
+			description: [
+				"雪豹是一种大型猫科动物，常生活在下雪的山区。它们尽管是贪婪的猎手，但对人类并不具有攻击性。然而，它们会追踪牲畜，尤其是它们最喜欢的猎物——绵羊。雪豹会弓起背部，悄悄接近猎物的背后，然后发动具有毁灭性的跳跃攻击。这些大型猫科动物也可以使用它们的爪子进行近战攻击。雪豹是非常熟练的捕食者，它们的猎杀通常会掠夺更多的战利品。"
+				""
+				"尽管雪豹无法被驯服，但它们可以用驼鹿肋排进行饲养，这是它们最喜欢的肉。这些大型猫科动物并不因为微小的利益而忽略更重要的事情，它们会全力保护自己和后代免受任何攻击。"
+			]
+			id: "2A86B564DD123C89"
+			tasks: [{
+				id: "6C29DFF0D6EA0898"
+				type: "observation"
+				title: "发现一只雪豹并观察"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:snow_leopard"
+					}
+				}
+				timer: 20L
+				observe_type: 5
+				to_observe: "alexsmobs:snow_leopard"
+			}]
+			rewards: [{
+				id: "2FDF87B1D0FBA0D4"
+				type: "item"
+				item: {
+					id: "alexsmobs:tarantula_hawk_wing_fragment"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "袋獾"
+			x: 8.5d
+			y: -10.0d
+			description: ["袋獾是温带森林生物群落中罕见的小型有袋动物。 这些生物可以通过黑白相间的皮毛和奇怪的叫声来辨 别。 它们有时会坐着或趴着晒太阳，有时也会成群结队的狩猎鸡和兔子。 如果喂食它们最喜欢的腐肉食物，袋獾会发出一声嚎叫，可以在短时间内吓跑附近的所有怪物。 这些暴躁的小动物无法驯服，但可以通过喂食任何肉类来进行繁殖。"]
+			id: "2CD9B223606A5B3F"
+			tasks: [{
+				id: "55383E9FA331E95B"
+				type: "observation"
+				title: "发现一只袋獾并观察"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:tasmanian_devil"
+					}
+				}
+				timer: 20L
+				observe_type: 5
+				to_observe: "alexsmobs:tasmanian_devil"
+			}]
+			rewards: [{
+				id: "51899A7AC7C85834"
+				type: "item"
+				item: {
+					id: "alexsmobs:tarantula_hawk_wing_fragment"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "老虎"
+			x: 4.0d
+			y: -10.0d
+			description: [
+				"老虎是一种大型猫科动物，常见于竹林内部和周围。它们天生厌恶外来者，一旦接近就会主动发动攻击。老虎是出色的猎手，而且非常强壮，能从远处飞扑而下，迅速击溃猎物，并用它们的爪子撕裂敌人。它们还是专业的刺客，远距离跟踪猎物时通常能够几乎无形。它们的速度也非常快。最重要的是，老虎的出现令猎物感到如此恐惧，以至于它们会在恐慌中短暂停滞几秒钟。"
+				""
+				"尽管老虎拥有强大的力量和可怕的外貌，但它们并不是怪物。通过喂养它们鸡肉、猪排或其他喜欢的新鲜肉类，人们可以获得老虎的友好，这使得人们可以接近老虎而不会受到伤害。如果你受到攻击，这种友好效果还会使老虎帮助保护您。然而，这种效果只持续几分钟，这意味着人们必须继续喂养老虎以保持其友好状态。如果攻击了老虎，这种效果将消失。老虎父母为了保护幼崽非常有防御性。虽然它们主要是食肉动物，但它们可以使用金合欢花进行繁殖。他们会生出稀有的小白虎。"
+			]
+			id: "25C1881E2F7E7067"
+			tasks: [{
+				id: "7493322198E38CE1"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tigers_blessing"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2B9F9DF11CD71FDF"
+				type: "item"
+				item: {
+					id: "alexsmobs:tarantula_hawk_wing_fragment"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "螃蟹"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "quark:crab"
+				}
+			}
+			x: 11.5d
+			y: -2.5d
+			description: [
+				"螃蟹是栖息在海滨的节肢生物。在温暖的沙滩上，不时可以看到三三两两的螃蟹，虽然看似笨拙，但沙滩上的他们速度可不慢，偶尔种群里还会出现一些拥有奇特颜色的个体。"
+				""
+				"他们的食性颇杂，玩家手中的小麦，鸡肉以及各种鱼肉都能满足他们，不过别离他们太近，如果不小心踩上螃蟹，他们背上的小尖刺会迅速向你示警。"
+				""
+				"螃蟹虽然看起来没有耳朵，但据说对音乐却相当敏感，古代的炼金士们也对这小动物充满好奇，曾经他们的甲壳偶尔被拿来炼药，蟹腿也常被巫师收走用于制备曾经独属于巫师的优质食品。"
+			]
+			id: "7E8E6F793965B73E"
+			tasks: [{
+				id: "71A3A4F8A096B0A3"
+				type: "item"
+				item: {
+					id: "quark:crab_shell"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7FC336E6DA44DB4C"
+				type: "item"
+				item: {
+					id: "minecraft:cod"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			title: "青蛙"
+			x: 5.5d
+			y: 0.0d
+			description: [
+				"青蛙是一种生活在沼泽中的两栖类动物，或许是鳄鱼并不对他们感兴趣，所以沼泽里的青蛙普遍成长得白白胖胖，肉眼可见地营养过剩。"
+				""
+				"或许是长久的安逸，这里的青蛙食欲格外旺盛，甚至只要嘴里塞得下去，水中的游鱼他们也不会拒绝。同时，喜食昆虫的习性也没有消失，故而如果给他们些蜘蛛眼与各种鱼肉，想必他们会十分欣喜。"
+				""
+				"地下要塞的深处，图书馆一角翻找出了一本记载青蛙的古籍，古籍里破碎的一页还有些模糊的字迹，依稀记载着…“周三”…“时钟”…等词语。"
+			]
+			id: "550D8B7BDA27A60E"
+			tasks: [{
+				id: "3F1A1AC8D665A0DF"
+				type: "observation"
+				title: "发现一只青蛙并观察"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "quark:frog"
+					}
+				}
+				timer: 20L
+				observe_type: 5
+				to_observe: "quark:frog"
+			}]
+			rewards: [{
+				id: "2B15247DD2552746"
+				type: "item"
+				item: {
+					id: "minecraft:spider_eye"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+	]
+}

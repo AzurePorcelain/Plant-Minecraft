@@ -1,0 +1,33 @@
+
+{
+  "parent": "pvz:adventure/5-9",
+  "display": {
+    "icon": {
+      "item": "pvz:challenge_envelope"
+    },
+    "title": {
+      "translate": "advancement.pvz.5-x"
+    },
+    "description": {
+      "translate": "advancement.pvz.5-x.desc"
+    },
+    "frame":"challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "in_world": {
+      "trigger": "pvz:challenge",
+      "conditions": {
+        "type": "pvz:roof_again"
+      }
+    }
+  },
+  "requirements": [[
+    "in_world"
+  ]],
+  "rewards":{
+    "experience":30000
+  }
+}

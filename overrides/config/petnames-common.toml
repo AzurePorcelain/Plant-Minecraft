@@ -1,0 +1,19 @@
+
+[General]
+	#Use the list of female names when naming pets.
+	_useFemaleNames = true
+	#Use the list of male names when naming pets.
+	_useMaleNames = true
+	#Give baby wolves a name.
+	nameWolves = true
+	#Give kittens a name.
+	nameCats = true
+	#Give baby horses a name.
+	nameHorses = true
+	#Give baby donkeys a name.
+	nameDonkeys = true
+	#Give baby mules a name.
+	nameMules = true
+	#Give baby llamas a name.
+	nameLlamas = true
+

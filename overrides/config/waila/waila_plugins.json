@@ -1,0 +1,54 @@
+{
+  "minecraft": {
+    "crop_progress": true,
+    "comparator": true,
+    "hide_infestations": true,
+    "display_furnace_contents": true,
+    "jukebox": true,
+    "lever": true,
+    "spawner_type": true,
+    "redstone": true,
+    "repeater": true
+  },
+  "pvz": {
+    "show_owner": true,
+    "show_skills": true,
+    "show_defence_health": true
+  },
+  "jade": {
+    "horse_inventory": true,
+    "show_entity_armor": true,
+    "total_ench_power": false,
+    "chicken_egg": false,
+    "horse_stat": true,
+    "brewing_stand": false,
+    "note_block": false,
+    "inventory": false,
+    "beehive": true,
+    "player_head": true,
+    "effective_tool": true,
+    "harvest_tool": true,
+    "hide_mod_name": false,
+    "armor_stand": false,
+    "profession": false,
+    "item_tooltip": false,
+    "hide_item_mod_name": false,
+    "breaking_progress": true,
+    "tnt_stability": false,
+    "ench_power": true,
+    "mob_breeding": true,
+    "item_frame": true,
+    "effects": true,
+    "command_block": false,
+    "mob_growth": true,
+    "painting": false,
+    "harvest_tool_new_line": false,
+    "trapped_chest": true
+  },
+  "waila": {
+    "show_registry": false,
+    "show_entity_hp": true,
+    "show_states": false,
+    "show_entities": true
+  }
+}
