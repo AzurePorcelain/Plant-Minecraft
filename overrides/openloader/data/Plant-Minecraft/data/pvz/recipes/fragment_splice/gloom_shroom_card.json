@@ -8,11 +8,11 @@
     "AAAAA"
   ],
   "key": {
-    "B": {
-      "item": "pvz:gloom_shroom_enjoy_card"
-    },
     "A": {
       "item": "pvz:toxic_essence"
+    },
+    "B": {
+      "item": "pvz:gloom_shroom_enjoy_card"
     },
     "C": {
       "item": "pvz:mega_card"

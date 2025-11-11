@@ -8,11 +8,11 @@
     "AAAAA"
   ],
   "key": {
-    "B": {
-      "item": "pvz:twin_sunflower_enjoy_card"
-    },
     "A": {
       "item": "pvz:light_essence"
+    },
+    "B": {
+      "item": "pvz:twin_sunflower_enjoy_card"
     },
     "C": {
       "item": "pvz:mega_card"

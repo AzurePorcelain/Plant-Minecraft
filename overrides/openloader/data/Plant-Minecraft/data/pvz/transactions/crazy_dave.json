@@ -9,22 +9,22 @@
   "goods": [
     {
       "type": "energy_2",
-      "price": 7500,
+      "price": 2500,
       "must": true
     },
     {
       "type": "energy_3",
-      "price": 50000,
+      "price": 7500,
       "must": true
     },
     {
       "type": "energy_4",
-      "price": 200000,
+      "price": 50000,
       "must": true
     },
     {
       "type": "energy_5",
-      "price": 800000,
+      "price": 250000,
       "must": true
     },
     {
@@ -42,13 +42,13 @@
     {
       "type": "item",
       "item": "pvz:gatling_pea_card",
-      "price": 25000,
+      "price": 15000,
       "must": true
     },
     {
       "type": "item",
       "item": "pvz:twin_sunflower_card",
-      "price": 7500,
+      "price": 2500,
       "must": true
     },
     {
@@ -67,42 +67,56 @@
     {
       "type": "item",
       "item": "pvz:cat_tail_card",
-      "price": 20000,
+      "price": 12500,
       "weight": 75,
       "limit": 1
     },
     {
       "type": "item",
       "item": "pvz:winter_melon_card",
-      "price": 35000,
+      "price": 25000,
       "weight": 80,
       "limit": 1
     },
     {
       "type": "item",
       "item": "pvz:gold_magnet_card",
-      "price": 10000,
+      "price": 5000,
       "weight": 90,
       "limit": 1
     },
     {
       "type": "item",
       "item": "pvz:spike_rock_card",
-      "price": 15000,
+      "price": 7500,
       "weight": 90,
       "limit": 1
     },
     {
       "type": "item",
       "item": "pvz:cob_cannon_card",
-      "price": 50000,
+      "price": 35000,
       "weight": 70,
+      "limit": 1
+    },
+    {
+      "type": "item",
+      "item": "pvz:strange_cat_card",
+      "price": 7500,
+      "weight": 50,
       "limit": 1
     },
     {
       "type": "item",
       "item": "bpmc:grass_carp_enjoy_card",
       "price": 800,
+      "weight": 50,
+      "limit": 2
+    },
+    {
+      "type": "item",
+      "item": "bpmc:ice_cabbage_pult_card",
+      "price": 300,
       "weight": 50,
       "limit": 2
     }
