@@ -2887,6 +2887,26 @@
 			}]
 			rewards: [
 				{
+					id: "3D8CB7C2497655BE"
+					type: "command"
+					title: "查阅《植物大战僵尸指南》"
+					icon: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "pvz:pvz_guide"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/msg @p 新的强敌档案已解锁，请查阅《植物大战僵尸指南》-BOSS图鉴-章节"
+					player_command: false
+				}
+				{
 					id: "53F0F0E82D8B2E4D"
 					type: "command"
 					title: "玩家抽奖次数+10"

@@ -611,6 +611,10 @@
 				"史蒂夫回想起刚才某个旗帜僵尸声嘶力竭的呐喊，嘴角不由得泛起一丝复杂的苦笑。"
 				""
 				"一种冰冷的违和感顺着脊椎悄然爬升——他强烈地预感，这一切，绝不会如此简单地迎来终结……"
+				""
+				""
+				"【备战提示】"
+				"让机枪射手加入你的队伍吧。在面对单一强敌时，他那锁定目标的特性，或许能带来决定性的转机。"
 			]
 			dependencies: ["481ABE762106F406"]
 			hide: true
@@ -623,6 +627,26 @@
 				criterion: ""
 			}]
 			rewards: [
+				{
+					id: "395381F2006D8584"
+					type: "command"
+					title: "查阅《植物大战僵尸指南》"
+					icon: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "pvz:pvz_guide"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/msg @p 新的强敌档案已解锁，请查阅《植物大战僵尸指南》-BOSS图鉴-章节"
+					player_command: false
+				}
 				{
 					id: "4DD83BABE15A6E06"
 					type: "command"
@@ -700,6 +724,26 @@
 				criterion: ""
 			}]
 			rewards: [
+				{
+					id: "64702CAD96C06580"
+					type: "command"
+					title: "查阅《植物大战僵尸指南》"
+					icon: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "pvz:pvz_guide"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "enabled"
+					command: "/msg @p 新的强敌档案已解锁，请查阅《植物大战僵尸指南》-BOSS图鉴-章节"
+					player_command: false
+				}
 				{
 					id: "271456925BDEE935"
 					type: "command"

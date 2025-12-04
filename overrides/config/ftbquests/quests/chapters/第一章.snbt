@@ -638,7 +638,7 @@
 				{
 					id: "06D49F07D126934A"
 					type: "command"
-					title: "请查阅《植物大战僵尸指南》“精华”章节，了解可受辐射影响的方块详情"
+					title: "查阅《植物大战僵尸指南》"
 					icon: {
 						id: "patchouli:guide_book"
 						Count: 1b
