@@ -154,7 +154,7 @@
     },
     {
       "item": "pvz:gatling_pea_enjoy_card",
-      "emc": 65536
+      "emc": 16384
     },
     {
       "item": "pvz:twin_sunflower_enjoy_card",
@@ -166,7 +166,7 @@
     },
     {
       "item": "pvz:cat_tail_enjoy_card",
-      "emc": 32768
+      "emc": 16384
     },
     {
       "item": "pvz:winter_melon_enjoy_card",

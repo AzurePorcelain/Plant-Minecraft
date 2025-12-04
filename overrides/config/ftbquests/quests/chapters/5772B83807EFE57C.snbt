@@ -379,7 +379,7 @@
 				""
 				"橄榄球僵尸在球场上总是全力以赴。虽然对规则一窍不通，但他出色的团队配合能力让他在攻防两端都表现出色。"
 			]
-			dependencies: ["02D8D9549B107496"]
+			dependencies: ["30AA7EA92AA34A5A"]
 			hide: true
 			id: "567F07A1D79F06E0"
 			tasks: [{

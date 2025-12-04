@@ -627,8 +627,8 @@
           },
           "spawn_amount": {
             "random": {
-              "min": 8,
-              "max": 8
+              "min": 5,
+              "max": 5
             }
           }
         },
@@ -1009,8 +1009,8 @@
           },
           "spawn_amount": {
             "random": {
-              "min": 8,
-              "max": 8
+              "min": 3,
+              "max": 3
             }
           }
         },
@@ -1040,23 +1040,6 @@
           "entity_type": "pvz:edgar_090505",
           "nbt":"{ActiveEffects:[{Id:11,Amplifier:3,Duration:2000000,ShowParticles:0b}]}",
           "spawn_tick": 10,
-          "placement": {
-            "center": {
-              "radius": 1,
-              "ground": true
-            }
-          },
-          "spawn_amount": {
-            "random": {
-              "min": 1,
-              "max": 1
-            }
-          }
-        },
-        {
-          "entity_type": "minecraft:area_effect_cloud",
-          "nbt":"{Effects:[{Id:11,Duration:600,Amplifier:4,Ambient:0b,ShowParticles:0b}],Duration:10,Radius:3f,Particle:\"mobSpell\",RadiusPerTick:0f}",
-          "spawn_tick": 30,
           "placement": {
             "center": {
               "radius": 1,
@@ -1369,23 +1352,6 @@
             "random": {
               "min": 15,
               "max": 15
-            }
-          }
-        },
-        {
-          "entity_type": "pvz:jalapeno_zombie",
-          "nbt":"{ActiveEffects:[{Id:11,Amplifier:3,Duration:2000000,ShowParticles:0b}]}",
-          "spawn_tick": 2600,
-          "placement": {
-            "center": {
-              "radius": 15,
-              "ground": true
-            }
-          },
-          "spawn_amount": {
-            "random": {
-              "min": 8,
-              "max": 8
             }
           }
         },

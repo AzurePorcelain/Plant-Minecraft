@@ -53,7 +53,7 @@
         },
         {
           "entity_type": "pvz:pumpkin_zombie",
-          "nbt":"{ActiveEffects:[{Id:11,Amplifier:2,Duration:2000000,ShowParticles:0b}]}",
+          "nbt":"{ActiveEffects:[{Id:11,Amplifier:1,Duration:2000000,ShowParticles:0b}]}",
           "spawn_tick": 350,
           "spawn_amount": {
             "random": {
@@ -85,7 +85,7 @@
         },
         {
           "entity_type": "pvz:pumpkin_zombie",
-          "nbt":"{ActiveEffects:[{Id:11,Amplifier:2,Duration:2000000,ShowParticles:0b}]}",
+          "nbt":"{ActiveEffects:[{Id:11,Amplifier:1,Duration:2000000,ShowParticles:0b}]}",
           "spawn_tick": 800,
           "spawn_amount": {
             "random": {
@@ -247,7 +247,7 @@
         },
         {
           "entity_type": "pvz:pumpkin_zombie",
-          "nbt":"{ActiveEffects:[{Id:11,Amplifier:2,Duration:2000000,ShowParticles:0b}],Passengers:[{id:'pvz:angel_star_fruit',paz_states:2}]}",
+          "nbt":"{ActiveEffects:[{Id:11,Amplifier:1,Duration:2000000,ShowParticles:0b}],Passengers:[{id:'pvz:angel_star_fruit',paz_states:2}]}",
           "spawn_tick": 900,
           "spawn_amount": {
             "random": {
@@ -328,7 +328,7 @@
         },
         {
           "entity_type": "pvz:pumpkin_zombie",
-          "nbt":"{ActiveEffects:[{Id:11,Amplifier:2,Duration:2000000,ShowParticles:0b}],Passengers:[{id:'pvz:angel_star_fruit',paz_states:2}]}",
+          "nbt":"{ActiveEffects:[{Id:11,Amplifier:1,Duration:2000000,ShowParticles:0b}],Passengers:[{id:'pvz:angel_star_fruit',paz_states:2}]}",
           "spawn_tick": 700,
           "spawn_amount": {
             "random": {
@@ -350,7 +350,7 @@
         },
         {
           "entity_type": "pvz:pumpkin_zombie",
-          "nbt":"{ActiveEffects:[{Id:11,Amplifier:2,Duration:2000000,ShowParticles:0b}],Passengers:[{id:'pvz:angel_star_fruit',paz_states:2}]}",
+          "nbt":"{ActiveEffects:[{Id:11,Amplifier:1,Duration:2000000,ShowParticles:0b}],Passengers:[{id:'pvz:angel_star_fruit',paz_states:2}]}",
           "spawn_tick": 1000,
           "spawn_amount": {
             "random": {
@@ -383,7 +383,7 @@
         },
         {
           "entity_type": "pvz:pumpkin_zombie",
-          "nbt":"{ActiveEffects:[{Id:11,Amplifier:2,Duration:2000000,ShowParticles:0b}],Passengers:[{id:'pvz:angel_star_fruit',paz_states:2}]}",
+          "nbt":"{ActiveEffects:[{Id:11,Amplifier:1,Duration:2000000,ShowParticles:0b}],Passengers:[{id:'pvz:angel_star_fruit',paz_states:2}]}",
           "spawn_tick": 1600,
           "spawn_amount": {
             "random": {

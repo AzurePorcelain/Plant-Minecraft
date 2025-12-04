@@ -930,7 +930,7 @@
         },
         {
           "entity_type": "pvz:coffin",
-          "nbt":"{ActiveEffects:[{Id:11,Amplifier:3,Duration:2000000,ShowParticles:0b},{Id:14,Duration:2000000,ShowParticles:0b}]}",
+          "nbt":"{ActiveEffects:[{Id:11,Amplifier:2,Duration:2000000,ShowParticles:0b},{Id:14,Duration:2000000,ShowParticles:0b}]}",
           "spawn_tick": 1100,
           "placement": {
             "center": {

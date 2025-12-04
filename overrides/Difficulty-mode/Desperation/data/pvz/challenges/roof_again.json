@@ -197,13 +197,13 @@
           }
         },
         {
-          "entity_type": "pvz:jack_in_box_zombie",
+          "entity_type": "pvz:jalapeno_zombie",
           "nbt":"{ActiveEffects:[{Id:11,Amplifier:3,Duration:2000000,ShowParticles:0b}]}",
           "spawn_tick": 1600,
           "spawn_amount": {
             "random": {
-              "min": 15,
-              "max": 18
+              "min": 5,
+              "max": 5
             }
           }
         },
@@ -677,13 +677,13 @@
           }
         },
         {
-          "entity_type": "pvz:jack_in_box_zombie",
+          "entity_type": "pvz:jalapeno_zombie",
           "nbt":"{ActiveEffects:[{Id:11,Amplifier:3,Duration:2000000,ShowParticles:0b}]}",
           "spawn_tick": 5600,
           "spawn_amount": {
             "random": {
-              "min": 18,
-              "max": 18
+              "min": 3,
+              "max": 3
             }
           }
         },
@@ -1132,43 +1132,9 @@
           }
         },
         {
-          "entity_type": "pvz:jalapeno_zombie",
-          "nbt":"{ActiveEffects:[{Id:11,Amplifier:3,Duration:2000000,ShowParticles:0b}]}",
-          "spawn_tick": 1300,
-          "placement": {
-            "center": {
-              "radius": 15,
-              "ground": true
-            }
-          },
-          "spawn_amount": {
-            "random": {
-              "min": 8,
-              "max": 8
-            }
-          }
-        },
-        {
           "entity_type": "pvz:edgar_090517",
           "nbt":"{ActiveEffects:[{Id:11,Amplifier:3,Duration:2000000,ShowParticles:0b}]}",
           "spawn_tick": 1400,
-          "placement": {
-            "center": {
-              "radius": 1,
-              "ground": true
-            }
-          },
-          "spawn_amount": {
-            "random": {
-              "min": 1,
-              "max": 1
-            }
-          }
-        },
-        {
-          "entity_type": "minecraft:area_effect_cloud",
-          "nbt":"{Effects:[{Id:11,Duration:600,Amplifier:4,Ambient:0b,ShowParticles:0b}],Duration:10,Radius:3f,Particle:\"mobSpell\",RadiusPerTick:0f}",
-          "spawn_tick": 1420,
           "placement": {
             "center": {
               "radius": 1,
@@ -1432,26 +1398,9 @@
           }
         },
         {
-          "entity_type": "pvz:jalapeno_zombie",
-          "nbt":"{ActiveEffects:[{Id:11,Amplifier:3,Duration:2000000,ShowParticles:0b}]}",
-          "spawn_tick": 3000,
-          "placement": {
-            "center": {
-              "radius": 15,
-              "ground": true
-            }
-          },
-          "spawn_amount": {
-            "random": {
-              "min": 8,
-              "max": 8
-            }
-          }
-        },
-        {
           "entity_type": "pvz:gatlingpea_zombie",
           "nbt":"{ActiveEffects:[{Id:11,Amplifier:3,Duration:2000000,ShowParticles:0b}]}",
-          "spawn_tick": 3100,
+          "spawn_tick": 3000,
           "placement": {
             "center": {
               "radius": 10,

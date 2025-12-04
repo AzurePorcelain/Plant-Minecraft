@@ -58,7 +58,7 @@
     {
       "type": "item",
       "item": "quark:ancient_tome",
-      "nbt": "{StoredEnchantments:[{'id':'pvz:bandage', 'lvl':1}]}",
+      "nbt": "{StoredEnchantments:[{'id':'pvz:immediate_cd', 'lvl':1}]}",
       "price": 1,
       "weight": 80,
       "limit": 1

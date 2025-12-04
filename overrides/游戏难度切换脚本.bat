@@ -2,17 +2,18 @@ chcp 936
 @echo off
 if exist ".\Difficulty-mode" (
 	if exist ".\Difficulty-mode\Cheat\flag" (
-			echo 目前未开启测试模式
-		) else (
-			echo 检测到测试模式已开启
-		)
-		echo.
+		echo 目前未开启测试模式
+	) else (
+		echo 检测到测试模式已开启
+	)
+	echo.
 ) else (
 	echo 未能检测到整合文件，请确认是否安装成功
 	pause
 	exit
 )
-:-2
+
+:menu
 echo 难度详情参见文档README与附图（文档更详细，附图更直观，请结合使用）
 echo.
 echo 目前任何难度可不限人数合作游玩，也可选择对抗模式分组抗衡
@@ -49,61 +50,55 @@ echo.
 echo 输入有误请重新输入
 echo.
 echo.
-goto -2
+goto menu
 exit
 
 :0
-xcopy /s /e /y .\Difficulty-mode\Story\defaultconfigs .\defaultconfigs
-xcopy /s /e /y .\Difficulty-mode\Story\config .\config
-xcopy /s /e /y .\Difficulty-mode\Story\data .\openloader\data\Plant-Minecraft\data
-
-echo 难度切换完成，按回车退出
-set /p enter=
+xcopy /s /e /y ".\Difficulty-mode\Story\defaultconfigs" ".\defaultconfigs\"
+xcopy /s /e /y ".\Difficulty-mode\Story\config" ".\config\"
+xcopy /s /e /y ".\Difficulty-mode\Story\data" ".\openloader\data\Plant-Minecraft\data\"
+echo 难度切换完成，按任意键退出
+pause >nul
 exit
 
 :1
-xcopy /s /e /y .\Difficulty-mode\Easy\defaultconfigs .\defaultconfigs
-xcopy /s /e /y .\Difficulty-mode\Easy\config .\config
-xcopy /s /e /y .\Difficulty-mode\Easy\data .\openloader\data\Plant-Minecraft\data
-
-echo 难度切换完成，按回车退出
-set /p enter=
+xcopy /s /e /y ".\Difficulty-mode\Easy\defaultconfigs" ".\defaultconfigs\"
+xcopy /s /e /y ".\Difficulty-mode\Easy\config" ".\config\"
+xcopy /s /e /y ".\Difficulty-mode\Easy\data" ".\openloader\data\Plant-Minecraft\data\"
+echo 难度切换完成，按任意键退出
+pause >nul
 exit
 
 :2
-xcopy /s /e /y .\Difficulty-mode\Normal\defaultconfigs .\defaultconfigs
-xcopy /s /e /y .\Difficulty-mode\Normal\config .\config
-xcopy /s /e /y .\Difficulty-mode\Normal\data .\openloader\data\Plant-Minecraft\data
-
-echo 难度切换完成，按回车退出
-set /p enter=
+xcopy /s /e /y ".\Difficulty-mode\Normal\defaultconfigs" ".\defaultconfigs\"
+xcopy /s /e /y ".\Difficulty-mode\Normal\config" ".\config\"
+xcopy /s /e /y ".\Difficulty-mode\Normal\data" ".\openloader\data\Plant-Minecraft\data\"
+echo 难度切换完成，按任意键退出
+pause >nul
 exit
 
 :3
-xcopy /s /e /y .\Difficulty-mode\Hard\defaultconfigs .\defaultconfigs
-xcopy /s /e /y .\Difficulty-mode\Hard\config .\config
-xcopy /s /e /y .\Difficulty-mode\Hard\data .\openloader\data\Plant-Minecraft\data
-
-echo 难度切换完成，按回车退出
-set /p enter=
+xcopy /s /e /y ".\Difficulty-mode\Hard\defaultconfigs" ".\defaultconfigs\"
+xcopy /s /e /y ".\Difficulty-mode\Hard\config" ".\config\"
+xcopy /s /e /y ".\Difficulty-mode\Hard\data" ".\openloader\data\Plant-Minecraft\data\"
+echo 难度切换完成，按任意键退出
+pause >nul
 exit
 
 :4
-xcopy /s /e /y .\Difficulty-mode\Hardcore\defaultconfigs .\defaultconfigs
-xcopy /s /e /y .\Difficulty-mode\Hardcore\config .\config
-xcopy /s /e /y .\Difficulty-mode\Hardcore\data .\openloader\data\Plant-Minecraft\data
-
-echo 难度切换完成，按回车退出
-set /p enter=
+xcopy /s /e /y ".\Difficulty-mode\Hardcore\defaultconfigs" ".\defaultconfigs\"
+xcopy /s /e /y ".\Difficulty-mode\Hardcore\config" ".\config\"
+xcopy /s /e /y ".\Difficulty-mode\Hardcore\data" ".\openloader\data\Plant-Minecraft\data\"
+echo 难度切换完成，按任意键退出
+pause >nul
 exit
 
 :5
-xcopy /s /e /y .\Difficulty-mode\Desperation\defaultconfigs .\defaultconfigs
-xcopy /s /e /y .\Difficulty-mode\Desperation\config .\config
-xcopy /s /e /y .\Difficulty-mode\Desperation\data .\openloader\data\Plant-Minecraft\data
-
-echo 难度切换完成，按回车退出
-set /p enter=
+xcopy /s /e /y ".\Difficulty-mode\Desperation\defaultconfigs" ".\defaultconfigs\"
+xcopy /s /e /y ".\Difficulty-mode\Desperation\config" ".\config\"
+xcopy /s /e /y ".\Difficulty-mode\Desperation\data" ".\openloader\data\Plant-Minecraft\data\"
+echo 难度切换完成，按任意键退出
+pause >nul
 exit
 
 :v
@@ -118,40 +113,37 @@ set /p diffv=
 if "%diffv%"=="1" goto v1
 if "%diffv%"=="2" goto v2
 if "%diffv%"=="3" goto v3
+echo 输入有误，返回主菜单
+goto menu
+exit
 
 :v1
-xcopy /s /e /y .\Difficulty-mode\Versus-Easy\defaultconfigs .\defaultconfigs
-xcopy /s /e /y .\Difficulty-mode\Versus-Easy\config .\config
-xcopy /s /e /y .\Difficulty-mode\Versus-Easy\data .\openloader\data\Plant-Minecraft\data
-
-echo 难度切换完成，按回车退出
-set /p enter=
+xcopy /s /e /y ".\Difficulty-mode\Versus-Easy\defaultconfigs" ".\defaultconfigs\"
+xcopy /s /e /y ".\Difficulty-mode\Versus-Easy\config" ".\config\"
+xcopy /s /e /y ".\Difficulty-mode\Versus-Easy\data" ".\openloader\data\Plant-Minecraft\data\"
+echo 难度切换完成，按任意键退出
+pause >nul
 exit
 
 :v2
-xcopy /s /e /y .\Difficulty-mode\Versus-Normal\defaultconfigs .\defaultconfigs
-xcopy /s /e /y .\Difficulty-mode\Versus-Normal\config .\config
-xcopy /s /e /y .\Difficulty-mode\Versus-Normal\data .\openloader\data\Plant-Minecraft\data
-
-echo 难度切换完成，按回车退出
-set /p enter=
+xcopy /s /e /y ".\Difficulty-mode\Versus-Normal\defaultconfigs" ".\defaultconfigs\"
+xcopy /s /e /y ".\Difficulty-mode\Versus-Normal\config" ".\config\"
+xcopy /s /e /y ".\Difficulty-mode\Versus-Normal\data" ".\openloader\data\Plant-Minecraft\data\"
+echo 难度切换完成，按任意键退出
+pause >nul
 exit
 
 :v3
-xcopy /s /e /y .\Difficulty-mode\Versus-Hard\defaultconfigs .\defaultconfigs
-xcopy /s /e /y .\Difficulty-mode\Versus-Hard\config .\config
-xcopy /s /e /y .\Difficulty-mode\Versus-Hard\data .\openloader\data\Plant-Minecraft\data
-
-echo 难度切换完成，按回车退出
-set /p enter=
+xcopy /s /e /y ".\Difficulty-mode\Versus-Hard\defaultconfigs" ".\defaultconfigs\"
+xcopy /s /e /y ".\Difficulty-mode\Versus-Hard\config" ".\config\"
+xcopy /s /e /y ".\Difficulty-mode\Versus-Hard\data" ".\openloader\data\Plant-Minecraft\data\"
+echo 难度切换完成，按任意键退出
+pause >nul
 exit
 
 :cheat
-rd /s /q .\Difficulty-mode\Cheat\flag
-
-xcopy /s /e /y .\Difficulty-mode\Cheat\defaultconfigs .\defaultconfigs
-
+rd /s /q ".\Difficulty-mode\Cheat\flag"
+xcopy /s /e /y ".\Difficulty-mode\Cheat\defaultconfigs" ".\defaultconfigs\"
 echo 测试模式开启成功
 echo.
-goto -2
-exit
+goto menu

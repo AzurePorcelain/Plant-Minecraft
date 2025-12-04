@@ -7,47 +7,19 @@
 	icon: "pvz:chomper"
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
-	images: [
-		{
-			x: 0.0d
-			y: 0.0d
-			width: 12.0d
-			height: 12.0d
-			rotation: 0.0d
-			image: "ftbquests:textures/4.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-			dependency: "1D3C1E4FCE876698"
-		}
-		{
-			x: 7.0d
-			y: -2.5d
-			width: 1.25d
-			height: 1.25d
-			rotation: 30.0d
-			image: "mowziesmobs:textures/item/wrought_helmet_icon.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-			dependency: "7E756C6A11A93309"
-		}
-		{
-			x: 6.0d
-			y: -1.5d
-			width: 1.5d
-			height: 1.5d
-			rotation: -107.5d
-			image: "mowziesmobs:textures/item/wrought_axe_icon.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-			dependency: "7E756C6A11A93309"
-		}
-	]
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 12.0d
+		height: 12.0d
+		rotation: 0.0d
+		image: "ftbquests:textures/4.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+		dependency: "1D3C1E4FCE876698"
+	}]
 	quests: [
 		{
 			title: "到访禅境花园"
